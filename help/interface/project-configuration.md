@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/project-configuration.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: Substance 3D Painterでプロジェクト設定を行い、テクスチャ解像度、チャンネルおよびプロジェクトのプロパティを設定する方法について説明します。
 helpx_creative_field: ''

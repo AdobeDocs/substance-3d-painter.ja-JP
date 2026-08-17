@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/shader-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでシェーダ設定を行い、マテリアルレンダリングと視覚的な外観をカスタマイズする方法について説明します。
 helpx_creative_field: ""

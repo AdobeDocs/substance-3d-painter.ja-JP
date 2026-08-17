@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started.html"
 breadcrumb-title: ''
 description: Substance 3D Painterを使い始めるために必要なプロジェクト作成、インターフェイスナビゲーション、テクスチャペイントワークフローの基本を学びましょう。
 helpx_creative_field: ""

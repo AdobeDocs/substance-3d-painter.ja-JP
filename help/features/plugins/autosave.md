@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/autosave.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/plugins/autosave.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの自動保存プラグインを使用して、プロジェクトを定期的に自動保存する方法について説明します。
 helpx_creative_field: ""

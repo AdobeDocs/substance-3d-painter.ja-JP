@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのレイヤーおよびツールプロパティで法線マップの表示に関する問題を修正して、正確なサーフェスのディテールを再現する方法について説明します。
 helpx_creative_field: ""

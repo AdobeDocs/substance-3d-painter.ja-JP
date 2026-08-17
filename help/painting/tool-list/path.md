@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/path.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/path.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのパスツールを使用して、パスを作成および編集し、テクスチャペイントやストロークの配置を正確に行うことができます。
 helpx_creative_field: ""

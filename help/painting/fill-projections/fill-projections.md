@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで塗りつぶし投影法を使用し、様々な投影法でテクスチャを適用して効率的にペイントする方法を説明します。
 helpx_creative_field: ""

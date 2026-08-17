@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-while-baking.html"
 breadcrumb-title: ''
 description: 信頼性の高いテクスチャベイク処理ワークフローを実現するために、ベイク処理中にSubstance 3D Painterがクラッシュする問題を解決する方法について説明します。
 helpx_creative_field: ""

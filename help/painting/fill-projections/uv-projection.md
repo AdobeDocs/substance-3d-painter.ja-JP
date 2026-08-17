@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections/uv-projection.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのUV 投影を使用して、テクスチャを正確に配置するためにUV座標に基づいてテクスチャを投影します。
 helpx_creative_field: ""

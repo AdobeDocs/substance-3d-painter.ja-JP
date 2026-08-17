@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/substance-3d-assets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/substance-3d-assets.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでSubstance 3D Assetsにアクセスして使用し、3Dモデルやマテリアルを参照および読み込む方法について説明します。
 helpx_creative_field: ""

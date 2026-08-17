@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/installing-the-particle-editor.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-particles-presets/installing-the-particle-editor.html"
 breadcrumb-title: ''
 description: Substance 3D Painter用パーティクルエディタープラグインをインストールして、カスタムパーティクルブラシプリセットを作成する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/smudge-tool.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/smudge-tool.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの指先ツールを使用すると、ペイントストロークをブレンドしてぼかすことができ、滑らかなテクスチャ効果が得られます。
 helpx_creative_field: ""

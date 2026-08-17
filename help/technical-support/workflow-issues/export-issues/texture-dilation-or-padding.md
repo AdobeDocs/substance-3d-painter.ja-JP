@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでテクスチャの膨張とパディングを使用して、書き出されたテクスチャのエッジのアーティファクトを防ぐ方法について説明します。
 helpx_creative_field: ""

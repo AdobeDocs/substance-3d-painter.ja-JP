@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの書き出しウィンドウで書き出しのリストを管理して、テクスチャの書き出しを整理する方法について説明します。
 helpx_creative_field: ""

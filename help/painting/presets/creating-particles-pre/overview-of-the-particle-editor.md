@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのパーティクルエディターについて学習し、テクスチャペイント用のカスタムパーティクルブラシプリセットを作成します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで「ブラシストロークを保持」設定を無効のままにし、ブラシストロークを適切に保持する方法を説明します。
 helpx_creative_field: ""

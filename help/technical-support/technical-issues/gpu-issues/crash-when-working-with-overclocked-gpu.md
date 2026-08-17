@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
 breadcrumb-title: ''
 description: アプリケーションのパフォーマンスを安定させるため、オーバークロックされたGPUで作業している際にSubstance 3D Painterがクラッシュする問題の解決方法について説明します。
 helpx_creative_field: ""

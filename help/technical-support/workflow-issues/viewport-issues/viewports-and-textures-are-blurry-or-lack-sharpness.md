@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでぼやけたビューポートとテクスチャを修正して、鮮明でクリアな画質を実現する方法を説明します。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 デフォルトでは、Substance 3D Painterは高DPI/Retina画面のビューポート解像度を縮小してパフォーマンスを向上させます。
 
-この動作は、**ビューポートの拡大/縮小**&#x200B;パラメーターを変更することで、[メイン設定](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html)で変更できます。
+この動作は、**ビューポートの拡大/縮小**&#x200B;パラメーターを変更することで、[メイン設定](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/general-71008262.html)で変更できます。
 
 ## テクスチャのフィルタリング
 

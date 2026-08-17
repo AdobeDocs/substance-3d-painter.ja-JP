@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/lazy-mouse.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/lazy-mouse.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでマウスを遅延させて、滑らかで流れるようなブラシストロークを作成する方法を説明します。
 helpx_creative_field: ""

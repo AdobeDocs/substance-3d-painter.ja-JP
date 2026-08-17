@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/text-resource.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/text-resource.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでテキストリソースを使用して、テキストやタイポグラフィをテクスチャペインティングのワークフローに追加する方法について説明します。
 helpx_creative_field: ""

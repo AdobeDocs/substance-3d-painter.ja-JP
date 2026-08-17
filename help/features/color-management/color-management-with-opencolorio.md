@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-opencolorio.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/color-management/color-management-with-opencolorio.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでOpenColorIOカラーマネジメントを使用して、パイプライン間で一貫したカラーワークフローを実現する方法について説明します。
 helpx_creative_field: ""

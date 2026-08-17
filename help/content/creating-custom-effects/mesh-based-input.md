@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects/mesh-based-input.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのカスタムエフェクトでメッシュベースの入力を使用して、ジオメトリに応じたテクスチャエフェクトを作成する方法について説明します。
 helpx_creative_field: ""

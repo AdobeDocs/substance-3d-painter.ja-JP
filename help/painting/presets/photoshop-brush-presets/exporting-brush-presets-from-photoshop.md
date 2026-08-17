@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
 breadcrumb-title: ''
 description: PhotoshopのブラシプリセットをABRファイルとして書き出し、Substance 3D Painterテクスチャペイントワークフローで使用する方法を説明します。
 helpx_creative_field: ""

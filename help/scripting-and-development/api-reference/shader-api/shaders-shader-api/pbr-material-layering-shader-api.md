@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのPBRマテリアルレイヤリングシェーダー APIリファレンスにアクセスして、レイヤーマテリアル効果を作成します。
 helpx_creative_field: ""

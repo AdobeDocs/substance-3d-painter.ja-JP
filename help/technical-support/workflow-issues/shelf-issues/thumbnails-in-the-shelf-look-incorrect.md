@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ''
 description: Substance 3D Painterシェルフで不正確なサムネール表示を修正して、リソースのプレビューが正確になるようにする方法について説明します。
 helpx_creative_field: ""

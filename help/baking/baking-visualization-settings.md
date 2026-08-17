@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/baking-visualization-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/baking/baking-visualization-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでベイク処理のビジュアル化設定を構成し、メッシュマップのベイク処理の結果をプレビューおよびデバッグする方法について説明します。
 helpx_creative_field: ""

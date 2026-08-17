@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/startup-issues/software-conflicts.html"
 breadcrumb-title: ''
 description: Substance 3D Painterがシステムで正常に起動するのを妨げるソフトウェアの競合を解決する方法について説明します。
 helpx_creative_field: ""

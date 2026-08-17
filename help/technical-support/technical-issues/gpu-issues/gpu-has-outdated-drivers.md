@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのGPUドライバーを更新して、互換性を確保し、最適なレンダリングパフォーマンスを実現する方法について説明します。
 helpx_creative_field: ""

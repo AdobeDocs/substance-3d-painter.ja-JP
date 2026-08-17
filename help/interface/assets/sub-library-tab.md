@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/sub-library-tab.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/assets/sub-library-tab.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの「サブライブラリ」タブを使用して、ネストされたリソースライブラリを整理し、アクセスする方法について説明します。
 helpx_creative_field: ""

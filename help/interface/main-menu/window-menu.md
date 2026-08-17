@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/window-menu.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/window-menu.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの「ウィンドウ」メニューを使用して、インターフェイスパネルの管理や、ワークスペースのレイアウトのカスタマイズを行う方法について説明します。
 helpx_creative_field: ""

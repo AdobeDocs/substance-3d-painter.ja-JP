@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/compare-mask.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/compare-mask.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのマスク比較エフェクトを使って、テクスチャの比較処理にもとづいてマスクを作成する方法を説明します。
 helpx_creative_field: ""

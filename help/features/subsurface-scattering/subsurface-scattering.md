@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのサブサーフェス散布を使用して、肌やワックスなどのリアルな半透明マテリアルを作成する方法を説明します。
 helpx_creative_field: ""

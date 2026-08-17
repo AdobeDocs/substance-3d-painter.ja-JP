@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのビューポートでテクスチャに表示される濃淡のむらが出て、すっきりとした画質を実現する方法を説明します。
 helpx_creative_field: ""

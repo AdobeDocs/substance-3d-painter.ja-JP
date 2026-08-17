@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/display-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの表示設定を変更して、ビューポートのレンダリングと表示画質をカスタマイズする方法を説明します。
 helpx_creative_field: ""

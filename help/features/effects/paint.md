@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/paint.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの「ペイント」エフェクトを使って、レイヤーにペイントストロークやテクスチャペイントエフェクトを適用する方法を説明します。
 helpx_creative_field: ""

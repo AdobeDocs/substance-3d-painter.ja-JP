@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/quick-mask.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/quick-mask.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのクイックマスクツールを使用すると、マスクをすばやく作成および編集して、正確なテクスチャペイントコントロールを行うことができます。
 helpx_creative_field: ""

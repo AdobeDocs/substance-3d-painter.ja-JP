@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/configuring-pens-and-tablets.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでペンとタブレットを設定し、筆圧感度と描画エクスペリエンスを最適化する方法について説明します。
 helpx_creative_field: ""

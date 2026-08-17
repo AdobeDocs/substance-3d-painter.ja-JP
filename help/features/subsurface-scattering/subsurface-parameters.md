@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering/subsurface-parameters.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでサブサーフェス拡散パラメーターを設定して、リアルな半透明マテリアルを作成する方法について説明します。
 helpx_creative_field: ""

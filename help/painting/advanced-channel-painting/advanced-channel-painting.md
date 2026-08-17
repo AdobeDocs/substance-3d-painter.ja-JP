@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの高度なチャンネルペイントのテクニックを紹介します。特定のテクスチャチャンネルに直接ペイントして、正確に制御することができます。
 helpx_creative_field: ""

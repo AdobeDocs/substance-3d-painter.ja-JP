@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/features/effects/generator.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Substance 3D Painterでジェネレータエフェクトを使用して、プロシージャ型テクスチャとパターンを自動的に作成する方法について説明します。
 helpx_creative_field: ''
@@ -47,7 +47,7 @@ ht-degree: 0%
 ![](../../assets/generators/generator_spectrum.png)
 
 各ジェネレーターには、生成されるマスクを微調整できるパラメーターのセットがあります。\
-シェルフにカスタムジェネレータを追加するには、[シェルフへのコンテンツの追加](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
+シェルフにカスタムジェネレータを追加するには、[シェルフへのコンテンツの追加](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
 
 >[!NOTE]
 >

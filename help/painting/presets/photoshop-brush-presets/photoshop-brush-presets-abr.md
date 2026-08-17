@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/photoshop-brush-presets-abr.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでPhotoshopのブラシプリセット（ABRファイル）を使用して、既存のブラシコレクションを活用する方法について説明します。
 helpx_creative_field: ""

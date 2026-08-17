@@ -21,7 +21,7 @@ ht-degree: 0%
 # サブサーフェスパラメータ
 
 Substance 3D Painterのリアルタイムのサブサーフェスの実装は、画面空間のサブサーフェスのスキャッタリング効果です。 制御するパラメーターについては、このページで説明します。\
-現在の実装は、PIXAR](http://graphics.pixar.com/library/ApproxBSSRDF/)によって公開された「効率的なサブサーフェス散乱のための近似反射プロファイル」手法[に基づいています。
+現在の実装は、PIXAR[&#128279;](http://graphics.pixar.com/library/ApproxBSSRDF/)によって公開された「効率的なサブサーフェス散乱のための近似反射プロファイル」手法に基づいています。
 
 これらのパラメーターに基づくマテリアルの例については、[サブサーフェスマテリアルタイプ](subsurface-material-type.md)を参照してください。
 

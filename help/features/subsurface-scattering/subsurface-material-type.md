@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでサブサーフェスのマテリアルの種類を使用して、リアルな肌、ワックス、オーガニックなマテリアルを作成する方法について説明します。
 helpx_creative_field: ""

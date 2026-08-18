@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/uv-tiles.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでUVタイルを使用して、タイル状UVレイアウトと複数のテクスチャセットを操作する方法について説明します。
 helpx_creative_field: ""

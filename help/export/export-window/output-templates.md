@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/output-templates.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-window/output-templates.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの書き出しウィンドウで出力テンプレートを使用して、テクスチャの書き出し形式と名前を設定する方法について説明します。
 helpx_creative_field: ""

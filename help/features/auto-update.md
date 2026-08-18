@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/auto-update.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/auto-update.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで自動リソース更新を使用して、リソースライブラリを同期し、最新の状態に保つ方法について説明します。
 helpx_creative_field: ""

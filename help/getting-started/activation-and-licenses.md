@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: Substance 3D Painterを有効にし、ライセンスを管理して、テクスチャペイント用のアプリケーションの使用を開始する方法について説明します。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 | アプリケーションタイプ | アクティベーションプロセス |
 | --- | --- |
-| Creative Cloud デスクトップ | [HelpXドキュメント](https://helpx.adobe.com/download-install/using/download-creative-cloud-apps.html)の専用ページを参照してください。 問題が発生した場合、[Creative Cloudのドキュメント](https://helpx.adobe.com/creative-cloud/user-guide.html)に詳細な回答が記載されている場合があります。 |
+| Creative Cloud デスクトップ | [HelpXドキュメント](https://helpx.adobe.com/jp/download-install/using/download-creative-cloud-apps.html)の専用ページを参照してください。 問題が発生した場合、[Creative Cloudのドキュメント](https://helpx.adobe.com/jp/creative-cloud/user-guide.html)に詳細な回答が記載されている場合があります。 |
 | スチーム | Steamライブラリから直接製品を起動します。 |
 | Substance 3Dスタンドアロン | 以下のアクティベーションプロセスを参照してください。 |
 
@@ -44,7 +44,7 @@ ht-degree: 1%
 
 ライセンス認証ウィザードには、次の3つのオプションがあります。
 
-* <b>この製品の評価</b> ：従来の体験版は利用できなくなりました。 代わりに、[Substance 3Dアプリケーションごとに30日間の無料体験をここから](https://www.adobe.com/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af)またはCreative Cloudデスクトップから開始できます。
+* <b>この製品の評価</b> ：従来の体験版は利用できなくなりました。 代わりに、[Substance 3Dアプリケーションごとに30日間の無料体験をここから](https://www.adobe.com/jp/products/substance3d/free-trial-download.html?msockid=35568f9be2b964ec22d09c04e3eb65af)またはCreative Cloudデスクトップから開始できます。
 * <b>ライセンスファイルを使ってライセンス認証する</b>: 2022年9月30日より前にSubstance 3D Webサイトのアカウントページからダウンロードしたライセンスファイル(<b>\*.key</b>)を使って製品をライセンス認証します。
 * <b>アカウントを使用したライセンス認証</b> ：従来のSubstanceアカウントはライセンス認証に使用できなくなりました。
 

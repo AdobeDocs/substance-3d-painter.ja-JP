@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/universal-scene-description-usd.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/universal-scene-description-usd.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでUniversal Scene Description(USD)ファイルを使用して、最新のパイプラインを統合する方法について説明します。
 helpx_creative_field: ""

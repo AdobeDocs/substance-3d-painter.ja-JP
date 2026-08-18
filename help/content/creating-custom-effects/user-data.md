@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/user-data.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects/user-data.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのカスタムエフェクトでユーザーデータを使用して、カスタム情報をシェーダーエフェクトに渡す方法について説明します。
 helpx_creative_field: ""

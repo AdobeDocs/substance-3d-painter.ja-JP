@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのインターフェイスについて説明し、効率的なテクスチャペインティングのワークフローを実現するためのパネル、メニュー、ツールについて説明します。
 helpx_creative_field: ""

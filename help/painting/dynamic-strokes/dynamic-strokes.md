@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/dynamic-strokes.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで動的ストロークを使用して、ペイントの速度と筆圧に適応するレスポンシブブラシストロークを作成する方法を説明します。
 helpx_creative_field: ""

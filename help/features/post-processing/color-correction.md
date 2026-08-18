@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-correction.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/color-correction.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのカラー補正後処理を使用して、明るさ、コントラスト、彩度を調整する方法を説明します。
 helpx_creative_field: ""

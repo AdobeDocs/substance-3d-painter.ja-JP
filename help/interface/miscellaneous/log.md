@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/log.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのログウィンドウにアクセスして使用し、アプリケーションメッセージとデバッグ情報を表示する方法について説明します。
 helpx_creative_field: ''

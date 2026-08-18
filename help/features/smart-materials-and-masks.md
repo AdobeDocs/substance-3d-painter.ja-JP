@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/smart-materials-and-masks.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/smart-materials-and-masks.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでスマートマテリアルとマスクを使用して、ジオメトリに適応するプロシージャルテクスチャを作成する方法を説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/levels.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/levels.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのレベルエフェクトを使って、テクスチャの明るさ、コントラスト、階調範囲を調整する方法を説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/sparse-virtual-textures.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/sparse-virtual-textures.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで希薄なバーチャルテクスチャを使用して、超高解像度テクスチャを効率的に操作する方法について説明します。
 helpx_creative_field: ""
@@ -60,7 +60,7 @@ SVTの目標は、ビューポートがGPUメモリで使用できる容量を�
 ![](../assets/settings-temp.png)
 
 SVTキャッシュを保存するのに十分なシステムメモリ(Ram)がない場合、Substance 3D Painterはキャッシュを保存する代わりにコンピューターのハードドライブに切り替えます。\
-このキャッシュの既定の場所は、オペレーティングシステムの一時ファイルフォルダーです。 この場所は、アプリケーションのメイン設定で変更できます。[一般環境設定](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html)を参照してください。
+このキャッシュの既定の場所は、オペレーティングシステムの一時ファイルフォルダーです。 この場所は、アプリケーションのメイン設定で変更できます。[一般環境設定](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/general-71008262.html)を参照してください。
 
 ## シェーダの互換性
 
@@ -69,7 +69,7 @@ SVTを最大限に活用するには、シェーダがSparseシステムにテ�
 シェーダを更新するには：
 
 * **既定のSubstance 3D Painterシェーダー**&#x200B;の場合： [シェーダーの更新](../interface/shader-settings/updating-a-shader.md)ページから順を追って手順を実行します。
-* **カスタムシェーダー**&#x200B;の場合：ログおよび[シェーダー API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)ページのエラーメッセージを確認します。
+* **カスタムシェーダー**&#x200B;の場合：ログおよび[シェーダー API](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)ページのエラーメッセージを確認します。
 
 >[!WARNING]
 >

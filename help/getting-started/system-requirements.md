@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの必要システム構成を確認して、コンピューターがハードウェアとソフトウェアの仕様を満たしていることを確認します。
 helpx_creative_field: ""

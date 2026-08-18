@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set/texture-set-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/texture-set/texture-set-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでテクスチャセット設定を構成し、テクスチャの解像度とチャンネルプロパティを制御する方法について説明します。
 helpx_creative_field: ""

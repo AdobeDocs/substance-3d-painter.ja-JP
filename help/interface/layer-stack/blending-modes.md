@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/blending-modes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/blending-modes.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの描画モードを使ってレイヤーを組み合わせ、様々なテクスチャ描画効果を作成する方法を説明します。
 helpx_creative_field: ""

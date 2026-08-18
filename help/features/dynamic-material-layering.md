@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/dynamic-material-layering.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/dynamic-material-layering.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで動的マテリアルレイヤリングを使用して、マテリアルと手続き型マスクをブレンドして組み合わせる方法を説明します。
 helpx_creative_field: ""

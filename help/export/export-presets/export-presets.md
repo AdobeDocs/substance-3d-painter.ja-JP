@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで出力テンプレートを使用して、テクスチャ書き出し形式とチャンネルマッピングを設定する方法について説明します。
 helpx_creative_field: ""

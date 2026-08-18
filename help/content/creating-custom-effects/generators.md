@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generators.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects/generators.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのジェネレーターエフェクトを使用して、プロシージャ型テクスチャとパターンを自動的に生成する方法について説明します。
 helpx_creative_field: ""

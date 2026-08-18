@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-resources-via-the-import-window.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/importing-assets/adding-resources-via-the-import-window.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの読み込みウィンドウを使用してリソースを追加し、外部ファイルでアセットライブラリを拡張する方法について説明します。
 helpx_creative_field: ""

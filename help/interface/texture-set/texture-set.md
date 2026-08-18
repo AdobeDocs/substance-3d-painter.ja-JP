@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/texture-set.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/texture-set.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでテクスチャセットを操作して、テクスチャを整理し、様々なマテリアルの割り当てを管理する方法について説明します。
 helpx_creative_field: ""

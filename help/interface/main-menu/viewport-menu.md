@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/viewport-menu.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/viewport-menu.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのビューポートメニューを使用して、ビューポート設定と表示オプションにアクセスする方法を説明します。
 helpx_creative_field: ""

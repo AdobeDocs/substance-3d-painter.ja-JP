@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/settings/shortcuts.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/settings/shortcuts.html'
 breadcrumb-title: ''
 description: Substance 3D Painterでキーボードショートカットをカスタマイズして、ワークフローを合理化し、効率を上げる方法について説明します。
 helpx_creative_field: ''
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 ## ショートカットの概要
 
-利用可能なすべてのショートカットの簡単な概要については、グラフィック[チュートリアルで利用可能](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html)を参照してください。
+利用可能なすべてのショートカットの簡単な概要については、グラフィック[チュートリアルで利用可能](https://helpx.adobe.com/jp/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html)を参照してください。
 
 ## ショートカットの変更方法
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/geometry-mask.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/geometry-mask.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでジオメトリマスクを使用して、メッシュジオメトリとサーフェスのプロパティに基づいてレイヤーをマスクする方法について説明します。
 helpx_creative_field: ""

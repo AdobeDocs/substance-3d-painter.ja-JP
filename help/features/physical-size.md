@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/physical-size.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/physical-size.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで物理サイズを設定し、実際の寸法を定義して正確なテクスチャスケーリングを行う方法について説明します。
 helpx_creative_field: ""

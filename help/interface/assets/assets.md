@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/assets.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのアセットパネルを使用して、リソースライブラリを参照、検索、管理する方法について説明します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # アセット
 
-[アセット]ウィンドウでは、アプリケーションに付属する既定のリソース（**スターターアセット**&#x200B;と呼ばれます）と、[インポートされた](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)リソース（**自分のアセット**&#x200B;にあります）にアクセスできます。
+[アセット]ウィンドウでは、アプリケーションに付属する既定のリソース（**スターターアセット**&#x200B;と呼ばれます）と、[インポートされた](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)リソース（**自分のアセット**&#x200B;にあります）にアクセスできます。
 
 * ディスク上では、**スターターアセット**&#x200B;ライブラリはアプリケーションのインストールフォルダー内に格納されますが、既定では、**アセット**&#x200B;ライブラリに読み込まれたアセットはドキュメントフォルダーに格納されます。
 * アセットがディスク上のどこに保存されるかの詳細については、[ハードドライブにコンテンツを追加する](../../content/importing-assets/adding-content-on-the-hard-drive.md)を参照してください。

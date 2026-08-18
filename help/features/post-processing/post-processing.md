@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの後処理エフェクトを使用して、カラーグレーディングとビジュアルエフェクトでビューポートのレンダリングを強化する方法を説明します。
 helpx_creative_field: ""

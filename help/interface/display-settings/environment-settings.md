@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/environment-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/display-settings/environment-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで環境設定を行い、マテリアルプレビューの照明と背景を制御する方法について説明します。
 helpx_creative_field: ""

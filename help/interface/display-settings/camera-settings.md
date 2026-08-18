@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings/camera-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/display-settings/camera-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでカメラを設定し、ビューポートのカメラ動作とプロジェクションを制御する方法について説明します。
 helpx_creative_field: ""

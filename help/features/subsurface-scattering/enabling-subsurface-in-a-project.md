@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
 breadcrumb-title: ''
 description: Substance 3D Painterプロジェクトでサブサーフェスのスキャタリングを有効にして、リアルな半透明のマテリアル効果を作成する方法について説明します。
 helpx_creative_field: ""

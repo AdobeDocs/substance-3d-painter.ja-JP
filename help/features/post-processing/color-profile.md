@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/color-profile.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/color-profile.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのカラープロファイル後処理を使用して、カラーグレーディングとLUT変換を適用する方法について説明します。
 helpx_creative_field: ""
@@ -84,4 +84,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 読み込みウィンドウを開きます（またはLUTをシェルフにドラッグ&amp;ドロップします）。 Substance 3D PainterにLUTテクスチャを読み込む場合は、新しいリソースソースに「**colorlut** 」**usage**&#x200B;を割り当ててください。 そうしないと、シェルフ内でリソースが正しく表示されません。
 
-詳細については、新しいリソースのインポートに関するドキュメントを参照してください： [インポートウィンドウを使用したリソースの追加](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+詳細については、新しいリソースのインポートに関するドキュメントを参照してください： [インポートウィンドウを使用したリソースの追加](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

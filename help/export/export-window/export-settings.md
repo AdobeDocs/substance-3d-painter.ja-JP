@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/export-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-window/export-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで書き出し設定を行い、テクスチャの解像度、形式、出力オプションを制御する方法について説明します。
 helpx_creative_field: ""

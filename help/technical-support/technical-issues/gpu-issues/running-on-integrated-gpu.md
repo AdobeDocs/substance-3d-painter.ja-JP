@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/gpu-issues/running-on-integrated-gpu.html"
 breadcrumb-title: ''
 description: より良いパフォーマンスを得るために、統合グラフィックの代わりに専用GPUを使用するようにSubstance 3D Painterを設定する方法について説明します。
 helpx_creative_field: ""

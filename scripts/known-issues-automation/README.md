@@ -8,7 +8,7 @@ ht-degree: 1%
 # 既知の問題Generator — Substance 3D Painter
 
 Substance 3D Painterのマークダウン文書の既知の問題の生成を自動化します。この文書は以下で公開されています。
-`https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html`
+`https://helpx.adobe.com/jp/substance-3d-painter/release-notes/know-issues.html`
 
 問題はJiraの叙事詩`SBSFOUR-6267`から取得されています。 このスクリプトは、すべての問題を取得し、ターゲットバージョンで既に修正されている内容をフィルターで除外し、コミット可能なフォーマットされたマークダウンファイルを出力します。
 
@@ -172,7 +172,7 @@ OUTPUT_FILE=known-issues.md
 
 ```markdown
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/know-issues.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/know-issues.html"
 ...
 ---
 

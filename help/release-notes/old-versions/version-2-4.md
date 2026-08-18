@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-4.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2-4.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2.4のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 シェルフの再加工により、**リソースインポートウィンドウも改善しました**。 ウィンドウの一貫性が向上し、**3つの異なる方法で呼び出せるようになりました**。つまり、ファイルメニュー、シェルフウィンドウ内のボタンを使って呼び出す方法と、前と同じように、リソースをシェルフウィンドウにドラッグアンドドロップする方法があります。 新しいウィンドウでは、**複数のリソース**&#x200B;の使用状況を一度に&#x200B;**すばやく設定**&#x200B;できます。つまり、最初にリソースを適切な場所にドラッグ&amp;ドロップする必要がなくなりました。 また、新しいツリービューを利用するために、**カスタムパスを指定**&#x200B;してサブフォルダを作成する機能も追加されました。
 
-詳細については、ドキュメントの専用部分を参照してください： [インポートウィンドウを使用したリソースの追加](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+詳細については、ドキュメントの専用部分を参照してください： [インポートウィンドウを使用したリソースの追加](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
 
 ### 新規パーティクルプリセット
 

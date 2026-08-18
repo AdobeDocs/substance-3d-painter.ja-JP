@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2019-3.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2019.3のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Substance PainterでPhotoshopブラシを使用できるようになりました
 
 読み込むABRファイルがない場合は、オンラインで多くのファイルを検索できます。
 
-* [AdobeでのKyleのブラシプリセット](https://www.adobe.com/products/photoshop/brushes.html)
+* [AdobeでのKyleのブラシプリセット](https://www.adobe.com/jp/products/photoshop/brushes.html)
 * [ArtStationのブラシプリセット](https://www.artstation.com/marketplace?q=photoshop%20brush&sort_by=trending)
 * [DeviantArtのブラシプリセット](https://www.deviantart.com/search?q=photoshop%20brush)
 * [Cubebrushのブラシプリセット](https://cubebrush.co/marketplace?categories=354,57)
@@ -115,7 +115,7 @@ Photoshopブラシプリセットのサポートに加え、グラフィック�
 Substance Painterは、UV座標が欠落しているメッシュを自動的にアンラップするようになりました。 これにより、あらゆる種類のジオメトリを読み込み、すぐにペイントを開始できます。 マテリアルの割り当てに従ってテクスチャセットを作成しながら、サブメッシュごとに1つのUV アイランドを生成します。 この機能は現在ベータ版で、今後のバージョンで拡張される予定です。 自動アンラップは、**UDIMワークフローを使用しない**&#x200B;プロジェクトにのみ適用されます。
 
 * **UVの自動アンラップ**\
-  デフォルトでは、Substance PainterはメッシュのUV座標が見つからない場合に、UV座標を自動的に生成するようになりました。 これは、プロジェクトの作成とメッシュの再読み込みの両方に適用されます。 ただし、[メイン設定](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html)に移動して、**読み込みオプション**&#x200B;の&#x200B;**UVの自動アンラップを有効にする**&#x200B;を無効にすると、この動作を無効にできます。
+  デフォルトでは、Substance PainterはメッシュのUV座標が見つからない場合に、UV座標を自動的に生成するようになりました。 これは、プロジェクトの作成とメッシュの再読み込みの両方に適用されます。 ただし、[メイン設定](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/general-71008262.html)に移動して、**読み込みオプション**&#x200B;の&#x200B;**UVの自動アンラップを有効にする**&#x200B;を無効にすると、この動作を無効にできます。
 
   ![](../../assets/uv-unwrap-setting.png)
 * **UVのラップ解除の進行状況バー**\
@@ -215,7 +215,7 @@ Substance Painterは、UV座標が欠落しているメッシュを自動的に�
 * **新しいブラシプリセット**
 
   * **102個のPhotoshopブラシプリセット**\
-    Photoshopブラシサポートの導入により、それを紹介する新しいプリセットのセットが含まれるようになりました。 これらのプリセットは、[Adobe webサイト](https://www.adobe.com/products/photoshop/brushes.html)で入手可能なKyle T. Websterのパックから選択されています。
+    Photoshopブラシサポートの導入により、それを紹介する新しいプリセットのセットが含まれるようになりました。 これらのプリセットは、[Adobe webサイト](https://www.adobe.com/jp/products/photoshop/brushes.html)で入手可能なKyle T. Websterのパックから選択されています。
 
     ![](../../assets/shelf-abr-demo.jpg){width="500px"}
   * **18個の新しいブラシプリセット**\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2-6.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2-6.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2.6のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ Substance PainterのスクリプトAPIが改善され、プロジェクト内の
 ![](../../assets/texture-set-rename-description.png)
 
 Substance Painter内で直接テクスチャセットの名前を変更できるようになりました。 テクスチャセットの名前を変更すると、ディスク上に書き出されるテクスチャの名前に影響します（使用されている書き出しプリセットによって異なります）。\
-テクスチャセットの名前を変更するには、名前をダブルクリックして変更するか、右クリックしてコンテキストメニューを開きます。 また、テクスチャセットの機能に関する詳細な情報を提供するために、カスタムの説明を追加することもできます。 これは、[UDIMプロジェクト](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html)で作業している場合に非常に便利です。 [**設定**]ボタンを使用して、一覧に説明を表示する方法を構成します。
+テクスチャセットの名前を変更するには、名前をダブルクリックして変更するか、右クリックしてコンテキストメニューを開きます。 また、テクスチャセットの機能に関する詳細な情報を提供するために、カスタムの説明を追加することもできます。 これは、[UDIMプロジェクト](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html)で作業している場合に非常に便利です。 [**設定**]ボタンを使用して、一覧に説明を表示する方法を構成します。
 
 ![](../../assets/reasign-texture-set.png)
 

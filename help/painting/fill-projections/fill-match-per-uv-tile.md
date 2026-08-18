@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections/fill-match-per-uv-tile.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでUVタイルごとの塗りの一致を使用すると、UVタイル全体でテクスチャパターンを一致させ、シームレスにタイリングできます。
 helpx_creative_field: ""

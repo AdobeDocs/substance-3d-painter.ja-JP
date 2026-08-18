@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのリソースパスから特定のリソースを除外して、シェルフの整理を改善する方法について説明します。
 helpx_creative_field: ""

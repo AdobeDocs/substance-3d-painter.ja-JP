@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/performances-guidelines/mesh-and-uv-setup.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでメッシュとUVを設定して、パフォーマンスとテクスチャの画質を最適化するためのベストプラクティスを紹介します。
 helpx_creative_field: ""

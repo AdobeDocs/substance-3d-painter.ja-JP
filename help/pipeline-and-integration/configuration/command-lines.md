@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでコマンドライン引数を使用して、自動化、スクリプト作成、パイプライン統合を行う方法について説明します。
 helpx_creative_field: ""

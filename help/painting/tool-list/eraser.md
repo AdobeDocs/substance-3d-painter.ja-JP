@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/eraser.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/eraser.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの消しゴムツールを使用すると、3Dモデルから精密にペイントやテクスチャを削除できます。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
 breadcrumb-title: ''
 description: 仮想メモリ不足によるSubstance 3D Painterのクラッシュを解決し、アプリケーションのパフォーマンスを安定させる方法について説明します。
 helpx_creative_field: ""

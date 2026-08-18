@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのシェーダー APIリファレンスにアクセスして、カスタムシェーダを作成し、レンダリング機能を拡張します。
 helpx_creative_field: ""

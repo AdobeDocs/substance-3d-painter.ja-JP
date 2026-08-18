@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで環境変数を使用して、アプリケーションのビヘイビアーとパイプラインの統合を設定する方法について説明します。
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 3%
 | **SUBSTANCE\_PAINTER\_TEMP\_LOCATION** | 値： Substance Painterが一時ファイル（SVTキャッシュを含む）を書き込む場所を定義します。この変数は、[Settings](../../interface/settings/settings.md)ウィンドウで使用できるパラメーターを上書きします。 | <ol data-preserve-html="true"><li data-preserve-html="true">3</li></ol> |
 | **SUBSTANCE\_PAINTER\_PREVIEWS\_MEMORY\_BUDGET** | 値： 500アプリケーションが「アセット」ウィンドウからプレビューを読み込んだり一時的に保存したりするために使用できるメモリ(Ram)の容量を定義します。 予算の上限に達すると、古いプレビューがアンロードされます。 この値は、アセットウィンドウでのプレビューの表示のみを制御します。値はメガバイト単位で定義されます。 デフォルト値は500 MBです。 | <ol data-preserve-html="true"><li data-preserve-html="true">2</li></ol> |
 | **SUBSTANCE\_PAINTER\_PLUGINS\_PATH** | 追加のPythonプラグインの場所。 | 6.1 |
-| **PYTHONPATH** | アプリケーションのPython統合と共にロードする追加のPythonモジュール。 詳細については、[外部Pythonモジュールの読み込み](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/loading-external-python-modules-205363420.html)を参照してください。 | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
+| **PYTHONPATH** | アプリケーションのPython統合と共にロードする追加のPythonモジュール。 詳細については、[外部Pythonモジュールの読み込み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/loading-external-python-modules-205363420.html)を参照してください。 | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **OCIO** | OpenColorIOで[カラーマネジメント](../../features/color-management/color-management.md)設定を駆動するために使用される&#x200B;**config.ocio**&#x200B;ファイルへのパスです。  **注意：**&#x200B;この環境変数は、**PAINTER\_ACE\_CONFIG**&#x200B;変数よりも優先されます。 | <ol data-preserve-html="true"><li data-preserve-html="true">4</li></ol> |
 | **PAINTER\_ACE\_CONFIG** | Adobe ACEで[カラーマネジメント](../../features/color-management/color-management.md)設定を駆動するために使用されるJSONファイルへのパスです。 | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |
 | **SUBSTANCE\_DISABLE\_SPECIFIC\_FEATURES** | アプリケーション内のいくつかの機能を無効にします。<ul data-preserve-html="true"><li data-preserve-html="true">外部リソース（ヘルプ、webページ、サンプルなど）へのリンク</li><li data-preserve-html="true">更新プログラムのチェックを無効にする</li><li data-preserve-html="true">使用統計の送信を無効にする</li><li data-preserve-html="true">substance shareへの書き出しを無効にする</li><li data-preserve-html="true">ようこそパネルと新機能パネルを無効にする</li></ul> | <ol data-preserve-html="true"><li data-preserve-html="true">1</li></ol> |

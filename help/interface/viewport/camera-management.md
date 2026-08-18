@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/viewport/camera-management.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/viewport/camera-management.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのビューポートでカメラビューを管理し、3Dモデルを効率的に移動およびフレーム化する方法について説明します。
 helpx_creative_field: ''

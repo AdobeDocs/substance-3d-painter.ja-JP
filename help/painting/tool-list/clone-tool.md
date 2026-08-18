@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/clone-tool.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/clone-tool.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのコピーツールを使用して、テクスチャのディテールをある領域から別の領域にコピーし、シームレスにテクスチャペイントすることができます。
 helpx_creative_field: ""

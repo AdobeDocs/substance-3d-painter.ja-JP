@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-7-2.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-7-2.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン7.2のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # バージョン7.2
 
-**Substance 3D Painter 7.2**&#x200B;では、Adobe Standard Materialワークフローの新しいレンダリング機能、[Substance 3Dアプリケーション](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)間でのコンテンツの共有の新しい方法、および見直された「アセット」ウィンドウを利用できます。
+**Substance 3D Painter 7.2**&#x200B;では、Adobe Standard Materialワークフローの新しいレンダリング機能、[Substance 3Dアプリケーション](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)間でのコンテンツの共有の新しい方法、および見直された「アセット」ウィンドウを利用できます。
 
 リリース日： *23 June 2021*
 

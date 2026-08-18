@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの起動時にクラッシュおよびフリーズし、アプリケーションを安定して起動する方法について説明します。
 helpx_creative_field: ""
@@ -41,7 +41,7 @@ Windowsの起動時にアプリケーションがフリーズする（白い画�
 * 外部アプリケーションが競合を作成しています。どの競合を知るには、[ソフトウェアの競合](software-conflicts.md)を参照してください。
 * アプリケーションの一部のウィンドウが別のモニターで開かれています。 インタフェースをデフォルトのレイアウトに戻すと、アプリケーションが正常に起動します。
   1. レジストリエディター（**regedit**、スタートメニューから）を開きます
-  1. アプリケーションの環境設定に移動します（[環境設定とアプリケーションデータの場所](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)を参照）
+  1. アプリケーションの環境設定に移動します（[環境設定とアプリケーションデータの場所](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)を参照）
   1. **Adobe Substance 3D Painter**&#x200B;キーを展開します
   1. **メインウィンドウ2018**&#x200B;キーを選択して削除します
   1. アプリケーションを再起動します

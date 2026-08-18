@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-during-export.html"
 breadcrumb-title: ''
 description: 信頼性の高いテクスチャ書き出しワークフローのために、書き出し処理中にSubstance 3D Painterがクラッシュする問題を解決する方法について説明します。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 TDR(Timeout Detection and Recovery)は、GPUが計算を終わらせることなくシステムをロックするのを防ぐための、Microsoft Windowsの安全メカニズムです。 残念ながら、このメカニズムはデフォルトではSubstance 3D Painterに対して制限が厳しすぎます。
 
-詳しくは、[長時間の計算でGPUドライバーがクラッシュする（TDRクラッシュ）](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)を参照してください。
+詳しくは、[長時間の計算でGPUドライバーがクラッシュする（TDRクラッシュ）](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)を参照してください。
 
 ## 仮想メモリ不足
 

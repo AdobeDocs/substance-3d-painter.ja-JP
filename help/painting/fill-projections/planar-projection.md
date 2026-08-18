@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/planar-projection.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections/planar-projection.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの平面投影を使用して、テクスチャをフラットな平面から投影し、簡単にテクスチャを適用することができます。
 helpx_creative_field: ""

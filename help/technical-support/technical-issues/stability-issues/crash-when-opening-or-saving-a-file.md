@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
 description: プロジェクト管理を確実に行うために、ファイルを開いたり保存したりするときにSubstance 3D Painterがクラッシュする問題の解決方法について説明します。
 helpx_creative_field: ""

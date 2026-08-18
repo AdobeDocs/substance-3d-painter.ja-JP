@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのLib PBR シェーダー APIリファレンスにアクセスして、カスタムシェーダに物理的なベースのレンダリングマテリアルを作成します。
 helpx_creative_field: ""

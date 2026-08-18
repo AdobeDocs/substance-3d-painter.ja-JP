@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで新しいパーティクルスクリプトを作成し、カスタムパーティクルブラシのビヘイビアーとエフェクトを定義する方法について説明します。
 helpx_creative_field: ""

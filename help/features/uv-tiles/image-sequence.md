@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでUVタイルを使用した画像シーケンスを使用して、テクスチャアニメーションワークフローを実行する方法について説明します。
 helpx_creative_field: ""

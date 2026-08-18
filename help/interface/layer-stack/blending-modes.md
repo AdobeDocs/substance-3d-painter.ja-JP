@@ -94,4 +94,4 @@ Substance 3D Painterのレイヤーとエフェクトで使用できるすべて
 | 法線マップの詳細 | ディテール指向のブレンド操作（再方向付き法線マッピング）、法線マップの組み合わせよりも正確です。 平坦な法線マップと2つのソースの強度を保持します。 上のレイヤーの法線の方向が下のレイヤーのサーフェスに沿うように変更されるようにします。 詳細については、[標準マップペイント](../../painting/advanced-channel-painting/normal-map-painting.md)を参照してください。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
 | 法線マップの逆ディテール | 法線マップの詳細のブレンド操作と同じ動作ですが、最上位レイヤのサーフェスに合わせて変換されるのは最下位レイヤです。 詳細については、[標準マップペイント](../../painting/advanced-channel-painting/normal-map-painting.md)を参照してください。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
->>
+&#x200B;>>

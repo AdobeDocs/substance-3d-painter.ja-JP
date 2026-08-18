@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/shelf-and-assets-location.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでシェルフとアセットの場所を設定し、リソースライブラリを整理してアクセスする方法について説明します。
 helpx_creative_field: ""

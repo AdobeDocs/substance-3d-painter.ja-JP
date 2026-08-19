@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2017.3のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-このリリースに含まれる新しいエクスポーターの1つは、Adobe Dimension（以前のAdobeプロジェクトFelix）で使用されるAdobe Standardマテリアルのサポートです。 シーンメッシュとそのテクスチャを書き出して、ワンクリックでプロジェクトFelixに読み込むことができます。 テクスチャを書き出しウィンドウで「**Adobe Standard Material**」を選択するだけで、アクセスできます。 詳細については、[http://www.adobe.com/jp/products/dimension.html](https://www.adobe.com/jp/products/dimension.html)を参照してください。
+このリリースに含まれる新しいエクスポーターの1つは、Adobe Dimension（以前のAdobeプロジェクトFelix）で使用されるAdobe Standardマテリアルのサポートです。 シーンメッシュとそのテクスチャを書き出して、ワンクリックでプロジェクトFelixに読み込むことができます。 テクスチャを書き出しウィンドウで「**Adobe Standard Material**」を選択するだけで、アクセスできます。 詳細については、[http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)を参照してください。
 
 これについては、次のブログ投稿も参照してください。 <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ![](../../assets/gradient-rust.jpg)
 
-**グラデーションフィルター**&#x200B;が完全に改良されました。 **Substance Designer**&#x200B;で使用可能な&#x200B;**グラデーションマップ**&#x200B;ノードに似た動作をしています。 現在では、最大&#x200B;**10色の異なるカラー**&#x200B;がサポートされており、**グラデーションの**&#x200B;内側の色の場所&#x200B;**&#x200B;**&#x200B;を指定できるため、多くの新しいドアが開きます。 これにより、より多くの&#x200B;**詳細なカラーパターン**&#x200B;を作成できるだけでなく、**高さマップ**&#x200B;を再マップして、**新しい図形**&#x200B;を作成することもできます。
+**グラデーションフィルター**&#x200B;が完全に改良されました。 **Substance Designer**&#x200B;で使用可能な&#x200B;**グラデーションマップ**&#x200B;ノードに似た動作をしています。 現在では、最大&#x200B;**10色の異なるカラー**&#x200B;がサポートされており、**グラデーションの**&#x200B;内側の色の場所&#x200B;****を指定できるため、多くの新しいドアが開きます。 これにより、より多くの&#x200B;**詳細なカラーパターン**を作成できるだけでなく、**高さマップ**を再マップして、**新しい図形**を作成することもできます。
 
 メインスライダー（カラー量）は、グラデーションの作成に使用されるカラーの総数を定義します。 すぐ下にあるボタンは、カラーの描画モード（sRGBまたはリニア）を定義します。 これは、カラー間のブレンドを適切に行う場合に重要です。 例えば、純粋なレッドと純粋なグリーンをブレンドすると、その中間に美しいイエローが生まれます。 ボタンが無効になっている場合は表示されません（代わりに濃い茶色になります）。 Heightまたはその他のグレースケールチャンネルを再マッピングする場合は、ガンマ変換を行わないように、このボタンを無効にする必要があります。
 

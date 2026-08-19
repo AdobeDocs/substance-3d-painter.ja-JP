@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/warp-projection.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections/warp-projection.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのワープ投影を使用して、ゆがみエフェクトでテクスチャを投影し、クリエイティブなテクスチャペイントを行います。
 helpx_creative_field: ""

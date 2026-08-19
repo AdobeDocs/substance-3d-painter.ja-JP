@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections/uv-projection.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/fill-projections/uv-projection.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのUV 投影を使用して、テクスチャを正確に配置するためにUV座標に基づいてテクスチャを投影します。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UV 投影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 | *設定* | *説明* |
 | --- | --- |
-| **フィルター** | テクスチャまたはマテリアルのフィルタリング方法をコントロールします。 この設定は、何度も繰り返したときにテクスチャがどのように見えるかに影響を与えます。 拡大/縮小値が大きい場合は、デフォルトとは異なるフィルター方法を使用すると、見栄えが良くなる場合があります。 現在使用可能な設定：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>バイリニア | HQ </strong>: （既定値）タイル値が高い場合にテクスチャの品質を向上させるバイリニアフィルターの詳細設定。</li><li data-preserve-html="true"><strong>バイリニア |シャープ</strong>:テクスチャをわずかに滑らかにしながらディテールを保持する、単純なバイリニアフィルタリングです。</li><li data-preserve-html="true"><strong>最も近い</strong>:フィルター処理なし。バイリニアフィルターの結果がぼやけて、細かいディテールが見えなくなる場合に便利です。 テクスチャにエイリアスを作成できます。</li></ul> |
+| **フィルター** | テクスチャまたはマテリアルのフィルタリング方法をコントロールします。 この設定は、何度も繰り返したときにテクスチャがどのように見えるかに影響を与えます。 拡大/縮小値が大きい場合は、デフォルトとは異なるフィルター方法を使用すると、見栄えが良くなる場合があります。 現在使用可能な設定：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>バイリニア`\|` HQ </strong>: （既定値）タイル値が高い場合にテクスチャの品質を向上させる高度なバイリニアフィルタリングです。</li><li data-preserve-html="true"><strong>バイリニア`\|`シャープ</strong> :テクスチャをわずかに滑らかにしますが、ディテールを保持しようとします。単純なバイリニアフィルタリングです。</li><li data-preserve-html="true"><strong>最も近い</strong>:フィルター処理なし。バイリニアフィルターの結果がぼやけて、細かいディテールが見えなくなる場合に便利です。 テクスチャにエイリアスを作成できます。</li></ul> |
 | **UV ラップ** | 投影されたマテリアル/イメージが投影シェイプ内でどのように繰り返されるかを制御します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>なし</strong> ：プロジェクションの繰り返しがありません。</li><li data-preserve-html="true"><strong>水平方向に繰り返す</strong> ：水平方向でのみ繰り返します。</li><li data-preserve-html="true"><strong>縦方向に繰り返す</strong> ：縦方向にのみ繰り返します。</li><li data-preserve-html="true"><strong>繰り返し</strong> （既定） ：水平方向と垂直方向の両方で繰り返します。</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/2d-repeat.jpg" width="500px"/></div> |
 
 ### UVトランスフォーム

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのペイントブラシツールを使用すると、カスタマイズ可能なブラシ設定で3Dモデルに直接テクスチャをペイントできます。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ペイントブラシ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -76,7 +76,7 @@ ht-degree: 1%
 | **流量のジッター** | ブラシストローク内のスタンプごとにランダムフロー値を適用します。 値0はランダム度がないことを意味し、値1は完全なランダム度を意味します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r8-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-flow.png"/></div> |
 | **角度のジッター** | ブラシストローク内のスタンプごとにランダムに追加の回転角度を適用します。 値0はランダム度がないことを意味し、値1は完全なランダム度を意味します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r9-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-rotation.png"/></div> |
 | **位置のジッター** | ブラシストローク内のスタンプごとにランダムな位置オフセットを適用します。 値0はランダム度がないことを意味し、値1は完全なランダム度を意味します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
-| **整列** | ブラシストローク内のスタンプを3Dメッシュのサーフェスに投影/方向付ける方法を指定します。 次の値を使用できます。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>カメラ</strong> :スタンプをビューポートの視点に向けます</li><li data-preserve-html="true"><strong>接線 |ラップ（デフォルト） </strong> ：スタンプの向きを3Dメッシュサーフェスに合わせます。 スタンプもサーフェスに合わせて変形されます。</li><li data-preserve-html="true"><strong>接線 |平面</strong> ：スタンプの向きを3Dメッシュサーフェスに合わせます。 スタンプの境界が3Dメッシュサーフェスから離れすぎています。 </li><li data-preserve-html="true"><strong> UV </strong> :3DメッシュUVに基づいてスタンプの方向を設定します。</li></ul> |
+| **整列** | ブラシストローク内のスタンプを3Dメッシュのサーフェスに投影/方向付ける方法を指定します。 次の値を使用できます。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>カメラ</strong> :スタンプをビューポートの視点に向けます</li><li data-preserve-html="true"><strong>接線`\|`回り込み（デフォルト） </strong> ：スタンプの向きを3Dメッシュサーフェスに合わせます。 スタンプもサーフェスに合わせて変形されます。</li><li data-preserve-html="true"><strong>接線`\|`平面</strong> ：スタンプの向きを3Dメッシュサーフェスに合わせます。 スタンプの境界が3Dメッシュサーフェスから離れすぎています。 </li><li data-preserve-html="true"><strong> UV </strong> :3DメッシュUVに基づいてスタンプの方向を設定します。</li></ul> |
 | **バックフェースカリング** | スタンプと位置合わせされていない3Dメッシュ上のサーフェスを無視します。 3Dメッシュのどの部分を無視するかを計算するために、ペイントエンジンは3Dメッシュのサーフェスの法線を見て、定義された値と角度を比較します。 |
 | **サイズ空間** | ブラシサイズの計算に使用する相対間隔を指定します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>オブジェクト（デフォルト） </strong> ：ブラシサイズは3Dメッシュサイズと同期されています。 ビューポート内でカメラを移動すると、3Dメッシュとの相対位置を維持するためのサイズに影響します。</li><li data-preserve-html="true"><strong>ビューポート</strong> :ブラシサイズはビューポートにリンクされています。 インターフェイスのサイズを変更すると、ブラシサイズが変わります。 カメラを移動しても影響はありません。</li><li data-preserve-html="true"><strong>テクスチャ</strong> ：ブラシサイズは、2Dビューポートレベルのズームにリンクされています。</li></ul> |
 

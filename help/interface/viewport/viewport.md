@@ -3,9 +3,9 @@ helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/viewport.h
 description: Substance 3D Painterのビューポートを使用して、ペイントプロセス中に3Dモデルおよびテクスチャを視覚化する方法を説明します。
 helpx_description: Painter > Interface > Viewport
 title: ビューポート
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '475'
 ht-degree: 2%
 
 ---
@@ -74,19 +74,19 @@ ht-degree: 2%
     <th><em>説明</em></th>
   </tr>
   <tr>
-    <td><strong>ビューポートモード</strong><br>![](../../assets/viewport-viewmode.png)</td>
+    <td><strong>ビューポートモード</strong><br><img src="../../assets/viewport-viewmode.png"/></td>
     <td>次の設定は、ビューポートのレイアウトをコントロールします。<br><ul><li><strong>3D/2D</strong> （既定）: 3Dビューと2Dビューの両方をビューポートに表示します</li><li><strong>3Dのみ</strong>: 3Dビューを最大化し、2Dビューを非表示にします。</li><li><strong>2Dのみ</strong>: 2Dビューを最大化し、3Dビューを非表示にします。</li><li><strong>3D/2Dの入れ替え</strong>:ビューが表示される順序を交換します。 3Dビューが左側にある場合、このアクションを選択すると右側に表示されます。</li></ul></td>
   </tr>
   <tr>
-    <td><strong>パースペクティブモード</strong><br>![](../../assets/viewport-camera-projection.png)</td>
+    <td><strong>遠近モード</strong><br><img src="../../assets/viewport-camera-projection.png"/></td>
     <td>これらの設定は、3Dビューでの3Dメッシュの表示方法を制御します。<br><ul><li><strong>パースペクティブビュー</strong> （既定値）：人間の目やカメラで見えるとおりに3Dメッシュを表示します。</li><li><strong>直交投影ビュー</strong>：すべての方向が同じ長さを測定するように、3Dメッシュを表示します。</li></ul></td>
   </tr>
   <tr>
-    <td><strong>カメラの回転モード</strong><br>![](../../assets/viewport-camera-axis.png)</td>
+    <td><strong>カメラの回転モード</strong><br><img src="../../assets/viewport-camera-axis.png"/></td>
     <td>この設定は、ビューポートカメラが回転できる軸の数を制御します。<br><ul><li><strong>自由回転</strong>:カメラはX、Y、Z軸を中心に回転します。</li><li><strong>制約付き回転</strong> （既定）:カメラはX軸とY軸でのみ回転します（回転なし）。</li></ul></td>
   </tr>
   <tr>
-    <td><strong>レンダリングモード</strong><br>![](../../assets/viewport-rendering.png)</td>
+    <td><strong>レンダリングモード</strong><br><img src="../../assets/viewport-rendering.png"/></td>
     <td><a href="../../features/iray-renderer/iray-renderer.md">レンダリングモード</a>に切り替えます。</td>
   </tr>
 </table>

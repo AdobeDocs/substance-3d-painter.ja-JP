@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-2.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2018.2のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -190,7 +190,7 @@ Substance Painter内のSubstance統合が、待望のリクエストで改善さ
 
 （2018年9月25日公開）
 
-**&#x200B;**&#x200B;修正済み：**&#x200B;**
+****修正済み：****
 
 * [2Dビュー]新しいプロジェクトを作成すると、2Dビューがメッシュで壊れる
 * [クラッシュ] UV 投影から3平面プロジェクションに切り替えるとクラッシュする

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2018-1.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2018.1のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -144,11 +144,11 @@ UV アイランドの外側にパディングを作成する方法を一新し�
   方向は、位置マップ上で直接選択できる2つの3D位置で定義できます。\
   例：
 
-1. &#x200B;
+1. 
    1. レイヤーの1つにマスクジェネレーター&#x200B;**3D Linear gradient**&#x200B;を作成します
    1. ビューポートの表示を「**位置**」に切り替えます（ビューポートのドロップダウンから、または「**B**」キーを使用して）
    1. 「**3D位置開始**」パラメーターをクリックして、**カラーピッカー**&#x200B;のポップアップを開きます
-   1. **メッシュ**&#x200B;のビューポートで色を選択&#x200B;**&#x200B;**
+   1. **メッシュ**&#x200B;のビューポートで色を選択&#x200B;****
    1. 2番目のパラメーター「**3D位置End**」に対してプロセスを繰り返します
 
       ![](../../assets/3d-gradient.jpg)

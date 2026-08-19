@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2017-3.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2017.3のリリースノートを確認してください。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-このリリースに含まれる新しいエクスポーターの1つは、Adobe Dimension（以前のAdobeプロジェクトFelix）で使用されるAdobe Standardマテリアルのサポートです。 シーンメッシュとそのテクスチャを書き出して、ワンクリックでプロジェクトFelixに読み込むことができます。 テクスチャを書き出しウィンドウで「**Adobe Standard Material**」を選択するだけで、アクセスできます。 詳細については、[http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)を参照してください。
+このリリースに含まれる新しいエクスポーターの1つは、Adobe Dimension（以前のAdobeプロジェクトFelix）で使用されるAdobe Standardマテリアルのサポートです。 シーンメッシュとそのテクスチャを書き出して、ワンクリックでプロジェクトFelixに読み込むことができます。 テクスチャを書き出しウィンドウで「**Adobe Standard Material**」を選択するだけで、アクセスできます。 詳細については、[http://www.adobe.com/jp/products/dimension.html](https://www.adobe.com/jp/products/dimension.html)を参照してください。
 
 これについては、次のブログ投稿も参照してください。 <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 

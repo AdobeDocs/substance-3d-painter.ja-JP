@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/version-8-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/version-8-2.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン8.2のリリースノートを確認してください。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/release-notes/all-changes.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/release-notes/all-changes.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのすべてのバージョンに加えられた変更とアップデートを確認し、機能の進化と改善点を経時的に追跡します。
 helpx_creative_field: ''
@@ -13,7 +13,7 @@ user-guide-title: ''
 hold: false
 source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
 workflow-type: tm+mt
-source-wordcount: '33932'
+source-wordcount: '33933'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Substance 3D Painterの以前のすべてのリリースのリリースノート
 * [自動ケージ]高ポリゴンファイルパスが無効な場合の無限荷重
 * [Linux][Windows]カラーピッカーが完全に黒くなったり、表示されないことがある
 * [ポリゴン塗り潰しツール]ツールがPBR以外では機能しない
-* &lbrack;[Paint]ベースカラーチャンネルを削除しても、以前にペイントしたカラーは削除されません
+* [[Paint]ベースカラーチャンネルを削除しても、以前にペイントしたカラーは削除されません
 * [USD]シェーダーインスタンスがすべて正しく検出されない
 * [Substance]入力/出力ノードの最初の使用のみが考慮されます
 * [シェーダ]異なるミキシング方式を使用したテクスチャセットでアンビエントオクルージョンが2回適用される

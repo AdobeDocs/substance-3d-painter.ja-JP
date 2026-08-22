@@ -36,7 +36,7 @@ ht-degree: 1%
 
 | *パラメーター* | *説明* |
 | --- | --- |
-| **ファイル** | 「選択」ボタンをクリックして、ロードする3Dモデルファイルを指定します。 [サポートされているファイル形式の一覧はこちらから入手できます。](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
+| **ファイル** | 「選択」ボタンをクリックして、ロードする3Dモデルファイルを指定します。 [サポートされているファイル形式の一覧はこちらから入手できます。](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
 | **テンプレート** | プロジェクトのデフォルト設定を定義するテンプレートを指定します。 テンプレートには、次のパラメーターが含まれています。<ul data-preserve-html="true"> <li data-preserve-html="true">テクスチャセット設定。</li> <li data-preserve-html="true">表示設定。</li> <li data-preserve-html="true">ベイク処理の設定</li> <li data-preserve-html="true">シェーダリソース（アタッチされたテクスチャを含む）。</li> <li data-preserve-html="true">環境マップファイル。</li> </ul>  **注意：**&#x200B;テンプレートは、[ファイルメニュー](../interface/main-menu/file-menu.md)を使用して既存のプロジェクトから作成され、アセットフォルダー内に保存されてチームメンバーと簡単に共有できる<b>\*.spt</b>ファイルです。 |
 | <b>解決策</b> | 各テクスチャセットのプロジェクトのデフォルトのテクスチャ解像度を定義します。 アプリケーション内で作業する場合の解像度は最大4K（4096 x 4096ピクセル）、書き出す場合の解像度は8K（8192 x 8192ピクセル）です。 解像度は、後で[テクスチャセット設定](../interface/texture-set/texture-set-settings.md)を使用していつでも変更できます。  **注意：** 8Kの書き出しを行うには、GPUで2.5GB以上のVRamが必要です。 |
 

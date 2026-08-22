@@ -37,4 +37,4 @@ Painterのベイクプロセスについて詳しくは、次のページを参�
 
 >[!NOTE]
 >
-> ベーキングの概要について詳しくは、専用の[ベーキングに関するドキュメント](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)を参照してください。
+> ベーキングの概要について詳しくは、専用の[ベーキングに関するドキュメント](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/home)を参照してください。

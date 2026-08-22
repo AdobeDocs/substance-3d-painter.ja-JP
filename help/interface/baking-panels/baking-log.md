@@ -19,6 +19,6 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> アセットを名前で照合する方法については、[ベイカーのドキュメント](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/matching-by-name)を参照してください。
+> アセットを名前で照合する方法については、[ベイカーのドキュメント](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/matching-by-name)を参照してください。
 
 ![](../../assets/baking/baking-log-panel.png)

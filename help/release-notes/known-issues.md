@@ -1,18 +1,18 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/release-notes/know-issues.html'
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの既知の問題を確認して、最新バージョンの現在の制限事項と回避策に関する情報を得てください。
-helpx_creative_field: ''
+helpx_creative_field: ""
 helpx_description: Substance 3D Painter
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
 title: 既知の問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c95676d7a6269addb3a0b42ab671a649a93caa10
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -20,36 +20,39 @@ ht-degree: 0%
 
 # 既知の問題
 
-このページでは、Substance 3D Painter v12.1.0で発生するアクティブな既知の問題をすべて一覧で示します。
-
-* テクスチャセットにタイル1001がない場合にスマートマテリアルを使用すると`[Engine]`エラーが発生する
-* `[Engine]`通常チャンネルでコピーツールを使用してペイントすると、カラーが正しくシフトされない
-* `[Engine]`ジオメトリマスクは、インスタンス化されたレイヤーを持つUV境界にアーティファクトを表示します
-* `[Engine]` UVパディングの「3D空間の隣接」モードが細い三角形で適切に機能しません
-* `[Engine]`アンカーポイントの結果が、マスクとカラーチャンネルの間でレンダリングされない
+このページでは、Substance 3D Painterのv12.1.3に存在するアクティブな既知の問題をすべて一覧表示します。
 
 * `[Baking]`単純なキューブのAOが正しくありません
 * `[Baking]`名前サフィックスによる一致の解釈が正しくありません
 * mes再読み込み後、`[Baking]`個のUVシームが表示されません
 * いくつかの設定を持つ`[Baking]`個のグリッドのようなアーティファクト
+* `[Baking]`環境オクルージョンのメッシュ名で背面を無視が機能しません
+* `[Baking]` `[AMD]`重い高ポリゴンメッシュでベイク処理するとデバイスが失われる
 
 * `[Substance]`リソースに複数のスペルミスがあります
 * `[Substance]`表示対象の空白スペース区切りの条件
 * 一部のマテリアルの`[Substance]`プリセットの読み込みに時間がかかりすぎる
 * `[Substance]`混合使用のリソースをインポートできません
 
+* テクスチャセットにタイル1001がない場合にスマートマテリアルを使用すると`[Engine]`エラーが発生する
+* `[Engine]`通常チャンネルでコピーツールを使用してペイントすると、カラーが正しくシフトされない
+* `[Engine]`ジオメトリマスクは、インスタンス化されたレイヤーを持つUV境界にアーティファクトを表示します
+
 * `[Color Management]`マスクで使用されていないジェネレーターとの互換性のないバインド
 * `[Color Management]`フィルターの出力が適切に考慮されていません
 * Linux上のACEを使用した`[Color Management]`のHDRカラースペース変換により、カラーが固定されます
 
 * 特定の名前のフォルダーに配置すると、`[Shelf]`リソースが正しく使用されません
-* `[Shelf]` `[Substance]`ユーザーデータは、シェルフのサムネイルの生成では考慮されません。
+* `[Shelf]` `[Substance]`ユーザーデータはシェルフのサムネイルの生成では考慮されません
 
 * `[Shader]` &quot;camera_vp_matrix_inverse&quot;パラメーターを認識できません
 * `[Shader]` user0チャンネルは、常に特定のシェーダでsRGBとして読み取ることができません
 
 * `[Scripting]` `[Javascript]`書き出し関数でディザリングパラメーターを指定する際の「無効」なタイプミス
 * `[Scripting]` `[Python]` substance_painter.projectモジュールの様々な誤字
+
+* `[USD]`件の間違ったusda割り当てがあります
+* `[USD]`書き出されたUSDジオメトリがUV境界に沿ってスリップしています
 
 * Painterのバージョンを更新すると、ベースカラービューに保存された`[Single Channel View]`個のプロジェクトが暗く表示される
 * Painterのバージョンを更新すると、ベースカラービューに保存された`[Single Channel View]`個のプロジェクトが暗く表示される
@@ -91,15 +94,10 @@ ht-degree: 0%
 * ベイクモードに切り替えても、`[Mask]`ジオメトリ選択はアクティブのままです
 * `[Sonoma]`アイコンがメニューに表示されません
 * `[Path]`個のHeightが多くのパスをブレンドすると、斑点が生じる可能性があります
-* `[USD]`件の間違ったusda割り当てがあります
 * `[Polygon Fill]`基本色のカラースペースを変更しても、カラーピッカーは更新されません
-* ペイントモードに切り替えた後、スキューで選択した`[Paint Skew]`個のツールが選択されたままになる
-* ツールを変更した後`[Color Picker]`ピッカーを開いたままにする
 * 書き出し時にテクスチャを4Kから8Kにアップスケールすると、`[UV Padding]`のアーティファクトが発生する
-* `[Baking Common Settings]`ケージの距離の設定で、ケージのワイヤーフレームとシェーダのビジュアライゼーションが更新されない
-* `[Send to Photoshop]`レイヤーのマスクを書き出しできません
-* `[Skew Baking]`描画および取り消し時のゆがみ補正が機能しない
-* `[Projection Tool]`ビューポートの相互作用が投影ツールによってブロックされています
+* `[Performances]`個のPainterがVRAMの使用量を占有しています
+* `[Generator]` 「テクスチャの使用」をfalseに設定しても、テクスチャ入力の使用は無効になりません
 * 非正方形リソースは、ブラシチャンネルのスロットで使用すると伸縮されます
 * サブスタンスのデコードに失敗しました
 * 完全に重なり合っていないUVはアーティファクトを作成する可能性があります
@@ -117,8 +115,9 @@ ht-degree: 0%
 * PSDファイルの透明度に関する問題
 * コンテキストツールバーで変更したブラシパラメーターがヒストリーに表示されない
 * このセッションで既に削除して再作成した場合、書き出しプリセットの名前の変更や削除はできません
-* 投影ツールのプレビューでチャンネルマッピングが機能しない場合がある。
-* 一部のプロジェクトでは、開いたり保存したりするのに通常より時間がかかることがあります。
+* 投影ツールのプレビューでチャンネルマッピングが機能しないことがある
+* 3Dプロジェクションの編集中にビューポートがフリーズする
+* マテリアルのレイヤー解像度が低すぎます
 
 ## 安定度
 
@@ -130,7 +129,3 @@ ht-degree: 0%
 * `[Crash]`デバイスがベイク処理で失われた後、ペイントモードに戻ります
 * `[Crash]`マップの書き出しをキャンセルした後、Painterを終了します
 * `[Crash]`カメラ名に特殊記号を含むメッシュをエクスポートしています
-* `[Crash]`マスク表示モードでチャンネルを削除すると、クラッシュする
-* `[Crash]`一部のSubstanceは、レンダリング時にクラッシュする可能性があります
-* `[Crash]`ベイクモードでメッシュを再読み込み
-* `[Crash]`複数のメッシュを再読み込みすると、クラッシュする場合があります

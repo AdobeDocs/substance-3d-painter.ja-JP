@@ -2,9 +2,9 @@
 title: バージョン 12.1
 description: バージョン12.1のリリースノート
 helpx_description: Substance 3D Painter
-source-git-commit: 77c68a586777b200c4d814928c5e93a752e1d355
+source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1717'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,24 @@ Youtubeの最新チュートリアルをご覧ください。
 [![](../assets/v12/v12_youtube_tutorial.jpg)](https://www.youtube.com/watch?v=WwyElRpiQgY)
 
 ## リリースノート
+
+### 12.1.3
+
+リリース日： **2026/08/25**
+
+概要： **マイナーリリース**
+
+**追加：**
+
+* Substanceエンジンをバージョン9.4.6vにアップデートする
+
+**修正済み：**
+
+* [グレースケールピッカー]ツールを変更した後もピッカーを開いたままにする
+* [ゆがみベイク処理]描画および取り消し時のゆがみ補正の不具合
+* [プロジェクションツール]投影ツールにより、ビューポートの操作がブロックされています
+* [ダイナミックストローク]のブラシプロパティにダイナミックストロークパラメーターがありません
+* ネットワークへの書き出しが機能しない
 
 ### 12.1.2
 

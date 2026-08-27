@@ -11,7 +11,7 @@ title: すべての変更
 user-guide-description: ''
 user-guide-title: ''
 hold: false
-source-git-commit: 13343e2966f37d7f9d3af098cf4bca9e3c2aadc1
+source-git-commit: 9bb3d9d70fb00c8817a11c2938292aa337279b74
 workflow-type: tm+mt
 source-wordcount: '33992'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Substance 3D Painterの以前のすべてのリリースのリリースノート
 
 **追加：**
 
-* Substanceエンジンをバージョン9.4.6vにアップデートする
+* Substanceエンジンをバージョン9.4.6にアップデートする
 
 **修正済み：**
 

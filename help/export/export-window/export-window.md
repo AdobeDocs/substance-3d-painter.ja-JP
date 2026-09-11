@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-window.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの書き出しウィンドウを使用して、様々な形式でテクスチャを設定および書き出す方法について説明します。
 helpx_creative_field: ""

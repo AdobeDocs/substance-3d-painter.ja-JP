@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
 breadcrumb-title: ''
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Painterバージョン2017.1のリリースノートを確認してください。
 helpx_creative_field: ""

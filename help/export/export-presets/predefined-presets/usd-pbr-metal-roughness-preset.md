@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでUSDz(Apple AR)書き出しプリセットを使用して、Apple ARワークフロー用のテクスチャを書き出す方法について説明します。
 helpx_creative_field: ""

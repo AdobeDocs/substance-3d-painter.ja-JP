@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/saved-searches.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/assets/saved-searches.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで保存済みの検索を作成して使用し、頻繁に使用するアセットフィルターにすばやくアクセスする方法について説明します。
 helpx_creative_field: ""

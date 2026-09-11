@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのLibランダムシェーダー APIリファレンスにアクセスして、カスタムシェーダー作成でランダムな値を生成します。
 helpx_creative_field: ""

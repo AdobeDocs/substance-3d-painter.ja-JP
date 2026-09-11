@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
 breadcrumb-title: ''
 description: 効率的なリソース管理のために、Substance 3D Painterでシェルフにファイルを追加するときに発生するドラッグ&ドロップの問題を解決する方法について説明します。
 helpx_creative_field: ""

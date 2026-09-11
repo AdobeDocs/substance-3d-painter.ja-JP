@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/exporting-the-log-file.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/exporting-the-log-file.html"
 breadcrumb-title: ''
 description: トラブルシューティングやテクニカルサポートの目的で、Substance 3D Painterからログファイルを書き出す方法について説明します。
 helpx_creative_field: ""

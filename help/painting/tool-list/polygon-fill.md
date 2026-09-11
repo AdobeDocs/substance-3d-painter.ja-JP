@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/polygon-fill.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/polygon-fill.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのポリゴン塗りつぶしツールを使用して、選択したポリゴンをペイントで塗りつぶすことで、効率的なテクスチャペイントを実現します。
 helpx_creative_field: ""

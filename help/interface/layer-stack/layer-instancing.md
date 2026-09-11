@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/layer-instancing.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/layer-instancing.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでレイヤーのインスタンス化を使用して、複数のテクスチャセットでレイヤーを効率的に再利用する方法を説明します。
 helpx_creative_field: ""

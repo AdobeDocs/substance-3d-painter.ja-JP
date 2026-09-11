@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの必要システム構成を確認して、コンピューターがハードウェアとソフトウェアの仕様を満たしていることを確認します。
 helpx_creative_field: ""
@@ -111,7 +111,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 <b>DXR</b>には、次の最小構成も必要です：
 
-* <b>Windows 10</b>バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
+* <b>Windows 10</b>バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
 * <b> GPU、Pascalアーキテクチャ</b> (Nvidia GeForce 10XX)
 
 >[!TIP]

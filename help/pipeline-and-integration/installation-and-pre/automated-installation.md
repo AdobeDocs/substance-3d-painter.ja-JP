@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/installation-and-preferences/automated-installation.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/installation-and-preferences/automated-installation.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのインストールを自動化して、エンタープライズデプロイメントとパイプライン統合のワークフローを実現する方法について説明します。
 helpx_creative_field: ""

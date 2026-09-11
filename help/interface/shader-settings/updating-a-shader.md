@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのカスタムシェーダを更新してシェーダーの変更を適用し、シェーダーファイルを再ロードする方法について説明します。
 helpx_creative_field: ""

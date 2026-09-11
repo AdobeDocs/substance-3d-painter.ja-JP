@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでメッシュマップをベイクして、ambient occlusion、曲率、その他のジオメトリベースのテクスチャを生成する方法について説明します。
 helpx_creative_field: ""

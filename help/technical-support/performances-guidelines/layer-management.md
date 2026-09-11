@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのレイヤー管理のベストプラクティスを紹介します。これにより、パフォーマンスを最適化し、プロジェクトを効率的に整理できます。
 helpx_creative_field: ""

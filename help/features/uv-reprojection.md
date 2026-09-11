@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-reprojection.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/uv-reprojection.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでUVの再投影を使用して、異なるUVレイアウト間でテクスチャを転送する方法について説明します。
 helpx_creative_field: ""

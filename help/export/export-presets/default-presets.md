@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのデフォルト出力テンプレートについて説明し、標準的な書き出し設定と書き出し形式について理解します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> ここに記載されていない他のソフトウェアもサポートされている場合があります（**Octane**&#x200B;など）。 詳細については、[エコシステムとプラグイン](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)を参照してください。
+> ここに記載されていない他のソフトウェアもサポートされている場合があります（**Octane**&#x200B;など）。 詳細については、[エコシステムとプラグイン](https://experienceleague.adobe.com/ja/docs/substance-3d/ecosystem/home)を参照してください。
 
 | *プリセット* | *説明* |
 | --- | --- |

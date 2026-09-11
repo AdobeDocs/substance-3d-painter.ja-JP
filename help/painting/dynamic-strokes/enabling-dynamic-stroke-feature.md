@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのダイナミックストローク機能を有効にして、様々な効果を持つレスポンシブブラシストロークを作成する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/dynamic-strokes/creating-custom-dynamic-strokes.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでカスタム動的ストロークを作成し、独自のブラシストロークのビヘイビアーとエフェクトをデザインする方法について説明します。
 helpx_creative_field: ""

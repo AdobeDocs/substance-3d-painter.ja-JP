@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでブラシストロークのレンダリングと応答性を最適化する際の動的なストロークのパフォーマンスに関する考慮事項について説明します。
 helpx_creative_field: ""

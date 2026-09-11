@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで高さマップに直接ペイントを付けて、ディスプレイスメントやサーフェスの標高効果を生み出す方法について説明します。
 helpx_creative_field: ""

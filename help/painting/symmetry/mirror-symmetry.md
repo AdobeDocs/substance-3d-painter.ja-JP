@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/symmetry/mirror-symmetry.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでミラー対称を使用すると、軸全体に対称にペイントするため、バランスの取れたテクスチャを作成できます。
 helpx_creative_field: ""

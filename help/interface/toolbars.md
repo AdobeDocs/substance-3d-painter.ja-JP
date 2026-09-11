@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/toolbars.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/toolbars.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのツールバーを使用およびカスタマイズして、ツールや機能に効率的にアクセスする方法について説明します。
 helpx_creative_field: ""

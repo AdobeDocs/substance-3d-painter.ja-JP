@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/automatic-uv-unwrapping.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/automatic-uv-unwrapping.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで自動UVラップ解除を使用して、3DモデルのUVレイアウトを自動的に生成する方法について説明します。
 helpx_creative_field: ""

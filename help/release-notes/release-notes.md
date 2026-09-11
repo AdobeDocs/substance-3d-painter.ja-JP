@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/release-notes.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのリリースノートにアクセスすると、新機能、機能向上、各種バージョンのバグ修正に関する最新情報を参照できます。
 helpx_creative_field: ""

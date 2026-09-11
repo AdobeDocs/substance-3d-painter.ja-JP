@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/paint-brush.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/paint-brush.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのペイントブラシツールを使用すると、カスタマイズ可能なブラシ設定で3Dモデルに直接テクスチャをペイントできます。
 helpx_creative_field: ""

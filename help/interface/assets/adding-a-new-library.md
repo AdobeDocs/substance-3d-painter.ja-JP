@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/adding-a-new-library.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/assets/adding-a-new-library.html"
 breadcrumb-title: ''
 description: 新しいライブラリをSubstance 3D Painterに追加してリソースコレクションを拡張し、その他のアセットにアクセスする方法について説明します。
 helpx_creative_field: ""

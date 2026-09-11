@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/projection.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/projection.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの投影ツールを使用して、テクスチャペイントのワークフローで2D画像を3D表面に投影します。
 helpx_creative_field: ""

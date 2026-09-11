@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/creating-export-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/creating-export-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでカスタム出力テンプレートを作成して、独自のテクスチャ書き出し設定を定義する方法について説明します。
 helpx_creative_field: ""

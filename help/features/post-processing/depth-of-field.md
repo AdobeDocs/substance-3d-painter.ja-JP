@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/depth-of-field.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/depth-of-field.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでフィールド後処理の深度を使用して、リアルなカメラフォーカスブラーエフェクトを作成する方法について説明します。
 helpx_creative_field: ""

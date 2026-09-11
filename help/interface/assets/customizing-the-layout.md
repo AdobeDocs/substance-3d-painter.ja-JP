@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/customizing-the-layout.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/assets/customizing-the-layout.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでアセットパネルのレイアウトをカスタマイズし、リソースのブラウジングエクスペリエンスを最適化する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのテクスチャを様々な形式で書き出し、他のアプリケーションやゲームエンジンで使用する方法を説明します。
 helpx_creative_field: ""

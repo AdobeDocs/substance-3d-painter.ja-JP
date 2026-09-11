@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/symmetry/radial-symmetry.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/symmetry/radial-symmetry.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの円形対称機能を使用すると、放射状のパターンを作成する際に、中心点を中心に左右対称にペイントさせることができます。
 helpx_creative_field: ""

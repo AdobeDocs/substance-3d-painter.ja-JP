@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/mode-menu.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/mode-menu.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのモードメニューを使用して、様々なアプリケーションモードやワークフローを切り替える方法を説明します。
 helpx_creative_field: ''

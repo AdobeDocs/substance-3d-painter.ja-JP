@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/performances-guidelines/conflicts-and-background-applications.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/performances-guidelines/conflicts-and-background-applications.html"
 breadcrumb-title: ''
 description: 最適なパフォーマンスを得るために、Substance 3D Painterでバックグラウンドアプリケーションとの競合を特定して解決する方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/sliders.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/miscellaneous/sliders.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのスライダーを使用して、数値やパラメーターを正確に調整する方法を説明します。
 helpx_creative_field: ""

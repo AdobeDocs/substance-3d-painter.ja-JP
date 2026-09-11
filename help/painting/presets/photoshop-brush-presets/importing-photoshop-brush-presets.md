@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
 breadcrumb-title: ''
 description: Substance 3D PainterにPhotoshopブラシプリセット（ABRファイル）を読み込んで、ブラシライブラリを拡張する方法について説明します。
 helpx_creative_field: ""

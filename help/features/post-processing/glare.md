@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/glare.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/glare.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでグレアの後処理エフェクトを使用して、明るい領域に逆光やブルーム効果を加える方法を説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/configuration/querying-current-software-version.html"
 breadcrumb-title: ''
 description: 現在のSubstance 3D Painterソフトウェアバージョンをプログラムで照会し、パイプラインの統合と自動化を行う方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/pipeline-and-integration/resource-management/adding-saved-searches-manually.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/resource-management/adding-saved-searches-manually.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで保存済みの検索を手動で追加し、頻繁に使用するリソースフィルターにすばやくアクセスする方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/advanced-search-queries.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/assets/advanced-search-queries.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで高度な検索クエリを作成し、複雑な検索条件で特定のアセットを検索する方法について説明します。
 helpx_creative_field: ""

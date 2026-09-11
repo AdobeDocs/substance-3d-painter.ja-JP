@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/edit-menu.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/edit-menu.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの「編集」メニューを使用して、取り消し、やり直し、編集の各操作を行う方法について説明します。
 helpx_creative_field: ""

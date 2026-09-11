@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/plugins-menu.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/plugins-menu.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのプラグインメニューを使用して、インストール済みのプラグインとエクステンションにアクセスして管理する方法について説明します。
 helpx_creative_field: ''

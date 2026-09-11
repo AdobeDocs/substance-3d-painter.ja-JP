@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/help-menu.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/help-menu.html'
 breadcrumb-title: ''
 description: ドキュメント、チュートリアル、サポートリソースを検索するには、Substance 3D Painterのヘルプメニューにアクセスします。
 helpx_creative_field: ''
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 | アクション | 説明 |
 | --- | --- |
-| チュートリアル | アプリケーションに関連する公式の[チュートリアル](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)へのリンク。 |
+| チュートリアル | アプリケーションに関連する公式の[チュートリアル](https://helpx.adobe.com/jp/substance-3d/unlisted/tutorials.html)へのリンク。 |
 | リリースノート | [リリースノート](../../release-notes/all-changes.md)へのリンク。 |
 | ドキュメント | このドキュメントへのリンク。 |
 | ショートカットリスト | [ショートカット](../settings/shortcuts.md)のドキュメントへのリンクです。 |

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでエフェクトを使用して、テクスチャレイヤーにフィルター、ジェネレーター、および補正を適用する方法について説明します。
 helpx_creative_field: ""

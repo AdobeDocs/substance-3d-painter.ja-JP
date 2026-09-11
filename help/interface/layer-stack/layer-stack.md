@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのレイヤースタックを使用して、複数のテクスチャペイントレイヤーを整理および管理する方法を説明します。
 helpx_creative_field: ""

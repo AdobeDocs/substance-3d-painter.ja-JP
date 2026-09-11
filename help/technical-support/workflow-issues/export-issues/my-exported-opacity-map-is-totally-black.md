@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
 breadcrumb-title: ''
 description: 透明を適切に書き出すために、書き出された不透明度マップがSubstance 3D Painterで完全に黒くなる問題を修正する方法を説明します。
 helpx_creative_field: ""

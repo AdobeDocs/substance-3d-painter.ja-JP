@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: ハードディスクからSubstance 3D Painterにコンテンツを追加し、ローカルファイルでリソースライブラリを拡張する方法について説明します。
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ Substance 3D Painterライブラリには、様々な種類のファイルを読
 
 >[!NOTE]
 >
-> バージョン7.2.0では、カスタムフォルダーおよびカテゴリをライブラリで使用できます。 これらのアイテムには、[パスでフィルター](../../interface/assets/filter-by-path.md)するか、[パンくず](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)を使用して「アセット」ウィンドウからアクセスできます。
+> バージョン7.2.0では、カスタムフォルダーおよびカテゴリをライブラリで使用できます。 これらのアイテムには、[パスでフィルター](../../interface/assets/filter-by-path.md)するか、[パンくず](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)を使用して「アセット」ウィンドウからアクセスできます。
 
 >[!WARNING]
 >

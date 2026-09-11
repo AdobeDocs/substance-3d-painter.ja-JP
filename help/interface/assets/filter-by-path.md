@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/assets/filter-by-path.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/assets/filter-by-path.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでパスでアセットをフィルタリングして、ライブラリ構造内のリソースをすばやく見つける方法について説明します。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/anchor-point.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/anchor-point.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのアンカーポイントエフェクトを使用して、他のレイヤーのテクスチャを参照し、高度な合成を行う方法について説明します。
 helpx_creative_field: ""

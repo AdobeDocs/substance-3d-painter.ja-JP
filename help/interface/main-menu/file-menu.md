@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/main-menu/file-menu.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/file-menu.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのファイルメニューを使用して、プロジェクトの管理、アセットの読み込み、テクスチャの書き出しを行う方法について説明します。
 helpx_creative_field: ""

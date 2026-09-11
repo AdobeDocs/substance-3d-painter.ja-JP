@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/ribbon-tool.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/ribbon-tool.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのリボンツールを使用して、パスに沿ってリボンのようなペイントストロークを描き、装飾的なテクスチャを描くことができます。
 helpx_creative_field: ""

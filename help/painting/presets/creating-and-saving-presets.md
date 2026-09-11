@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでブラシプリセットを作成して保存し、カスタムペイントツールの再利用可能なライブラリを作成する方法について説明します。
 helpx_creative_field: ""

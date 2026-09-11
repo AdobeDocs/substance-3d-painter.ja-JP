@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのカスタムエフェクトでメッシュマップを使用して、ジオメトリベースのテクスチャ情報にアクセスする方法について説明します。
 helpx_creative_field: ""

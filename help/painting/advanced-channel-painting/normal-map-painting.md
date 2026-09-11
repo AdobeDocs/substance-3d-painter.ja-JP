@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで法線マップに直接ペイントを付けて、テクスチャに表面のディテールと深度を加える方法を説明します。
 helpx_creative_field: ""

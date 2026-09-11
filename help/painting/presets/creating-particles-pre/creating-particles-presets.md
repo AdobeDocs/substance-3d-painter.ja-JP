@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-particles-presets.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-particles-presets.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでパーティクルブラシプリセットを作成し、ダイナミックなテクスチャペイント効果を加える方法を説明します。
 helpx_creative_field: ""
@@ -26,6 +26,6 @@ ht-degree: 0%
 
 詳しくは、専用ページを参照してください。
 
-* [パーティクルエディターのインストール](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
-* [パーティクルエディタの概要](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
+* [パーティクルエディターのインストール](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/installation-of-the-editor-67403780.html)
+* [パーティクルエディタの概要](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/overview-of-popcornfx-particle-editor-67796996.html)
 * [新しいパーティクルスクリプトの作成](creating-a-new-particle-script.md)

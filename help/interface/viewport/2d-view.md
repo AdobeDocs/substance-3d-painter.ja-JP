@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/viewport/2d-view.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/viewport/2d-view.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのUVを使用して、2D ビュー空間でテクスチャを表示および編集し、正確にテクスチャをペイントする方法について説明します。
 helpx_creative_field: ""

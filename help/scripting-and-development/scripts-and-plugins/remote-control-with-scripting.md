@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/scripts-and-plugins/remote-control-with-scripting.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/scripts-and-plugins/remote-control-with-scripting.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのリモートコントロールスクリプティングを使用して、ワークフローを自動化し、プログラムによりアプリケーションを制御する方法について説明します。
 helpx_creative_field: ""

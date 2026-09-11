@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/tone-mapping.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/tone-mapping.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのトーンマッピング後処理を使用して、ビューポートの露光量とカラーグレーディングを調整する方法について説明します。
 helpx_creative_field: ""

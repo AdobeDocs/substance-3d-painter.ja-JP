@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/update-checker.html'
+helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/miscellaneous/update-checker.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのアップデートチェッカーを使用して、新しいバージョンや機能に関する情報を常に受け取る方法について説明します。
 helpx_creative_field: ''

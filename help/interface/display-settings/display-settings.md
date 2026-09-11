@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/display-settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/display-settings.html"
 breadcrumb-title: ''
 description: Substance 3D Painterでディスプレイを設定し、ビューポートレンダリングと画質をカスタマイズする方法を説明します。
 helpx_creative_field: ""

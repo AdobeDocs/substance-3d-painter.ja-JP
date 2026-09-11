@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/settings.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/settings.html"
 breadcrumb-title: ''
 description: アプリケーションの環境設定、ショートカット、ビヘイビアーをカスタマイズするには、Substance 3D Painterの設定にアクセスして構成します。
 helpx_creative_field: ""

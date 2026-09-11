@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.html"
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで「ドライブにディスクがありません」エラーを修正し、ファイルに適切にアクセスしてプロジェクトを読み込む方法について説明します。
 helpx_creative_field: ""

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/quick-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/quick-mask.html"
 breadcrumb-title: ''
-description: Substance 3D Painterのクイックマスクツールを使用すると、マスクをすばやく作成および編集して、正確なテクスチャペイントコントロールを行うことができます。
+description: Substance 3D Painterのクイックマスクツールを使用すると、マスクをすばやく作成および編集して、テクスチャの正確なペイントコントロールを実現できます。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Tool list > Quick mask
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # クイックマスク
 
-クイックマスクを使用すると、ペイントしたくないメッシュの部分をマスクすることができます。
+クイックマスクを使用すると、ペイントを合わせたくない部分のメッシュをマスクできます。
 
 * **Y**&#x200B;を押して、クイックマスク編集モードに切り替えます。これにより、一時的なマスクをペイントできます。
-* もう一度&#x200B;**U**&#x200B;を押して、前のツールに戻り、そのマスク全体をペイントします。
+* もう一度&#x200B;**U**&#x200B;を押して、マスク全体で以前のツールとペイントに戻ります。
 * マスクをリセット/無効にするには、**Y**&#x200B;を押します。
 * クイックマスク編集モードで&#x200B;**I**&#x200B;を押して、マスクを反転します。

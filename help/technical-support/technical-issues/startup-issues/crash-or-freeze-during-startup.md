@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/startup-issues/crash-or-freeze-during-startup.html"
 breadcrumb-title: ''
-description: Substance 3D Painterの起動時にクラッシュおよびフリーズし、アプリケーションを安定して起動する方法について説明します。
+description: Substance 3D Painterの起動時にクラッシュやフリーズを修正し、アプリケーションを安定して起動する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Startup Issues > Crash or freeze during startup
 helpx_experience_level: ""
@@ -41,12 +41,12 @@ Windowsの起動時にアプリケーションがフリーズする（白い画�
 * 外部アプリケーションが競合を作成しています。どの競合を知るには、[ソフトウェアの競合](software-conflicts.md)を参照してください。
 * アプリケーションの一部のウィンドウが別のモニターで開かれています。 インタフェースをデフォルトのレイアウトに戻すと、アプリケーションが正常に起動します。
   1. レジストリエディター（**regedit**、スタートメニューから）を開きます
-  1. アプリケーションの環境設定に移動します（[環境設定とアプリケーションデータの場所](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)を参照）
+  1. アプリケーションの環境設定に移動します（[環境設定とアプリケーションデータの場所](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)を参照）
   1. **Adobe Substance 3D Painter**&#x200B;キーを展開します
   1. **メインウィンドウ2018**&#x200B;キーを選択して削除します
   1. アプリケーションを再起動します
 
-## システムパス/Pythonパスが正しくないためクラッシュする
+## システムパス/Pythonパスが正しくないため、クラッシュが発生しました。
 
 アプリケーションは、システムパスをチェックしてPythonモジュールと環境設定をロードします。 システムの設定が正しくない場合は、起動時にクラッシュする可能性があります。
 
@@ -58,7 +58,7 @@ Windows:
 1. **環境変数**&#x200B;をクリックします
 1. **システム変数**&#x200B;で、**PATH**&#x200B;変数を見つけます
 
-次に、変数を編集してその内容を確認できます。 例えば、変数に次のような文字が含まれている場合、クラッシュが発生します
+次に、変数を編集してその内容を確認できます。 例えば、変数に次のような文字が含まれている場合、クラッシュになります
 
 ```
 ï–›éŒ à €è¸€ì‡ì‡ç¿¹
@@ -91,7 +91,7 @@ Windows 10の一部のアップデートで不安定になる場合がありま�
 
 このテーマの詳細については、[システムファイルチェッカーツールを使用して、見つからないか破損したシステムファイルを修復する](https://support.microsoft.com/en-us/help/929833/use-the-system-file-checker-tool-to-repair-missing-or-corrupted-system)を参照してください。
 
-## 古いバージョンで起動するとクラッシュする
+## 古いバージョンでの起動時のクラッシュ
 
 Windowsでは、インストールフォルダーに用意されているdllファイルのいずれかが古すぎるため、バージョン2018(4.x)以前のバージョンが起動しない場合があります。 このクラッシュは、ファイルを手動で新しいバージョンに置き換えることで修正できます。
 

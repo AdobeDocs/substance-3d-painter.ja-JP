@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D Painterのライブラリ環境シェーダー APIリファレンスにアクセスして、カスタムシェーダのEnvironment MapとLightingを操作します。
+description: Substance 3D Painterのライブラリ環境シェーダー APIリファレンスにアクセスして、カスタムシェーダの環境マップとライティングを操作します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API
 helpx_experience_level: ""
@@ -60,7 +60,7 @@ uniform mat4 irrad_mat_blue;
 ```
 
 
-環境のサンプリングを可能にするヘルパー。 回転が考慮されます。 環境マップはシーンの背後にあるパノラマ環境マップであるため、方向ベクトルから余分な計算が行われます。
+環境をサンプリングできるヘルパーです。 回転が考慮されます。 環境マップはシーンの背後にあるパノラマ環境マップであるため、方向ベクトルから余分な計算が行われます。
 
 ```
 vec3 envSampleLOD(vec3 dir, float lod) 

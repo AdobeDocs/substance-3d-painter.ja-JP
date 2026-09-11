@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/windows-blue-screens.html"
 breadcrumb-title: ''
 description: Substance 3D Painterを使用してシステムを安定して動作させる場合に、Windowsのブルースクリーンエラーが発生しないようにする方法を説明します。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Windows [Blue Screens Of Death (BSOD)](https://en.wikipedia.org/wiki/Blue_screen
 
 ## GPUドライバーが不安定
 
-Substance 3D Painterでは、様々な計算を実行するためにGPUに多く依存しています。 GPUドライバーは、不安定になったり、退行したりする場合があります。 最新の修正とパフォーマンスの向上を得るために、GPUを最新に保つことをお勧めします。 参照： [GPUに古いドライバーがあります](../gpu-issues/gpu-has-outdated-drivers.md)。
+Substance 3D Painterでは、様々な計算を実行するためにGPUが多く使用されています。 GPUドライバーは、不安定になったり、退行したりする場合があります。 最新の修正とパフォーマンスの向上を得るために、GPUを最新に保つことをお勧めします。 参照： [GPUに古いドライバーがあります](../gpu-issues/gpu-has-outdated-drivers.md)。
 
 ### Windowsのインストールが不安定
 
@@ -54,7 +54,7 @@ Substance 3D Painterでは、様々な計算を実行するためにGPUに多く
 
 ### ディスク容量の不足
 
-Substance 3D Painterに[スパース仮想テクスチャ](../../../features/sparse-virtual-textures.md)が導入されて以来、作業中にディスクを使用してテクスチャをキャッシュできるようになりました。 システムの空き容量が不足すると、不安定になる可能性があります。
+Substance 3D Painterに[スパース仮想テクスチャ](../../../features/sparse-virtual-textures.md)が導入されて以来、作業中はディスクを使用してテクスチャがキャッシュされるようになりました。 システムの空き容量が不足すると、不安定になる可能性があります。
 
 この問題には、次の2つの簡単な解決策があります。
 

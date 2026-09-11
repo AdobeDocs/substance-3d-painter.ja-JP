@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sampler-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D PainterのLib Sampler シェーダー APIリファレンスにアクセスして、カスタムシェーダ開発でテクスチャとデータをサンプリングします。
+description: Substance 3D PainterのLib Sampler シェーダー APIリファレンスにアクセスして、カスタムシェーダー開発のサンプルテクスチャとデータを入手します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sampler - Shader API
 helpx_experience_level: ""
@@ -77,7 +77,7 @@ uniform SamplerSparse ao_tex;
 ```
 
 
-環境オクルージョンの強度を微調整するために使用する値。
+ambient occlusionの強さを微調整するために使用する値。
 
 ```
 //: param custom { 
@@ -119,7 +119,7 @@ uniform vec4 screen_size;
 ```
 
 
-サンプル光沢またはデフォルト値を返す
+サンプルした光沢度またはデフォルト値を返す
 
 ```
 float getGlossiness(vec4 sampledValue) 
@@ -142,7 +142,7 @@ float getGlossiness(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-サンプルした粗さまたはデフォルト値を返す
+サンプルしたラフネスまたはデフォルト値を返す
 
 ```
 float getRoughness(vec4 sampledValue) 
@@ -165,7 +165,7 @@ float getRoughness(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-サンプリングしたメタリックまたはデフォルト値を返す
+サンプルのメタリック値またはデフォルト値を返す
 
 ```
 float getMetallic(vec4 sampledValue) 
@@ -188,7 +188,7 @@ float getMetallic(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-サンプルした異方性レベルまたはデフォルト値を返す
+サンプルしたanisotropy levelまたはデフォルト値を返す
 
 ```
 float getAnisotropyLevel(vec4 sampledValue) 
@@ -211,7 +211,7 @@ float getAnisotropyLevel(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-サンプルした異方性角度またはデフォルト値を返す
+サンプルしたanisotropy angleまたはデフォルト値を返す
 
 ```
 float getAnisotropyAngle(vec4 sampledValue) 
@@ -381,7 +381,7 @@ float getDisplacement(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-環境オクルージョンを返す
+返品ambient occlusion
 
 ```
 float getAO(SparseCoord coord, bool is_premult) 
@@ -424,7 +424,7 @@ float getAO(SparseCoord coord, bool is_premult)
 ```
 
 
-シェーディングの環境オクルージョンを取得するためのヘルパー
+シェーディングのambient occlusionを取得するヘルパー
 
 ```
 float getAO(SparseCoord coord) 
@@ -493,7 +493,7 @@ float getShadowFactor()
 ```
 
 
-サンプルしたベースカラーまたはデフォルト値を返す
+サンプルしたbase colorまたはデフォルト値を返す
 
 ```
 vec3 getBaseColor(vec4 sampledValue) 
@@ -566,7 +566,7 @@ vec3 getSpecularColor(SamplerSparse sampler, SparseCoord coord)
 ```
 
 
-粗さと異方性レベルから異方性の粗さを生成
+ラフネスとanisotropy levelから異方性ラフネスを生成する
 
 ```
 vec2 generateAnisotropicRoughness(float roughness, float anisoLevel) 
@@ -579,7 +579,7 @@ vec2 generateAnisotropicRoughness(float roughness, float anisoLevel)
 ```
 
 
-ベースカラーとメタリック係数から拡散反射光カラーを生成
+base colorとメタリック要素から拡散反射光カラーを生成
 
 ```
 vec3 generateDiffuseColor(vec3 baseColor, float metallic) 
@@ -592,7 +592,7 @@ vec3 generateDiffuseColor(vec3 baseColor, float metallic)
 ```
 
 
-誘電体Specular level、ベースカラー、およびメタリックファクタからSpecularカラーを生成します
+誘電Specular level、base color、メタリック因子からSpecularカラーを生成
 
 ```
 vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic) 
@@ -605,7 +605,7 @@ vec3 generateSpecularColor(float specularLevel, vec3 baseColor, float metallic)
 ```
 
 
-誘電体のデフォルトのSpecular level(0.04)を使用して、ベースカラーとメタリックファクターからSpecularカラーを生成します
+誘電体の既定のSpecular level(0.04)を使用して、base colorとメタリック要素からSpecular色を生成します
 
 ```
 vec3 generateSpecularColor(vec3 baseColor, float metallic) 

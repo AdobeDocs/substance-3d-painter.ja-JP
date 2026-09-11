@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/project-issues/preserve-brush-strokes-setting-stays-disabled.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで「ブラシストロークを保持」設定を無効のままにし、ブラシストロークを適切に保持する方法を説明します。
 helpx_creative_field: ""
@@ -29,4 +29,4 @@ Substance 3D Painter 1.5で導入された不運なバグ（1.7で一部修正�
 * 現在のプロジェクトで使用したオリジナルメッシュを選択して再インポートします（更新されたバージョンではありません）
 * Substance 3D Painterでレイヤーを検証して計算します。同じメッシュであれば何も変わりません
 * 編集/プロジェクト構成に再度移動します
-* 「メッシュ上のストローク位置を保持」が再度有効になり、新しいメッシュを読み込めるようになりました
+* 「メッシュ時にストロークの位置を保持」が再度有効になり、新しいメッシュを読み込めるようになりました

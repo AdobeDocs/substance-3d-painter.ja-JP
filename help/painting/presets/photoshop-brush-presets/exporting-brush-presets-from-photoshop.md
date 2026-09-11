@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/exporting-brush-presets-from-photoshop.html"
 breadcrumb-title: ''
-description: PhotoshopのブラシプリセットをABRファイルとして書き出し、Substance 3D Painterテクスチャペイントワークフローで使用する方法を説明します。
+description: PhotoshopのブラシプリセットをABRファイルとして書き出し、Substance 3D Painterのテクスチャペイントワークフローで使用する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Exporting Brush Presets from Photoshop
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Photoshopからのブラシプリセットの書き出し
 
-ABRファイル（Photoshopブラシプリセット）は、Adobe Photoshopからのみ作成できます。 プリセットを含むABRを作成するには、次の手順に従います。
+ABRファイル(Photoshop ブラシプリセット)は、Adobe Photoshopからのみ作成できます。 プリセットを含むABRを作成するには、次の手順に従います。
 
 1. <b>Adobe Photoshopを開きます。</b>
 
@@ -30,7 +30,7 @@ ABRファイル（Photoshopブラシプリセット）は、Adobe Photoshopか�
    <b>ウィンドウ/ブラシを選択して、ブラシパネルを開きます。 </b>
 
    ![](../../../assets/photoshop-brush-window.png){width="500px"}
-1. <b>書き出すブラシプリセット（またはグループ）を選択します。</b>
+1. <b>エクスポートするブラシプリセット （またはグループ）を選択してください。</b>
 
    複数のブラシまたはプリセットを選択するには、 Ctrlキーを押しながら選択します。
 

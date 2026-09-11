@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D Painterの「すべてのカスタムパラメータシェーダー API」リファレンスにアクセスして、カスタムシェーダパラメータを定義および制御します。
+description: Substance 3D Painterの「すべてのカスタムパラメーターシェーダー API」リファレンスにアクセスして、カスタムシェーダーパラメーターを定義および制御します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # すべてのカスタムパラメータ – シェーダー API
 
-## カスタムパラメータサンプルシェーダ
+## カスタムパラメータサンプルシェーダー
 
 **すべてのカスタム調整には、少なくとも&#x200B;*既定*の値が必要です。**
 
@@ -132,7 +132,7 @@ uniform bool u_bool;
 
 ## Samplerパラメーター
 
-テクスチャはシェルフ内の名前で定義されており、*テクスチャ*&#x200B;または&#x200B;*環境*&#x200B;カテゴリに含まれている必要があります。
+テクスチャはシェルフ内の名前で定義されており、*環境*&#x200B;または&#x200B;*テクスチャ*&#x200B;カテゴリに属している必要があります。
 
 ```
 //: param custom { "default": "", "default_color": [1.0, 1.0, 0.0, 1.0], "label": "Texture" } 
@@ -180,7 +180,7 @@ uniform int u_combobox;
 ```
 
 
-シェーダエントリポイント
+シェーダー入力ポイント
 
 ```
 vec4 shade(V2F inputs) 

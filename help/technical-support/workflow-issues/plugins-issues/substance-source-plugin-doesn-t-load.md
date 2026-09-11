@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでSubstance Sourceプラグインの読み込みに関する問題を修正し、リソースライブラリにアクセスする方法について説明します。
 helpx_creative_field: ""
@@ -30,7 +30,7 @@ Substance 3D Painterに含まれていたSubstance Sourceプラグインは、�
 
 次をお勧めします。
 
-* **Substance Source** 、次のwebサイトからマテリアルをダウンロードできます： <https://www.substance3d.com/>
+* **Substance Source** 、マテリアルは次のwebサイトからダウンロードできます： <https://www.substance3d.com/>
 * **Substanceランチャー** :「送信先」機能を使用すると、専用の「Substance Source」タブを介してマテリアルをアプリケーションに送信できます。
 
 ### アンインストール
@@ -43,4 +43,4 @@ Substance 3D Painterに含まれていたSubstance Sourceプラグインは、�
 
 >[!NOTE]
 >
-> プラグインを削除しても、シェルフに既にダウンロードされているコンテンツには影響しません。
+> プラグインを削除しても、シェルフにダウンロード済みのコンテンツには影響しません。

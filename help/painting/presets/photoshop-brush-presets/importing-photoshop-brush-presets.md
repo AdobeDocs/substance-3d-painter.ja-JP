@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/importing-photoshop-brush-presets.html"
 breadcrumb-title: ''
-description: Photoshopのブラシプリセット（ABRファイル）をSubstance 3D Painterに読み込んで、ブラシライブラリを拡張する方法について説明します。
+description: Substance 3D PainterにPhotoshopブラシプリセット（ABRファイル）を読み込んで、ブラシライブラリを拡張する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Importing Photoshop Brush Presets
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Photoshopブラシプリセットの読み込み
+title: Photoshop ブラシプリセットの読み込み
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Photoshopブラシプリセットの読み込み
+# Photoshop ブラシプリセットの読み込み
 
 ここでは、ABRファイルをSubstance 3D Painterに読み込む手順を説明します。
 
@@ -52,15 +52,15 @@ ht-degree: 0%
 
    * <b>プロジェクト</b>: ABRファイルは、現在開いているプロジェクトに読み込まれます。 ブラシは、現在のプロジェクトが開いており、プロジェクトファイルに添付されている場合にのみ使用できます。
    * <b>セッション</b>: ABRファイルがメモリに読み込まれます。 ブラシプリセットは、アプリケーションが閉じられるまで使用できます。
-   * <b>ライブラリ</b>: ABRファイルがディスク上のシェルフにコピーされます。 ブラシプリセットは、Painterを開くと常に、すべてのプロジェクトで使用できます。
+   * <b>ライブラリ</b>: ABRファイルはディスク上のシェルフにコピーされます。 ブラシプリセットは、Painterを開くたびに、すべてのプロジェクトで使用できます。
 
    ![](../../../assets/import-location.png)
 1. <b>シェルフからブラシプリセットにアクセスします。</b>
 
    ![](../../../assets/shelf-demo.png)
 
-   ブラシプリセットの読み込みに問題がなかった場合は、[アセット](../../../interface/assets/assets.md)ウィンドウに表示されます。
+   アセットの読み込みに問題がなかった場合は、[ブラシプリセット](../../../interface/assets/assets.md)ウィンドウに表示されます。
 
    >[!NOTE]
    >
-   > ブラシプリセットがビットマップに基づいている場合は、そのプリセットが使用するイメージを、ブラシプリセットと同じ名前のシェルフのAlphaセクションでも使用できます。
+   > ブラシプリセットがビットマップに基づいている場合は、ブラシプリセットと同じ名前のシェルフのAlphaーセクションにも使用できます。

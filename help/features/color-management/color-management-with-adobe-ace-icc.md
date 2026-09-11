@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/color-management/color-management-with-adobe-ace-icc.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでAdobe ACEとICCカラーマネジメントを使用して、一貫したカラーワークフローを実現する方法について説明します。
 helpx_creative_field: ""
@@ -36,19 +36,19 @@ ICCプロファイルで画像を使用するAdobe Color Engine(ACE)に関連す
 
 | セクション | 設定 | 説明 |
 | --- | --- | --- |
-| **構成** | **カラーマネジメント** | カラーの管理に使用するエンジンを定義します。有効な値：<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>従来</strong> （既定）：定義済みのsRGB/リニアsRGBガンマ色補正を使用します。</li> <li data-preserve-html="true"><strong>OpenColorIO</strong>: OCIO統合を使用します。</li> <li data-preserve-html="true"><strong>Adobe ACE</strong>: Adobe Color Engine、ICCプロファイルをサポートします。</li> </ul> |
+| **構成** | **カラーマネジメント** | カラーの管理に使用するエンジンを指定します。有効な値：<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>従来</strong> （既定）：定義済みのsRGB/リニアsRGBガンマ色補正を使用します。</li> <li data-preserve-html="true"><strong>OpenColorIO</strong>: OCIO統合を使用します。</li> <li data-preserve-html="true"><strong>Adobe ACE</strong>: Adobe Color Engine、ICCプロファイルをサポートします。</li> </ul> |
 |  | **プリセットファイルを使用する** | 有効な場合は、json構成ファイルを介してカラーマネジメント設定をアップロードすることを許可します。 |
 |  | **プリセットファイル** | プリセットファイルへのJSON形式のパス。 詳しくは、以下を参照してください。 |
 |  |  |  |
-| **色の設定** | **作業用カラースペース** | アプリケーション内で作業するためにエンジンによって使用されるカラースペース。 テクスチャを変換（読み込み）または変換（書き出し）するカラースペースです。指定できる値は次のとおりです。<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>リニアsRGB IEC61966-2.1</strong> （既定）</li> <li data-preserve-html="true"><strong>ACEScg ACESワーキングスペースAMPAS S-2014-004</strong></li> <li data-preserve-html="true"><strong>リニアAdobe RGB (1998)</strong></li> </ul> |
+| **色の設定** | **作業用カラースペース** | アプリケーション内で作業するためにエンジンによって使用されるカラースペース。 テクスチャを（読み込み）または（書き出し）に変換するカラースペースです。指定できる値は次のとおりです。<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>リニアsRGB IEC61966-2.1</strong> （既定）</li> <li data-preserve-html="true"><strong>ACEScg ACE作業用スペースAMPAS S-2014-004</strong></li> <li data-preserve-html="true"><strong>リニアAdobe RGB (1998)</strong></li> </ul> |
 |  | **マッチング方法** | カラースペース間の色の変換方法を指定します。有効な値：<ul data-preserve-html="true"> <li data-preserve-html="true"><strong>知覚的</strong></li> <li data-preserve-html="true"><strong>彩度</strong> （既定）</li> <li data-preserve-html="true"><strong>相対色</strong></li> <li data-preserve-html="true"><strong>絶対色</strong></li> </ul> |
 |  |  |  |
 | **ビットマップの読み込みカラースペースの既定値** | **8ビット画像** | 8ビット画像ファイルを読み込むときにデフォルトで使用されるカラースペース。 |
 |  | **16ビット画像** | 16ビットイメージファイルを読み込むときにデフォルトで使用するカラースペース。 |
-|  | **浮動小数点の画像** | HDR/EXR画像ファイルを読み込むときにデフォルトで使用するカラースペース。 |
+|  | **浮動小数点の画像** | HDR/EXRイメージファイルを読み込むときにデフォルトで使用するカラースペース。 |
 |  | **埋め込みICCプロファイルを使用（推奨）** | 有効になっている場合は、画像ファイルの設定に従ってICCプロファイルを使用してカラーを調整します。 |
 |  |  |  |
-| **Substanceの素材** | **マテリアルカラースペースの既定** | Substanceマテリアルのカラーマネジメント入出力に使用するカラースペースを定義します。 |
+| **マテリアル** | **マテリアルカラースペースの既定** | カラーマネジメント入出力のマテリアルに使用するカラースペースを指定します。 |
 |  |  |  |
 | **カラースペースの書き出し** | **8ビット画像** | 8 bit画像ファイルを書き出すときにデフォルトで使用されるカラースペース。 |
 |  | **16ビット画像** | 16ビットイメージファイルの書き出し時にデフォルトで使用されるカラースペース。 |

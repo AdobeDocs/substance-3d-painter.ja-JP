@@ -1,6 +1,6 @@
 ---
 title: グレースケール変換
-description: Substance 3D Painterのグレースケール変換ジェネレーターの使用方法を説明します。
+description: Substance 3D Painterのグレースケール変換ジェネレーターを使用する方法について説明します。
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '229'
@@ -14,7 +14,7 @@ ht-degree: 7%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_grayscale_conversion.png" alt=""/><br><strong>イン：</strong>ジェネレーター、グレースケール、色</td>
-    <td style="border: 0;" valign="top"><strong>説明</strong><br>グレースケール変換ジェネレーターは、テクスチャまたはマップをグレースケール値に変換します。<br><br>グレースケール変換ジェネレータは、白黒のテクスチャを出力します。 したがって、これはフルカラー入力マップからマスクを生成するのに便利です。</td>
+    <td style="border: 0;" valign="top"><strong>説明</strong><br>グレースケール変換ジェネレータは、テクスチャまたはマップをグレースケール値に変換します。<br><br>グレースケール変換ジェネレータは、白黒テクスチャを出力します。 そのため、フルカラー入力マップからマスクを作成する場合に便利です。</td>
   </tr>
 </table>
 
@@ -49,7 +49,7 @@ ht-degree: 7%
   </tr>
   <tr>
     <td><strong>タイル</strong></td>
-    <td>変換されたソース画像のタイリングを設定します。</td>
+    <td>変換後の元画像のタイリングを設定します。</td>
   </tr>
   <tr>
     <td><strong>回転</strong></td>

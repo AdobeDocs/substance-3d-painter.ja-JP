@@ -1,6 +1,6 @@
 ---
-title: UVランダムカラー
-description: Substance 3D PainterのUVランダムカラージェネレーターの使用方法を説明します。
+title: UVのランダムカラー
+description: Substance 3D PainterのUVランダムカラージェネレーターを使用する方法について説明します。
 source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
 workflow-type: tm+mt
 source-wordcount: '182'
@@ -9,12 +9,12 @@ ht-degree: 2%
 ---
 
 
-# UVランダムカラー
+# UVのランダムカラー
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_uv_random_color.png" alt=""/><br><strong>イン：</strong>ユーティリティ、マスク</td>
-    <td style="border: 0;" valign="top"><strong>説明</strong><br>UVランダムカラージェネレーターは、各UV アイランドに固有の単色を割り当てます。 これは、複雑なメッシュを持つダイアグノスティックツールとして役立つ場合が多いものです。<br><br>UVランダムカラーは、マスクを作成する（白黒出力）か、塗りつぶしレイヤーとして直接使用し、UV アイランドに基づいてメッシュにカラーのバリエーションを適用できます。たとえば、木製の床の各板をランダム化します。</td>
+    <td style="border: 0;" valign="top"><strong>説明</strong><br>UVランダムカラージェネレーターは、各UV アイランドに固有の単色を割り当てます。 これは、複雑なメッシュを含むダイアグノスティックツールとして役立つ場合が多くあります。<br><br>UVランダムカラーは、マスクを作成する（白黒出力）か、UV アイランドに基づいてメッシュにカラーバリエーションを適用する塗りつぶしレイヤーとして直接使用できます。たとえば、木の床の各板をランダム化します。</td>
   </tr>
 </table>
 
@@ -33,7 +33,7 @@ ht-degree: 2%
   </tr>
   <tr>
     <td><strong>シード</strong></td>
-    <td>Dirtテクスチャの作成に使用するシード値を設定します。 <br><ul><li>別のランダムシードに切り替えるには、「ランダム」をクリックします。</li><li>鉛筆をクリックして現在のシード値を表示し、必要に応じて特定の値を入力します。</li></ul></td>
+    <td>テクスチャの作成に使用するシード値を設定します。 <br><ul><li>別のランダムシードに切り替えるには、「ランダム」をクリックします。</li><li>鉛筆をクリックして現在のシード値を表示し、必要に応じて特定の値を入力します。</li></ul></td>
   </tr>
   <tr>
     <td><strong>カラーソースモード</strong></td>

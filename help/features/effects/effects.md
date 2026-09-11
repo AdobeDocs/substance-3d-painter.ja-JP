@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects.html"
 breadcrumb-title: ''
-description: Substance 3D Painterで効果を使用して、フィルター、ジェネレーター、調整をテクスチャレイヤーに適用する方法を説明します。
+description: Substance 3D Painterでエフェクトを使用して、テクスチャレイヤーにフィルター、ジェネレーター、および補正を適用する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects
 helpx_experience_level: ""
@@ -22,11 +22,11 @@ ht-degree: 4%
 
 ![](../../assets/new-filters.jpg){width="450px"}
 
-エフェクトは、Substance 3D Painterのレイヤースタックの&#x200B;**レイヤー**&#x200B;の&#x200B;**コンテンツ**&#x200B;または&#x200B;**マスク**&#x200B;に適用できる、様々な&#x200B;**アクション**&#x200B;のセットです。\
+エフェクトは、Substance 3D Painter レイヤースタックの&#x200B;**レイヤー**&#x200B;の&#x200B;**コンテンツ**&#x200B;または&#x200B;**マスク**&#x200B;に適用できる、さまざまな&#x200B;**アクション**&#x200B;のセットです。\
 これにより、単純なカラーバリエーションから複雑なマスク作成まで、無限の変化が可能です。 Substance 3D Painterには、デフォルトで複数のエフェクトが付属していますが、Substance 3D Designerで独自のエフェクトを作成することもできます。
 
-エフェクトは、任意のレイヤーまたはマスクで&#x200B;**右クリック**&#x200B;するか、レイヤースタックウィンドウの上部&#x200B;**にある専用の**&#x200B;ボタンをクリックして、スタックに追加できます。\
-ほとんどのエフェクトには、通常のレイヤーと同様に描画モードと不透明度があり、順序を変更できます。例えば、エフェクトの完全なスタックを作成して、複雑なマスクを作成することができます。
+効果は、任意のレイヤーまたはマスクで&#x200B;**右クリック**&#x200B;するか、レイヤースタックウィンドウの上部&#x200B;**にある専用の**&#x200B;ボタンをクリックして、スタックに追加できます。\
+ほとんどのエフェクトには、通常のレイヤーと同様に描画モードと不透明度があり、順序を変更できます。例えば、エフェクトを完全にスタック化して複雑なマスクを作成することができます。
 
 >[!NOTE]
 >

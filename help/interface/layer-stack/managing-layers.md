@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/managing-layers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/layer-stack/managing-layers.html"
 breadcrumb-title: ''
-description: Substance 3D Painterでレイヤーを管理し、テクスチャペイントワークフローを整理、並べ替え、および制御する方法について説明します。
+description: Substance 3D Painterでレイヤーを管理し、テクスチャペイントのワークフローを整理、並べ替え、制御する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Layer stack > Managing layers
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # レイヤーの管理
 
-レイヤースタックでは、次の操作が可能です。
+レイヤースタック内で可能な操作は次のとおりです。
 
 | *アクション* | *デモ* |
 | --- | --- |

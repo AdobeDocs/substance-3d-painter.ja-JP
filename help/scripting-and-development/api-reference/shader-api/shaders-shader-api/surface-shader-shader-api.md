@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D Painterのサーフェスシェーダー APIリファレンスにアクセスして、カスタムサーフェスのシェーダーエフェクトとマテリアルを作成します。
+description: Substance 3D Painterのサーフェスシェーダー APIリファレンスにアクセスして、カスタムサーフェスシェーダーエフェクトとマテリアルを作成します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Surface Shader - Shader API
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: サーフェスシェーダ – シェーダー API
+title: サーフェスシェーダー - シェーダー API
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# サーフェスシェーダ – シェーダー API
+# サーフェスシェーダー - シェーダー API
 
-## surface-shader.glsl
+## surface-シェーダー.glsl
 
-Substance Painterで使用できるシェーダリソースを作成するには、次のプロファイルを持つ&#x200B;*shade*&#x200B;という関数を1つ含むglslファイルを作成します。
+Substance Painterで使用できるシェーダーリソースを作成するには、次のプロファイルを持つ&#x200B;*shade*&#x200B;と呼ばれる1つの関数を含むglslファイルを作成します。
 
 ```
 void shade(V2F inputs);

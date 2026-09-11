@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/miscellaneous/log.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/miscellaneous/log.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのログウィンドウにアクセスして使用し、アプリケーションメッセージとデバッグ情報を表示する方法について説明します。
 helpx_creative_field: ''
@@ -26,5 +26,5 @@ ht-degree: 2%
 
 ログは2つのタブに分かれています。
 
-* **一般タブ**&#x200B;には、書き出しの詳細など、プロジェクトとシーンに関連する情報が表示されます。
+* **[全般]タブ**&#x200B;には、エクスポートの詳細など、プロジェクトとシーンに関連する情報が表示されます。
 * **[アセット]タブ**&#x200B;には、**アセットパネル**&#x200B;に関連するエラーとログが表示されます。

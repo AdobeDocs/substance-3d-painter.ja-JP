@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.html"
 breadcrumb-title: ''
-description: プロジェクト管理を確実に行うために、ファイルを開いたり保存したりするときにSubstance 3D Painterがクラッシュする問題の解決方法について説明します。
+description: プロジェクト管理の信頼性を高めるために、ファイルを開いたり保存したりするときに発生するSubstance 3D Painterのクラッシュを修正する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash when opening or saving a file
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ファイルを開くまたは保存するときにクラッシュする
+title: ファイルを開くまたは保存するときにクラッシュが発生する
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# ファイルを開くまたは保存するときにクラッシュする
+# ファイルを開くまたは保存するときにクラッシュが発生する
 
-ファイルダイアログを開くと、WindowsでSubstance 3D Painterがクラッシュする理由がいくつかあります。 このページでは、この問題の理由と解決策について説明します。
+Windowsでファイルダイアログを開く際にSubstance 3D Painterがクラッシュする理由はいくつかあります。 このページでは、この問題の理由と解決策について説明します。
 
 ## ソフトウェアの競合
 
-プログラムによっては、インストールやクラッシュの原因となる可能性のあるカスタムシェル拡張機能を追加できます。 詳細については、[ソフトウェアの競合](../startup-issues/software-conflicts.md)の一覧を参照してください。
+プログラムによっては、不安定性やクラッシュを引き起こす可能性のあるカスタムシェル拡張を追加することができます。 詳細については、[ソフトウェアの競合](../startup-issues/software-conflicts.md)の一覧を参照してください。
 
 ## シェル拡張機能/カスタムテーマ
 

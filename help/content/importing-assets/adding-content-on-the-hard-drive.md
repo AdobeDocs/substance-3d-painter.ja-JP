@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/adding-content-on-the-hard-drive.html"
 breadcrumb-title: ''
 description: ハードディスクからSubstance 3D Painterにコンテンツを追加し、ローカルファイルでリソースライブラリを拡張する方法について説明します。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 新しいコンテンツを直接ハードドライブの適切な場所に配置することで、ライブラリにリソースを追加できます。
 
-ユーザーアセットのデフォルトフォルダーがデフォルトで用意されており、アプリケーションインターフェイスを使用するか、次の場所に手動でドロップして、新しいコンテンツを追加できます。 このデフォルトのライブラリは、ブラシ、ツール、スマートマテリアルなどの新しいプリセットを作成するときにも使用されます。詳細については、[プリセット](../../painting/presets/presets.md)のドキュメントを参照してください。
+ユーザーアセットのデフォルトフォルダーがデフォルトで用意されており、アプリケーションインターフェイスを使用するか、次の場所に手動でドロップして、新しいコンテンツを追加できます。 このデフォルトライブラリは、ブラシ、ツール、スマートマテリアルなどの新しいプリセットを作成するときにも使用されます。詳細については、[プリセット](../../painting/presets/presets.md)のドキュメントを参照してください。
 
 ## アセットの配置場所
 
@@ -41,23 +41,23 @@ Substance 3D Painterライブラリには、様々な種類のファイルを読
 
 | *ファイル形式* | *使用方法* | *フォルダー* |
 | --- | --- | --- |
-| **SBSAR** | Substance マテリアル | アセット/マテリアル |
+| **SBSAR** | Substance マテリアル | アセット/ マテリアル |
 | **SBSAR** | フィルター | アセット/エフェクト |
 | **SBSAR** | ジェネレーター | アセット/ジェネレーター |
-| **PNG、TGA、JPEGなど** | テクスチャまたはAlpha | アセット/テクスチャ&#x200B;**または**&#x200B;シェルフ/ Alpha |
+| **PNG、TGA、JPEGなど** | テクスチャまたはAlpha | アセット/ テクスチャ **または** シェルフ / Alpha |
 | **HDR、EXR** | 環境またはカラーLut | アセット/環境&#x200B;**または**&#x200B;シェルフ/ Colorlut |
 | **GLSL** | シェーダー | アセット/シェーダ |
 | **SPPR** | ブラシプリセット | アセット/プリセット/ブラシ |
-| **SPPR** | パーティクルプリセット | アセット/プリセット/パーティクル |
-| **SPPR** | マテリアルプリセット | アセット/プリセット/マテリアル&#x200B;**または**&#x200B;アセット/マテリアル |
+| **SPPR** | パーティクルプリセット | アセット/プリセット/ パーティクル |
+| **SPPR** | マテリアルプリセット | アセット/プリセット/ マテリアル **または**&#x200B;アセット/ マテリアル |
 | **SPPR** | ツールプリセット | アセット/プリセット/ツール |
 | **SPSM** | スマートマテリアル | アセット/スマートマテリアル |
 | **SPMSK** | スマートマスク | アセット/スマートマスク |
-| **SPEXP** | プリセットを書き出し | Shelf / Export-presets |
+| **SPEXP** | プリセットを書き出し | シェルフ/書き出しプリセット |
 
 >[!NOTE]
 >
-> バージョン7.2.0では、カスタムフォルダーおよびカテゴリをライブラリで使用できます。 これらのアイテムには、[パスでフィルター](../../interface/assets/filter-by-path.md)するか、[パンくず](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)を使用して「アセット」ウィンドウからアクセスできます。
+> バージョン7.2.0では、カスタムフォルダーおよびカテゴリをライブラリで使用できます。 これらのアイテムには、[パスでフィルター](../../interface/assets/filter-by-path.md)するか、[パンくず](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)を使用して「アセット」ウィンドウからアクセスできます。
 
 >[!WARNING]
 >

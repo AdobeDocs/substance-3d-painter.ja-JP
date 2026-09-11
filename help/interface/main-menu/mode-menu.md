@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/mode-menu.html'
+helpx_url: 'https://helpx.adobe.com/substance-3d-painter/interface/main-menu/mode-menu.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのモードメニューを使用して、様々なアプリケーションモードやワークフローを切り替える方法を説明します。
 helpx_creative_field: ''
@@ -26,6 +26,6 @@ ht-degree: 1%
 
 | アクション | 説明 |
 | --- | --- |
-| **メッシュマップのベイク処理** | このモードは、法線、ワールド空間法線、AO、IDマップなどのユーティリティマップを作成する場合、高ポリゴンから低ポリゴンにベイク処理する場合、またはプロジェクトメッシュ自体を使用する場合に使用します。 |
-| **ペイント** | Painterでは、レイヤースタックとマテリアルにアクセスして3Dモデルに直接ペイントすることができます。 |
-| **レンダリング(Iray)** | Rayレンダーモードに切り替えます。 Irayは、高品質のレンダリングを作成できる非リアルタイムレンダラーです。 詳細については、専用ページ[Irayレンダラー](../../features/iray-renderer/iray-renderer.md)を参照してください。 |
+| **メッシュマップのベイク** | このモードは、高ポリゴンから低ポリゴンにベイクするか、プロジェクトメッシュ自体を使用して、法線、ワールド空間法線、AO、ID マップなどのユーティリティマップを作成する場合に使用します。 |
+| **ペイント** | Painterでは、ほとんどの時間を過ごすことができ、ペイントモードでは、レイヤースタックやマテリアルにアクセスしたり、3Dモデルに直接ペイントを適用したりできます。 |
+| **レンダリング(Iray)** | Irayレンダリングモードに切り替えます。 Irayは、高品質のレンダリングを作成できる非リアルタイムレンダラーです。 詳細については、専用ページ[Irayレンダラー](../../features/iray-renderer/iray-renderer.md)を参照してください。 |

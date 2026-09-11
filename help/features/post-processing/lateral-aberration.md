@@ -2,7 +2,7 @@
 title: 横収差
 description: ''
 helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/lateral-aberration.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/post-processing/lateral-aberration.html"
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
 workflow-type: tm+mt
 source-wordcount: '155'
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 ![](../../assets/v12_post_aberration.jpg)
 
-カラーチャンネルを画像の中心から外側にシフトして、色収差をシミュレートします。実際のカメラレンズのエッジに見えるカラーフリンジが再現されます。
+カラーチャンネルを画像の中心から外側にシフトして、色収差をシミュレートします。実際のカメラのエッジに見えるカラーフリンジが再現されます。
 
 | <b>パラメーター</b> | <b>説明</b> |
 | --- | --- |

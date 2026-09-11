@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの必要システム構成を確認して、コンピューターがハードウェアとソフトウェアの仕様を満たしていることを確認します。
 helpx_creative_field: ""
@@ -51,7 +51,7 @@ ht-degree: 1%
 
 ## 一般的な推奨事項
 
-UVタイルワークフローを使用する際に良好なパフォーマンスを得るには、次の使用をお勧めします。
+UV タイルワークフローを使用する際に適切なパフォーマンスを得るには、次の使用をお勧めします。
 
 * 32 GBのRAM
 * 8 GBのVRAMを搭載したGPU
@@ -64,7 +64,7 @@ UVタイルワークフローを使用する際に良好なパフォーマンス
 * <b>8K</b> （8192\*8192ピクセル）で書き出すには、<b>2 GBを超えるVRamを搭載したGPUが必要です。</b>
 * macOS 10.15(Catalina)で実行するために公証されたのは、バージョン2019.x以降のみです。
 * RDP （リモートデスクトップ）経由でソフトウェアを使用するには、専用の[ドキュメントページ](../pipeline-and-integration/configuration/remote-desktop.md)を参照してください。
-* ベイク時にRyzen CPUでクラッシュする問題は、BIOSをアップデートすることで解決できます。
+* ベイク時のRyzen CPUのクラッシュは、BIOSをアップデートすることで修正できます。
 
 ## サポートされていない設定
 
@@ -105,18 +105,18 @@ UVタイルワークフローを使用する際に良好なパフォーマンス
 
 コンストラクターごとのGPUドライバーの問題の詳細な一覧については、[専用のドキュメントページ](../technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md)を参照してください。
 
-## 焼き用GPU レイトレーシング
+## ベイク用GPU レイトレーシング
 
-OptixまたはDXR経由でGPU レイトレーシングを有効にするには、上記で推奨されている最小ドライバをインストールする必要があります。
+OptixまたはDXR経由でGPU レイトレーシングを有効にするには、上記の最小推奨ドライバーをインストールする必要があります。
 
 <b>DXR</b>には、次の最小構成も必要です：
 
-* <b>Windows 10</b>バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
+* <b>Windows 10</b>バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
 * <b> GPU、Pascalアーキテクチャ</b> (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
-> GPU レイトレーシングは、NVIDIA GeForce RTXまたはNVIDIA Quadro RTX GPUなどの専用レイトレーシングハードウェアで最適に実行されます。
+> GPU レイトレーシングは、NVIDIA GeForce RTXまたはNVIDIA Quadro RTX GPUなどの専用レイトレーシングハードウェア上で最適に実行されます。
 
 ## サポートされているグラフィックタブレット
 
@@ -142,7 +142,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 | --- | --- |
 | Windows | XP-PENWin\_3.2.2.211027 |
 | macOS | XP-PENMac\_3.2.3\_211203 |
-| Linux | XP-PEN-pentablet-3.2.1.211019-1 |
+| Linux | XP-ペン – ペンタブレット–3.2.1.211019-1 |
 
 
 +++
@@ -160,7 +160,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 +++
 
 +++Xencelabs
-<b>モデル：</b>ペンタブレット（中）
+<b>モデル：</b> ペンタブレット（中）
 
 
 | OS | ドライバーバージョン |

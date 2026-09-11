@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
 breadcrumb-title: ''
-description: Substance 3D Painterでサブサーフェスのマテリアルの種類を使用して、リアルな肌、ワックス、オーガニックなマテリアルを作成する方法について説明します。
+description: Substance 3D Painterで表面下マテリアルの種類を使用して、リアルな肌、ワックス、オーガニックマテリアルを作成する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: サブサーフェスマテリアルタイプ
+title: 地下マテリアルの種類
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,13 +18,13 @@ ht-degree: 1%
 ---
 
 
-# サブサーフェスマテリアルタイプ
+# 地下マテリアルの種類
 
-このページでは、サブサーフェススキャタリング機能を使用して作成できる各種マテリアルと、それらを作成するためのSubstance 3D Painterの設定方法について説明します。 マテリアルの種類ごとに尺度と色が与えられ、[サブサーフェスパラメータ](subsurface-parameters.md)で設定できます。
+このページでは、表面化散乱機能を使用して作成できる様々な種類のマテリアルと、それらを作成するためのSubstance 3D Painterの設定方法について説明します。 マテリアルの種類ごとにスケールと色が指定され、[サブサーフェスパラメーター](subsurface-parameters.md)で設定できます。
 
 >[!NOTE]
 >
-> このページにリストされている値は、それぞれのタイプのマテリアルの概要を示すために使用されます。 これらは正確な値ではなく、プロジェクトごとに解釈したり調整したりする必要があります。
+> ここに記載されている値は、各マテリアルの種類の概要を示しています。 これらは正確な値ではなく、プロジェクトごとに解釈したり調整したりする必要があります。
 
 ## ヒトの皮膚
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 適切なスキンマテリアルを作成するには、次の手順を実行します。
 
-* 良いベーステクスチャ：リアルなキャラクターの場合、ディテールが多く、様々なカラーがあることを意味します。
+* 優れたベーステクスチャ ：リアルなキャラクターの場合、ディテールが多く、様々なカラーがあることを意味します。
 * 強いHeight/法線テクスチャ：表面下効果は、表面のディテールを柔らかくし、最初から強いディテールがあると相殺されます。
 
 | *設定* | *説明* |

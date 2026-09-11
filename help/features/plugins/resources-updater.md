@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/plugins/resources-updater.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/plugins/resources-updater.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのResources Updaterプラグインを使用して、リソースライブラリとアセットを自動的に更新する方法について説明します。
 helpx_creative_field: ""
@@ -23,4 +23,4 @@ ht-degree: 0%
 ![](../../assets/resources-updater-window.png)
 
 **Resources Updater**&#x200B;プラグインを使用すると、現在開いているプロジェクトに存在するリソースを参照できます。\
-各リソースは、シェルフ内にある別のリソースに置き換えることができます。 赤で表示されたリソースは「古い」ものと見なされます。これは、同じリソースの別のバージョンがシェルフに存在し、（おそらく）より新しいことを意味します。
+各リソースは、シェルフに存在する別のリソースに置き換えることができます。 赤で表示されたリソースは「古い」ものと見なされます。これは、同じリソースの別のバージョンがシェルフに存在し、（おそらく）より新しいものです。

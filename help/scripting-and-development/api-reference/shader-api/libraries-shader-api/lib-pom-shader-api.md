@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pom-shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのLib POM シェーダー APIリファレンスにアクセスして、カスタムシェーダにパララックスオクルージョンマッピングエフェクトを作成します。
 helpx_creative_field: ""
@@ -70,7 +70,7 @@ uniform int maxPOMSamples;
 ```
 
 
-視差に基づいてテクスチャ座標のオフセットを計算
+視差に基づいてテクスチャ座標のオフセットを計算する
 
 ```
 vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS) 
@@ -171,7 +171,7 @@ vec2 getParallaxOffset(SparseCoord coord, vec3 viewTS)
 ```
 
 
-入力テクスチャ座標を視差オフセットで更新する
+パララックスオフセットを使用して入力テクスチャ座標を更新
 
 ```
 void applyParallaxOffset(inout V2F inputs, vec3 viewTS) 

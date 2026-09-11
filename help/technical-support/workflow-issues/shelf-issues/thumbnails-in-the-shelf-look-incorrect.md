@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.html"
 breadcrumb-title: ''
-description: Substance 3D Painterシェルフで不正確なサムネール表示を修正して、リソースのプレビューが正確になるようにする方法について説明します。
+description: 正確なリソースプレビューを実現するために、Substance 3D Painter シェルフで間違ったサムネールが表示される問題を修正する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Workflow Issues > Shelf Issues > Thumbnails in the shelf look incorrect
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # シェルフのサムネールが正しく表示されない
 
-シェルフ内のサムネールが通常とは異なるように見える場合は、プレビューのレンダリングに使用されたシェーダが原因である可能性があります。
+シェルフのサムネールが習慣的なものとは異なるように見える場合は、プレビューのレンダリングに使用されたシェーダーが原因である可能性があります。
 
 | サムネールの破損 | 標準のサムネール |
 | --- | --- |
@@ -32,10 +32,10 @@ ht-degree: 0%
 
 ![](../../../assets/pref-menu.png)
 
-## 2 – シェルフプレビューシェーダを削除する
+## 2 - シェルフのプレビューシェーダーを削除する
 
-**一般**&#x200B;表示で、「プレビューオプション」セクションが表示されるまで下にスクロールします。\
-「**マテリアルプレビューシェーダー**」の前にある「**クロス**」ボタンをクリックして、指定した現在のシェーダを削除します。
+**一般**&#x200B;ビューで、「プレビューオプション」セクションが表示されるまで下にスクロールします。\
+「**シェーダー**」の前にある「**クロス**」ボタンをクリックして、指定した現在のマテリアルプレビューシェーダーを削除します。
 
 ![](../../../assets/remove-preview-shader.png){width="450px"}
 

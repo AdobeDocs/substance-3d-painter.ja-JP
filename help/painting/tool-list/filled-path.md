@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/filled-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/tool-list/filled-path.html"
 breadcrumb-title: ''
-description: Substance 3D Painterの塗りつぶしパスツールを使って、テクスチャペイント用の塗りつぶされたシェイプとパスを作成する方法を説明します。
+description: Substance 3D Painterの塗りつぶしパスツールを使って、テクスチャペイント用に塗りつぶされたシェイプとパスを作成する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 ![](../../assets/banner_filled_path.jpg)
 
-塗りつぶしパスツールは、均一なカラーで塗りつぶされた3Dモデルの表面にシェイプを作成できるパスツールの一種です。
+塗りつぶしパスツールは、均一カラーで塗りつぶされた3Dモデルの表面にシェイプを作成できるパスツールの一種です。
 
 ![](../../assets/filled_path_across_gaps.png)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの「すべてのレンダリング状態パラメーター」シェーダー APIリファレンスにアクセスし、レンダリング状態パラメーターを制御します。
 helpx_creative_field: ""
@@ -24,14 +24,14 @@ ht-degree: 2%
 
 ## バックフェースカリング
 
-背面を非表示：
+折り返し面:
 
 ```
 //: state cull_face on
 ```
 
 
-前面と背面を描画します。
+前後の面を描画します。
 
 ```
 //: state cull_face off
@@ -75,9 +75,9 @@ ht-degree: 2%
 ```
 
 
-## シェーダサンプリングローカリティ
+## シェーダーサンプリング局所性
 
-初期設定では、ドキュメントのチャンネルは変形されていないテクスチャ座標を使用してサンプリングされ、ペイント中のレンダリングが最適化されます。
+初期設定では、ペイント中のレンダリングの最適化のために、変形されていないテクスチャ座標を使用してドキュメントチャンネルがサンプリングされます。
 
 ページ装飾が表示される場合は、*非ローカル*&#x200B;状態を&#x200B;*on*&#x200B;に設定します。
 

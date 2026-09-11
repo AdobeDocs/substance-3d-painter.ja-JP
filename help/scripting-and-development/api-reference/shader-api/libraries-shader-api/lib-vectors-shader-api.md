@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのLib Vector シェーダー APIリファレンスにアクセスして、カスタムシェーダのベクトル操作を操作します。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ uniform bool is2DView;
 ```
 
 
-使用する投影の種類
+どのような投影が使われているのか。
 
 ```
 //: param auto is_perspective_projection 
@@ -58,7 +58,7 @@ uniform vec3 camera_pos;
 ```
 
 
-ワールド空間でのカメラの方向。
+ワールド空間のカメラ方向。
 
 ```
 //: param auto world_camera_direction 
@@ -96,7 +96,7 @@ vec3 getEyeVec(vec3 position) {
 ```
 
 
-ベクトルを接線空間からワールド空間に変換する
+正接空間からワールド空間へのベクターの変換
 
 ```
 vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) { 
@@ -113,7 +113,7 @@ vec3 tangentSpaceToWorldSpace(vec3 vecTS, V2F inputs) {
 ```
 
 
-ベクトルをワールド空間から接線空間に変換する
+ワールド空間から正接空間へのベクターの変換
 
 ```
 vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) { 
@@ -126,7 +126,7 @@ vec3 worldSpaceToTangentSpace(vec3 vecWS, V2F inputs) {
 ```
 
 
-ワールド空間の頂点のローカルフレーム
+ワールド空間における頂点の局所フレーム
 
 ```
 struct LocalVectors { 
@@ -139,7 +139,7 @@ struct LocalVectors {
 ```
 
 
-カスタムワールド空間の法線と異方性角度からローカルフレームを計算
+カスタムのワールド空間法線とanisotropy angleからローカルフレームを計算
 
 ```
 LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) { 
@@ -222,7 +222,7 @@ LocalVectors computeLocalFrame(V2F inputs, vec3 normal, float anisoAngle) {
 ```
 
 
-メッシュとドキュメントのHeightと法線からローカルフレームを計算
+メッシュと文書のHeightおよび法線からローカルフレームを計算
 
 ```
 LocalVectors computeLocalFrame(V2F inputs) { 

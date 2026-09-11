@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.html"
 breadcrumb-title: ''
-description: TDRタイムアウトエラーを防ぐために、Substance 3D Painterで長時間の計算中にGPUドライバーがクラッシュする問題を解決する方法について説明します。
+description: TDRタイムアウトエラーを回避するために、Substance 3D Painterで長計算中にGPUドライバーのクラッシュを修正する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers crash with long computations (TDR crash)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 長い計算でGPUドライバーがクラッシュする（TDRクラッシュ）
+title: 長い計算でのGPUドライバーのクラッシュ(TDRクラッシュ)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 長い計算でGPUドライバーがクラッシュする（TDRクラッシュ）
+# 長い計算でのGPUドライバーのクラッシュ(TDRクラッシュ)
 
 ![Substance 3D PainterのTDR警告](../../../assets/tdr-window-v2.png "Substance 3D PainterのTDR警告"){zoomable="yes"}
 
@@ -28,7 +28,7 @@ Windowsでは、現在のTDR値が一定の制限（10秒）を下回ってい�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-## GPUドライバーがクラッシュする原因
+## GPUドライバーがクラッシュする理由
 
 </td>
 <td style="border: 0;" valign="top">
@@ -44,9 +44,9 @@ Windowsでは、現在のTDR値が一定の制限（10秒）を下回ってい�
 </tr>
 </table>
 
-## GPUドライバーがクラッシュする原因
+## GPUドライバーがクラッシュする理由
 
-レンダリングやGPUの計算が&#x200B;**システムのロック**&#x200B;になるのを防ぐために、Windowsオペレーティングシステム&#x200B;**は、レンダリングに数秒かかるたびにGPUドライバーを終了**&#x200B;します。 ドライバが強制終了されると、ドライバを使用しているアプリケーションが自動的にクラッシュします。 レンダリングタスクや計算に必要な時間を把握できないため（GPU、ドライバー、OS、メッシュサイズ、テクスチャサイズなどに依存します）、コンピューターの処理能力を制限して、アプリケーションレベルからのクラッシュを回避することはできません。
+レンダリングやGPU 計算によって&#x200B;**システムがロック**&#x200B;されるのを防ぐために、Windowsオペレーティングシステム&#x200B;**は、レンダリングに数秒かかるたびにGPUドライバーを終了**&#x200B;します。 ドライバが終了すると、ドライバを使用しているアプリケーションが自動的にクラッシュします。 レンダリング作業や計算の所要時間は把握できないため（GPU、ドライバー、OS、メッシュサイズ、テクスチャサイズなどに依存します）、コンピューターの処理能力を制限して、アプリケーションレベルからのクラッシュを回避することはできません。
 
 Windowsには、**レジストリ** **キー**&#x200B;があり、OSがGPUドライバーを強制終了するまでの待機時間を指定します。 アプリケーションはこの設定を直接変更する権限がありません。この手順は手動で実行する必要があります（下記参照）。
 
@@ -115,7 +115,7 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers
 
 **右側のウィンドウ**&#x200B;で、値&#x200B;**TdrDelay**&#x200B;をダブルクリックします。 **基準**&#x200B;の設定を&#x200B;**小数**&#x200B;に変更します。 値を既定の&#x200B;**2**&#x200B;以外に設定してください（**60**&#x200B;をお勧めします）。
 
-この値は、計算中にGPUが応答していないと判断するまでにオペレーティングシステムが待機する時間を秒単位で示します。
+この値は、計算中にGPUが応答していないと判断されるまでのオペレーティングシステムの待ち時間を秒単位で示します。
 
 ![&#39;TdrDelay&#39; DWORD値（Windowsレジストリエディター内）](../../../assets/tdrdelay-edit.png "&#39;TdrDelay&#39; DWORD値（Windowsレジストリエディター内）"){zoomable="yes"}
 
@@ -143,7 +143,7 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers
 
 TdrValueはコンピューターの起動時にのみ表示されるので、強制的に更新するには再起動が必要です。
 
-長時間の計算を行ってもアプリケーションがクラッシュする場合は、ディレイ（秒単位）を60から120に増やしてみてください。
+長時間計算を行ってもアプリケーションのクラッシュが解決しない場合は、遅延時間を60から120に（秒単位で）増やしてみてください。
 
 ## TDR値をデフォルトに戻す
 

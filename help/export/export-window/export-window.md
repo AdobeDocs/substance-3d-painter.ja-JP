@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの書き出しウィンドウを使用して、様々な形式でテクスチャを設定および書き出す方法について説明します。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ![](../../assets/export-textures-window.png){width="500px"}
 
-<b>ファイル/テクスチャの書き出し</b>またはキーボードショートカット<b>Ctrl + Shift + E</b>を使用して、<b>書き出しウィンドウ</b>を開きます。
+<b>書き出しウィンドウ</b>を開きます。<b>ファイル/書き出しテクスチャ </b>またはキーボードショートカット <b>Ctrl + Shift + E</b>を使用できます。
 
 <b>書き出しウィンドウ</b>は、次の3つのタブに分かれています。
 

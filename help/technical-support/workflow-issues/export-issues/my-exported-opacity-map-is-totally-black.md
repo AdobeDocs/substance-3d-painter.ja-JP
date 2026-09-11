@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.html"
 breadcrumb-title: ''
 description: 透明を適切に書き出すために、書き出された不透明度マップがSubstance 3D Painterで完全に黒くなる問題を修正する方法を説明します。
 helpx_creative_field: ""
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # 書き出した不透明度マップが完全に黒くなる
 
-新しいプロジェクトを作成する場合、デフォルトの色はテクスチャではなくシェーダから取得されます。 したがって、ペイントしなかったすべてのパーツをエクスポートすると、アルファ値が0に設定された黒になります（これらのパーツにはデータが存在しないため）。
+新規プロジェクトを作成する場合、デフォルトカラーはテクスチャではなくシェーダーに基づきます。 したがって、ペイントを設定していないすべてのパーツをエクスポートすると、アルファ値が0に設定された状態で黒になります（これらのパーツにはデータが存在しないため）。
 
-これを修正する最も簡単な方法は、レイヤースタックの一番下に塗りつぶしレイヤーを配置することです。これにより、すべてのUVが、シェーダのデフォルトカラーと同じデフォルトカラーで塗りつぶされます。
+これを修正する最も簡単な方法は、レイヤースタックの一番下に塗りつぶしレイヤーを配置することです。これにより、すべてのUVが、シェーダーのデフォルトカラーと同じデフォルトカラーで塗りつぶされます。

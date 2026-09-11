@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/fill.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/effects/fill.html"
 breadcrumb-title: ''
-description: Substance 3D Painterの塗りつぶしエフェクトを使用して、レイヤーを単色、テクスチャ、またはマテリアルで塗りつぶす方法を説明します。
+description: Substance 3D Painterの塗りつぶしエフェクトを、単色、テクスチャ、またはマテリアルの塗りつぶしレイヤーに使用する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Fill
 helpx_experience_level: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
 breadcrumb-title: ''
 description: 一般的なワークフローですぐに利用できる書き出し出力テンプレートを使用するための、Substance 3D Painterの事前定義済み設定について説明します。
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ ht-degree: 5%
 * Sketchfab
 * Substance 3D Stager
 * [USDz (Apple AR)](usd-pbr-metal-roughness-preset.md)
-* glTF PBRメタルの粗さ
-* glTF PBRメタルの粗さ+ディスプレイスメントテクスチャ（試験的）
+* glTF PBRメタルラフネス
+* glTF PBR Metal ラフネス + ディスプレイスメントテクスチャ（試験的）

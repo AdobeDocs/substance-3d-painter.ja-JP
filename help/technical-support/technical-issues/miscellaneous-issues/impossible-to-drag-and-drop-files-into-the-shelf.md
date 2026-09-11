@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.html"
 breadcrumb-title: ''
-description: リソースを効率的に管理するために、Substance 3D Painterでファイルをシェルフに追加するときに発生するドラッグ&ドロップの問題を修正する方法について説明します。
+description: 効率的なリソース管理のために、Substance 3D Painterでシェルフにファイルを追加するときに発生するドラッグ&ドロップの問題を解決する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Impossible to drag and drop files into the shelf
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # ファイルをシェルフにドラッグ&amp;ドロップできない
 
-**Windows 8およびWindows 10**&#x200B;では、Substance 3D Painterを管理者モードで実行する場合、ソフトウェアのセキュリティレベルがWindowsエクスプローラーのセキュリティレベルより高くなっている可能性があります。 したがって、Windowsはこれらのアプリケーション間でファイルをドラッグ&amp;ドロップすることはできません。
+**Windows 8およびWindows 10**&#x200B;では、Substance 3D Painterを管理者モードで実行する場合、エクスプローラーのセキュリティレベルがWindowsソフトウェアのセキュリティレベルより高くなる可能性があります。 したがって、Windowsはこれらのアプリケーション間でファイルをドラッグ&amp;ドロップすることはできません。
 
 この問題を解決するには、次のいずれかの操作を行います。
 

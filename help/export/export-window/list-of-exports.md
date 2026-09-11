@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/getting-started/export/export-window/list-of-exports.html"
 breadcrumb-title: ''
 description: Substance 3D Painterの書き出しウィンドウで書き出しのリストを管理して、テクスチャの書き出しを整理する方法について説明します。
 helpx_creative_field: ""
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ![](../../assets/list-of-export.png){width="550px"}
 
-<b>書き出しウィンドウ</b>の<b>書き出しタブ</b>のリストには、各テクスチャセットから書き出されたテクスチャが一覧表示され、コンソールに書き出しの状態（エラーメッセージを含む）が示されます。
+<b>書き出しウィンドウ</b>の<b>書き出しタブの一覧</b>には、各テクスチャセットから書き出されたテクスチャの一覧が表示され、エクスポートのステータス（エラーメッセージを含む）を示すコンソールが表示されます。

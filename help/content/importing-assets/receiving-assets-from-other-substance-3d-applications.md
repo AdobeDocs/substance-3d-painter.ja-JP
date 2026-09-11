@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/importing-assets/receiving-assets-from-other-substance-3d-applications.html"
 breadcrumb-title: ''
 description: 他のSubstance 3Dアプリケーションからアセットを受け取り、Substance 3D Painterに読み込んで、シームレスなワークフローを実現する方法について説明します。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## DesignerからPainterへのアセットの送信
 
-1. エクスプローラーで、メインパッケージを選択します。
+1. エクスプローラーパネルで、メインパッケージを選択します。
 1. Publishドロップダウンメニューをクリックします（メインパッケージを右クリックすることもできます）。
 1. 「**Substance 3D Painterに送信**」オプションを選択します（まだ開いていない場合は、これによりPainterが自動的に起動します）。
 1. 送信されたアセットは「アセット」ウィンドウに表示されます。

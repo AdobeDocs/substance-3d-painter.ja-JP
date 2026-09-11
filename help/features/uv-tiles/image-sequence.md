@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/uv-tiles/image-sequence.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/features/uv-tiles/image-sequence.html"
 breadcrumb-title: ''
 description: Substance 3D PainterでUVタイルを使用した画像シーケンスを使用して、テクスチャアニメーションワークフローを実行する方法について説明します。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 画像シーケンス
 
-イメージシーケンスは、シェルフ内で1つのリソースとしてグループ化されたイメージのコレクションです。 画像は、ファイル名の特定のパターンに基づいてグループ化されます。
+画像シーケンスとは、シェルフ内で1つのリソースとしてグループ化された画像の集まりです。 画像は、ファイル名の特定のパターンに基づいてグループ化されます。
 
 ## シーケンスとして画像を読み込む方法
 

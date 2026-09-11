@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/substance-3d-assets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/interface/substance-3d-assets.html"
 breadcrumb-title: ''
-description: Substance 3D PainterでSubstance 3D Assetsにアクセスして使用し、3Dモデルやマテリアルを参照および読み込む方法について説明します。
+description: Substance 3D PainterでSubstance 3D Assetsにアクセスして使用し、3Dモデルとマテリアルを参照および読み込む方法について説明します。
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
 helpx_experience_level: ""
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 ウィンドウの右下にあるボタンをクリックすると、いくつかのアクションを実行できます。
 
-* <b>フォルダーの場所を開く</b>:エクスプローラーを開いて、現在のライブラリの場所を確認します。 これにより、ダウンロードされたアセット（過去のセッションを含む）をディスク上でブラウザーできます。
+* <b>フォルダーの場所を開く</b>：現在のライブラリの場所のファイルエクスプローラーを開きます。 これにより、ダウンロードされたアセット（過去のセッションを含む）をディスク上でブラウザーできます。
 * <b>ページの再読み込み</b>:ウィンドウ内のインターフェイスを再読み込みします。
 * <b>前のページ</b>:ウィンドウ内の前のインターフェイスに移動します。
 * <b>次のページ</b>:ウィンドウ内の次のインターフェイスに移動します。

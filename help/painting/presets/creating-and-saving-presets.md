@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
 breadcrumb-title: ''
-description: Substance 3D Painterでブラシプリセットを作成して保存し、再利用可能なカスタムペイントツールのライブラリを作成する方法を説明します。
+description: Substance 3D Painterでブラシプリセットを作成して保存し、カスタムペイントツールの再利用可能なライブラリを作成する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Presets > Creating and saving presets
 helpx_experience_level: ""
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 ![](../../assets/save-preset-1.png)
 
-プリセットは、ツールプロパティ（ペイントレイヤーまたはペイント効果）が使用できる場合に、プロパティウィンドウで右クリックして作成できます。
+プリセットは、ツールプロパティ（ペイントレイヤーまたはペイントエフェクト）が使用できる場合に、プロパティウィンドウで右クリックすることで作成できます。
 
 「プロパティー」ウィンドウを右クリックし、次のオプションを含むコンテキストメニューを開きます。
 
-* <b>ツールプリセットの作成</b> ：同じプリセットファイル内の必要なすべてのリソースとともに、ブラシパラメーターとマテリアルを保存します。
-* <b>マテリアルプリセットの作成</b> ：プリセットファイル内にマテリアルプロパティとマテリアルリソースのみを保存します。
-* <b>ブラシプリセットの作成</b> ：ブラシパラメーターとアルファおよびステンシルのリソースのみをプリセットファイル内に保存します。
+* <b>ツールプリセットを作成</b> ：同じプリセットファイル内に、必要なすべてのリソースとともに、ブラシのパラメーターとマテリアルを保存します。
+* <b>マテリアルプリセットの作成</b> : マテリアルのプロパティとマテリアルリソースのみをプリセットファイル内に保存します。
+* <b>ブラシプリセットを作成</b> ：ブラシパラメーターと、アルファとステンシルリソースのみをプリセットファイル内に保存します。
 
 ## 既存のプリセットの更新
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects/generators.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/content/creating-custom-effects/generators.html"
 breadcrumb-title: ''
 description: Substance 3D Painterのジェネレーターエフェクトを使用して、プロシージャ型テクスチャとパターンを自動的に生成する方法について説明します。
 helpx_creative_field: ""
@@ -20,6 +20,6 @@ ht-degree: 3%
 
 # ジェネレーター
 
-ジェネレータはフィルタのように動作します。違いは、追加マップ以外の入力ノードがないことです。 テクスチャセットからチャンネルを読み込む必要がある場合は、フィルタを作成します。
+ジェネレータはフィルタのように動作します。違いは、追加のマップ以外に入力ノードがないことです。 テクスチャセットからチャンネルを読み込む必要がある場合は、フィルターを作成します。
 
 ![](../../assets/generator.png)

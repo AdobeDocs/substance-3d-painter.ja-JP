@@ -14,7 +14,7 @@ ht-degree: 1%
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../../../assets/generators/icon_auto_stitcher.png" alt=""/><br><strong>イン：</strong>ステッチ、ステッチ</td>
-    <td style="border: 0;" valign="top"><strong>説明</strong><br>自動ステッチャージェネレーターは、手続き的に生成されたパスに沿ってステッチ効果を自動的に作成します。 これらのパスは、UVシーム、曲率、またはカスタム入力マップに基づいて生成できます。<br><br>自動ステッチャジェネレータは、白黒のテクスチャを出力します。 そのため、マスクを生成してステッチ効果を適用する場合に便利です。<br><br>曲率マスクモードを使用するには、ベイク処理された曲率マップが必要です。 <a href="../../../baking/baking.md">ベーキングの詳細については、こちらを参照してください</a>。</td>
+    <td style="border: 0;" valign="top"><strong>説明</strong><br>自動ステッチャージェネレーターは、手続き的に生成されたパスに沿ってステッチ効果を自動的に作成します。 これらのパスは、シーム、曲率、またはカスタム入力マップに基づいて生成できます。<br><br>自動ステッチャジェネレータは、白黒テクスチャを出力します。 そのため、マスクを生成してステッチ効果を適用する場合に便利です。<br><br>曲率マスクモードを使用するには、ベイク曲率マップが必要です。 <a href="../../../baking/baking.md">ベイク処理に関する詳細情報</a>。</td>
   </tr>
 </table>
 
@@ -26,8 +26,8 @@ ht-degree: 1%
     <th>説明</th>
   </tr>
   <tr>
-    <td><strong>曲線</strong>グレースケール</td>
-    <td>ステッチパスの生成方法を選択してください：<br><ul><li><strong>UVマスク</strong>は、UVシームに沿ってパスを生成します。</li><li><strong>曲率</strong>は、ハードエッジの近くにパスを生成します。</li><li><strong>カスタム入力</strong>を使用すると、マップを使用してパスを生成する場所を制御できます。<br><strong>カスタム入力</strong>を使用すると、コントラストの高い領域にパスが生成されます。</li></ul></td>
+    <td><strong>曲率</strong>グレースケール</td>
+    <td>ステッチパスの生成方法を選択してください：<br><ul><li><strong>UV マスク</strong>は、UV シームに沿ってパスを生成します。</li><li><strong>曲率 </strong>ハードエッジ付近にパスを生成します。</li><li><strong>カスタム入力</strong>を使用すると、マップを使用してパスを生成する場所を制御できます。<br><strong>カスタム入力</strong>を使用すると、コントラストの高い領域にパスが生成されます。</li></ul></td>
   </tr>
   <tr>
     <td><strong>カスタム入力</strong>グレースケール</td>
@@ -44,7 +44,7 @@ ht-degree: 1%
   </tr>
   <tr>
     <td><strong>マスクモード</strong></td>
-    <td>マスクモードを選択します。<br><ul><li>UVマスク：UV アイランドに基づくマスク。</li><li>曲率：曲率マップに基づくマスク。</li><li>カスタム入力：カスタム入力テクスチャに基づくマスク。</li></ul></td>
+    <td>マスクモードを選択します。<br><ul><li>UV マスク:UV アイランドに基づいてマスクを作成します。</li><li>曲率:曲率マップに基づくマスク。</li><li>カスタム入力：カスタム入力テクスチャに基づくマスク。</li></ul></td>
   </tr>
   <tr>
     <td><strong>パスのSmoothness</strong></td>
@@ -81,6 +81,6 @@ ht-degree: 1%
 <table>
   <tr>
     <td><img src="../../../assets/generators/examples/auto-stitcher/custom-input2.png" alt=""/></td>
-    <td>この例は、カスタム入力でステッチパスを作成する方法を示しています。 <br><ul><li>白黒のベースカラーは、オートステッチャージェネレーターのカスタム入力として使用しているノイズテクスチャを示しています。</li><li>Autostitcher Generatorが赤いレイヤーをマスクして、赤いステッチされたパスを表示したままにします。</li><li>赤いステッチされたパスが、カスタム入力ノイズテクスチャの十分に大きな黒または白の領域に収まることに注意してください。 レッドのステッチは、白から黒、または黒から白に交差することはありません。</li></ul><br>下の画像は、この例の作成に使用した単純なレイヤー設定を示しています。<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
+    <td>この例は、カスタム入力でステッチパスを作成する方法を示しています。 <br><ul><li>白黒base colorは、オートステッチャージェネレーターのカスタム入力として使用しているノイズテクスチャを示しています。</li><li>Autostitcher Generatorが赤いレイヤーをマスクして、赤いステッチされたパスを表示したままにします。</li><li>赤いステッチされたパスが、カスタム入力テクスチャの十分に大きな黒または白の領域に収まることに注意してください。 レッドのステッチは、白から黒、または黒から白に交差することはありません。</li></ul><br>下の画像は、この例の作成に使用した単純なレイヤー設定を示しています。<br><br><img src="../../../assets/generators/examples/auto-stitcher/custom-input-layer-stack.png" alt=""/></td>
   </tr>
 </table>

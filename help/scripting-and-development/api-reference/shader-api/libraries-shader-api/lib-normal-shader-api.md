@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.html"
 breadcrumb-title: ''
 description: Substance 3D PainterのLib法線シェーダー APIリファレンスにアクセスして、カスタムシェーダの法線マップおよびサーフェス法線を操作します。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ import lib-sparse.glsl
 ```
 
 
-通常中心の操作に役立つすべてのエンジンパラメータ。
+標準中心のエンジンに役立つすべての操作パラメータ。
 
 ```
 //: param auto channel_height 
@@ -89,7 +89,7 @@ vec3 normalBlend(vec3 baseNormal, vec3 overNormal)
 ```
 
 
-2つの法線マップ間で詳細指向ブレンドを実行する
+2つの法線マップ間でディテール指向のブレンドを行う
 
 これはディテール指向ブレンドに基づいていますhttp://blog.selfshadow.com/publications/blending-in-detail/
 
@@ -137,7 +137,7 @@ vec3 normalFade(vec3 normal,float attenuation)
 ```
 
 
-アルファチャンネルを含む通常のパックを解除
+アルファチャンネルを使用して通常のパックを解除する
 
 ```
 vec3 normalUnpack(vec4 normal_alpha, float y_coeff) 
@@ -185,7 +185,7 @@ vec3 normalUnpack(vec4 normal_alpha)
 ```
 
 
-ドキュメントのHeightチャンネルから接線空間法線を計算
+ドキュメントのHeightチャンネルから正接空間法線を計算
 
 ```
 vec3 normalFromHeight(SparseCoord coord, float height_force) 
@@ -240,7 +240,7 @@ vec3 normalFromHeight(SparseCoord coord, float height_force)
 ```
 
 
-基本法線とHeight値から接線空間法線を計算する場合はHelper 。オプションで詳細法線も計算できます。
+基本法線とHeight値、およびオプションの詳細法線から正接空間法線を計算するヘルパー。
 
 ```
 vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight) 
@@ -279,7 +279,7 @@ vec3 getTSNormal(SparseCoord coord, vec3 normalFromHeight)
 ```
 
 
-基本法線とHeightからの接線空間法線、およびオプションの詳細法線を計算する場合に使用します。
+基本法線とHeightから正接空間法線を計算するヘルパー。オプションで詳細法線も計算できます。
 
 ```
 vec3 getTSNormal(SparseCoord coord) 
@@ -296,7 +296,7 @@ vec3 getTSNormal(SparseCoord coord)
 ```
 
 
-接線スペースのベース法線からワールドスペース法線を計算するヘルパー。
+正接空間の基本法線からワールド空間法線を計算するヘルパー。
 
 ```
 vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 
@@ -319,7 +319,7 @@ vec3 computeWSBaseNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 n
 ```
 
 
-getTSNormalヘルパーによって与えられる接線空間法線からワールド空間法線を計算するヘルパー、およびメッシュのローカルフレーム。
+getTSNormal ヘルパーによって与えられる正接空間法線とメッシュのローカルフレームからワールド空間法線を計算するヘルパー。
 
 ```
 vec3 computeWSNormal(SparseCoord coord, vec3 tangent, vec3 bitangent, vec3 normal) 

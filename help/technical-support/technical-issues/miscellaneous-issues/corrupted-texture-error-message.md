@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
 breadcrumb-title: ''
 description: Substance 3D Painterで破損したテクスチャエラーメッセージを修正して、テクスチャ機能を復元する方法について説明します。
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Painter > Technical support > Technical Issues > Miscellaneou
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 破損したテクスチャエラーメッセージ
+title: 破損したテクスチャのエラーメッセージ
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# 破損したテクスチャエラーメッセージ
+# 破損したテクスチャのエラーメッセージ
 
-プロジェクト内のテクスチャが破損していると、保存プロセス中にエラーが発生し、プロジェクトが完全に破損して修復不可能になる可能性があります。 ただし、これは手動で修正できます。\
+プロジェクト内のテクスチャが破損すると、保存プロセス中にエラーが発生し、プロジェクトが完全に破損して回復不可能になる可能性があります。 ただし、これは手動で修正できます。\
 破損したリソースは、プロジェクトを開いたときにログウィンドウに次のようなエラーメッセージが表示されて、ログに表示されます。
 
 ![](../../../assets/corrupt1.png)
@@ -30,7 +30,7 @@ ht-degree: 0%
 ### 1 – リソースの検索
 
 エラーが発生した場合の最初のステップは、問題のあるリソースを見つけて特定することです。\
-ほとんどの場合、原因は&#x200B;**メッシュマップ** （ベイク処理されたテクスチャ）にあります。 確認する簡単な方法は、レイヤースタック内のマスクジェネレータを確認することです。
+ほとんどの場合、原因は&#x200B;**メッシュマップ** (ベイクテクスチャ)にあります。 を簡単に確認するには、レイヤースタック内のマスクジェネレーターを確認します。
 
 破損したリソースは次のようになります。
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 ### 2 – リソースの置き換え
 
 破損したリソースを置き換えるには、まずそのリソースへのすべての参照を削除する必要があります。 電流が比較的小さい場合、これは手動で行うことができます。\
-ただし、プロジェクトが複数のテクスチャセットまたは多数のレイヤーにまたがる場合、[リソースアップデーター](../../../features/plugins/resources-updater.md)は、破損したリソースを見つけて、一時的に別のリソースに置き換えるのに役立つ場合があります。
+ただし、プロジェクトが複数のテクスチャセットまたは多数のレイヤーにまたがっている場合は、[リソースアップデーター](../../../features/plugins/resources-updater.md)を使用すると、破損したリソースを見つけて、一時的に別のリソースに置き換えることができます。
 
 >[!NOTE]
 >
-> * ベイク処理されたテクスチャのケースでは、[テクスチャセット設定](../../../interface/texture-set/texture-set-settings.md)ウィンドウのメッシュマップスロットも必ずクリアしてください。
+> * ベイクされたテクスチャのケースでは、[テクスチャセット設定](../../../interface/texture-set/texture-set-settings.md)ウィンドウのメッシュマップスロットも必ずクリアしてください。
 > * 法線マップのようなテクスチャセット設定でのみ使用されるベイクも破損する可能性があります。 エラーが解決しない場合は、同様に削除してください。
 
 ### 3 – クリーンアップ
@@ -60,5 +60,5 @@ ht-degree: 0%
 
 クリーンアップの後、プロジェクトを保存してみてください。
 
-* エラーなしで保存した場合、プロジェクトに破損は生じません（メッシュマップを再ベイク処理して、リソースを再インポートできるようになりました）。
+* エラーなく保存した場合、プロジェクトに破損は生じません（メッシュマップを再ベイクして、再インポートできます）。
 * エラーが残っている場合は、プロジェクト内に破損したリソースへの参照が残っていることを意味します。

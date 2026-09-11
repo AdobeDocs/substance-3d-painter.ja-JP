@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sss-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D PainterのLib SSS シェーダー APIリファレンスにアクセスして、カスタムシェーダでサブサーフェススキャッタリングエフェクトを作成します。
+description: Substance 3D PainterのLib SSS シェーダー APIリファレンスにアクセスして、カスタムシェーダで表面化散乱エフェクトを作成します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib SSS - Shader API
 helpx_experience_level: ""
@@ -62,7 +62,7 @@ uniform bool sssEnabled;
 ```
 
 
-光がマテリアルを通してまっすぐ透過するか（半透明）、散乱を開始する前に拡散するか（肌）を選択します。
+光がマテリアルをまっすぐ透過するのか（半透明）、散乱を開始する前に拡散するのか（肌）を選びます。
 
 ```
 //: param custom { 
@@ -91,7 +91,7 @@ uniform int sssType;
 ```
 
 
-サブサーフェス拡散エフェクトへのグローバルスケール
+表面化散乱エフェクトへのグローバルスケール
 
 ```
 //: param custom { 
@@ -114,7 +114,7 @@ uniform float sssScale;
 ```
 
 
-材料のSSSの波長依存性
+マテリアルのSSSの波長依存性
 
 ```
 //: param custom { 
@@ -135,7 +135,7 @@ uniform vec3 sssColor;
 ```
 
 
-材料のSSS係数を返す
+マテリアルSSS係数を返す
 
 ```
 vec4 getSSSCoefficients(float scattering) { 

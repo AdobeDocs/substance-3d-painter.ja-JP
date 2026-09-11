@@ -27,7 +27,7 @@ ht-degree: 6%
 ### Creative Cloud デスクトップ
 
 1. Windowsレジストリエディター(**regedit**)を開きます。
-1. レジストリキーに移動します： ** HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
+1. レジストリキーに移動します： **&#x200B; HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\**
 1. **Adobe Substance 3D Painter.exe**&#x200B;というサブキーを開きます
 1. キーの値には、インストールされているアプリケーションの実行可能ファイルへのパスが含まれています
 

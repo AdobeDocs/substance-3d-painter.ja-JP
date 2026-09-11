@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## マテリアルレイヤー：編集可能なスタックを宣言
 
-編集可能なスタックは、固有の識別子と文書チャンネルのリストによって定義されます。 考えられるチャンネルID: *ambientocclusion* *anisotropyangle* *anisotropylevel* *basecolor* *blendingmask* *diffuse* *ディスプレイスメント* *emissive* *光沢度* *Height* *ior* *メタリック* *通常* *不透明度* *リフレクション* *ラフネス* *散布* *Specular* *specularlevel* *transmissive* *ユーザー0* *ユーザー1* *ユーザー2* *ユーザー3* *ユーザー4{4*&#x200B;ユーザー5 **&#x200B;ユーザー6 **&#x200B;ユーザー7 **
+編集可能なスタックは、固有の識別子と文書チャンネルのリストによって定義されます。 考えられるチャンネルID: *ambientocclusion* *anisotropyangle* *anisotropylevel* *basecolor* *blendingmask* *diffuse* *ディスプレイスメント* *emissive* *光沢度* *Height* *ior* *メタリック* *通常* *不透明度* *リフレクション* *ラフネス* *散布* *Specular* *specularlevel* *transmissive* *ユーザー0* *ユーザー1* *ユーザー2* *ユーザー3* *ユーザー4&lbrace;4*&#x200B;ユーザー5 **&#x200B;ユーザー6 &#x200B;**&#x200B;ユーザー7 **
 
 例：
 

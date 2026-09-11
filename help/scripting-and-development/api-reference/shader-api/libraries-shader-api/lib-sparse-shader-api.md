@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-sparse-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D PainterのLib Sparse シェーダー APIリファレンスにアクセスして、カスタムシェーダのスパーステクスチャサンプリングを操作します。
+description: Substance 3D PainterのLib Sparse シェーダー APIリファレンスにアクセスして、カスタムシェーダでのスパーステクスチャサンプリングを操作します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Sparse - Shader API
 helpx_experience_level: ""
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## lib-sparse.glsl
 
-このファイルは、スパーステクスチャのサンプリングの正確性(ARB\_sparse\_texture)を保証する便利な関数を提供します。 ビデオメモリに実際に存在するテクスチャの一部のみをサンプリングできます。
+このファイルは、スパース・テクスチャのサンプリングの正確性(ARB\_sparse\_テクスチャ)を保証する便利な関数を提供します。 ビデオメモリに実際に存在するテクスチャの一部のみをサンプリングできます。
 
 **パブリック関数：** *getSparseCoord* *getSparseCoordLod0* *textureSparseQueryLod* *textureSparse*
 
 **パブリック構造：** *SamplerSparse* *SparseCoord*
 
-*FEATURE\_SPARSE\_TEXTURE*&#x200B;マクロは、スパース仮想テクスチャ拡張が有効になっている場合にのみ定義されます。
+*FEATURE\_SPARSE\_EXTENSION*&#x200B;マクロは、スパース仮想テクスチャが有効になっている場合にのみ定義されます。
 
-有効にすると、テクスチャが存在しない場合にmipmapピラミッドを上昇させるために、追加のテクスチャルックアップチェックを処理します。
+有効にすると、テキストが欠落している場合にミップマップピラミッドを登るために追加のテクスチャ検索チェックを処理します。
 
 ```
 ## ifdef FEATURE_SPARSE_TEXTURE
@@ -63,7 +63,7 @@ uniform float uvtile_lod_bias;
 ```
 
 
-Samplerとスパースなテクスチャ情報構造
+Samplerとスパーステクスチャの情報構造
 
 単一の自動バインドを使用して、サンプラー関連のすべてのユニフォームを照会するために使用されます
 
@@ -84,7 +84,7 @@ struct SamplerSparse {
 
 疎サンプリング座標
 
-UV座標とマテリアルに関してまばらなLoDマスクを保存
+UV座標とマテリアル単位の疎LoDマスクを保存
 
 ```
 struct SparseCoord { 
@@ -109,7 +109,7 @@ struct SparseCoord {
 ```
 
 
-*textureSparse()*&#x200B;サンプリング関数で使用されるテクスチャ座標構造を構築します（フラグメントシェーダから呼び出す必要があります）
+*textureSparse()*&#x200B;サンプリング関数で使用されるビルドテクスチャの座標構造（フラグメントシェーダーから呼び出す必要があります）
 
 例： *SparseCoord uv1coord = getSparseCoord(inputs.multi\_tex\_coord[1]);*
 
@@ -144,7 +144,7 @@ SparseCoord getSparseCoord(vec2 tex_coord) {
 ```
 
 
-*textureSparse()*&#x200B;サンプリング関数で使用されるテクスチャ座標構造を構築するベースレベルサンプリングバージョン（フラグメントシェーダの外側で使用できる）
+*textureSparse()*&#x200B;サンプリング関数で使用されるビルドテクスチャの座標構造ベースレベルサンプリングバージョン（フラグメントシェーダーの外部で使用できる）
 
 ```
 SparseCoord getSparseCoordLod0(vec2 tex_coord) { 
@@ -179,9 +179,9 @@ SparseCoord getSparseCoordLod0(vec2 tex_coord) {
 ```
 
 
-疎テクスチャからサンプリングするために使用する詳細レベルを計算します
+疎テクスチャからのサンプリングに使用される詳細レベルを計算します
 
-テキストが欠落している場合にmipmapピラミッドを登るLoDバイアスが適用される前にLoDを返します
+テクスチャが欠落している場合にミップマップピラミッドを登るLoDバイアスが適用される前にLoDを返します
 
 ```
 float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) { 
@@ -210,9 +210,9 @@ float textureSparseQueryLod(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-疎テクスチャからサンプリングするために使用する微分を計算します
+疎テクスチャからサンプリングする微分を計算します
 
-テキストがない場合は、mipmapのピラミッドを登ります
+テキストがない場合は、ミップマップピラミッドを上る
 
 ```
 void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler, SparseCoord coord) { 
@@ -249,9 +249,9 @@ void textureSparseQueryGrad(out vec2 dfdx, out vec2 dfdy, SamplerSparse sampler,
 ```
 
 
-スパーステクスチャに対してテクスチャルックアップを実行し、必要に応じてミップマップレベルを上げます
+疎テクスチャでテクスチャ検索を行います。必要に応じてミップマップレベルを上に移動します。
 
-この関数は、標準&#x200B;*texture(sampler2D, vec2)*&#x200B;を置き換えて、スパーステクスチャからテクスチャを取得します
+この関数は、標準&#x200B;*テクスチャ(sampler2D, vec2)*&#x200B;を置き換えて、スパーステクスチャからテキストを取得します
 
 ```
 vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) { 
@@ -266,9 +266,9 @@ vec4 textureSparse(SamplerSparse sampler, SparseCoord coord) {
 ```
 
 
-テクスチャを指定すると、オフセットが小さい複数のテクスチャ参照が最適化されます
+テクスチャが与えられると、は小さなオフセットで最適化された複数のテクスチャ検索を実行します
 
-このヘルパーの代替バージョンは、N=4までです
+N=4までの代替バージョンのヘルパーを提供しています
 
 ```
 void textureSparseOffsets(SamplerSparse sampler, SparseCoord coord, vec2 offsets[N], out vec4 results[N]) { 

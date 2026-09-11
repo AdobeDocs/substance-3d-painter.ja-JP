@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting.html"
 breadcrumb-title: ''
-description: 様々なブラシ、ツール、テクニックを使用して、Substance 3D Painterで3Dモデルにテクスチャを直接ペイントする方法を説明します。
+description: Substance 3D Painterで様々なブラシ、ツール、テクニックを使用して、テクスチャを3Dモデルに直接ペイントする方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Painting
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ Substance 3D Painterのペイントは、手動ツールまたは自動アクシ
 * [直線](straight-line.md)
 * [レイジーマウス](lazy-mouse.md)
 * [対称](../painting/symmetry/symmetry.md)
-* [塗りつぶしの投影](../painting/fill-projections/fill-projections.md)
+* [塗りつぶし投影](../painting/fill-projections/fill-projections.md)
 * [プリセット](../painting/presets/presets.md)
 * [動的ストローク](../painting/dynamic-strokes/dynamic-strokes.md)
 * [チャンネルペイントの詳細設定](../painting/advanced-channel-painting/advanced-channel-painting.md)

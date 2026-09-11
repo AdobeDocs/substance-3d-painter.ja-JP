@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting.html"
 breadcrumb-title: ''
-description: Substance 3D Painterの高度なチャンネルペイントのテクニックを紹介します。特定のテクスチャチャンネルに直接ペイントして、正確に制御することができます。
+description: Substance 3D Painterの高度なチャンネルペイントのテクニックを紹介します。テクスチャチャンネルを直接ペイントして、正確に制御することができます。
 helpx_creative_field: ""
 helpx_description: Painter > Painting > Advanced channel painting
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 現在のチャンネル：
 
-* [環境オクルージョンペイント](ambient-occlusion-painting.md)
+* [Ambient occlusionペイント](ambient-occlusion-painting.md)
 * [フローマップペイント](flow-map-painting.md)
-* [Heightマップのペイント](height-map-painting.md)
+* [高さマップペイント](height-map-painting.md)
 * [法線マップペイント](normal-map-painting.md)

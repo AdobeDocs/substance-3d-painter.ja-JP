@@ -29,7 +29,7 @@ ht-degree: 2%
 | *アイコン* | *説明* |
 | --- | --- |
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-dyn.png"/></div> | このリソースは、次の1つ以上の動作を使用できます。<ul data-preserve-html="true"><li data-preserve-html="true">スタンプインデックス</li><li data-preserve-html="true">時間</li><li data-preserve-html="true">ランダムシード</li></ul> |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-random.png"/></div> | このリソースは、Random Seedパラメーターのみを公開します。 |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/icon-random.png"/></div> | このリソースは、Random Seedパラメーターのみを表示します。 |
 
 シェルフの検索フィールドに次のキーワードを入力してリソースを検索することもできます。
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 | **消しゴム** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li><li data-preserve-html="true">マテリアル</li></ul> |
 | **プロジェクション** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
 | **指先** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
-| **複製** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
+| **クローン** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
 
 >[!NOTE]
 >

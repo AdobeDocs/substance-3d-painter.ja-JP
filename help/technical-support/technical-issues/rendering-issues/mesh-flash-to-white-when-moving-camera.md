@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.html"
 breadcrumb-title: ''
-description: Substance 3D Painterビューポートでカメラを動かして安定したレンダリングを行う際に、メッシュの点滅を白に戻す方法を説明します。
+description: Substance 3D Painter ビューポートでカメラを動かして安定したレンダリングを行うときにメッシュの点滅が白くなる問題を修正する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Mesh flash to white when moving camera
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../../assets/white-flash-svt-optim.gif){width="300px"}
 
-古いプロジェクトがビューポート内のカメラを動き回ると、白/空のテクスチャによって作成された白いフラッシュが短く表示される場合があります。 これは、[スパース仮想テクスチャ](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures) (SVT)システムが、古いシェーダが使用しない特定のシェーダ構成に依存しているためです。
+古いプロジェクトがビューポートのカメラ中を動き回ると、白い/空のテクスチャによって生じる白いフラッシュが一時的に表示される場合があります。 これは、[スパース仮想テクスチャ](https://substance3d.adobe.com/display/DRAFTPAINTER/Sparse+Virtual+Textures) (SVT)システムが、古いシェーダーでは使用されないシェーダー構成に依存しているためです。
 
 白いフラッシュを取り除くには、**プロジェクトシェーダー**&#x200B;を&#x200B;**更新**&#x200B;するだけです。
 

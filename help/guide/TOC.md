@@ -64,16 +64,16 @@ ht-degree: 15%
     + [ショートカット](/help/interface/settings/shortcuts.md)
     + [ライブラリ設定](/help/interface/settings/libraries-configuration.md)
   + シェーダー設定{#shader-settings}
-    + [シェーダ設定の概要](/help/interface/shader-settings/shader-settings.md)
-    + [シェーダを更新する](/help/interface/shader-settings/updating-a-shader.md)
+    + [シェーダー設定の概要](/help/interface/shader-settings/shader-settings.md)
+    + [シェーダーの更新](/help/interface/shader-settings/updating-a-shader.md)
   + テクスチャセット{#texture-set}
     + [テクスチャセットの概要](/help/interface/texture-set/texture-set.md)
-    + [テクスチャセットリスト](/help/interface/texture-set/texture-set-list.md)
+    + [テクスチャセット一覧](/help/interface/texture-set/texture-set-list.md)
     + [テクスチャセット設定](/help/interface/texture-set/texture-set-settings.md)
-    + [テクスチャセットの再割り当て](/help/interface/texture-set/texture-set-reassignment.md)
+    + [テクスチャセット再割り当て](/help/interface/texture-set/texture-set-reassignment.md)
   + [ツールバー](/help/interface/toolbars.md)
   + ビューポート{#viewport}
-    + [ビューポート概要](/help/interface/viewport/viewport.md)
+    + [ビューポートについて](/help/interface/viewport/viewport.md)
     + [2D ビュー](/help/interface/viewport/2d-view.md)
     + [3D ビュー](/help/interface/viewport/3d-view.md)
     + [カメラ管理](/help/interface/viewport/camera-management.md)
@@ -104,12 +104,12 @@ ht-degree: 15%
   + [直線](/help/painting/straight-line.md)
   + [レイジーマウス](/help/painting/lazy-mouse.md)
   + 対称{#symmetry}
-    + [シンメトリの概要](/help/painting/symmetry/symmetry.md)
+    + [対称について](/help/painting/symmetry/symmetry.md)
     + [ミラー対称](/help/painting/symmetry/mirror-symmetry.md)
     + [ラジアル対称](/help/painting/symmetry/radial-symmetry.md)
-  + 塗りつぶしの投影{#fill-projections}
+  + 塗りつぶし投影{#fill-projections}
     + [塗りつぶし投影の概要](/help/painting/fill-projections/fill-projections.md)
-    + [塗りつぶし – UVタイルごとに一致](/help/painting/fill-projections/fill-match-per-uv-tile.md)
+    + [塗りつぶし – UV タイルごとに一致](/help/painting/fill-projections/fill-match-per-uv-tile.md)
     + [UV 投影](/help/painting/fill-projections/uv-projection.md)
     + [三面投影](/help/painting/fill-projections/tri-planar-projection.md)
     + [平面投影](/help/painting/fill-projections/planar-projection.md)
@@ -121,11 +121,11 @@ ht-degree: 15%
     + [プリセットの作成と保存](/help/painting/presets/creating-and-saving-presets.md)
     + パーティクルプリセットの作成{#creating-particles-presets}
       + [パーティクルの作成の概要](/help/painting/presets/creating-particles-pre/creating-particles-presets.md)
-      + [パーティクルエディタをインストールする](/help/painting/presets/creating-particles-pre/installing-the-particle-editor.md)
+      + [パーティクルエディターのインストール](/help/painting/presets/creating-particles-pre/installing-the-particle-editor.md)
       + [パーティクルエディタの概要](/help/painting/presets/creating-particles-pre/overview-of-the-particle-editor.md)
-      + [新しいパーティクルスクリプトを作成する](/help/painting/presets/creating-particles-pre/creating-a-new-particle-script.md)
-    + Photoshopブラシプリセット{#photoshop-brush-presets}
-      + [Photoshopブラシプリセットの概要](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
+      + [新しいパーティクルスクリプトの作成](/help/painting/presets/creating-particles-pre/creating-a-new-particle-script.md)
+    + ブラシプリセット{#photoshop-brush-presets}
+      + [Photoshop ブラシプリセットの概要](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
       + [Photoshopからのブラシプリセットの書き出し](/help/painting/presets/photoshop-brush-presets/exporting-brush-presets-from-photoshop.md)
       + [Photoshopブラシプリセットの読み込み](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
       + [Photoshopのブラシパラメーターの互換性](/help/painting/presets/photoshop-brush-presets/photoshop-brush-parameters-compatibility.md)
@@ -138,9 +138,9 @@ ht-degree: 15%
     + [チャンネルペイントの概要](/help/painting/advanced-channel-painting/advanced-channel-painting.md)
     + [アンビエントオクルージョン](/help/painting/advanced-channel-painting/ambient-occlusion-painting.md)
     + [フローマップ](/help/painting/advanced-channel-painting/flow-map-painting.md)
-    + [Heightマップ](/help/painting/advanced-channel-painting/height-map-painting.md)
+    + [高さマップ](/help/painting/advanced-channel-painting/height-map-painting.md)
     + [法線マップ](/help/painting/advanced-channel-painting/normal-map-painting.md)
-  + [ベクターグラフィック – .svg .ai](/help/painting/vector-graphic-svg.md)
+  + [ベクターグラフィック- .svg .ai](/help/painting/vector-graphic-svg.md)
   + [テキストリソース](/help/painting/text-resource.md)
 + エフェクト{#effects}
   + ジェネレーター{#generators}
@@ -160,11 +160,11 @@ ht-degree: 15%
     + [マスクエディター](/help/features/effects/generators/mask-editor.md)
     + [金属Edge Wear](/help/features/effects/generators/metal-edge-wear.md)
     + [位置](/help/features/effects/generators/position.md)
-    + [3平面アドバンス](/help/features/effects/generators/tri-planar-advanced.md)
-    + [UV境界距離](/help/features/effects/generators/uv-border-distance.md)
+    + [3-平面上級](/help/features/effects/generators/tri-planar-advanced.md)
+    + [UV境界の距離](/help/features/effects/generators/uv-border-distance.md)
     + [UV チェッカー](/help/features/effects/generators/uv-checker.md)
-    + [UVランダムカラー](/help/features/effects/generators/uv-random-color.md)
-    + [UVテクスチャ密度](/help/features/effects/generators/uv-texel-density.md)
+    + [UVのランダムカラー](/help/features/effects/generators/uv-random-color.md)
+    + [UVテクセル密度](/help/features/effects/generators/uv-texel-density.md)
     + [ワールド空間法線](/help/features/effects/generators/world-space-normals.md)
   + [エフェクトの概要](/help/features/effects/effects.md)
   + [ペイント](/help/features/effects/paint.md)
@@ -175,11 +175,11 @@ ht-degree: 15%
   + [アンカーポイント](/help/features/effects/anchor-point.md)
 + ベイク処理{#baking}
   + [ベイク処理の概要](/help/baking/baking.md)
-  + [ベイク処理インターフェイス](/help/baking/baking-interface.md)
+  + [ベイク界面](/help/baking/baking-interface.md)
   + [メッシュマップをベイクする方法](/help/baking/how-to-bake-mesh-maps.md)
   + [ゆがみ補正](/help/baking/skew-correction.md)
   + [メッシュマップ設定](/help/baking/mesh-map-settings.md)
-  + [ベイク処理ビジュアライゼーション設定](/help/baking/baking-visualization-settings.md)
+  + [ビジュアライゼーション設定のベイク](/help/baking/baking-visualization-settings.md)
 + コンテンツ{#content}
   + カスタムエフェクトの作成{#creating-custom-effects}
     + [カスタムエフェクトの作成の概要](/help/content/creating-custom-effects/creating-custom-effects.md)
@@ -196,23 +196,23 @@ ht-degree: 15%
     + [他のSubstance 3Dアプリケーションからのアセットの受け取り](/help/content/importing-assets/receiving-assets-from-other-substance-3d-applications.md)
 + 機能{#features}
   + [リソースの自動更新](/help/features/auto-update.md)
-  + [UVの自動アンラップ](/help/features/automatic-uv-unwrapping.md)
+  + [UVの自動ラップ解除](/help/features/automatic-uv-unwrapping.md)
   + [物理サイズ](/help/features/physical-size.md)
   + [スマートマテリアルとマスク](/help/features/smart-materials-and-masks.md)
   + 表面下散乱{#subsurface-scattering}
     + [サブサーフェススキャタリングの概要](/help/features/subsurface-scattering/subsurface-scattering.md)
     + [プロジェクトでサブサーフェスを有効にする](/help/features/subsurface-scattering/enabling-subsurface-in-a-project.md)
     + [サブサーフェスパラメータ](/help/features/subsurface-scattering/subsurface-parameters.md)
-    + [サブサーフェスマテリアルタイプ](/help/features/subsurface-scattering/subsurface-material-type.md)
+    + [地下マテリアルの種類](/help/features/subsurface-scattering/subsurface-material-type.md)
   + [動的マテリアルレイヤリング](/help/features/dynamic-material-layering.md)
   + [UV再投影](/help/features/uv-reprojection.md)
   + UV タイル{#uv-tiles}
-    + [UVタイルの概要](/help/features/uv-tiles/uv-tiles.md)
+    + [UV タイルの概要](/help/features/uv-tiles/uv-tiles.md)
     + [画像シーケンス](/help/features/uv-tiles/image-sequence.md)
   + カラーマネジメント{#color-management}
     + [カラーマネジメントの概要](/help/features/color-management/color-management.md)
     + [Adobe ACEを使用したカラーマネジメント – ICC](/help/features/color-management/color-management-with-adobe-ace-icc.md)
-    + [OpenColorIOによるカラーマネジメント](/help/features/color-management/color-management-with-opencolorio.md)
+    + [OpenColorIOでのカラーマネジメント](/help/features/color-management/color-management-with-opencolorio.md)
   + 後処理{#post-processing}
     + [概要](/help/features/post-processing/post-processing.md)
     + [被写界深度](/help/features/post-processing/depth-of-field.md)
@@ -226,9 +226,9 @@ ht-degree: 15%
     + [トーンマッピング](/help/features/post-processing/tone-mapping.md)
     + [カラー補正](/help/features/post-processing/color-correction.md)
     + [カラープロファイル](/help/features/post-processing/color-profile.md)
-  + Rayレンダラー{#iray-renderer}
-    + [Rayレンダラーの概要](/help/features/iray-renderer/iray-renderer.md)
-    + [画像設定](/help/features/iray-renderer/iray-settings.md)
+  + Irayレンダラー{#iray-renderer}
+    + [Irayレンダラーの概要](/help/features/iray-renderer/iray-renderer.md)
+    + [Iray設定](/help/features/iray-renderer/iray-settings.md)
     + [ビューアとMDLの設定](/help/features/iray-renderer/viewer-and-mdl-settings.md)
   + プラグイン{#plugins}
     + [プラグインの概要](/help/features/plugins/plugins.md)
@@ -238,7 +238,7 @@ ht-degree: 15%
   + [スパース仮想テクスチャ](/help/features/sparse-virtual-textures.md)
   + [カスタムシェーダ](/help/features/custom-shaders.md)
   + [SpaceMouse® by 3Dconnection](/help/features/spacemouse-by-3dconnexion.md)
-  + [Universal Scene Description – 米ドル](/help/features/universal-scene-description-usd.md)
+  + [Universal Scene Description- USD](/help/features/universal-scene-description-usd.md)
   + [送信先](/help/features/send-to.md)
 + 書き出し{#export}
   + [書き出しの概要](../export/export.md)
@@ -252,7 +252,7 @@ ht-degree: 15%
     + デフォルト出力テンプレート{#default-output-templates}
       + [デフォルト出力テンプレート](/help/export/export-presets/default-presets.md)
       + [定義済みの出力テンプレート](/help/export/export-presets/predefined-presets/predefined-presets.md)
-      + [USD PBRメタルの粗さプリセット](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
+      + [USD PBRメタルラフネスプリセット](/help/export/export-presets/predefined-presets/usd-pbr-metal-roughness-preset.md)
     + [出力テンプレートの作成](/help/export/creating-export-presets.md)
 + テクニカルサポート{#technical-support}
   + パフォーマンスに関するガイドライン{#performance-guidelines}
@@ -284,20 +284,20 @@ ht-degree: 15%
       + [ソフトウェアの競合](/help/technical-support/technical-issues/startup-issues/software-conflicts.md)
     + レンダリングの問題{#rendering-issues}
       + [カスタムGPUを使用したMac OSでの斑点と不具合](/help/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.md)
-      + [ビューポートのテクスチャに濃淡のむらが出る](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
-      + [ビューポートでメッシュがピンク色で表示される](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
+      + [ビューポートのテクスチャに濃淡な斑点が表示される](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
+      + [ビューポートではメッシュがピンク色で見える](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
       + [カメラを移動するとメッシュフラッシュが白くなる](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
       + [一部のHDPIスケール値が機能しない](/help/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.md)
       + [Ubuntuでビューポートが壊れているか、応答しない](/help/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.md)
     + 安定性の問題{#stability-issues}
       + [書き出し中にクラッシュする](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
-      + [ファイルを開くまたは保存するときにクラッシュする](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
-      + [ベイク処理中にクラッシュする](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
-      + [仮想メモリ不足によるクラッシュ](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
+      + [ファイルを開くまたは保存するときにクラッシュが発生する](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
+      + [ベイク処理中のクラッシュ](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
+      + [仮想メモリ不足のクラッシュ](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
       + [Windowsブルースクリーン](/help/technical-support/technical-issues/stability-issues/windows-blue-screens.md)
     + その他問題{#miscellaneous-issues}
-      + [破損したテクスチャエラーメッセージ](/help/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.md)
-      + [7.2のアップデート後にシェルフのリソースがなくなっている](/help/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.md)
+      + [破損したテクスチャのエラーメッセージ](/help/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.md)
+      + [7.2アップデート後、シェルフのリソースが表示されなくなる](/help/technical-support/technical-issues/miscellaneous-issues/shelf-resources-are-gone-after-7-2-update.md)
       + [ドライブにディスクがありません。](/help/technical-support/technical-issues/miscellaneous-issues/error-there-is-no-disk-in-the-drive.md)
       + [api-ms-crt dllが見つからないエラー](/help/technical-support/technical-issues/miscellaneous-issues/error-with-missing-api-ms-crt-dll.md)
       + [ファイルをシェルフにドラッグ&amp;ドロップできない](/help/technical-support/technical-issues/miscellaneous-issues/impossible-to-drag-and-drop-files-into-the-shelf.md)
@@ -309,7 +309,7 @@ ht-degree: 15%
       + [テクスチャの拡大またはパディング](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + ツールの問題{#tools-issues}
       + [法線マップが正しく表示されない](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
-      + [他のUV アイランドでペイントツールの裁ち落としが発生する](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
+      + [ペイントツールが他のUV アイランドでブリードする](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
     + プロジェクトの課題{#project-issues}
       + [破損したプロジェクトファイル](/help/technical-support/workflow-issues/project-issues/a-project-has-been-processed-as-a-text-file-and-is-now-corrupted.md)
       + [ネットワークからのファイルの読み込み](/help/technical-support/workflow-issues/project-issues/loading-files-from-a-network.md)
@@ -319,8 +319,8 @@ ht-degree: 15%
       + [シェルフのサムネールが正しく表示されない](/help/technical-support/workflow-issues/shelf-issues/thumbnails-in-the-shelf-look-incorrect.md)
       + [フォントの読み込みエラー](/help/technical-support/workflow-issues/shelf-issues/font-import.md)
     + ビューポートの問題{#viewport-issues}
-      + [後ろから見るとメッシュの面が消える](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
-      + [ビューポートとテクスチャがぼやけていたり、シャープさに欠ける](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
+      + [背後から見ると面が消える](/help/technical-support/workflow-issues/viewport-issues/mesh-faces-disappear-when-looking-at-them-from-behind.md)
+      + [ビューポートやテクスチャがぼやけている、または鮮明さに欠けている](/help/technical-support/workflow-issues/viewport-issues/viewports-and-textures-are-blurry-or-lack-sharpness.md)
     + プラグインの問題{#plugins-issues}
       + [Substance Sourceプラグインが読み込まれない](/help/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.md)
     + ライセンスの問題{#license-issues}
@@ -341,7 +341,7 @@ ht-degree: 15%
     + リソースパス{#resource-paths}
       + [リソースパスの手動追加](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/adding-resource-paths-by-editing-preferences-manually.md)
       + [リソースパスの手動編集](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-resource-paths-manually.md)
-      + [Pythonでシェルフの環境設定を編集する](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
+      + [Pythonでシェルフ環境設定を編集する](/help/pipeline-and-integration/resource-management/adding-resource-paths-edi/editing-the-shelf-preferences-with-python.md)
     + [保存された検索を手動で追加する](/help/pipeline-and-integration/resource-management/adding-saved-searches-manually.md)
     + [環境設定とコンテンツの移行](/help/pipeline-and-integration/resource-management/preferences-and-content-migration.md)
     + [リソースパス内のリソースの除外](/help/pipeline-and-integration/resource-management/excluding-resources-in-a-resource-path.md)
@@ -370,15 +370,15 @@ ht-degree: 15%
       + [ライブラリのベクター – シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-vectors-shader-api.md)
     + パラメーター – シェーダー API{#parameters-shader-api}
       + [すべてのカスタムパラメータ – シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.md)
-      + [すべてのエンジンパラメーター – シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.md)
+      + [すべてのエンジンパラメータ – シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.md)
       + [すべてのレンダリング状態パラメータ – シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-rendering-states-params-shader-api.md)
-      + [レイヤバインドマテリアル – シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.md)
-      + [レイヤーのスタックの宣言 – シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.md)
+      + [重ね合わせバインドマテリアル - シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-bind-materials-shader-api.md)
+      + [レイヤー宣言スタック - シェーダー API](/help/scripting-and-development/api-reference/shader-api/parameters-shader-api/layering-declare-stacks-shader-api.md)
     + シェーダ – シェーダー API{#shaders-shader-api}
       + [PBRマテリアルレイヤリング – シェーダー API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-material-layering-shader-api.md)
       + [PBRメタル粗い – シェーダー API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.md)
       + [ピクセル化 – シェーダー API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.md)
-      + [サーフェスシェーダ – シェーダー API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
+      + [サーフェスシェーダー - シェーダー API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/surface-shader-shader-api.md)
       + [トーン – シェーダー API](/help/scripting-and-development/api-reference/shader-api/shaders-shader-api/toon-shader-api.md)
 + リリースノート{#release-notes}
   + [リリースノートの概要](/help/release-notes/release-notes.md)

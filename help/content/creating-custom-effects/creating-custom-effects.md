@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects.html"
 breadcrumb-title: ''
-description: Substance 3D Painterでカスタムエフェクトを作成し、カスタムフィルター、ジェネレーター、マテリアルを使って機能を拡張する方法を説明します。
+description: Substance 3D Painterでカスタムエフェクトを作成し、カスタムフィルター、ジェネレーター、マテリアルを使用して機能を拡張する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Content > Creating custom effects
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ Substance効果をSubstance 3D Painterに読み込んで正しく動作させる
 
 >[!NOTE]
 >
-> カスタムエフェクトは、デフォルトのシェルフのプロジェクトに読み込むことができます。以下を参照してください： [アセットの読み込み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+> カスタムエフェクトは、デフォルトシェルフのプロジェクトに読み込むことができます。[アセットの読み込み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
 
 カスタムエフェクトの作成について詳しくは、次のページを参照してください。
 

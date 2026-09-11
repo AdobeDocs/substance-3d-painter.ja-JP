@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.html"
 breadcrumb-title: ''
-description: 仮想メモリ不足によるSubstance 3D Painterのクラッシュを解決し、アプリケーションのパフォーマンスを安定させる方法について説明します。
+description: 仮想メモリ不足によって発生するSubstance 3D Painterのクラッシュを解決し、アプリケーションのパフォーマンスを安定させる方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Stability Issues > Crash with low virtual memory
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 仮想メモリ不足によるクラッシュ
+title: 仮想メモリ不足のクラッシュ
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# 仮想メモリ不足によるクラッシュ
+# 仮想メモリ不足のクラッシュ
 
 **ページング**&#x200B;ファイル（**スワップ**&#x200B;メモリ/ **仮想**&#x200B;メモリ）の値が&#x200B;**低すぎる**&#x200B;に設定されている場合、Substance 3D Painterが不安定になることがあります。\
 これらの設定は、オペレーティングシステムに処理させることをお勧めします（通常はデフォルトで処理されます）。 Substance 3D Painterが正しく動作するには、**最小**&#x200B;の&#x200B;**16 GB**&#x200B;の仮想メモリが必要です。

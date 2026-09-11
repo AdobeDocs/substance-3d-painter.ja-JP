@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../assets/properties-window.png)
 
-プロパティウィンドウでは、レイヤープロパティに加え、ツールとブラシのパラメーターを変更できます。 [プロパティ]ウィンドウにアクセスするには、[ドッキングツールバー](toolbars.md)を使用するか、[ビューポートメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)で&#x200B;**右クリック**&#x200B;します。
+プロパティウィンドウでは、レイヤープロパティに加え、ツールとブラシのパラメーターを変更できます。 [プロパティ]ウィンドウにアクセスするには、[[ドッキング]ツールバー](toolbars.md)を使用するか、[[ビューポート]メニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)で&#x200B;**右クリック**&#x200B;します。
 
 使用可能なパラメーターとその機能について詳しくは、各ツールとレイヤーのドキュメントを参照してください。
 

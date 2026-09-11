@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/filter.html"
 breadcrumb-title: ''
-description: Substance 3D Painterでフィルター効果を使用して、画像処理フィルターやテクスチャ補正を適用する方法を説明します。
+description: Substance 3D Painterでフィルター効果を使用して、画像処理フィルターとテクスチャ補正を適用する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Filter
 helpx_experience_level: ""
@@ -45,23 +45,23 @@ ht-degree: 0%
 
 ![](../../assets/filter-select-shelf.gif)
 
-## シェルフからのフィルタのドラッグ&amp;ドロップ
+## シェルフからのフィルターのドラッグ&amp;ドロップ
 
 このメソッドは、Layerstack全体に適用するフィルタのみを対象としています。 すべてのチャンネル[描画モード](../../interface/layer-stack/blending-modes.md)が自動的に設定されます。 マスクにフィルターを適用することはできません。
 
-### 1 – シェルフのFilters領域を開きます。
+### 1 - シェルフのフィルター領域を開きます。
 
-シェルフで、左側にある「フィルタ」セクションをクリックします。
+シェルフで、左側にある「フィルター」セクションをクリックします。
 
 ![](../../assets/shelf-filters.gif)
 
 ## 2 – フィルターをドラッグ&amp;ドロップ
 
-シェルフで使用するフィルタを選択します。 レイヤースタックにドラッグ&amp;ドロップして、正しい場所に配置されていることを確認します（例えば、不要なグループにドロップすることは避けます）。
+シェルフで使用するフィルターを選択します。 レイヤースタックにドラッグ&amp;ドロップして、正しい場所に配置されていることを確認します（例えば、不要なグループにドロップすることは避けます）。
 
 ![](../../assets/filter-dragdrop.gif)
 
-上記の例では、ドロップされたフィルターにパススルー描画モードが設定されていることに注意してください。 これは、ドキュメントのすべてのチャンネルに当てはまります。
+上の例では、ドロップされたフィルターに既に通過描画モードが設定されています。 これは、ドキュメントのすべてのチャンネルに当てはまります。
 
 ## 新しいタイプのフィルターの追加
 

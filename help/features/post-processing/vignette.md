@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/vignette.html"
 breadcrumb-title: ''
-description: Substance 3D Painterの周辺光量補正後処理エフェクトを使用して、ビューポートのエッジ周辺を暗くする方法を説明します。
+description: Substance 3D Painterの周辺光量補正後処理エフェクトを使用して、ビューポートの周縁部を暗くする方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Post Processing > Vignette
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 5%
 
 ![](../../assets/vignette-22.png)
 
-ビネット効果は、ビューポートの四隅を暗くしてカメラの影をシミュレートします。
+周辺光量補正エフェクトは、ビューポートの四隅を暗くして、カメラの影を表現します。
 
 ![](../../assets/vignette-example-2.jpg)

@@ -22,7 +22,7 @@ ht-degree: 1%
 
 このページでは、環境設定およびシェルフ/アセットからデータを移行して、新しいバージョンで使用する方法について説明します。
 
-バージョン7.2のリリース後、複数のバージョンのアプリケーション（Substance 3Dスタンドアロン、Steam、およびCreative Cloudデスクトップ）で共通にできるように、環境設定とシェルフの場所が変更されました。 この変更により、以前の環境設定とカスタムリソース&#x200B;**が既定で無視されるようになりました** （**ただし、失われていません**）。 **シェルフ**&#x200B;の名前が&#x200B;**アセット**&#x200B;に変更されたため、移行には以下に示すいくつかの手順が必要です。
+バージョン7.2のリリース後、複数のバージョンのアプリケーション（Substance 3Dスタンドアロン、Steam、およびCreative Cloudデスクトップ）で共通にするように、環境設定とシェルフーの場所が変更されました。 この変更により、以前の環境設定とカスタムリソース&#x200B;**が既定で無視されるようになりました** （**ただし、失われていません**）。 **シェルフ**&#x200B;の名前が&#x200B;**アセット**&#x200B;に変更されたため、移行には以下に示すいくつかの手順が必要です。
 
 ## シェルフとアセットのリソースの移行
 
@@ -30,13 +30,13 @@ ht-degree: 1%
 
 ### コンテンツの場所
 
-シェルフパスまたはアセットパスは次の場所にあります。
+シェルフまたはアセットパスは次の場所にあります。
 
 <table data-preserve-html="true" style="width: 100.0%;"><colgroup> <col style="width: 15.0%;"/> <col style="width: 15.0%;"/> <col style="width: 70.0%;"/> </colgroup><tbody><tr><th>Platform</th><th>バージョン</th><th>パス</th></tr><tr><td rowspan="2"><strong>Windows</strong></td><td><strong>7.2</strong>以降</td><td colspan="1">C:\Users\username\Documents\Adobe\Adobe Substance 3D Painter</td></tr><tr><td colspan="1">レガシー</td><td colspan="1">C:\Users\username\Documents\Allegorithmic\Substance Painter</td></tr><tr><td rowspan="2"><strong>Mac</strong></td><td colspan="1"><strong>7.2</strong>以降</td><td colspan="1">/Users/username/Documents/Adobe/Adobe Substance 3D Painter</td></tr><tr><td colspan="1">レガシー</td><td colspan="1">/Users/username/Documents/Allegorithmic/Substance Painter</td></tr><tr><td rowspan="2"><strong>Linux</strong></td><td colspan="1"><strong>7.2</strong>以降</td><td colspan="1">/home/username/Documents/Adobe/Adobe Substance 3D Painter</td></tr><tr><td>レガシー</td><td colspan="1">/home/username/Documents/Allegorithmic/Substance Painter</td></tr></tbody></table>
 
-### シェルフのコンテンツを移行する方法
+### シェルフコンテンツの移行方法
 
-古いシェルフの内容はディスク上のファイルに過ぎないため、それらのファイルの移行は、単にファイルを適切な場所に配置することだけです。
+古いシェルフのコンテンツはディスク上のファイルに過ぎないため、それらのファイルの移行は、これらのファイルを適切な場所に配置することにすぎません。
 
 1. アプリケーションを閉じる
 1. 古いシェルフフォルダーに移動します
@@ -48,11 +48,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> リソースの親フォルダーだけでなく、サブフォルダーも必ずコピーしてください。 親フォルダーの名前が&#x200B;**shelf**&#x200B;から&#x200B;**assets**&#x200B;に変更されました。親フォルダーのみをコピーすると、アプリケーションにリソースが表示されなくなります。
+> リソースの親フォルダーだけでなく、サブフォルダーも必ずコピーしてください。 親フォルダーの名前が&#x200B;**アセット**&#x200B;から&#x200B;**シェルフ**&#x200B;に変更されました。親フォルダーのみをコピーすると、リソースがアプリケーションに表示されなくなります。
 
 ### シェルフプリセットを移行する方法
 
-シェルフプリセットは設定ファイル内に保存されます。 これらのプリセットを移行するには：
+シェルフプリセットは、設定ファイル内に保存されます。 これらのプリセットを移行するには：
 
 1. アプリケーションを閉じる
 1. 古いシェルフフォルダーに移動します

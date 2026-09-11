@@ -29,7 +29,7 @@ ht-degree: 10%
 * [フォーラム](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter?filter=all&page=1&sort=latest_replies)
 * [コミュニティのアセット](https://helpx.adobe.com/substance-3d-community-assets/home.html)
 
-それ以外の場合は、プロジェクト作成とテクスチャ書き出しの基本を学びましょう。
+それ以外の場合は、プロジェクトの作成とテクスチャの書き出しの基本を開始します。
 
 * [プロジェクトの作成](project-creation.md)
 * [書き出し](../export/export.md)

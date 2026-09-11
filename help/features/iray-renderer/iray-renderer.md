@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/iray-renderer.html"
 breadcrumb-title: ''
-description: Substance 3D PainterのRayレンダラーを使用して、フォトリアリスティックなマテリアルのプレビューおよびレンダリングを作成する方法について説明します。
+description: Substance 3D PainterのIrayレンダラーを使用して、フォトリアルなマテリアルのプレビューとレンダリングを作成する方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Features > Iray Renderer
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Rayレンダラー
+title: Irayレンダラー
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,20 +18,20 @@ ht-degree: 2%
 ---
 
 
-# Rayレンダラー
+# Irayレンダラー
 
 ![](../../assets/iray-mode.jpg){width="600px"}
 
-**Iray**&#x200B;は、[Nvidia](http://www.nvidia.com/object/nvidia-iray.html)によって開発されたGPUアクセラレーションパストラートレンダラーです。\
-IRayを使用すると、シーン内および高解像度（高解像度）で非常に正確な照明で画像を作成することができます。
+**Iray**&#x200B;は、[Nvidia](http://www.nvidia.com/object/nvidia-iray.html)によって開発されたGPUアクセラレーションパストレスレンダラーです。\
+Irayにより、シーンや高精細（高解像度）の照明を高精度に撮影することが可能です。
 
-## 画像モード
+## Irayモード
 
 Irayを起動するには、Substance 3D Painterのモードを変更する必要があります。\
 これを行うには、さまざまな方法でキーを押します。
 
 * **F10キー**&#x200B;を押して（または&#x200B;**F9**&#x200B;を押してペイントモードに戻る）
-* メインツールバーのカメラアイコンをクリック
+* メインツールバーの「カメラ」アイコンをクリックして開く
 * モードメニューを使用
 
 <table>
@@ -51,14 +51,14 @@ Irayを起動するには、Substance 3D Painterのモードを変更する必�
 
 ## Iray パラメーター
 
-Irayでは、特定のパラメーターのセットを使用しますが、Substance 3D Painterの通常のビューポートで共有される共通のプロパティも使用します。
+Irayには、固有のパラメータセットが使用されますが、Substance 3D Painterの通常ビューポートによって共有される共通のプロパティも使用されます。
 
-* [画像設定](iray-settings.md)
+* [Iray設定](iray-settings.md)
 * [ビューアとMDLの設定](viewer-and-mdl-settings.md)
 
 ## 表示設定
 
-Display設定では、カメラとPostエフェクトの設定を制御できます。\
-これらは通常のビューポートレンダリングと同じなので、同期が可能で、不要な照明の違いを避けることができます。
+[表示]設定では、カメラとポストエフェクトの設定をコントロールできます。\
+これらは通常のビューポートレンダリングと同じなので、同期させることができ、不要な照明の違いを避けることができます。
 
 詳細については、専用ページを参照してください： [表示設定](../../interface/display-settings/display-settings.md)

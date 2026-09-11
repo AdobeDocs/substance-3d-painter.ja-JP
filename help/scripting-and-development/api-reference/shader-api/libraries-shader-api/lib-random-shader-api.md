@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-random-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D PainterのLib Random シェーダー APIリファレンスにアクセスして、カスタムシェーダの作成でランダム値を生成します。
+description: Substance 3D PainterのLibランダムシェーダー APIリファレンスにアクセスして、カスタムシェーダー作成でランダムな値を生成します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Random - Shader API
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ import lib-defines.glsl
 ```
 
 
-スカラー値を含む2Dブルーノイズテクスチャ
+スカラー値を含む2D青テクスチャ
 
 ```
 //: param auto texture_blue_noise 
@@ -40,14 +40,14 @@ uniform sampler2D texture_blue_noise;
 ```
 
 
-ブルーのノイズテクスチャ解像度
+ブルーノイズのテクスチャ解像度
 
 ```
 const ivec2 texture_blue_noise_size = ivec2(256);
 ```
 
 
-現在のフレームのランダムシード
+現在のフレームランダムシード
 
 ```
 //: param auto random_seed 
@@ -69,7 +69,7 @@ float getBlueNoiseThreshold()
 ```
 
 
-ピクセル座標とフレームIDに基づいて、均一なランダム値を取得します。
+ピクセル座標とフレーム IDに基づいて、均一なランダム値を取得します。
 
 ```
 float getBlueNoiseThresholdTemporal() 
@@ -114,7 +114,7 @@ vec2 fibonacci2D(int i, int nbSamples)
 ```
 
 
-フィボナッチシーケンスからi *番目*&#x200B;カップルを返します。 nbSampleは、均一な分布を取得するために必要です。 このバージョンでは、フレーム単位およびピクセル単位の擬似ランダム回転が適用されます。
+フィボナッチシーケンスからi *番目*&#x200B;カップルを返します。 nbSampleは、均一な分布を取得するために必要です。 このバージョンでは、フレーム単位およびピクセル単位の擬似ランダムな回転が適用されます。
 
 ```
 vec2 fibonacci2DDitheredTemporal(int i, int nbSamples) 

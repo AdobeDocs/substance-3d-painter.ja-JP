@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.html"
 breadcrumb-title: ''
-description: Substance 3D Painterのビューポートでテクスチャに表示される濃淡のむらが出て、すっきりとした画質を実現する方法を説明します。
+description: ビューポートのテクスチャに表示される濃淡で汚れた斑点を修正して、クリーンな画質を実現する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Blocky artifacts appear on textures in the viewport
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: ビューポートのテクスチャに濃淡のむらが出る
+title: ビューポートのテクスチャに濃淡な斑点が表示される
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,14 +18,14 @@ ht-degree: 0%
 ---
 
 
-# ビューポートのテクスチャに濃淡のむらが出る
+# ビューポートのテクスチャに濃淡な斑点が表示される
 
-バージョン2018.3.0以降では、ビューポートに次のようなアーティファクトが表示される場合があります。
+バージョン2018.3.0以降では、ビューポートに次のようなアーティファクトが発生する可能性があります。
 
 ![](../../../assets/viewport-artifacts.jpg){width="400px"}
 
 これらのアーティファクトは、Nvidia GPUドライバーの問題に関連しています。\
-アーティファクトを回避するには、Sparse Virtual Texturesハードウェアサポートを非アクティブにする必要があります。
+アーティファクトを避けるために、スパース仮想テクスチャのハードウェアサポートを無効にする必要があります。
 
 GeForce **ドライバー440.97**&#x200B;は現在、**この問題を修正**&#x200B;しました。 アドビでは、これらのドライバーを更新し、良好なパフォーマンスを得るためにSVTを有効にしておくことをお勧めします。
 
@@ -39,11 +39,11 @@ GeForce **ドライバー440.97**&#x200B;は現在、**この問題を修正**&#
 
 編集/設定を選択して、メインの「設定」を開きます。
 
-### 2 - 「スパース仮想テクスチャ」という名前のセクションを見つけます。
+### 2 - 「スパース仮想テクスチャ」という名前のセクションを検索します。
 
 ![](../../../assets/svt-subsection.png)
 
-「一般」セクション内を下にスクロールして、「スパース仮想テクスチャ」という名前のサブセクションを見つけます
+「一般」セクション内を下にスクロールして、「スパース仮想テクスチャ」という名前のサブセクションを見つけます。
 
 ### 3 – 設定をオフにする
 

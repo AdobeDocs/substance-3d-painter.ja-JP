@@ -68,9 +68,9 @@ Substance 3D Painterは、3Dメッシュにテクスチャを適用してレン�
 
 * [ツールリスト](painting/tool-list/tool-list.md) – このページでは、使用可能なすべてのペイントツールとその使用方法について説明します。
 * [直線](painting/straight-line.md) – 直線を使用すると、クリック数が少なく、より正確に任意のペイントツールで簡単に線を描画できます。
-* [怠惰なマウス](painting/lazy-mouse.md) – 怠惰なマウスは、マウスカーソルと実際のペイントとの間の距離オフセットであり、より正確で滑らかなストロークをペイントできます。
-* [対称](painting/symmetry/symmetry.md) – 対称とは、幾何拘束に基づいて複数の場所を同時にペイントするアクションです。
-* [塗りつぶし投影法](painting/fill-projections/fill-projections.md) – 塗りつぶしレイヤーおよび塗りつぶし効果は、特定のモードに基づいてメッシュに直接テクスチャを投影します。 このタイプのレイヤー/効果では、3Dモデルにテクスチャを手動でペイントする必要がありません。 プロジェクションの設定は、 Propertiesウィンドウで編集できます。
+* [レイジーマウス](painting/lazy-mouse.md) — レイジーマウスは、マウスカーソルと実際のペイント間の距離のオフセットで、より正確なストロークまたは滑らかなストロークをペイントできます。
+* [対称](painting/symmetry/symmetry.md) —対称は、幾何拘束に基づいて複数の場所を同時にペイントする操作です。
+* [塗りつぶし投影法](painting/fill-projections/fill-projections.md) – 塗りつぶしレイヤーおよび塗りつぶし効果は、特定のモードに基づいてメッシュに直接テクスチャを投影します。 このタイプのレイヤー/効果では、3Dモデルにテクスチャを手動でペイントする必要がありません。 投影の設定は、「プロパティ」ウィンドウで編集できます。
 * [プリセット](painting/presets/presets.md) – プリセットは、ペイントツールの保存された設定です。 このページでは、それらの使用方法とその理由について説明します。
 * [動的ストローク](painting/dynamic-strokes/dynamic-strokes.md) — 動的ストロークは、ブラシストローク内のスタンプごとに変わるSubstanceファイルを利用した通常のブラシストロークです。
 * [高度なチャンネルペイント](painting/advanced-channel-painting/advanced-channel-painting.md) – シェーダで使用されている一部のデフォルトチャンネルをペイントして、高度なエフェクトや複雑なエフェクトを作成できます。 たとえば、ペイントHeight情報を通常のマップに変換します。
@@ -78,7 +78,7 @@ Substance 3D Painterは、3Dメッシュにテクスチャを適用してレン�
 ### ベイク処理
 
 * [メッシュマップをベイクする方法](baking/how-to-bake-mesh-maps.md)
-* [ベイク処理ビジュアライゼーション設定](baking/baking-visualization-settings.md)
+* [ビジュアライゼーション設定のベイク](baking/baking-visualization-settings.md)
 
 ### コンテンツ
 
@@ -87,7 +87,7 @@ Substance 3D Painterは、3Dメッシュにテクスチャを適用してレン�
 
 ### 機能
 
-* [UVの自動アンラップ](features/automatic-uv-unwrapping.md)
+* [UVの自動ラップ解除](features/automatic-uv-unwrapping.md)
 * [エフェクト](features/effects/effects.md)
 * [物理サイズ](features/physical-size.md)
 * [スマートマテリアルとマスク](features/smart-materials-and-masks.md)
@@ -97,12 +97,12 @@ Substance 3D Painterは、3Dメッシュにテクスチャを適用してレン�
 * [UV タイル](features/uv-tiles/uv-tiles.md)
 * [カラーマネジメント](features/color-management/color-management.md)
 * [後処理](features/post-processing/post-processing.md)
-* [Rayレンダラー](features/iray-renderer/iray-renderer.md)
+* [Irayレンダラー](features/iray-renderer/iray-renderer.md)
 * [プラグイン](features/plugins/plugins.md)
 * [スパース仮想テクスチャ](features/sparse-virtual-textures.md)
 * [カスタムシェーダ](features/custom-shaders.md)
 * [SpaceMouse® by 3Dconnection](features/spacemouse-by-3dconnexion.md)
-* [Universal Scene Description（米ドル）](features/universal-scene-description-usd.md)
+* [Universal Scene Description(USD)](features/universal-scene-description-usd.md)
 
 ### パイプラインと統合
 

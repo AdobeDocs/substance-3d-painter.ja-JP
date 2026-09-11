@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-utils-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D PainterのLib Utils シェーダー APIリファレンスにアクセスして、カスタムシェーダ開発でユーティリティ機能を使用します。
+description: Substance 3D PainterのLibユーティリティシェーダー APIリファレンスにアクセスし、カスタムシェーダー開発でユーティリティ関数を使用します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Utils - Shader API
 helpx_experience_level: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## トーンマッピング
 
-シェーダで使用できるトーンマッピングの例を次に示します。 Painterでは、Yebisによって適用されたオプションのトーンマッピング以外、トーンマッピングは適用されません。 シェーダでトーンマッピングを行う場合は、Yebisトーンマッピングの前に適用されます。
+シェーダーで使用できるトーンマッピングの例を次に示します。 Painterでは、Yebisによって適用されたオプションのトーンマッピング以外、トーンマッピングは適用されません。 シェーダーにトーンマッピングを行う場合、Yebisトーンマッピングの前に適用されます。
 
 sigmaおよびnパラメーターに基づいて、Sカーブのトーンマッピングを実行します。
 
@@ -43,7 +43,7 @@ vec3 tonemapSCurve(vec3 value, float sigma, float n)
 
 ## sRGB変換
 
-Painterで使用される変換結果です。 次の行をカスタムシェーダに入れることで、ビューポートの自動リニア – > sRGB変換をオーバーライドできます。
+Painterで使用される変換結果です。 次の行をカスタムシェーダーに挿入すると、ビューポートの自動リニア – > sRGB変換を上書きできます。
 
 *#define DISABLE\_FRAMEBUFFER\_SRGB\_CONVERSION*
 
@@ -245,9 +245,9 @@ vec4 convertOutput(vec4 rgba)
 
 ## ディザリング
 
-シェーダにディザリングを追加するためのヘルパーです。
+シェーダにディザリングを追加するヘルパーがいくつかあります。
 
-8 x 8ベイヤー行列を使用したディザリングモード
+ディザリングモードに8 x 8ベイヤー行列を使用
 
 ```
 import lib-bayer.glsl 
@@ -278,7 +278,7 @@ vec4 RGB2Gray(vec4 rgba)
 ```
 
 
-光沢のある金属表面（鏡に近い部分）のAOおよびシャドウを除去
+光沢のあるメタリックサーフェス（ミラーに近いサーフェス）上のAOとシャドウを削除する
 
 ```
 float specularOcclusionCorrection(float diffuseOcclusion, float metallic, float roughness) 

@@ -34,7 +34,7 @@ ht-degree: 6%
 >[!NOTE]
 >
 > このレジストリキーは、バージョン7.2以降でのみ使用できます。\
->  古いバージョンの場合、インストールパスは&#x200B;**HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ Explorer\FileExts**&#x200B;のファイル関連付けから取得できます。
+>  以前のバージョンの場合、インストールパスは、**HKEY\_CURRENT\_USER\Software\Microsoft\Windows\CurrentVersion\ エクスプローラー\FileExts**&#x200B;のファイル関連付けから取得できます。
 
 ### Substance 3D Standalone
 

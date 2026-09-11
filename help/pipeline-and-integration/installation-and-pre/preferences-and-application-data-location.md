@@ -25,7 +25,7 @@ ht-degree: 4%
 
 ## 環境設定
 
-このパスは、アプリケーション環境設定（保存されたショートカット、シェルフ/アセットパス、インターフェイスレイアウトなど）の場所です。
+このパスは、アプリケーションの環境設定（保存されたショートカット、シェルフ/アセットのパス、インターフェイスレイアウトなど）の場所です。
 
 <table data-preserve-html="true"><colgroup> <col/> <col/> <col/> </colgroup><tbody><tr><th>システム</th><th>バージョン</th><th>パス</th></tr><tr><td rowspan="2"><p><strong>Windows</strong></p><p>（登記簿）</p></td><td><strong>7.2</strong>以降</td><td>HKEY_CURRENT_USER\Software\Adobe\Adobe Substance 3D Painter</td></tr><tr><td>レガシー</td><td>HKEY_CURRENT_USER\Software\Allegorithmic\Substance Painter</td></tr><tr><td rowspan="2"><p><strong>Mac</strong></p><p>（図書館）</p></td><td><strong>7.2</strong>以降</td><td>/Users/[ユーザー名]/Library/Preferences/com.adobe.Adobe Substance 3D Painter.plist</td></tr><tr><td>レガシー</td><td>/Users/[ユーザー名]/Library/Preferences/com.substance3d.user.plist</td></tr><tr><td rowspan="2"><strong>Linux</strong></td><td><strong>7.2</strong>以降</td><td>/home/[ユーザー名]/.config/Adobe/Adobe Substance 3D Painter.conf</td></tr><tr><td>レガシー</td><td>/home/[ユーザー名]/.config/Allegorithmic/Substance Painter.conf</td></tr></tbody></table>
 
@@ -37,4 +37,4 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーでパスを手動で入力するか、隠しファイルを表示して表示します。
+> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーにパスを手動で入力するか、隠しファイルを表示して表示します。

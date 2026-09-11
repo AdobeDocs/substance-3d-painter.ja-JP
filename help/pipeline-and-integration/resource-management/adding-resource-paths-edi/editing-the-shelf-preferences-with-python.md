@@ -7,7 +7,7 @@ helpx_description: Painter > Pipeline and integration > Resource management > Ad
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Pythonでシェルフの環境設定を編集する
+title: Pythonでシェルフ環境設定を編集する
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,7 +18,7 @@ ht-degree: 2%
 ---
 
 
-# Pythonでシェルフのプリファレンスを編集する
+# Pythonでのシェルフ環境設定の編集
 
 リソースパスを操作するためにWindowsレジストリを変更するPythonスクリプトの例を次に示します。
 
@@ -32,11 +32,11 @@ ht-degree: 2%
 
 リソースパスを追加するには、リストを新しいパスで増やすために、既存のパスを確認する必要があります。
 
-次のコードでは、定義済みのパスの現在の数を確認した後、新しいシェルフパスをレジストリキーに追加します。
+次のコードは、定義済みのパスの現在の数を確認した後、新しいシェルフパスをレジストリキーに追加します。
 
 >[!NOTE]
 >
-> サブキー&#x200B;**Shelf** （**pathInfos**&#x200B;と一緒に）がレジストリに存在しない可能性があります。 アプリケーションの起動に表示されるようにするには、環境設定（編集/設定）を開き、「 OK 」をクリックしてアプリケーションを閉じます。
+> サブキー&#x200B;**シェルフ** （**pathInfos**&#x200B;と一緒に）がレジストリに存在しない可能性があります。 アプリケーションの起動に表示されるようにするには、環境設定（編集/設定）を開き、「 OK 」をクリックしてアプリケーションを閉じます。
 
 ```
 import winreg 
@@ -123,7 +123,7 @@ Key.Close()
 
 作成されたパスは、不要になった時点で削除できますが、完全に削除できないデフォルトのパスに対しても無効にすることができます。
 
-次のコードでは、Windowsレジストリを解析し、デフォルトのシェルフ（「starter\_assets」という名前）を無効にします。
+次のコードは、Windowsレジストリを解析し、デフォルトシェルフ（「starter\_assets」という名前）を無効にします。
 
 ```
 import winreg 

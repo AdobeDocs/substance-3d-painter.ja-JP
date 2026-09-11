@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/paint.html"
 breadcrumb-title: ''
-description: Substance 3D Painterの「ペイント」エフェクトを使って、レイヤーにペイントストロークやテクスチャペイントエフェクトを適用する方法を説明します。
+description: Substance 3D Painterのペイントエフェクトを使って、ペイントストロークやテクスチャペインティング効果をレイヤーに適用する方法を説明します
 helpx_creative_field: ""
 helpx_description: Painter > Features > Effects > Paint
 helpx_experience_level: ""
@@ -20,4 +20,4 @@ ht-degree: 4%
 
 # ペイント
 
-このエフェクトを使用すると、他のエフェクトの上にペイントすることができます。 レイヤーモードのように動作し、様々な描画モードと不透明度のコントロールにアクセスできることを意味します。
+このエフェクトを使用すると、他のエフェクトにペイントを合わせることができます。 レイヤーモードのように動作し、様々な描画モードと不透明度のコントロールにアクセスできることを意味します。

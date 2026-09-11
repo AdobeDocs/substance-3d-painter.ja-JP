@@ -7,7 +7,7 @@ helpx_description: Painter > Technical support > Technical Issues > Miscellaneou
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 7.2のアップデート後にシェルフのリソースがなくなっている
+title: 7.2アップデート後、シェルフのリソースが表示されなくなる
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
@@ -18,8 +18,8 @@ ht-degree: 0%
 ---
 
 
-# 7.2のアップデート後にシェルフのリソースがなくなっている
+# 7.2アップデート後、シェルフのリソースが表示されなくなる
 
 このページでは、リソースが消えた理由と、リソースを復元する方法について説明します。
 
-シェルフ内のバージョン7.2（またはそれ以降）のカスタムリソース（アルファ、フィルター、マテリアル、スマートマテリアル、スマートマスクなど）にアップデートした後、表示されなくなった可能性があります。 これは、この新しいバージョンが環境設定をリセットしたため、ファイルが別のフォルダーに配置されているためです。 古いリソースは無視されるだけで、ファイルを手動でコピーしてリストアできます。 これを行うには、[移行ガイド](../../../pipeline-and-integration/resource-management/preferences-and-content-migration.md)を参照してください。
+シェルフ内のバージョン7.2以降のカスタムリソース（alpha、フィルター、マテリアル、スマートマテリアル、スマートマスクなど）にアップデートした後、表示されなくなった可能性があります。 これは、この新しいバージョンが環境設定をリセットしたため、ファイルが別のフォルダーに配置されているためです。 古いリソースは無視されるだけで、ファイルを手動でコピーしてリストアできます。 これを行うには、[移行ガイド](../../../pipeline-and-integration/resource-management/preferences-and-content-migration.md)を参照してください。

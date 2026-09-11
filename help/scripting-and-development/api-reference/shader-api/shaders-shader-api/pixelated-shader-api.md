@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # ピクセル化 – シェーダー API
 
-## 基本ピクセル化シェーダ
+## 基本的なピクセル化シェーダー
 
 ライブラリから読み込みます。
 
@@ -92,7 +92,7 @@ uniform float lit_outline_thickness;
 ```
 
 
-シェーダのエントリポイント。
+シェーダーのエントリポイント。
 
 ```
 void shade(V2F inputs) 
@@ -131,7 +131,7 @@ void shade(V2F inputs)
 ```
 
 
-ベースカラーの輝度に基づいて、マスクサイズに多少のジッターを加えます
+base colorの輝度に応じて、マスクサイズにジッターを加える
 
 ```
   float maskRadiusJitter = pow(dot(baseColor, vec3(0.3333)), 0.1);
@@ -145,7 +145,7 @@ void shade(V2F inputs)
 ```
 
 
-ここでは、ベースカラーをサンプリングし、簡単な拡散減衰を適用します
+ここでは、base colorをサンプリングし、簡単な拡散減衰を適用します
 
 ```
   vec3 color = baseColor * NdL; 

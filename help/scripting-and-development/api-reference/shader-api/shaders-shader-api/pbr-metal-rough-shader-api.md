@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pbr-metal-rough-shader-api.html"
 breadcrumb-title: ''
-description: Substance 3D PainterのPBR Metal粗シェーダー APIリファレンスにアクセスして、物理的なマテリアルを作成します。
+description: Substance 3D PainterのPBR Metalの粗いシェーダー APIリファレンスにアクセスし、物理的なマテリアルを作成します。
 helpx_creative_field: ""
 helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > PBR Metal Rough - Shader API
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # PBRメタル粗い – シェーダー API
 
-## Allegorithmic Metal/Rough PBRシェーダ
+## アレルギー性金属/粗いPBRシェーダー
 
 ライブラリから読み込みます。
 
@@ -37,7 +37,7 @@ import lib-utils.glsl
 ```
 
 
-このシェーダで使用するiray mdlマテリアルを宣言します。
+このシェーダーで使用するiray mdl マテリアルを宣言します。
 
 ```
 //: metadata { 
@@ -69,7 +69,7 @@ uniform SamplerSparse specularlevel_tex;
 ```
 
 
-シェーダエントリポイント。
+シェーダー入力ポイント：
 
 ```
 void shade(V2F inputs) 

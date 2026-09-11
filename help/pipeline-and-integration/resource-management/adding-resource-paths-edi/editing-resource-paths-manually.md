@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/resource-management/adding-resource-paths-by-editing-preferences-manually/editing-resource-paths-manually.html"
 breadcrumb-title: ''
-description: Substance 3D Painter環境設定で手動でリソースパスを編集し、シェルフのリソースの場所をカスタマイズする方法について説明します。
+description: Substance 3D Painterの環境設定で手動でリソースパスを編集し、シェルフリソースの場所をカスタマイズする方法について説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Pipeline and integration > Resource management > Adding resource paths by editing preferences manually > Editing resource paths manually
 helpx_experience_level: ""
@@ -53,7 +53,7 @@ Windowsでは、パスはWindowsレジストリで管理できます。
 1. **&#x200B;**&#x200B;pathInfos **の下に** number **を名前としてキー**&#x200B;を追加します。 既存のキー（1から始まる）に基づいて番号を増やします。
 1. ウィンドウの右側で&#x200B;**右クリック** > **新規** > **文字列値**&#x200B;を実行します。 名前を&#x200B;**disabled**&#x200B;にし、値を&#x200B;**false**&#x200B;に設定します。
 1. ウィンドウの右側で&#x200B;**右クリック** > **新規** > **文字列値**&#x200B;を実行します。 名前を&#x200B;**name**&#x200B;にして、カスタムシェルフの名前を入力します。
-1. ウィンドウの右側で&#x200B;**右クリック** > **新規** > **文字列値**&#x200B;を実行します。 **path**&#x200B;という名前を付け、シェルフがあるパスに値を設定します。
+1. ウィンドウの右側で&#x200B;**右クリック** > **新規** > **文字列値**&#x200B;を実行します。 **path**&#x200B;という名前を付け、シェルフが存在するパスに値を設定します。
 1. 「**pathInfos** 」内のキー「 **size** 」を1ずつ増やすことを忘れないでください。
 1. ウィンドウを閉じます。
 1. アプリケーションを起動します。
@@ -68,9 +68,9 @@ Windowsでは、パスはWindowsレジストリで管理できます。
 
 1. 上記のパスに移動します。
 1. ファイル&#x200B;**Substance 3D Painter.config**&#x200B;を開きます
-1. **[シェルフ]**&#x200B;セクションまで下にスクロール
+1. **[シェルフ]**&#x200B;セクションまで下にスクロールします
 
-最後に表示されている番号を増分して新しいシェルフパスを追加します。例：
+最後に表示されている数字を1ずつ増やして新しいシェルフパスを作成します。例：
 
 ```
 pathInfos2disabled=false  

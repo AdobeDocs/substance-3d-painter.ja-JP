@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/color-picker.html"
 breadcrumb-title: ''
-description: Substance 3D Painterのカラーピッカーを使用して、テクスチャとマテリアルからカラーを選択する方法を説明します。
+description: Substance 3D Painterのカラーピッカーを使用して、テクスチャやマテリアルからカラーを選択する方法を説明します。
 helpx_creative_field: ""
 helpx_description: Painter > Interface > Color picker
 helpx_experience_level: ""
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 ![](../assets/color-picker-12.jpg)
 
-カラーピッカーを使用すると、メッシュ上でペイントまたは投影するカラーを設定できます。 外部の画像からカラーを選択したり、アプリケーション内の既存の画像を調整するために使用できます。
+カラーピッカーを使用すると、メッシュ上のペイントまたはプロジェクトにカラーを設定できます。 外部の画像からカラーを選択したり、アプリケーション内の既存の画像を調整するために使用できます。
 
-カラーピッカーウィンドウは、Painterのカラーフィールドをクリックすると表示されます。カラーフィールドは、プロパティ、またはDisplayパラメーターやShaderパラメーターなどの追加の設定またはメニュー内にあります。
+カラーピッカーウィンドウは、Painterのカラーフィールドをクリックすると表示されます。カラーフィールドは、プロパティや、ディスプレイやシェーダーパラメーターなどの追加の設定またはメニューにあります。
 
 ## カラーピッカーの概要
 
-開くと、カラーピッカーは半永続的に保持されます。つまり、ペイントレイヤーから塗りつぶしレイヤーに切り替えるなど、コンテキストが変更されるまで開いたままになります。 ウィンドウを移動して、使用可能な任意の画面に配置できます。 ただし、他のウィンドウとは異なり、カラーピッカーをドッキングすることはできません。
+カラーピッカーは、開くと半永続的に保持されます。つまり、ペイントレイヤーから塗りつぶしレイヤーに切り替えるなど、コンテキストが変わるまで開いたままになります。 ウィンドウを移動して、使用可能な任意の画面に配置できます。 ただし、他のウィンドウとは異なり、カラーピッカーをドッキングすることはできません。
 
 ウィンドウは垂直方向のレイアウトで、次の3つのセクションで構成されます。
 
@@ -42,17 +42,17 @@ ht-degree: 1%
 
 | 名前とビジュアル | 説明 |
 | --- | --- |
-| **表示セレクター** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/display-selector.png" width="250px"/></div> | カラーの編集に使用するディスプレイ（スペクトルとスライダー）を選択できます。 既定値は、メインビューポートで使用される表示と一致します。  **注意：**&#x200B;この設定は、[カラーマネジメント](../features/color-management/color-management.md)が有効になっている場合にのみ使用できます。 |
-| **スペクトル** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/spectrum.png" width="250px"/></div> | 垂直方向のスライダーは、一般的な色相です。 グラデーションフィールド内に表示するカラーのシェードを選択できます。一般シェードを選択したら、グラデーションフィールドで十字カーソルを押したままドラッグして、目的のカラーを選択できます。  **注意：** [カラーマネジメント](../features/color-management/color-management.md)が有効になっている場合、現在のディスプレイのHDRカラーがクランプされます（作業用カラースペース内）。 これは、カラーマネジメントされたチャンネルで出力HDR値が使用されないためです。 |
+| **表示セレクター** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/display-selector.png" width="250px"/></div> | カラーの編集に使用するディスプレイ（スペクトルとスライダー）を選択できます。 デフォルト値は、メインビューポートで使用されるディスプレイと一致します。  **注意：**&#x200B;この設定は、[カラーマネジメント](../features/color-management/color-management.md)が有効になっている場合にのみ使用できます。 |
+| **スペクトル** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/spectrum.png" width="250px"/></div> | 垂直方向のスライダーは、一般的な色相です。 グラデーションフィールド内に表示するカラーのシェードを選択できます。一般シェードを選択したら、グラデーションフィールドで十字カーソルを押したままドラッグして、目的のカラーを選択できます。  **注意：** [カラーマネジメント](../features/color-management/color-management.md)が有効になっている場合、現在のディスプレイからのHDRの色が固定されます（作業用カラースペース）。 これは、カラーマネジメントされたチャンネルでの出力のHDR 値を防ぐためです。 |
 | **現在および前の色** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/color-preview-current.png"/></div> | 左側のボックスは、カラーピッカーから出力される最終的なカラーを示します。右のボックスには、前のカラー（カラーピッカーを開いたときのカラー）が表示されます。 それをクリックして以前のカラーに戻し、現在のカラーにすることができます。 |
 | **16進フィールド** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/hexa-field.png"/></div> | 16進数のフィールドは、現在のカラーを16進数の値で表します。 RGBコンポーネントは、1対の文字として表示されます。例えば、#FF0000は赤色を表します。  **注意：** [カラーマネジメント](../features/color-management/color-management.md)が有効になっている場合、現在の表示やプロジェクトで使用している作業用スペースに関係なく、16進数フィールドは常に標準のsRGBカラースペースで機能し、ソフトウェア間で値を簡単にコピー/ペーストできます。 |
-| **スポイト** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | スポイトツールを使用して、外部ソースからカラーを選択できます。 アイコンの&#x200B;**クリック**&#x200B;して使用するには、マウスを動かしてから再度、必要な色をコピーします。  **注意：**&#x200B;ビューポート内でカラーを選択する場合、**Shift**&#x200B;修飾子を使用して、直接編集された現在のチャンネルを選択することができます。 これにより、元のテクスチャと画面に表示される色との間で非可逆な色変換を行う必要がなくなります。 これは、**マテリアル**&#x200B;表示モードから切り替えることなくカラーを選択する場合にも便利です。 <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **注意：**&#x200B;カラーフィールドの横にはスポイトツールが付いているので、カラーピッカーを開かずにすばやくカラーを選択できます。 <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **注意：** Mac OSでは、プライバシーの設定により、スポイトがアプリケーションインターフェイス外の色を選択できない場合があります。 この問題を解決するには、次のアプリケーションに適切な権限を割り当てます： `System Preferences > Security & Privacy > Privacy > Screen Recording` |
+| **スポイト** <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c0_dynamic_grid_items_grid-cell_position-par_image" src="../assets/picker.png"/></div> | スポイトツールを使用して、外部ソースからカラーを選択できます。 アイコンの&#x200B;**クリック**&#x200B;して使用するには、マウスを動かしてから再度、必要な色をコピーします。  **注意：** ビューポート内のカラーを選択する場合、**Shift**&#x200B;修飾子を使用して、直接編集された現在のチャンネルを選択することができます。 これにより、元のテクスチャと画面に表示される色との間で非可逆な色の変換を行う必要がなくなります。 これは、**マテリアル**&#x200B;の表示モードから切り替えることなく色を選択する場合にも便利です。 <div><img data-preserve-html="true" src="../assets/eyedropper-shift.png" width="150"/></div>  **注意：**&#x200B;カラーフィールドの横にはスポイトツールが付いているので、カラーピッカーを開かずにすばやくカラーを選択できます。 <div><img data-preserve-html="true" height="83" src="../assets/eyedropper.jpg"/></div>  **注意：** Mac OSでは、プライバシーの設定により、スポイトがアプリケーションインターフェイス外の色を選択できない場合があります。 この問題を解決するには、次のアプリケーションに適切な権限を割り当てます： `System Preferences > Security & Privacy > Privacy > Screen Recording` |
 
 ### カラー設定
 
 | 設定 | 説明 |
 | --- | --- |
-| **スポイトのカラースペース** | ビューポートの外側で選択した色のカラースペースを指定します。**自動**&#x200B;設定では、プロジェクト設定の標準sRGBカラースペースが使用されます。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/eyedropper-color-space-1.png"/></div> **注意：**&#x200B;この設定は、カラーボタンの横にあるスポイトツールにも適用されます。  **注意：**&#x200B;ビューポート内で選択した色も、[Shift]を使用しない場合にこのプロファイルを使用します。 |
+| **スポイトのカラースペース** | ビューポートの外側で選択したカラーのカラースペースを指定します。**自動**&#x200B;設定では、プロジェクト設定の標準sRGBカラースペースが使用されます。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../assets/eyedropper-color-space-1.png"/></div> **注意：**&#x200B;この設定は、カラーボタンの横にあるスポイトツールにも適用されます。  **注意：** ビューポート内で選択された色も、Shiftキーを使用しない場合はこのプロファイルを使用します。 |
 
 ### スライダー
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 
 ![](../assets/swatches-overview.png)
 
-カラースウォッチを使用すると、カラーを保存しておいて、後で再利用することができます。 スウォッチは、プロジェクションとセッションにまたがって利用できます。
+カラースウォッチを使用すると、カラーを保存しておいて、後で再利用することができます。 スウォッチは、投影やセッションにまたがって利用できます。
 
 ### スウォッチを追加
 

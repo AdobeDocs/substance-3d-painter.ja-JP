@@ -1,7 +1,7 @@
 ---
 helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
-description: Substance 3D Painterでジェネレータエフェクトを使用して、プロシージャ型テクスチャとパターンを自動的に作成する方法について説明します。
+description: Substance 3D Painterでジェネレータエフェクトを使用して、プロシージャルしたテクスチャとパターンを自動的に作成する方法について説明します。
 helpx_creative_field: ''
 helpx_description: Painter > Features > Effects > Generator
 helpx_experience_level: ''
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # ジェネレーター
 
-ジェネレータは、位置、曲率、ワールド空間法線などのベイク処理されたユーティリティマップを使用して[メッシュトポロジに基づいて1つまたは複数のマスクまたはテクスチャを生成する物質です。](../../baking/baking.md)
+ジェネレーターは、位置、曲率、ワールド空間法線などのベイクされたユーティリティマップを使用して[メッシュトポロジに基づいてマスクまたはテクスチャを生成するサブスタンスです](../../baking/baking.md)。
 
 >[!NOTE]
 >
-> ほとんどのジェネレーターはモノクロ（白黒）テクスチャを出力するので、マテリアルレイヤーを制御するマスクを作成する場合に最も役立ちます。 ただし、モノクロジェネレーターを塗りつぶしレイヤーとして使用したり、フルカラージェネレーターをマスクとして使用したりすることは可能です。
+> ほとんどのジェネレーターは白黒のテクスチャを出力するので、マテリアルレイヤーを制御するマスクを作成する場合に最も役立ちます。 ただし、塗りつぶしレイヤーとしてモノクロジェネレーターを使用したり、マスクとしてフルカラージェネレーターを使用したりすることは妨げられません。
 
 マスクにジェネレータを追加するには：
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 ![](../../assets/generators/generator_spectrum.png)
 
 各ジェネレーターには、生成されるマスクを微調整できるパラメーターのセットがあります。\
-シェルフにカスタムジェネレータを追加するには、[シェルフへのコンテンツの追加](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
+シェルフにカスタムジェネレータを追加するには、[シェルフにコンテンツを追加する](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
 
 >[!NOTE]
 >

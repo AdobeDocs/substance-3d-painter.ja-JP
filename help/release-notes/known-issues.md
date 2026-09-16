@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/know-issues.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterの既知の問題を確認して、最新バージョンの現在の制限事項と回避策に関する情報を得てください。
 helpx_creative_field: ""
 helpx_description: Substance 3D Painter
@@ -8,19 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 既知の問題
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 50df3a58ec4719d302999421774a1c67ce3e0ef1
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 0%
-
 ---
-
 
 # 既知の問題
 
-このページでは、Substance 3D Painterのv12.1.3に存在するアクティブな既知の問題をすべて一覧表示します。
+このページでは、Substance 3D Painter v12.1.5に存在する既知のアクティブな問題をすべて一覧で示します。
 
 * `[Baking]`単純なキューブのAOが正しくありません
 * `[Baking]`名前サフィックスによる一致の解釈が正しくありません
@@ -42,6 +40,10 @@ ht-degree: 0%
 * `[Color Management]`フィルターの出力が適切に考慮されていません
 * Linux上のHDRを使用した`[Color Management]`個のACEカラースペース変換により、カラーが固定されます
 
+* `[USD]`件の間違ったusda割り当てがあります
+* `[USD]`書き出されたUSDジオメトリがUV境界に沿ってスリップしています
+* 正しくない形式のUSDzを読み込むときに`[USD]`がフリーズします
+
 * 特定の名前のフォルダーに配置すると、`[Shelf]`リソースが正しく使用されません
 * `[Shelf]` `[Substance]`ユーザーデータはシェルフの縮小版の生成では考慮されません
 
@@ -51,31 +53,31 @@ ht-degree: 0%
 * `[Scripting]` `[Javascript]`書き出し関数でディザリングパラメーターを指定する際の「無効な」タイプミス
 * `[Scripting]` `[Python]` substance_painter.projectモジュールの様々な誤字
 
-* `[USD]`件の間違ったusda割り当てがあります
-* `[USD]`書き出されたUSDジオメトリがUV境界に沿ってスリップしています
+* `[Path]`個のHeightが多くのパスをブレンドすると、斑点が生じる可能性があります
+* `[Path]`青色の四角形の選択の表示に関する問題
 
-* Painterのバージョンを更新すると、ベースカラービューに保存された`[Single Channel View]`個のプロジェクトが暗く表示される
-* Painterのバージョンを更新すると、ベースカラービューに保存された`[Single Channel View]`個のプロジェクトが暗く表示される
+* Painterのバージョンを更新すると、base colorビューに保存されている`[Single Channel View]`個のプロジェクトが暗く表示される
+* Painterのバージョンを更新すると、base colorビューに保存されている`[Single Channel View]`個のプロジェクトが暗く表示される
 
-* `[gltf]`は、Babylonエクスポーターを介してエクスポートされたファイルを開くことができません
+* `[gltf]` Babylon エクスポーターでエクスポートされたファイルを開けません
 * `[Displacement]`描画時のエラー
-* `[Polygon Fill Tool]`対称の選択が正しくありません
+* `[Polygon Fill Tool]` 対称の選択が正しくありません
 * ペイント時に`[2D view]`ストロークが表示されない場合があります
-* `[Console]`ショートカットに関連付けられたシンボルを書き込めません
+* `[Console]` ショートカットに関連付けられたシンボルは書き込めません
 * エクスポートに失敗したときの`[LOG]`エラーメッセージが正しくありません
 * `[3D View]`ステンシルは複製されたオブジェクトでは機能しません
 * `[Resource updater]`同じ名前のシェルフ内の異なるリソースが1つのリソースとして読み取られます
 * プレビューサンプルの`[Sample]`壊れたカメラ
-* `[Instancing]` `[Projection]`平面プロジェクト内のインスタンスを選択するときに、別のテクスチャセット上の別の平面プロジェクトが選択されています
+* `[Instancing]` `[Projection]`平面のプロジェクト内のインスタンスを選択すると、別のテクスチャセットで別の平面のプロジェクトが選択されます
 * `[Slider]`カーソルがウィンドウを離れると、数値入力の選択が解除されます
 * マスクの内容をコピーしてペーストすると、`[Anchor point]`個の参照が壊れる
 * `[Mesh export]`新しいテクスチャセット名を考慮しない
 * `[Anchor Points]` Generatorで使用されている色が正しくありません
-* `[Bakers]` IDマップベイカーは3ds Max 2021物理マテリアルを考慮していません
-* `[UV Tiles]`特定のメッシュを持つオーバーラップするUVスペースにエラーメッセージはありません
+* `[Bakers]` ベイカーは3ds Max 2021の物理マテリアルを考慮していません
+* `[UV Tiles]`重複するUV領域に対するメッシュが指定された場合、エラーメッセージは表示されません
 * `[GLTF]` `[Crash]`圧縮されたgltfファイルを使用してプロジェクトを作成するとクラッシュが発生します
 * `[UV Tile sequence]`位置マップが正しくインポートされていません
-* `[UVTiles]`Heightの組み合わせマスクがUVタイルマスクで更新されません
+* `[UVTiles]` Heightの組み合わせマスクがUV タイルマスクで更新されていません
 * `[Import]` 「nan」値を含むobjファイルをインポートできません
 * `[Export]` GLTFは間違ったサイズでエクスポートされます
 * `[Texture Set]`名は空にすることができます
@@ -93,11 +95,12 @@ ht-degree: 0%
 * `[User Channels]`カラーミキサースペースのプレビューが正しくありません
 * 烘焙モードに切り替えた後も、`[Mask]`ジオメトリ選択はアクティブのままです
 * `[Sonoma]`アイコンがメニューに表示されません
-* `[Path]`個のHeightが多くのパスをブレンドすると、斑点が生じる可能性があります
 * `[Polygon Fill]` base colorのカラースペースを変更しても、カラーピッカーが更新されません
 * 書き出し時にテクスチャを4Kから8Kにアップスケールすると、`[UV Padding]`のアーティファクトが発生する
 * `[Performances]` PainterはVRAMの使用を保留します
-* `[Generator]` [テクスチャの使用]をfalseに設定しても、テクスチャ入力の使用は無効になりません
+* `[FBX]`のスケールの問題
+* テクスチャセットと同時に`[Texture set list]`個のUV タイルを選択できます
+* `[Viewport]`カーソルがベイクモードビューポートの下部で遅れている
 * 非正方形リソースは、ブラシチャンネルのスロットで使用すると伸縮されます
 * サブスタンスのデコードに失敗しました
 * 完全に重なり合っていないUVはアーティファクトを作成する可能性があります
@@ -116,8 +119,6 @@ ht-degree: 0%
 * コンテキストツールバーで変更したブラシパラメーターがヒストリーに表示されない
 * このセッションで既に削除して再作成した場合、書き出しプリセットの名前の変更や削除はできません
 * チャンネルマッピングが、投影ツールのプレビューで機能しない場合がある
-* 3d 投影の編集中にビューポートがフリーズする
-* マテリアルレイヤーの解像度が低すぎます
 
 ## 安定度
 
@@ -128,4 +129,4 @@ ht-degree: 0%
 * `[Crash]`リボン缶クラッシュで非常に長いテキストを作成しています
 * `[Crash]`デバイスがベイクで失われた後、ペイントモードに戻ります
 * `[Crash]`マップの書き出しをキャンセルした後、Painterを終了します
-* `[Crash]` カメラ名に特殊記号が含まれているメッシュをエクスポートしています
+* `[Crash]`カメラ名に特殊記号を含むメッシュをエクスポートしています

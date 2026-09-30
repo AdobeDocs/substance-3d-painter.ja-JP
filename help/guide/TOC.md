@@ -2,13 +2,11 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 15%
-
+source-wordcount: '1346'
+ht-degree: 14%
 ---
-
 
 # Substance 3D Painter {#using}
 
@@ -39,7 +37,7 @@ ht-degree: 15%
     + [ビューポート設定](/help/interface/display-settings/viewport-settings.md)
   + [ヒストリー](/help/interface/history.md)
   + レイヤースタック{#layer-stack}
-    + [レイヤースタックの概要](/help/interface/layer-stack/layer-stack.md)
+    + [レイヤースタックについて](/help/interface/layer-stack/layer-stack.md)
     + [レイヤーの作成](/help/interface/layer-stack/creating-layers.md)
     + [レイヤーの管理](/help/interface/layer-stack/managing-layers.md)
     + [マスクとエフェクト](/help/interface/layer-stack/masking-and-effects.md)
@@ -67,7 +65,7 @@ ht-degree: 15%
     + [シェーダー設定の概要](/help/interface/shader-settings/shader-settings.md)
     + [シェーダーの更新](/help/interface/shader-settings/updating-a-shader.md)
   + テクスチャセット{#texture-set}
-    + [テクスチャセットの概要](/help/interface/texture-set/texture-set.md)
+    + [テクスチャセットについて](/help/interface/texture-set/texture-set.md)
     + [テクスチャセット一覧](/help/interface/texture-set/texture-set-list.md)
     + [テクスチャセット設定](/help/interface/texture-set/texture-set-settings.md)
     + [テクスチャセット再割り当て](/help/interface/texture-set/texture-set-reassignment.md)
@@ -85,7 +83,7 @@ ht-degree: 15%
     + [メッシュマップベイカー](/help/interface/baking-panels/mesh-map-bakers.md)
     + [共通設定](/help/interface/baking-panels/common-mesh-map-settings.md)
     + [メッシュマップ設定パネル](/help/interface/baking-panels/mesh-map-settings.md)
-    + [ベーキングログ](/help/interface/baking-panels/baking-log.md)
+    + [ベイクログ](/help/interface/baking-panels/baking-log.md)
 + ペインティング{#painting}
   + [ペイントの概要](/help/painting/painting.md)
   + ペイントツール{#paint-tools}
@@ -127,7 +125,7 @@ ht-degree: 15%
     + ブラシプリセット{#photoshop-brush-presets}
       + [Photoshop ブラシプリセットの概要](/help/painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)
       + [Photoshopからのブラシプリセットの書き出し](/help/painting/presets/photoshop-brush-presets/exporting-brush-presets-from-photoshop.md)
-      + [Photoshopブラシプリセットの読み込み](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
+      + [Photoshop ブラシプリセットの読み込み](/help/painting/presets/photoshop-brush-presets/importing-photoshop-brush-presets.md)
       + [Photoshopのブラシパラメーターの互換性](/help/painting/presets/photoshop-brush-presets/photoshop-brush-parameters-compatibility.md)
   + 動的ストローク{#dynamic-strokes}
     + [動的ストロークの概要](/help/painting/dynamic-strokes/dynamic-strokes.md)
@@ -166,12 +164,80 @@ ht-degree: 15%
     + [UVのランダムカラー](/help/features/effects/generators/uv-random-color.md)
     + [UVテクセル密度](/help/features/effects/generators/uv-texel-density.md)
     + [ワールド空間法線](/help/features/effects/generators/world-space-normals.md)
+  + フィルター{#filters}
+    + [フィルターの概要](/help/features/effects/filter.md)
+    + 標準{#standard-filters}
+      + [ブラー](/help/features/effects/filters/standard/blur.md)
+      + [ブラー（方向）](/help/features/effects/filters/standard/blur-directional.md)
+      + [ぼかし勾配](/help/features/effects/filters/standard/blur-slope.md)
+      + [クランプ](/help/features/effects/filters/standard/clamp.md)
+      + [カラーバランス](/help/features/effects/filters/standard/color-balance.md)
+      + [カラー補正](/help/features/effects/filters/standard/color-correct.md)
+      + [コントラストの輝度](/help/features/effects/filters/standard/contrast-luminosity.md)
+      + [ドロップシャドウ](/help/features/effects/filters/standard/drop-shadow.md)
+      + [塗りつぶし領域のカラー](/help/features/effects/filters/standard/fill-area-color.md)
+      + [塗りつぶし領域マスク](/help/features/effects/filters/standard/fill-area-mask.md)
+      + [FXA（アンチエイリアス）](/help/features/effects/filters/standard/fxaa-anti-aliasing.md)
+      + [光彩](/help/features/effects/filters/standard/glow.md)
+      + [グラデーション](/help/features/effects/filters/standard/gradient.md)
+      + [グラデーション動的](/help/features/effects/filters/standard/gradient-dynamic.md)
+      + [グレースケール変換](/help/features/effects/filters/standard/grayscale-conversion.md)
+      + [ハイパス](/help/features/effects/filters/standard/highpass.md)
+      + [ヒストグラムスキャン](/help/features/effects/filters/standard/histogram-scan.md)
+      + [ヒストグラムシフト](/help/features/effects/filters/standard/histogram-shift.md)
+      + [HSL Perceptive](/help/features/effects/filters/standard/hsl-perceptive.md)
+      + [反転](/help/features/effects/filters/standard/invert.md)
+      + [ミラー](/help/features/effects/filters/standard/mirror.md)
+      + [ピクセル化](/help/features/effects/filters/standard/pixelate.md)
+      + [ポスタリゼーション](/help/features/effects/filters/standard/posterize.md)
+      + [シャープ](/help/features/effects/filters/standard/sharpen.md)
+      + [滑らかさ](/help/features/effects/filters/standard/smoothstep.md)
+      + [しきい値](/help/features/effects/filters/standard/threshold.md)
+      + [変形](/help/features/effects/filters/standard/transform.md)
+      + [縦糸](/help/features/effects/filters/standard/warp.md)
+    + 仕上げ{#finish-filters}
+      + [艶消し仕上げ線形ブラシ](/help/features/effects/filters/finishes/matfinish-brushed-linear.md)
+      + [MatFinish亜鉛メッキ](/help/features/effects/filters/finishes/matfinish-galvanized.md)
+      + [粒状マット仕上げ](/help/features/effects/filters/finishes/matfinish-grainy.md)
+      + [艶消し仕上げ](/help/features/effects/filters/finishes/matfinish-grinded.md)
+      + [MatFinishハンマー](/help/features/effects/filters/finishes/matfinish-hammered.md)
+      + [塗り潰し仕上げ穴あき円](/help/features/effects/filters/finishes/matfinish-perforated-circles.md)
+      + [艶消し仕上げ粉体塗装](/help/features/effects/filters/finishes/matfinish-powder-coated.md)
+      + [MatFinish Raw](/help/features/effects/filters/finishes/matfinish-raw.md)
+      + [粗い仕上げ](/help/features/effects/filters/finishes/matfinish-rough.md)
+    + MatFX{#matfx-filters}
+      + [MatFXコミック](/help/features/effects/filters/matfx/matfx-comic-book.md)
+      + [MatFX詳細Edge Wear](/help/features/effects/filters/matfx/matfx-detail-edge-wear.md)
+      + [MatFXエッジの損害](/help/features/effects/filters/matfx/matfx-edge-damages.md)
+      + [MatFX HBAO](/help/features/effects/filters/matfx/matfx-hbao.md)
+      + [MatFX石油ペイント](/help/features/effects/filters/matfx/matfx-oil-paint.md)
+      + [MatFX剥離ペイント](/help/features/effects/filters/matfx/matfx-peeling-paint.md)
+      + [MatFX風化](/help/features/effects/filters/matfx/matfx-rust-weathering.md)
+      + [MatFXシャットダウンライン](/help/features/effects/filters/matfx/matfx-shut-line.md)
+      + [MatFX水彩画](/help/features/effects/filters/matfx/matfx-watercolor.md)
+      + [MatFX水滴](/help/features/effects/filters/matfx/matfx-water-drops.md)
+    + 光源{#lighting-filters}
+      + [ベイク済み照明環境](/help/features/effects/filters/lighting/baked-lighting-environment.md)
+      + [ベイク照明スタイル化](/help/features/effects/filters/lighting/baked-lighting-stylized.md)
+    + アドバンス{#advanced-filters}
+      + [異方性桑原](/help/features/effects/filters/advanced/anisotropic-kuwahara.md)
+      + [ベベル](/help/features/effects/filters/advanced/bevel.md)
+      + [ベベルスムーズ](/help/features/effects/filters/advanced/bevel-smooth.md)
+      + [カラーマッチ](/help/features/effects/filters/advanced/color-match.md)
+      + [方向の距離](/help/features/effects/filters/advanced/directional-distance.md)
+      + [グラデーションカーブ](/help/features/effects/filters/advanced/gradient-curve.md)
+      + [Height調整](/help/features/effects/filters/advanced/height-adjustments.md)
+      + [Heightを標準に](/help/features/effects/filters/advanced/height-to-normal.md)
+      + [アウトラインをマスク](/help/features/effects/filters/advanced/mask-outline.md)
+      + [PBR 検証](/help/features/effects/filters/advanced/pbr-validate.md)
+      + [量子化](/help/features/effects/filters/advanced/quantize.md)
+      + [スタイル化](/help/features/effects/filters/advanced/stylization.md)
+      + [3-平面上級](/help/features/effects/filters/advanced/tri-planar-advanced-filter.md)
   + [エフェクトの概要](/help/features/effects/effects.md)
   + [ペイント](/help/features/effects/paint.md)
   + [塗りつぶし](/help/features/effects/fill.md)
   + [レベル](/help/features/effects/levels.md)
   + [比較マスク](/help/features/effects/compare-mask.md)
-  + [フィルター](/help/features/effects/filter.md)
   + [アンカーポイント](/help/features/effects/anchor-point.md)
 + ベイク処理{#baking}
   + [ベイク処理の概要](/help/baking/baking.md)
@@ -200,7 +266,7 @@ ht-degree: 15%
   + [物理サイズ](/help/features/physical-size.md)
   + [スマートマテリアルとマスク](/help/features/smart-materials-and-masks.md)
   + 表面下散乱{#subsurface-scattering}
-    + [サブサーフェススキャタリングの概要](/help/features/subsurface-scattering/subsurface-scattering.md)
+    + [表面化散乱について](/help/features/subsurface-scattering/subsurface-scattering.md)
     + [プロジェクトでサブサーフェスを有効にする](/help/features/subsurface-scattering/enabling-subsurface-in-a-project.md)
     + [サブサーフェスパラメータ](/help/features/subsurface-scattering/subsurface-parameters.md)
     + [地下マテリアルの種類](/help/features/subsurface-scattering/subsurface-material-type.md)
@@ -211,7 +277,7 @@ ht-degree: 15%
     + [画像シーケンス](/help/features/uv-tiles/image-sequence.md)
   + カラーマネジメント{#color-management}
     + [カラーマネジメントの概要](/help/features/color-management/color-management.md)
-    + [Adobe ACEを使用したカラーマネジメント – ICC](/help/features/color-management/color-management-with-adobe-ace-icc.md)
+    + [ACEを使用したカラーマネジメント – ICC](/help/features/color-management/color-management-with-adobe-ace-icc.md)
     + [OpenColorIOでのカラーマネジメント](/help/features/color-management/color-management-with-opencolorio.md)
   + 後処理{#post-processing}
     + [概要](/help/features/post-processing/post-processing.md)
@@ -267,10 +333,10 @@ ht-degree: 15%
   + [DXDiagを書き出す](/help/technical-support/exporting-a-dxdiag.md)
   + 技術的な問題{#technical-issues}
     + GPUの問題{#gpu-issues}
-      + [オーバークロックされたGPUの操作中にクラッシュする](/help/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.md)
+      + [オーバークロックされたGPUの操作中にクラッシュが発生する](/help/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.md)
       + [Mac OSでの外部GPUの強制](/help/technical-support/technical-issues/gpu-issues/forcing-the-external-gpu-on-mac-os.md)
       + [GPUドライバーの互換性](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.md)
-      + [GPUドライバーが長時間の計算でクラッシュする – TDRクラッシュ](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
+      + [長い計算でのGPUドライバーのクラッシュ- TDRクラッシュ](/help/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash.md)
       + [GPUに古いドライバーがある](/help/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers.md)
       + [GPUが認識されない](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized.md)
       + [GPUが認識されず、GDI一般としてメンションされる](/help/technical-support/technical-issues/gpu-issues/gpu-is-not-recognized-and-is-mentionned-as-gdi-generic.md)
@@ -290,7 +356,7 @@ ht-degree: 15%
       + [一部のHDPIスケール値が機能しない](/help/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.md)
       + [Ubuntuでビューポートが壊れているか、応答しない](/help/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.md)
     + 安定性の問題{#stability-issues}
-      + [書き出し中にクラッシュする](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
+      + [書き出し中のクラッシュ](/help/technical-support/technical-issues/stability-issues/crash-during-export.md)
       + [ファイルを開くまたは保存するときにクラッシュが発生する](/help/technical-support/technical-issues/stability-issues/crash-when-opening-or-saving-a-file.md)
       + [ベイク処理中のクラッシュ](/help/technical-support/technical-issues/stability-issues/crash-while-baking.md)
       + [仮想メモリ不足のクラッシュ](/help/technical-support/technical-issues/stability-issues/crash-with-low-virtual-memory.md)
@@ -306,7 +372,7 @@ ht-degree: 15%
   + ワークフローの問題{#workflow-issues}
     + 書き出しの問題{#export-issues}
       + [書き出した不透明度マップが完全に黒くなる](/help/technical-support/workflow-issues/export-issues/my-exported-opacity-map-is-totally-black.md)
-      + [テクスチャの拡大またはパディング](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
+      + [拡張またはパディング](/help/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.md)
     + ツールの問題{#tools-issues}
       + [法線マップが正しく表示されない](/help/technical-support/workflow-issues/tools-issues/normal-map-looks-incorrect-when-loaded-in-layer-or-tool-properties.md)
       + [ペイントツールが他のUV アイランドでブリードする](/help/technical-support/workflow-issues/tools-issues/paint-tool-bleeds-on-other-uv-islands.md)
@@ -356,7 +422,7 @@ ht-degree: 15%
       + [ライブラリAlpha- シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.md)
       + [Lib Bayer - シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-bayer-shader-api.md)
       + [ライブラリ定義 – シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-defines-shader-api.md)
-      + [ライブラリ・エミッシブ：シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
+      + [ライブラリEmissive - シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-emissive-shader-api.md)
       + [ライブラリ環境 – シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.md)
       + [ライブラリ法線 – シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-normal-shader-api.md)
       + [ライブラリPBR - シェーダー API](/help/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-pbr-shader-api.md)

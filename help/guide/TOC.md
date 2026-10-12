@@ -2,9 +2,9 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: 644a36a1dde953c1d793821e104049ebb6ec3c19
+source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1348'
 ht-degree: 14%
 ---
 
@@ -244,6 +244,7 @@ ht-degree: 14%
   + [ベイク界面](/help/baking/baking-interface.md)
   + [メッシュマップをベイクする方法](/help/baking/how-to-bake-mesh-maps.md)
   + [ゆがみ補正](/help/baking/skew-correction.md)
+  + {hide-from-toc}[ケージペイント](/help/baking/cage-painting.md)
   + [メッシュマップ設定](/help/baking/mesh-map-settings.md)
   + [ビジュアライゼーション設定のベイク](/help/baking/baking-visualization-settings.md)
 + コンテンツ{#content}
@@ -352,7 +353,7 @@ ht-degree: 14%
       + [カスタムGPUを使用したMac OSでの斑点と不具合](/help/technical-support/technical-issues/rendering-issues/artifacts-and-glitches-on-mac-os-with-custom-gpus.md)
       + [ビューポートのテクスチャに濃淡な斑点が表示される](/help/technical-support/technical-issues/rendering-issues/blocky-artifacts-appear-on-textures-in-the-viewport.md)
       + [ビューポートではメッシュがピンク色で見える](/help/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.md)
-      + [カメラを移動するとメッシュフラッシュが白くなる](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
+      + [カメラを動かすとメッシュが白く点滅する](/help/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)
       + [一部のHDPIスケール値が機能しない](/help/technical-support/technical-issues/rendering-issues/some-hdpi-scaling-values-are-not-working.md)
       + [Ubuntuでビューポートが壊れているか、応答しない](/help/technical-support/technical-issues/rendering-issues/broken-viewport-ubuntu.md)
     + 安定性の問題{#stability-issues}

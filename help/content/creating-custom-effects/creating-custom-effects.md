@@ -16,13 +16,13 @@ Substance効果をSubstance 3D Painterに読み込んで正しく動作させる
 
 >[!NOTE]
 >
-> カスタムエフェクトは、デフォルトシェルフのプロジェクトに読み込むことができます。[アセットの読み込み](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
+> カスタムエフェクトは、デフォルトシェルフのプロジェクトに読み込むことができます。[アセットの読み込み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
 
 カスタムエフェクトの作成について詳しくは、次のページを参照してください。
 
 * [汎用フィルター](generic-filter.md)
 * [チャンネル固有のフィルター](channel-specific-filter.md)
 * [ジェネレーター](generators.md)
-* [メッシュマップ](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
+* [メッシュマップ](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/additional-map-140902415.html)
 * [メッシュベースの入力](mesh-based-input.md)
 * [ユーザーデータ](user-data.md)

@@ -49,7 +49,7 @@ Substance 3D Painterライブラリには、様々な種類のファイルを読
 
 >[!NOTE]
 >
-> バージョン7.2.0では、カスタムフォルダーおよびカテゴリをライブラリで使用できます。 これらのアイテムには、[パスでフィルター](../../interface/assets/filter-by-path.md)するか、[パンくず](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)を使用して「アセット」ウィンドウからアクセスできます。
+> バージョン7.2.0では、カスタムフォルダーおよびカテゴリをライブラリで使用できます。 これらのアイテムには、[パスでフィルター](../../interface/assets/filter-by-path.md)するか、[パンくず](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/navigating-in-the-shelf-147095659.html)を使用して「アセット」ウィンドウからアクセスできます。
 
 >[!WARNING]
 >

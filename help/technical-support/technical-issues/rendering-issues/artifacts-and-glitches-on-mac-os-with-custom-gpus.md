@@ -18,4 +18,4 @@ ht-degree: 0%
 
 カスタムドライバーでカスタムGPUを実行しているときに、Mac OSで不具合、クラッシュ、または斑点が発生する場合の回避策として、アプリケーションに関連する&#x200B;**適切にリスト**&#x200B;ファイルを削除できます。
 
-削除するファイルを確認するには、[環境設定とアプリケーションデータの場所](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)を参照してください。
+削除するファイルを確認するには、[環境設定とアプリケーションデータの場所](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)を参照してください。

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![](../../assets/adobe-dimension-meetmat.jpg)
 
-このリリースに含まれる新しいエクスポーターの1つは、Adobe Dimension（以前のAdobeプロジェクトFelix）で使用されるAdobe Standard Materialのサポートです。 メッシュとそのテクスチャを書き出して、ワンクリックでプロジェクトFelixに読み込むことができます。 アクセスするには、書き出しテクスチャウィンドウで「**Adobe Standard Material**」を選択します。 詳細については、[http://www.adobe.com/products/dimension.html](https://www.adobe.com/products/dimension.html)を参照してください。
+このリリースに含まれる新しいエクスポーターの1つは、Adobe Dimension（以前のAdobeプロジェクトFelix）で使用されるAdobe Standard Materialのサポートです。 メッシュとそのテクスチャを書き出して、ワンクリックでプロジェクトFelixに読み込むことができます。 アクセスするには、書き出しテクスチャウィンドウで「**Adobe Standard Material**」を選択します。 詳細については、[http://www.adobe.com/jp/products/dimension.html](https://www.adobe.com/jp/products/dimension.html)を参照してください。
 
 これについては、次のブログ投稿も参照してください。 <https://www.allegorithmic.com/blog/new-dimension-substance-ecosystem>
 

@@ -20,6 +20,6 @@ ht-degree: 0%
 * [編集メニュー](edit-menu.md)
 * [モードメニュー](mode-menu.md)
 * [ウィンドウメニュー](window-menu.md)
-* [ビューポートメニュー](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
+* [ビューポートメニュー](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/viewport-170460351.html)
 * [プラグインメニュー](plugins-menu.md)
 * [ヘルプメニュー](help-menu.md)

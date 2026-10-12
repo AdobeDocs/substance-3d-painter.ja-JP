@@ -28,4 +28,4 @@ Substance Painterはシェーダを使用して、リアルタイムビューポ
 
 新しい&#x200B;**.glsl**&#x200B;ファイルを作成するだけで、新しいカスタムシェーダを作成できます。
 
-詳細な[シェーダー API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)を利用できます。新しい効果を作成し、既存のワークフローに統合するためのヘルパー機能を提供します。
+詳細な[シェーダー API](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)を利用できます。新しい効果を作成し、既存のワークフローに統合するためのヘルパー機能を提供します。

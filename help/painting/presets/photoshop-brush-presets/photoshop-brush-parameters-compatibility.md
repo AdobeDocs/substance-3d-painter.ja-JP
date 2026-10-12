@@ -32,7 +32,7 @@ ABRファイル内を見ると、Substance 3D Painterは以下の特定のブラ
 
 ## パラメーター
 
-これらのパラメーターでできる操作の詳細については、[Photoshopの公式ドキュメント](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html)を参照してください。
+これらのパラメーターでできる操作の詳細については、[Photoshopの公式ドキュメント](https://helpx.adobe.com/jp/photoshop/using/creating-modifying-brushes.html)を参照してください。
 
 一部のPhotoshopブラシパラメーターはサポートされていません。 凡例を参照して、以下に示す各パラメータのステータスを確認してください。
 

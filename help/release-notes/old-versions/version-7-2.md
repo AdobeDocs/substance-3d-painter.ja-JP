@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # バージョン7.2
 
-**Substance 3D Painter 7.2**&#x200B;は、Adobe Standard Materialワークフロー、[Substance 3Dアプリケーション](https://www.adobe.com/products/substance3d/3d-augmented-reality.html)間でのコンテンツの共有の新しい方法、および見直された「アセット」ウィンドウにより、新しいレンダリング機能を提供します。
+**Substance 3D Painter 7.2**&#x200B;は、Adobe Standard Materialワークフロー、[Substance 3Dアプリケーション](https://www.adobe.com/jp/products/substance3d/3d-augmented-reality.html)間でのコンテンツの共有の新しい方法、および見直された「アセット」ウィンドウにより、新しいレンダリング機能を提供します。
 
 リリース日： *23 June 2021*
 

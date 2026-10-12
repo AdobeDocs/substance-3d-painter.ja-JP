@@ -18,7 +18,7 @@ ht-degree: 1%
 
 デフォルトでは、Substance 3D Painterは高DPI/Retina画面のビューポート解像度を縮小してパフォーマンスを向上させます。
 
-この動作は、**ビューポートの拡大/縮小**&#x200B;パラメーターを変更することで、[メイン設定](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html)で変更できます。
+この動作は、**ビューポートの拡大/縮小**&#x200B;パラメーターを変更することで、[メイン設定](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/general-71008262.html)で変更できます。
 
 ## テクスチャのフィルタリング
 

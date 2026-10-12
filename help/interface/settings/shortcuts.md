@@ -18,7 +18,7 @@ ht-degree: 5%
 
 ## ショートカットの概要
 
-利用可能なすべてのショートカットの簡単な概要については、グラフィック[チュートリアルで利用可能](https://helpx.adobe.com/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html)を参照してください。
+利用可能なすべてのショートカットの簡単な概要については、グラフィック[チュートリアルで利用可能](https://helpx.adobe.com/jp/substance-3d/unlisted/tutorials/courses/substance-3d-painter-keyboard-shortcuts.html)を参照してください。
 
 ## ショートカットの変更方法
 

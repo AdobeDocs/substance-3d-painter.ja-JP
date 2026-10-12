@@ -52,7 +52,7 @@ SVTの目標は、ビューポートがGPU エンジンで使用できる容量�
 ![](../assets/settings-temp.png)
 
 SVTキャッシュを保存するのに十分なシステムメモリ(Ram)がない場合、Substance 3D Painterはキャッシュを保存する代わりにコンピューターのハードドライブに切り替えます。\
-このキャッシュの既定の場所は、オペレーティングシステムの一時ファイルフォルダーです。 この場所は、アプリケーションのメイン設定で変更できます。[一般環境設定](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html)を参照してください。
+このキャッシュの既定の場所は、オペレーティングシステムの一時ファイルフォルダーです。 この場所は、アプリケーションのメイン設定で変更できます。[一般環境設定](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/general-71008262.html)を参照してください。
 
 ## シェーダー適合性
 
@@ -61,7 +61,7 @@ SVTを最大限に活用するには、シェーダがSparseシステムにテ�
 シェーダを更新するには：
 
 * **既定のSubstance 3D Painter シェーダー**&#x200B;の場合： [シェーダーの更新](../interface/shader-settings/updating-a-shader.md)ページから順を追って手順を実行します。
-* **カスタムシェーダー**&#x200B;の場合：ログおよび[シェーダー API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)ページのエラーメッセージを確認します。
+* **カスタムシェーダー**&#x200B;の場合：ログおよび[シェーダー API](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)ページのエラーメッセージを確認します。
 
 >[!WARNING]
 >

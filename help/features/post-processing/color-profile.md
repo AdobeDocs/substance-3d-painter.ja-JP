@@ -76,4 +76,4 @@ ociolutimage --generate --cubesize 64 --config nuke-default/config.ocio --colorc
 
 読み込みウィンドウを開きます（またはLUTをシェルフにドラッグ&amp;ドロップします）。 Substance 3D PainterにLUTテクスチャを読み込む際は、新しいリソースソースに「**colorlut**」「**usage**」を確実に割り当ててください。 そうしないと、シェルフでリソースが正しく表示されません。
 
-詳細については、新しいリソースのインポートに関するドキュメントを参照してください： [インポートウィンドウを使用したリソースの追加](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)
+詳細については、新しいリソースのインポートに関するドキュメントを参照してください： [インポートウィンドウを使用したリソースの追加](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-via-the-import-window-151584824.html)

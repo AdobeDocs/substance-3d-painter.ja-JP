@@ -39,7 +39,7 @@ ht-degree: 0%
 ![](../../assets/generators/generator_spectrum.png)
 
 各ジェネレーターには、生成されるマスクを微調整できるパラメーターのセットがあります。\
-シェルフにカスタムジェネレータを追加するには、[シェルフにコンテンツを追加する](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
+シェルフにカスタムジェネレータを追加するには、[シェルフにコンテンツを追加する](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)を参照してください。
 
 >[!NOTE]
 >

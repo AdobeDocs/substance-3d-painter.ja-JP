@@ -29,4 +29,4 @@ Painterのベイク処理プロセスについて詳しくは、次のページ�
 
 >[!NOTE]
 >
-> ベイク処理全般について詳しくは、専用の[ベイク処理ドキュメント](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)を参照してください。
+> ベイク処理全般について詳しくは、専用の[ベイク処理ドキュメント](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/home)を参照してください。

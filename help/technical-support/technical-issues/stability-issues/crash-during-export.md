@@ -18,7 +18,7 @@ ht-degree: 0%
 
 TDR(Timeout Detection and Recovery)は、GPUが計算を終わらせることなくシステムをロックするのを防ぐための、Microsoft Windowsの安全なメカニズムです。 残念ながら、このメカニズムはデフォルトではSubstance 3D Painterに対して制限が厳しすぎます。
 
-詳細については、[長い計算でのGPUドライバーのクラッシュ(TDRクラッシュ)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)を参照してください。
+詳細については、[長い計算でのGPUドライバーのクラッシュ(TDRクラッシュ)](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)を参照してください。
 
 ## 仮想メモリ不足
 

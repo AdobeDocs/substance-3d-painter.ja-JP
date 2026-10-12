@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-env-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのライブラリ環境シェーダー APIリファレンスにアクセスして、カスタムシェーダの環境マップとライティングを操作します。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Env - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ライブラリ環境 – シェーダー API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
-
 ---
-
 
 # ライブラリ環境 – シェーダー API
 
@@ -60,7 +52,7 @@ uniform mat4 irrad_mat_blue;
 ```
 
 
-環境をサンプリングできるヘルパーです。 回転が考慮されます。 環境マップはシーンの背後にあるパノラマ環境マップであるため、方向ベクトルから余分な計算が行われます。
+環境をサンプリングできるヘルパーです。 回転が考慮されます。 環境マップはシーンの背後にあるパノラマ環境マップであるため、dirベクターからの計算が余分に存在します。
 
 ```
 vec3 envSampleLOD(vec3 dir, float lod) 
@@ -87,7 +79,7 @@ vec3 envSampleLOD(vec3 dir, float lod)
 ```
 
 
-特定の方向の放射を返します。 計算は環境の球面高調波投影に基づいています。
+特定の方向の放射を返します。 この計算は、環境の球面高調波投影に基づいています。
 
 ```
 vec3 envIrradiance(vec3 dir) 

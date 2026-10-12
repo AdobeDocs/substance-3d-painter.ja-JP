@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/project-issues/projects-are-really-big.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterプロジェクトのファイルサイズを縮小して、パフォーマンスとストレージの要件を最適化する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Project Issues > Projects are really big
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: プロジェクトは本当に大きい
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
-
 ---
-
 
 # プロジェクトは本当に大きい
 
@@ -76,15 +68,15 @@ high-poly メッシュはプロジェクトには含まれません。 これら
 
   印刷のテクスチャを減らすには、次の手順を実行します。
   1. ベイカーウィンドウの「拡散を適用」設定を無効にする
-  1. 「膨張」に適切な値を設定します（例えば、2048解像度の場合は32ピクセル）
+  1. 「次を使用した拡張」を適切な値に設定します（2048解像度の場合は32ピクセル）
   1. すべてのテクスチャを同じ解像度で烘焙
   1. 書き出しプリセット「メッシュマップ」を含むベイクしたテクスチャを16 bit PNGとして書き出し、パディングを「パディングなし（パススルー）」に設定します
   1. 写真編集ソフトやSubstance 3D Designerで各マップを開く
   1. 適切と思われるテクスチャの解像度を下げます。 ambient occlusion、曲率、Thicknessをカラーからグレースケールに切り替えます。
   1. 新しいテクスチャバージョンを16bit PNGとして保存します。
-  1. テクスチャセット設定で、テクスチャを再度読み込み、元のベイクテクスチャの上に置き換えます。
+  1. テクスチャを再読み込みして、テクスチャセット設定の元の烘焙テクスチャに置き換えます。
   1. 古いメッシュマップを削除するには、「ファイル」メニューの「削除」アクションを使用します。
   1. プロジェクトファイルを圧縮するには、ファイルメニューの「保存して圧縮」アクションを使用します。\
      これらすべての手順を実行した後、プロジェクトのフットプリントを大幅に削減する必要があります。
 
-メッシュマップは少なくとも16ビットテクスチャのままで維持することが重要です。 8ビットテクスチャはフットプリントが小さくなる場合がありますが、スマートマテリアルやマスクジェネレーターにアーティファクトが発生します。 PNGは可逆圧縮形式なので、アーティファクトを発生させることなくテクスチャを圧縮し、16ビットもサポートすることを意味します。
+メッシュマップは少なくとも16ビットテクスチャのままで維持することが重要です。 8ビットテクスチャは設置面積が小さくなる可能性がありますが、スマートマテリアルやマスクジェネレーターに不具合が発生します。 PNGは可逆圧縮形式なので、アーティファクトを発生させることなくテクスチャを圧縮し、16ビットもサポートすることを意味します。

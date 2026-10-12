@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/ribbon-tool.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのリボンツールを使用して、パスに沿ってリボンのようなペイントストロークを描き、装飾的なテクスチャを描くことができます。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: リボンパス
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 2%
-
 ---
-
 
 # リボンパス
 
@@ -85,7 +77,7 @@ ht-degree: 2%
 | パラメーター | 説明 |
 | --- | --- |
 | <b>オフセット間のみ伸縮</b> | 有効にすると、画像の中央部を伸縮しながら、画像の開始部分と終了部分がそのまま維持されます。 <b>開始オフセット</b>と<b>終了オフセット</b>パラメーターを使用して、これらのセクションのサイズを定義します。 中央のセクションは、開始/終了に基づいて自動的に計算されます。  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_122891642_row-3t12rpd-column-6c32r7q_image" src="../../assets/ribbon_stretch_guides_path.png"/></div> |
-| <b>タイルモード</b> | パスに沿って画像を繰り返す方法を定義します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>なし</b>：画像は繰り返されません。 それは道全体に沿って伸縮されます。</li> <li data-preserve-html="true"><b>自動</b>: （既定）画像は、そのサイズと線幅に基づいて、特定の回数だけ自動的に繰り返されます。</li> <li data-preserve-html="true"><b>カスタム</b>:イメージ化は、<b>タイリング量</b>パラメーターで定義された回数だけ繰り返されます。</li> </ul> |
+| <b>タイリングモード</b> | パスに沿って画像を繰り返す方法を定義します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>なし</b>：画像は繰り返されません。 それは道全体に沿って伸縮されます。</li> <li data-preserve-html="true"><b>自動</b>: （既定）画像は、そのサイズと線幅に基づいて、特定の回数だけ自動的に繰り返されます。</li> <li data-preserve-html="true"><b>カスタム</b>:イメージ化は、<b>タイリング量</b>パラメーターで定義された回数だけ繰り返されます。</li> </ul> |
 | <b>タイリング金額</b> | <b>カスタム</b>タイリングモードで画像が繰り返される回数を指定します。 |
 | <b>2番目のタイルごとにミラー</b> | パスの長さに沿って使用する画像を2回おきに反転します。 |
 | <b>縦横比</b> | 現在の画像の縦横比を伸縮または縮小します。 |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/home.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterを使い始めて、テクスチャを3Dモデルに直接ペイントし、リアルなマテリアルサーフェスを作成しましょう。
-helpx_creative_field: ""
-helpx_description: Painter > Home
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Substance 3D Painter
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 9%
-
 ---
-
 
 # Substance 3D Painter
 
@@ -24,11 +16,11 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-Substance 3D Painterは、3Dメッシュにテクスチャを適用してレンダリングできる3Dペイントソフトウェアです。
+Substance 3D Painterは、3D メッシュのテクスチャとレンダリングを行うことができる3Dペイントソフトウェアです。
 
 このドキュメントは、このソフトウェアの基本的な使用方法から高度なテクニックまで学習できるように設計されています。
 
-このマニュアルで回答されていない質問がある場合は、[フォーラム](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://helpx.adobe.com/jp/substance-3d/unlisted/tutorials.html)をダウンロードすることもできます。
+このマニュアルで回答されていない質問がある場合は、[フォーラム](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)をダウンロードすることもできます。
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -70,10 +62,10 @@ Substance 3D Painterは、3Dメッシュにテクスチャを適用してレン�
 * [直線](painting/straight-line.md) – 直線を使用すると、クリック数が少なく、より正確に任意のペイントツールで簡単に線を描画できます。
 * [レイジーマウス](painting/lazy-mouse.md) — レイジーマウスは、マウスカーソルと実際のペイント間の距離のオフセットで、より正確なストロークまたは滑らかなストロークをペイントできます。
 * [対称](painting/symmetry/symmetry.md) —対称は、幾何拘束に基づいて複数の場所を同時にペイントする操作です。
-* [塗りつぶし投影法](painting/fill-projections/fill-projections.md) – 塗りつぶしレイヤーおよび塗りつぶし効果は、特定のモードに基づいてメッシュに直接テクスチャを投影します。 このタイプのレイヤー/効果では、3Dモデルにテクスチャを手動でペイントする必要がありません。 投影の設定は、「プロパティ」ウィンドウで編集できます。
+* [投影の塗りつぶし](painting/fill-projections/fill-projections.md) - 塗りつぶしレイヤー効果と塗りつぶし効果は、特定のモードに基づいてメッシュに直接テクスチャを投影します。 このタイプのレイヤー/効果では、3Dモデルのテクスチャに手動でペイントを付けないようにします。 投影の設定は、「プロパティ」ウィンドウで編集できます。
 * [プリセット](painting/presets/presets.md) – プリセットは、ペイントツールの保存された設定です。 このページでは、それらの使用方法とその理由について説明します。
 * [動的ストローク](painting/dynamic-strokes/dynamic-strokes.md) — 動的ストロークは、ブラシストローク内のスタンプごとに変わるSubstanceファイルを利用した通常のブラシストロークです。
-* [高度なチャンネルペイント](painting/advanced-channel-painting/advanced-channel-painting.md) – シェーダで使用されている一部のデフォルトチャンネルをペイントして、高度なエフェクトや複雑なエフェクトを作成できます。 たとえば、ペイントHeight情報を通常のマップに変換します。
+* [高度なチャンネルペイント](painting/advanced-channel-painting/advanced-channel-painting.md) – シェーダで使用されている一部のデフォルトチャンネルをペイントして、高度なエフェクトや複雑なエフェクトを作成できます。 例えば、法線マップに変換されるHeight情報をペイントすることができます。
 
 ### ベイク処理
 
@@ -83,7 +75,7 @@ Substance 3D Painterは、3Dメッシュにテクスチャを適用してレン�
 ### コンテンツ
 
 * [カスタムエフェクトの作成](content/creating-custom-effects/creating-custom-effects.md)
-* [アセットの読み込み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [アセットの読み込み](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### 機能
 
@@ -112,7 +104,7 @@ Substance 3D Painterは、3Dメッシュにテクスチャを適用してレン�
 
 ### スクリプト作成と開発
 
-* [スクリプトとプラグイン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [スクリプトとプラグイン](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### テクニカルサポート
 

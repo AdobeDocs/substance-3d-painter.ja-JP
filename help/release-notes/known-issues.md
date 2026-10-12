@@ -1,16 +1,10 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Substance 3D Painterの既知の問題を確認して、最新バージョンの現在の制限事項と回避策に関する情報を得てください。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 既知の問題
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: a652271a4b12d9c27513ebc4d5974fa87da29580
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -129,4 +123,4 @@ ht-degree: 0%
 * `[Crash]`リボン缶クラッシュで非常に長いテキストを作成しています
 * `[Crash]`デバイスがベイクで失われた後、ペイントモードに戻ります
 * `[Crash]`マップの書き出しをキャンセルした後、Painterを終了します
-* `[Crash]`カメラ名に特殊記号を含むメッシュをエクスポートしています
+* `[Crash]` カメラ名に特殊記号が含まれているメッシュをエクスポートしています

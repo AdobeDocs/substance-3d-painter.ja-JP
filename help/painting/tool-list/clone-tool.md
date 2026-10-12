@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/clone-tool.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのクローンツールを使用して、テクスチャのディテールをある領域から別の領域にコピーし、シームレスにテクスチャペイントできます。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Clone Tool
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: クローンツール
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
-
 ---
-
 
 # クローンツール
 

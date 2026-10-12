@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのレイヤースタックを使用して、複数のテクスチャペイントレイヤーを整理および管理する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: レイヤースタック
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 5%
-
 ---
-
 
 # レイヤースタック
 
@@ -40,7 +32,7 @@ ht-degree: 5%
 **共通の特徴：**
 
 * 各レイヤーは&#x200B;**マルチチャンネル**&#x200B;です。
-* ペイントツールでは、マテリアルの設定に応じて&#x200B;**対応するすべてのチャンネル**&#x200B;にペイントされます（レイヤースタックで現在表示しているチャンネルには影響しません）。
+* ペイントツールは、マテリアルの設定に応じて&#x200B;**それぞれのチャンネルすべてに**&#x200B;ペイントします（レイヤースタックで現在表示しているチャンネルには影響しません）。
 * 各レイヤーには、**描画モード**&#x200B;とチャンネルごとの&#x200B;**不透明度**&#x200B;があります（左上のドロップダウンメニューでチャンネルを切り替えることができます）。
 
 **レイヤーの種類：**

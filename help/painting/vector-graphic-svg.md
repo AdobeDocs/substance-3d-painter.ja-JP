@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/vector-graphic-svg.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでベクターグラフィック（SVGファイルとAIファイル）を使用して、スケーラブルなベクターアートワークをテクスチャに追加する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ベクターグラフィック(SVG)
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
-
 ---
-
 
 # ベクターグラフィック（.svgおよび.ai）
 
@@ -36,7 +28,7 @@ ht-degree: 1%
 | セクション | 設定 | 説明 |
 | --- | --- | --- |
 | <b>アートボード</b> | <b>アートボード</b> | ファイルに含まれている、使用するアートボードを選択します。  **注意：**&#x200B;この設定は、Illustrator (.ai)ファイルでのみ使用できます。 |
-| <b>解決策</b> | 解決策 | レイヤースタック内でテクスチャリングに使用する際にsvgがビットマップ画像（ピクセル）に変換されるサイズを定義します。   有効な値：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>自動</b>：解像度は、現在のテクスチャセットの解像度（塗りつぶしレイヤー/効果で使用した場合）、またはブラシツールで使用した場合は512ピクセルの解像度によって決定されます。<br/> </li> <li data-preserve-html="true"><b>アセット</b>：解像度は、SVGファイル自体の内部で定義されたピクセルサイズによって決定されます。<br/> </li> <li data-preserve-html="true"><b>カスタム</b>：解像度は、インターフェイスのすぐ下にある解像度の設定によって決定されます。</li> </ul>  <div><img alt="svg解像度の設定" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-ad42696-column-7212622_image" src="../assets/svg_resolution_custom.png" title="svg解像度の設定"/></div> |
+| <b>解決策</b> | 解決策 | レイヤースタック内でテクスチャリングに使用する際にsvgがビットマップ画像（ピクセル）に変換されるサイズを定義します。   有効な値：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>自動</b>：解像度は、現在のテクスチャセットの解像度（塗りつぶしレイヤーや効果で使用した場合）、またはブラシツールで使用した場合は512ピクセルに設定されます。<br/> </li> <li data-preserve-html="true"><b>アセット</b>：解像度は、SVGファイル自体の内部で定義されたピクセルサイズによって決定されます。<br/> </li> <li data-preserve-html="true"><b>カスタム</b>：解像度は、インターフェイスのすぐ下にある解像度の設定によって決定されます。</li> </ul>  <div><img alt="svg解像度の設定" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_row-ad42696-column-7212622_image" src="../assets/svg_resolution_custom.png" title="svg解像度の設定"/></div> |
 |  |  |  |
 | <b>切り抜き領域</b> | トリミング先 | レンダリングされた領域にSVGのシェイプを制限する方法を定義します。   有効な値：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>アセットの境界</b>：領域は、SVGファイル内で定義された境界によって定義されます。</li> <li data-preserve-html="true"><b>カスタム</b>：領域は、すぐ下のインターフェイスの設定を使用して明示的な値で定義されています。<br/> </li> </ul> |
 |  | 正方形のアスペクト比 | 切り抜き領域が<b>アセットの境界</b>で定義されている場合、この設定によって元の縦横比が維持され、SVGを正方形の画像としてレンダリングする際に誤った伸縮が行われなくなります。   この設定により、一部の要素が予期せずに表示される場合があります。 この問題を回避するには、塗りつぶしレイヤー/エフェクトの内側で、この設定を無効にし、代わりにUV設定を手動で調整します。 |

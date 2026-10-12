@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/color-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでカラーマネジメントを設定し、ワークフロー全体で一貫したカラー精度を確保する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Color management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: カラーマネジメント
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 4%
-
 ---
-
 
 # カラーマネジメント
 
@@ -48,7 +40,7 @@ ht-degree: 4%
 | **表示変形** | 表示変形では、リニアカラーを作業用スペースからモニターのカラースペースに変換して、人間の目に見える知覚的にカラーを表示します。 多くの場合、表示変形にはトーンマッピングパスが含まれ、画面で許可される値の制限範囲に合わせてカラーを圧縮します。 |
 | **構成** | OCIO設定ファイル。 作業用スペース、カラースペースの一覧、および表示変形の一覧を定義します。 |
 | **ACE** | ACEはAcademy Color Encoding Systemの略で、デジタルイメージファイルを交換するための多くのアプリケーションの標準です。 デフォルトでは、この標準の2つのバージョンがアプリケーション内に含まれています。 |
-| **トーンマッピング** | これは、HDR(ハイダイナミックレンジ)からLDR（ローダイナミックレンジ）にカラー値をマッピングするプロセスです。 この処理により、表示される色の範囲が広くなります。 |
+| **トーンマッピング** | これは、HDR(ハイダイナミックレンジ)からLDR（低ダイナミックレンジ）にカラー値をマッピングするプロセスです。 この処理により、表示される色の範囲が広くなります。 |
 
 ## カラーマネジメントチャンネルのリスト
 
@@ -56,35 +48,35 @@ ht-degree: 4%
 
 | チャンネル | カラーマネジメント |
 | --- | --- |
-| **環境オクルージョン** | いいえ |
+| **Ambient occlusion** | いいえ |
 | **アニストトロピー角** | いいえ |
 | **Anisotropy level** | いいえ |
-| **基本色** | **はい** |
+| **Base color** | **はい** |
 | **Blending mask** | いいえ |
-| **コートの色** | **はい** |
+| **Coat color** | **はい** |
 | **Coat normal** | いいえ |
 | **Coat opacity** | いいえ |
 | **Coat roughness** | いいえ |
 | **Coat specular level** | いいえ |
-| **拡散** | **はい** |
+| **Diffuse** | **はい** |
 | **ディスプレイスメント** | いいえ |
-| **光沢** | いいえ |
+| **光沢度** | いいえ |
 | **Height** | いいえ |
 | **Ior** | いいえ |
 | **メタリック** | いいえ |
 | **標準** | いいえ |
 | **不透明度** | いいえ |
 | **リフレクション** | いいえ |
-| **粗さ** | いいえ |
+| **ラフネス** | いいえ |
 | **散布** | いいえ |
 | **拡散カラー** | **はい** |
 | **光沢カラー** | **はい** |
 | **光沢の不透明度** | いいえ |
-| **光沢の粗さ** | いいえ |
+| **ラフネス** | いいえ |
 | **Specular** | **はい** |
 | **Specular edge color** | **はい** |
 | **Specular level** | いいえ |
-| **半透明度** | いいえ |
+| **Translucency** | いいえ |
 | **Transmissive** | **はい** |
 | **ユーザーX (0-15)** | [テクスチャセットの設定](../../interface/texture-set/texture-set-settings.md)に依存しています。 デフォルトでは、ユーザーチャンネルはカラーマネジメントされません。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r31-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/user-demo.png"/></div> |
 

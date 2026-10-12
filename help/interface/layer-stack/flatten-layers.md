@@ -1,15 +1,11 @@
 ---
 title: レイヤーを統合
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/flatten-layers.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 1%
-
 ---
-
 
 # レイヤーを統合
 
@@ -61,7 +57,7 @@ ht-degree: 1%
 
 * <b>$textureSet\_$layerName\_$srcMap(.$udim)</b>
 
-このパターンを使用すると、マップにはテクスチャセット名、レイヤ名、チャンネル名が含まれ、UVタイルプロジェクトの場合はUDIM番号が含まれます。
+このパターンでは、マップにはテクスチャセット名、レイヤ名、チャンネル名が含まれ、UVタイルプロジェクトの場合はUDIM番号が含まれます。
 
 パターンを修正した場合、次回ウィンドウを開いたときに再び使用できるようになります。
 
@@ -75,7 +71,7 @@ ht-degree: 1%
 次のプロパティはハードコードされており、変更できません。
 
 * パディングは1 pxにロックされています。
-* ファイル形式は、書き出すチャンネルによって異なります。 通常、Heightや法線などのマップは、より多くのビット深度を必要とし、EXRとして書き出されます。その他のチャンネルはPNGとして書き出されます。
+* ファイル形式は、書き出すチャンネルによって異なります。 Heightや法線などのマップは、通常、より多くのビット深度を必要とし、EXRとして書き出されます。その他のチャンネルはPNGとして書き出されます。
 * マスクのみが書き出される場合は、書き出し形式を選択できます。
 
 ## 統合されたレイヤーはどのように生成されますか？

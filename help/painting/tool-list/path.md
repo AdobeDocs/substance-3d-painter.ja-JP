@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/path.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのパスツールを使用して、パスを作成および編集し、テクスチャのペイントや線の配置を正確に行うことができます。
-helpx_creative_field: ''
-helpx_description: Painting > Path tools list > Path tool
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: パスツールの概要
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6fcf10add7086a0e2a070ee6046c0a261ef1ae34
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 0%
-
 ---
-
 
 # パスツールの概要
 
@@ -117,11 +109,11 @@ ht-degree: 0%
   </tr>
   <tr>
     <td><strong>表示設定</strong><br><img src="../../assets/path_contextual_toolbar_display.png" alt="パステキスト表示設定アイコン"/></td>
-    <td>ビューポートのパスビジュアルフィードバックの外観をコントロールします。<br><ul><li><strong>ハンドルサイズ</strong>:パスのポイントの大きさを制御します。</li><li><strong>パスの幅</strong>:パスの線のThicknessを制御します。<br></li><li><strong>パスの色</strong>:パス線の色を制御します。<br></li><li><strong>選択されていないパスの色</strong>:アクティブでないパスの色を制御します。<br></li><li><strong>法線</strong>：有効にすると、パスの各ポイントの投影の向きを示します。<br></li><li><strong>正接</strong>：有効にすると、パスのコントロールポイントのカーブの向きが表示されます。<br></li><li><strong>パスの方向</strong>：有効にすると、パスの端に小さな矢印が表示され、ペイントの方向が示されます。 これは、ストローク内のスタンプの方向を知る場合に便利です。</li></ul><br><img src="../../assets/path_contextual_toolbar_display_settings.png" alt="パスの表示設定パネルのスクリーンショット"/></td>
+    <td>ビューポートのパスビジュアルフィードバックの外観を制御します。<br><ul><li><strong>ハンドルサイズ</strong>:パスのポイントの大きさを制御します。</li><li><strong>パスの幅</strong>:パスの線のThicknessを制御します。<br></li><li><strong>パスの色</strong>:パス線の色を制御します。<br></li><li><strong>選択されていないパスの色</strong>:アクティブでないパスの色を制御します。<br></li><li><strong>法線</strong>：有効にすると、パスの各ポイントの投影の向きを示します。<br></li><li><strong>正接</strong>：有効にすると、パスのコントロールポイントのカーブの向きが表示されます。<br></li><li><strong>パスの方向</strong>：有効にすると、パスの端に小さな矢印が表示され、ペイントの方向が示されます。 これは、ストローク内のスタンプの方向を知る場合に便利です。</li></ul><br><img src="../../assets/path_contextual_toolbar_display_settings.png" alt="パスの表示設定パネルのスクリーンショット"/></td>
   </tr>
   <tr>
     <td><strong>パスの方向を反転</strong><br><img src="../../assets/path_contextual_toolbar_direction.png" alt="パス方向を反転するアイコン"/></td>
-    <td>現在のパスの方向を反転します。 方向は、ストローク内でスタンプをペイントするときに使用する一般的な方向を定義します。 パスを反転させると、描画したパターンの向きを変えるのに役立ちます。</td>
+    <td>現在のパスの方向を反転します。 方向は、ストローク内でスタンプのペイントを決めるために使用する一般的な方向です。 パスを反転させると、描画したパターンの向きを変えるのに役立ちます。</td>
   </tr>
   <tr>
     <td><strong>コーナー/スムーズを切り替え</strong><br><img src="../../assets/path_contextual_toolbar_smoothcorner.png" alt="スムーズコーナーを切り替えるアイコン"/></td>
@@ -140,12 +132,12 @@ ht-degree: 0%
     <td>パス上で現在選択されている頂点を削除します。</td>
   </tr>
   <tr>
-    <td><strong>対称</strong><br><img src="../../assets/path_contextual_toolbar_symmetry.png" alt="対称フィーチャーのアイコン"/></td>
+    <td><strong>対称</strong><br><img src="../../assets/path_contextual_toolbar_symmetry.png" alt="対称機能のアイコン"/></td>
     <td>現在のパスの対称を有効または無効にします。 詳細については、<a href="../symmetry/symmetry.md">対称のドキュメント</a>を参照してください。<br><img src="../../assets/v90_path_symmetry.gif" alt="対称で描かれているパスを示すGIF"/></td>
   </tr>
   <tr>
     <td><strong>除外されたジオメトリを非表示/無視</strong><br><img src="../../assets/path_contextual_toolbar_exclude.png" alt="ジオメトリマスク除外フィーチャーのアイコン"/></td>
-    <td>有効になっている場合は、非表示のジオメトリを通して現在のパスがペイントされます。 詳細については、<a href="../../interface/layer-stack/geometry-mask.md">ジオメトリマスクのドキュメント</a>を参照してください。</td>
+    <td>有効な場合は、非表示のジオメトリを通して現在のパスをペイントします。 詳細については、<a href="../../interface/layer-stack/geometry-mask.md">ジオメトリマスクのドキュメント</a>を参照してください。</td>
   </tr>
 </table>
 

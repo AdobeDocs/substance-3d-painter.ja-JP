@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/performances-guidelines/layer-management.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのレイヤー管理のベストプラクティスを紹介します。これにより、パフォーマンスを最適化し、プロジェクトを効率的に整理できます。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Performances guidelines > Layer management
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: レイヤー管理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
-
 ---
-
 
 # レイヤー管理
 
@@ -47,7 +39,7 @@ Painterは、下から上へのレイヤースタックを計算します。 し
 +++
 
 +++レイヤースタックの上部付近でのフィルターの使用を制限
-フィルターは高価になる可能性があります。 レイヤースタックの最上部付近にあるフィルターを使用する必要がある場合は、ジオメトリマスクを使用してパフォーマンスコストを下げます。
+フィルターは高価になる可能性があります。 レイヤースタックの上部付近でフィルターを使用する必要がある場合は、ジオメトリマスクを使用してパフォーマンスコストを下げます。
 
 +++
 
@@ -56,7 +48,7 @@ Painterは、下から上へのレイヤースタックを計算します。 し
 
 +++
 
-+++プロジェクション深度を小さく保つ
++++深度を小さく保つ
 ツールやモードに深度設定（ワープ、平面、パスなど）がある場合は、「投影深度」の値をできる限り小さくします。 深度が拡張するほど、パフォーマンスが低下します。
 
 +++
@@ -73,7 +65,7 @@ Painterは、下から上へのレイヤースタックを計算します。 し
 
 +++
 
-+++デカールを平面投影モードに設定
++++デカールを投影モードに設定
 デカールモードの既定値はワープですが、デカールのポイントを動かしてデカールを変形する場合を除き、平面モードに切り替える方がコストは大幅に抑えられます。
 
 +++

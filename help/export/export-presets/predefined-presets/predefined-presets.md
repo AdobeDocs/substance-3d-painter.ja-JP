@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-presets/predefined-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 一般的なワークフローですぐに利用できる書き出し出力テンプレートを使用するための、Substance 3D Painterの事前定義済み設定について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Predefined Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 定義済みの出力テンプレート
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 5%
-
 ---
-
 
 # 定義済みの出力テンプレート
 

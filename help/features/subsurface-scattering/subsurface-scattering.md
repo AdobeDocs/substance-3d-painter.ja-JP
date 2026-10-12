@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで表面化散乱を使用して、肌やワックスなどのリアルな半透明のマテリアルを作成する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 表面下散乱
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
-
 ---
-
 
 # 表面下散乱
 
 ![](../../assets/sss-sarah.jpg){width="500px"}
 
-&#x200B;>> 
+>> 
 
 (クレジット：The Soldier [by Ribeyrolles Leo](https://www.artstation.com/artwork/xNYDm) )
 

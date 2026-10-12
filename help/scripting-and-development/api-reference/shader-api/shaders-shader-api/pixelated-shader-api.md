@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/shaders-shader-api/pixelated-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのピクセル化されたシェーダー APIのリファレンスにアクセスして、カスタムのピクセル化されたレンダリングエフェクトを作成します。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Shaders - Shader API > Pixelated - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ピクセル化 – シェーダー API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
-
 ---
-
 
 # ピクセル化 – シェーダー API
 
@@ -36,7 +28,7 @@ const vec3 light_pos = vec3(10.0, 10.0, 10.0);
 ```
 
 
-自動パラメーターのワールドアイ位置をユニフォーム&#x200B;**camera\_pos**&#x200B;に&#x200B;**バインド**&#x200B;します。
+自動パラメーターのワールドアイ位置をユニフォーム&#x200B;**カメラ\_pos**&#x200B;に&#x200B;**バインド**&#x200B;します。
 
 ```
 //: param auto world_eye_position 
@@ -45,7 +37,7 @@ uniform vec3 camera_pos;
 ```
 
 
-ドキュメントのチャンネル&#x200B;**ベースカラー**&#x200B;を均一な&#x200B;**ベースカラー\_tex**&#x200B;に&#x200B;**バインド**&#x200B;します。
+ドキュメントのチャンネル&#x200B;**base color**&#x200B;をユニフォーム&#x200B;**ベースカラー\_tex**&#x200B;に&#x200B;**バインド**&#x200B;します。
 
 ```
 //: param auto channel_basecolor 
@@ -54,7 +46,7 @@ uniform SamplerSparse basecolor_tex;
 ```
 
 
-このシェーダの新しいカスタムツイークとその既定値を定義します。 このオプションは、影を付けたときにアウトラインのThicknessを微調整するために使用します。
+このシェーダーに対して、新しいカスタムツイークとその既定値を定義します。 このオプションは、影を付けたときにアウトラインのThicknessを微調整するために使用します。
 
 ```
 //: param custom { 
@@ -73,7 +65,7 @@ uniform float unlit_outline_thickness;
 ```
 
 
-このシェーダの新しいカスタムツイークとその既定値を定義します。 これは、点灯したときにアウトラインのThicknessを微調整するために使用します。
+このシェーダーに対して、新しいカスタムツイークとその既定値を定義します。 これは、点灯したときにアウトラインのThicknessを微調整するために使用します。
 
 ```
 //: param custom { 

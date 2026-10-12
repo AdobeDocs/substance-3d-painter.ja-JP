@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/creating-export-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでカスタム出力テンプレートを作成して、独自のテクスチャ書き出し設定を定義する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Creating Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 出力テンプレートの作成
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 0%
-
 ---
-
 
 # 出力テンプレートの作成
 
@@ -37,7 +29,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> テンプレートを使用してテクスチャを書き出すと、そのテンプレートファイルはプロジェクトファイルに自動的に含められ、後で保存されます。\
+> テンプレートを使用してテクスチャを書き出す場合、テンプレートファイルはプロジェクトファイルに自動的に含められ、その後に保存されます。\
 > これにより、テクスチャを書き出すためのテンプレートを保持したまま、プロジェクトを共有したり別のコンピューターに移動したりすることができます。\
 > 最後に使用したプリセットのみがプロジェクトに保存されます。 ただし、Substance 3D Painterが同じ名前のプリセットを検出した場合、プロジェクト内のプリセットはリストで「古い」とマークされます。
 
@@ -62,7 +54,7 @@ ht-degree: 0%
 ![](../assets/output-map.gif)
 
 マップを作成したら、名前を付けて、使用可能なチャンネルスロットのいずれかに入力マップをドラッグアンドドロップできます。\
-入力マップが「出力マップ」セクションにドロップされると、そのスロットにロードするコンテンツのタイプを尋ねるメニューが開きます。
+入力マップが出力マップセクションにドロップされると、そのスロットにロードするコンテンツの種類を尋ねるメニューが開きます。
 
 <b>RGB</b>と<b>個別</b>のチャンネルから、入力の<b>Alpha</b>と<b>グレースケール</b>の変換までのオプションがあります。
 

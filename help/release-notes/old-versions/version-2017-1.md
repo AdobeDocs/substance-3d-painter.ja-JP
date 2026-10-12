@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2017-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 新機能、改善点、バグの修正について詳しくは、 Substance 3D Painterバージョン2017.1のリリースノートを確認してください。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2017.1
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: バージョン2017.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 
 # バージョン2017.1
 
@@ -71,11 +63,11 @@ Substance Sourceを開くには、アプリケーションのメインツール�
 * [プラグイン]新しいSubstance Sourceプラグイン（シェルフでアセットをダウンロード可能）
 * [シェルフ] 4つの新しいフォント（日本語+簡体字中国語、タイプライター、セグメント）
 * [シェルフ] 230の新しいAlpha （パターン、ブラシ、および指紋スキャンの組み合わせ）
-* 【棚】50件の新しいプロシキュラル（中世と現代の衣服の生地のパターン）
-* [Shelf] 2つの新しい環境マップ（MondarrainとVilla Nova Street）
+* [シェルフ] 50新しいプロシキュラル（中世と現代の衣服の生地のパターン）
+* 【シェルフ】2つの新しい環境マップ（モンダレインとヴィラ・ノヴァ・ストリート）
 * [シェルフ] 9つの新しいフィルター（MatFxディテールEdge Wear、クランプ、HBAOなど）
 * [シェルフ]デフォルトのパノラマ環境マップの改善
-* [Shelf]新しいArnold 5書き出しプリセット
+* [シェルフ]新しいArnold 5書き出しプリセット
 * [スクリプティング]リソースをシェルフにインポートできるようにする
 
 **既知の問題：**

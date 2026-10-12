@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/shader-settings/updating-a-shader.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのカスタムシェーダを更新してシェーダーの変更を適用し、シェーダーファイルを再ロードする方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Shader settings > Updating a shader
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: シェーダーの更新
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
-
 ---
-
 
 # シェーダーの更新
 
@@ -43,7 +35,7 @@ ht-degree: 0%
 
 ![](../../assets/shader-mini-shelf.png)
 
-### 3 – シェーダが更新されます
+### 3 - シェーダーが更新されます
 
 新しいシェーダーが読み込まれたら、メンション&#x200B;**古い**&#x200B;が削除され、3Dモデルがビューポートで正常に表示されます。
 
@@ -65,6 +57,6 @@ ht-degree: 0%
 
 ### 3 - シェーダーを検索して更新する
 
-Shaderタブに、現在のプロジェクトのすべてのShaderリソースユーザのリストが表示されます。 **古い**&#x200B;シェーダーが&#x200B;**赤い背景**&#x200B;で表示されています。 リソースの横にある「更新」ボタンをクリックして更新します。
+[シェーダー]タブに、現在のプロジェクトが使用しているすべてのシェーダーリソースの一覧が表示されます。 **古い**&#x200B;シェーダーが&#x200B;**赤い背景**&#x200B;で表示されています。 リソースの横にある「更新」ボタンをクリックして更新します。
 
 ![](../../assets/update-shader-click.gif)

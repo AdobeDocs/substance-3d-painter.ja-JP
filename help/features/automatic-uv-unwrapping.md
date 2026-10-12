@@ -1,27 +1,19 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/automatic-uv-unwrapping.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで自動UVラップ解除を使用して、3DモデルのUVレイアウトを自動的に生成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Automatic UV Unwrapping
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: UVの自動ラップ解除
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 
 # UVの自動ラップ解除
 
 ![](../assets/auto-unwrap-update-810.jpg)\
-自動UVアンラップを使用すると、3Dモデルの読み込み時にUV アイランドを自動的に生成できます。 既存のUVがない3Dモデル上でペイントするために使用できます。
+自動ラップ解除機能を使用すると、3Dモデルを読み込むときにUV アイランドを自動的に生成できます。 既存のUVを持たない3Dモデル上でのペイントに使用できます。
 
 ## 自動ラップ解除の有効化
 
@@ -29,7 +21,7 @@ ht-degree: 0%
 
 新しいプロジェクトを作成したり、既存のプロジェクトにメッシュを再読み込みする場合は、「自動ラップ解除」設定がオンになっていることを確認してください。 無効にすると、プロセスがスキップされ、メッシュUVはそのままの状態が維持されます。
 
-## UVアンラップ設定
+## ラップ解除の設定
 
 ![](../assets/unwrap-settings.png)
 
@@ -37,14 +29,14 @@ ht-degree: 0%
 
 | セクション | ***設定*** | ***説明*** |
 | --- | --- | --- |
-| **シーケンスのラップ解除** | **シーム** | シーム（UV アイランドの枠線）を持たないメッシュに対してのみ生成するか、常に再生成するかを制御します。有効な値：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>不足しているデータを生成します</strong> （既定）：不足しているメッシュに対してシームが生成されます。</li><li data-preserve-html="true"><strong>すべての</strong>を再計算：すべてのメッシュに対して縫い目が生成されます。</li></ul> |
-| **UV アイランド** | UVのないメッシュから、または任意のメッシュに対して、UVラップ解除を生成するかどうかを制御します。 有効な値：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>不足しているデータを生成します</strong> （既定）: UVのないメッシュに対してUVアンラップが生成されます。</li><li data-preserve-html="true"><strong>すべての</strong>を再計算：すべてのメッシュのUVラップ解除が生成されます。</li></ul> |  |
+| **シーケンスのラップ解除** | **シーム** | シーム（UV アイランドの枠線）を持たないメッシュに対してのみ生成するか、常に再生成するかを制御します。有効な値：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>不足しているデータを生成します</strong> （既定）：不足しているメッシュに対してシームが生成されます。</li><li data-preserve-html="true"><strong>すべての</strong>を再計算：すべてのメッシュに対してシームが生成されます。</li></ul> |
+| **UV アイランド** | UVのないメッシュから、または任意のメッシュに対して、UVラップ解除を生成するかどうかを制御します。 有効な値：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>不足しているデータを生成します</strong> （既定）: UVがないメッシュに対してUV ラップ解除が生成されます。</li><li data-preserve-html="true"><strong>すべての</strong>を再計算：すべてのメッシュのUVラップ解除が生成されます。</li></ul> |  |
 | **パッキング** | メッシュのUV アイランドのパッキング/レイアウトを制御します。有効な値：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>不足しているデータを生成します</strong> （既定）: UVが不足しているメッシュのUV アイランドをパックします。</li><li data-preserve-html="true"><strong>すべての</strong>を再計算：すべてのUV アイランドをパックします。</li></ul> |  |
 |  |  |  |
 | **レイアウトのカスタマイズ** | **余白サイズ** | UV アイランド間の間隔を指定します。 この設定は、解像度とは無関係に一般的なパーセンテージを適用します。有効な値：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>余白なし</strong> : 0%</li><li data-preserve-html="true"><strong>小</strong> （既定）: 0.2%</li><li data-preserve-html="true"><strong>中</strong> : 0.5%</li><li data-preserve-html="true"><strong>大</strong> : 1%</li></ul> |
 |  | **UV アイランドの向き** | パッキングプロセス中のUV アイランドの方向を制御します。有効な値：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>制約なし</strong> （既定）：方向の計算に制約は適用されません。</li><li data-preserve-html="true"><strong>3D メッシュに合わせる</strong>:UV アイランドの方向がメッシュの方向を向くように制限します</li></ul> |
 |  |  |  |
-| **UV タイル** | **最大UV タイル数** | 「UVタイル」ワークフローが有効な場合、この設定によって、UV アイランド上に分布するために生成するタイルの最大数が決まります。 |
+| **UV タイル** | **最大UV タイル数** | UV タイルワークフローが有効な場合、この設定によって、UV アイランド上に分布するために生成するタイルの最大数が決まります。 |
 |  |  |  |
 | **最適化** | **細長いUV アイランドを避ける** | 有効にすると、このプロセスにより、長すぎると見なされるUV アイランドが分割され、テクスチャ容量の使用量が増えます。before（上）とafter（下）の例： <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r10-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../assets/uv-before-after.jpg" width="400px"/></div> |
 

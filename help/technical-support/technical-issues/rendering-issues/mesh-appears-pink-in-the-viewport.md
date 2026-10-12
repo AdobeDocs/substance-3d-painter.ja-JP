@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-appears-pink-in-the-viewport.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painter ビューポートでピンクのメッシュのアピアランスを修正して、マテリアルが適切にレンダリングされるようにする方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Mesh appears pink in the viewport
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ビューポートではメッシュがピンク色で見える
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
-
 ---
-
 
 # ビューポートではメッシュがピンク色で見える
 
@@ -27,4 +19,4 @@ ht-degree: 0%
 修正方法は次のとおりです。
 
 * **既定のシェーダー**&#x200B;の場合： [シェーダーの更新](../../../interface/shader-settings/updating-a-shader.md)ページから順を追って手順を実行します。
-* **カスタムシェーダー**&#x200B;の場合：ログウィンドウと[シェーダー API](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)ページのエラーメッセージを確認してください。
+* **カスタムシェーダー**&#x200B;の場合：ログウィンドウと[シェーダー API](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/custom-shader-api-89686018.html)ページのエラーメッセージを確認してください。

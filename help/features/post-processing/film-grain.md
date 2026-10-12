@@ -1,15 +1,11 @@
 ---
 title: 粒状フィルム
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/film-grain.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 9%
-
 ---
-
 
 # 粒状フィルム
 
@@ -27,4 +23,4 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> このエフェクトで生成されたノイズは、ビューポートを更新するたびに再生成されます。 そのため、シャドウを生成したり、カメラを回転させたりすると、ノイズを更新できます。
+> このエフェクトで生成されたノイズは、ビューポートが更新されるたびに再生成されます。 そのため、シャドウを生成したり、カメラを回転させたりすると、ノイズを更新できます。

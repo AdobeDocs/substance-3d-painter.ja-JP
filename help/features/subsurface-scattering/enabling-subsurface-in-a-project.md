@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering/enabling-subsurface-in-a-project.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterプロジェクトで表面化散乱を有効にして、リアルな半透明のマテリアル効果を作成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Enabling Subsurface in a Project
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: プロジェクトでサブサーフェスを有効にする
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
-
 ---
-
 
 # プロジェクトでサブサーフェスを有効にする
 
@@ -35,7 +27,7 @@ Substance 3D Painterで表面化散乱を正しくアクティブにするには
 
 ## 2 – グローバルサブサーフェス設定
 
-[ディスプレイ設定](../../interface/display-settings/display-settings.md) （ポストエフェクト設定の下）で、メインのサブサーフェス分散設定を有効にします。
+メインの表面化散乱設定を[ディスプレイ設定](../../interface/display-settings/display-settings.md) （ポストエフェクト設定の下）で有効にする：
 
 ![](../../assets/enable-subsurface.png)
 
@@ -48,7 +40,7 @@ Substance 3D Painterで表面化散乱を正しくアクティブにするには
 ![](../../assets/shader-parameters.png)
 
 既定のシェーダーを含む[シェーダー設定](../../interface/shader-settings/shader-settings.md)ウィンドウには、2つの設定を含む「**SSSパラメーター**」グループがあります。\
-ターゲットのマテリアルに合わせてスケールとカラーを変更します。 これらの設定の詳細については、[サブサーフェスパラメーター](subsurface-parameters.md)を参照してください。
+スケールとカラーを変更して、ターゲットマテリアルに合わせます。 これらの設定の詳細については、[サブサーフェスパラメーター](subsurface-parameters.md)を参照してください。
 
 ## ボーナス：シャドウの有効化
 

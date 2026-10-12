@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/creating-layers.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで新しいレイヤーを作成し、複数のペイントレイヤーを使用して複雑なテクスチャを構築する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Creating layers
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: レイヤーの作成
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 16%
-
 ---
-
 
 # レイヤーの作成
 

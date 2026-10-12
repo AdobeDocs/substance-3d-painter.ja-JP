@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/resource-management/preferences-and-content-migration.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 新しいシステムにアップグレードまたは移行する際に、Substance 3D Painterで環境設定とコンテンツを移行する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Resource management > Preferences and content migration
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 環境設定とコンテンツの移行
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 1%
-
 ---
-
 
 # 環境設定とコンテンツの移行
 
@@ -56,7 +48,7 @@ ht-degree: 1%
 
 1. アプリケーションを閉じる
 1. 古いシェルフフォルダーに移動します
-1. Shelf.iniファイルのコピーまたはカット
+1. シェルフ.iniファイルをコピーまたはカットする
 1. 新しいアセットフォルダーに移動します
 1. ファイルをペーストして既存のファイルを上書き
 
@@ -66,4 +58,4 @@ ht-degree: 1%
 
 アプリケーション設定は、インターフェイスから手動で再調整することをお勧めします。 これは、互換性の問題を発生させることなく情報を移行するための最も安全な方法です。
 
-それ以外の場合は、次のページを参照して、環境設定の場所を確認してください： [環境設定とアプリケーションデータの場所](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)。
+それ以外の場合は、次のページを参照して、環境設定の場所を確認してください： [環境設定とアプリケーションデータの場所](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/application-preferences-location-147095594.html)。

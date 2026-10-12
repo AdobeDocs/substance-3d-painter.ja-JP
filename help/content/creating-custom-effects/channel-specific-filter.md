@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects/channel-specific-filter.html"
-breadcrumb-title: ''
-description: Substance 3D Painterで個々のテクスチャチャンネルを処理するための、チャンネル固有のフィルターエフェクトを作成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Channel specific filter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Substance 3D Painterで個々のテクスチャチャンネルを処理するためのチャンネル固有のフィルターエフェクトを作成する方法について説明します。
 title: チャンネル固有のフィルター
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
-
 ---
-
 
 # チャンネル固有のフィルター
 
@@ -32,7 +24,7 @@ ht-degree: 0%
 
 ## Alphaコンポーネントの管理
 
-RGBAとして保存されたチャンネルは、アルファ（ベースカラーなど）をサポートします。 これらのチャンネルについては、アルファ入出力をSubstanceカラー出力に直接保存できます。 ただし、Substanceエンジンはグレースケール画像のAlphaをサポートしていないため、セカンダリマップを使用して管理する必要があります。 Substance グラフのチャンネルのアルファコンポーネントを取得するには、&#39;**channelname\_grayscale**&#39;という名前のAlphaの入力を作成します（例： **ベースカラー\_Alpha**、**ラフネス\_Alpha**）。\
+RGBAとして保存されたチャンネルは、アルファ（ベースカラーなど）をサポートします。 これらのチャンネルについては、アルファ入出力をSubstanceカラー出力に直接保存できます。 ただし、エンジンはグレースケールイメージのAlphaをサポートしておらず、セカンダリマップを使用して管理する必要があります。 Substance グラフのチャンネルのアルファコンポーネントを取得するには、&#39;**channelname\_grayscale**&#39;という名前のAlphaの入力を作成します（例： **ベースカラー\_Alpha**、**ラフネス\_Alpha**）。\
 このアルファコンポーネントを出力するには、同じ命名規則を使用して出力ノードを作成します。
 
 >[!NOTE]
@@ -50,22 +42,22 @@ RGBAとして保存されたチャンネルは、アルファ（ベースカラ�
 
 | チャンネル名 | 使用状況 | 識別子/識別子Alpha |
 | --- | --- | --- |
-| *環境オクルージョン* | **アンビエントオクルージョン** | **アンビエントオクルージョン/アンビエントオクルージョン\_Alpha** |
-| *異方性角度* | **異方性ピアングル** | **異方性角度/異方性角度\_Alpha** |
-| *異方性レベル* | **異方性反射** | **異方性反射レベル/異方性反射レベル\_Alpha** |
-| *基本色* | **ベースカラー** | **ベースカラー/ベースカラー\_Alpha** |
+| *Ambient occlusion* | **アンビエントオクルージョン** | **アンビエントオクルージョン/アンビエントオクルージョン\_Alpha** |
+| *Anisotropy angle* | **異方性ピアングル** | **異方性角度/異方性角度\_Alpha** |
+| *Anisotropy level* | **異方性反射** | **異方性反射レベル/異方性反射レベル\_Alpha** |
+| *Base color* | **ベースカラー** | **ベースカラー/ベースカラー\_Alpha** |
 | *Blending mask* | **blendingmask** | **blendingmask / blendingmask\_Alpha** |
-| *拡散* | **拡散** | **拡散/拡散\_Alpha** |
+| *Diffuse* | **拡散** | **拡散/拡散\_Alpha** |
 | *ディスプレイスメント* | **ディスプレイスメント** | **ディスプレイスメント/ディスプレイスメント\_Alpha** |
-| *放射体* | **emissive** | **放射/放射\_Alpha** |
-| *光沢* | **光沢** | **光沢度/光沢度\_Alpha** |
+| *Emissive* | **emissive** | **emissive / emissive\_Alpha** |
+| *光沢度* | **光沢度** | **光沢度/光沢度\_Alpha** |
 | *Height* | **Height** | **Height/Height\_Alpha** |
 | *IOR* | **ior** | **ior / ior\_Alpha** |
 | *メタリック* | **メタリック** | **メタリック/メタリック\_Alpha** |
 | *標準* | **通常** | **通常/通常\_Alpha** |
 | *不透明度* | **不透明度** | **不透明度/不透明度\_Alpha** |
 | *リフレクション* | **リフレクション** | **リフレクション/リフレクション\_Alpha** |
-| *粗さ* | **ラフネス** | **ラフネス/ラフネス\_Alpha** |
+| *ラフネス* | **ラフネス** | **ラフネス/ラフネス\_Alpha** |
 | *散布* | **散布** | **散布/散布\_Alpha** |
 | *Specular* | **Specular** | **Specular / Specular\_Alpha** |
 | *Specular level* | **specularlevel** | **specularLevel / specularLevel\_Alpha** |

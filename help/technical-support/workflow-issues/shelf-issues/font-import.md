@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/shelf-issues/font-import.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでフォントファイルの読み込みに関する問題を解決し、フォントリソースを正常に読み込んで使用する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: フォントファイルを読み込めません
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 
 # フォントファイルを読み込めません
 

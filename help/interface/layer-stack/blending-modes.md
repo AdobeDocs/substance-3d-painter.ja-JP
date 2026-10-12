@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/blending-modes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterの描画モードを使ってレイヤーを結合し、様々なテクスチャ効果を作成する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 描画モード
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 2%
-
 ---
-
 
 # 描画モード
 
@@ -94,4 +86,4 @@ Substance 3D Painterのレイヤーとエフェクトで使用できるすべて
 | 法線マップの詳細 | ディテール指向のブレンド操作（再方向付き法線マッピング）は、法線マップと組み合わせよりも正確です。 平坦な法線マップと2つのソースの適用度を保持します。 上のレイヤーの法線の方向が下のレイヤーのサーフェスに沿うように変更されるようにします。 詳しくは、[法線マップペイント](../../painting/advanced-channel-painting/normal-map-painting.md)を参照してください。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r37-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-detail.jpg"/></div> |
 | 法線マップ反転の詳細 | 法線マップの詳細レイヤーの場合と同じ動作をしますが、最上位レイヤーのサーフェスに合わせて変形されるのは最下位レイヤーです。 詳しくは、[法線マップペイント](../../painting/advanced-channel-painting/normal-map-painting.md)を参照してください。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r38-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/blending-normal-inverse-detail.jpg"/></div> |
 
-&#x200B;>>
+>>

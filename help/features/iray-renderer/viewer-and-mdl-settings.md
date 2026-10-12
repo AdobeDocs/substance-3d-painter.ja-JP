@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/iray-renderer/viewer-and-mdl-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D PainterでIrayレンダラーのビューアとMDLを設定して、マテリアルレンダリングをカスタマイズする方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Viewer and MDL Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ビューアとMDLの設定
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 0%
-
 ---
-
 
 # ビューアとMDLの設定
 
@@ -67,7 +59,7 @@ ht-degree: 0%
 | --- | --- |
 | **X、Y、Z値** | 3つの軸で床の場所を定義します。   0,0,0の値は、シーンのバウンディングボックスの中央に対応します。 |
 | **反射率** | 地盤反射の強度とカラーを定義します。   白の明るさの値は、グランドの反射が100%であることを意味し、黒の値は反射がないことを意味します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/reflectivity-optim.gif"/></div> |
-| **光沢** | 反射の光沢（ラフ）の度合いを定義します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/glossiness-optim.gif"/></div> |
+| **光沢度** | 反射の光沢（ラフ）の度合いを定義します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/glossiness-optim.gif"/></div> |
 | **シャドウの適用度** | このパラメーターは、照明が計算された後のシャドウの最終的な不透明度を定義します。 |
 | **下から表示** | 地面が下から見えるかどうかを定義します。 オンにすると、その上にある要素が地面によって隠されます。 |
 

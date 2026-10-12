@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/project-creation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで新規プロジェクトを作成し、3Dモデルにテクスチャをペイントする方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: プロジェクトの作成
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
-
 ---
-
 
 # プロジェクトの作成
 
@@ -36,7 +28,7 @@ ht-degree: 1%
 
 | *パラメーター* | *説明* |
 | --- | --- |
-| **ファイル** | 「選択」ボタンをクリックして、ロードする3Dモデルファイルを指定します。 [サポートされているファイル形式の一覧はこちらから入手できます。](https://experienceleague.adobe.com/ja/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
+| **ファイル** | 「選択」ボタンをクリックして、ロードする3Dモデルファイルを指定します。 [サポートされているファイル形式の一覧はこちらから入手できます。](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/ecosystem/import-and-export-formats) |
 | **テンプレート** | プロジェクトのデフォルト設定を定義するテンプレートを指定します。 テンプレートには、次のパラメーターが含まれています。<ul data-preserve-html="true"> <li data-preserve-html="true">テクスチャセット設定。</li> <li data-preserve-html="true">表示設定。</li> <li data-preserve-html="true">ベイクの設定</li> <li data-preserve-html="true">シェーダーリソース（接続されたテクスチャを含む）。</li> <li data-preserve-html="true">環境マップファイル。</li> </ul>  **注意：**&#x200B;テンプレートは、[ファイルメニュー](../interface/main-menu/file-menu.md)を使用して既存のプロジェクトから作成され、アセットフォルダー内に保存されてチームメンバーと簡単に共有できる<b>\*.spt</b>ファイルです。 |
 | <b>解決策</b> | 各テクスチャセットに対してプロジェクトのデフォルトのテクスチャ解像度を定義します。 アプリケーション内で作業する場合の解像度は最大4K（4096 x 4096ピクセル）、書き出す場合の解像度は8K（8192 x 8192ピクセル）です。 この解決策は、後で[テクスチャセット設定](../interface/texture-set/texture-set-settings.md)を使用していつでも変更できます。  **注意：** 8Kの書き出しを行うには、GPUで2.5GB以上のVRamが必要です。 |
 
@@ -88,10 +80,10 @@ USDを選択すると、その他のファイル形式固有の設定が使用�
 
 | *メッシュマップ* | *ファイル名変換* |
 | --- | --- |
-| **環境オクルージョン** | ambient\_オクルージョン |
-| **曲線** | 曲率 |
+| **Ambient occlusion** | ambient\_オクルージョン |
+| **曲率** | 曲率 |
 | **標準** | normal\_base |
-| **ワールド空間標準** | world\_space\_normals |
+| **ワールド空間法線** | world\_space\_normals |
 | **ID** | id |
 | **位置** | 位置 |
 | **Thickness** | 厚み |

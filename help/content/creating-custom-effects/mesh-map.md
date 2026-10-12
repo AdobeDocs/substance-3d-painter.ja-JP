@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/content/creating-custom-effects/mesh-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのカスタムエフェクトでメッシュマップを使用して、ジオメトリベースのテクスチャ情報にアクセスする方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Content > Creating custom effects > Mesh Map
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: メッシュマップ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 3%
-
 ---
-
 
 # メッシュマップ
 
@@ -38,5 +30,5 @@ ht-degree: 3%
 | *位置* | **位置** | **位置** |
 | *Thickness* | **Thickness** | **Thickness** |
 | *Height* | **heightBase** | **Height\_ベース** |
-| *曲がった法線* | **bentNormalsBase** | **bent\_normals\_base** |
+| *Bent normals* | **bentNormalsBase** | **bent\_normals\_base** |
 | *不透明度* | **不透明度ベース** | **不透明度\_base** |

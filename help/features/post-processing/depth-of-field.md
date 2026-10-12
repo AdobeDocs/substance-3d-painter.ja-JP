@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/depth-of-field.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでフィールド後処理の深度を使用して、リアルなカメラフォーカスブラーエフェクトを作成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Depth of Field
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 被写界深度
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 4%
-
 ---
-
 
 # 被写界深度
 

@@ -1,15 +1,11 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/viewport.html'
 description: Substance 3D Painterのビューポートを使用して、ペイントプロセス中に3Dモデルとテクスチャを視覚化する方法を説明します。
-helpx_description: Painter > Interface > Viewport
 title: ビューポート
-source-git-commit: 307c4f1121ae6841d68f8ea5dc597790e0d18a14
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 2%
-
 ---
-
 
 # ビューポート
 
@@ -19,7 +15,7 @@ ht-degree: 2%
 
 ## 概要
 
-ビューポートは、4つの部分に分割されます。
+ビューポートは4つの部分に分かれています。
 
 * **コンテキストツールバー** ：このツールバーは、ビューポートの上部にあり、現在のコンテキストに応じて様々なプロパティのショートカットを提供します（例えば、ペイント時のブラシパラメーター）。
 * **3Dビュー**：このビューは、カメラによって定義された特定の角度からの3D メッシュを表示します。

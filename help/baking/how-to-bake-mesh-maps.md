@@ -1,32 +1,24 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/baking/how-to-bake-mesh-maps.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでメッシュマップをベイクして、ambient occlusion、曲率、その他のジオメトリベースのテクスチャを生成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Baking > How to bake mesh maps
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: メッシュマップをベイクする方法
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
-
 ---
-
 
 # メッシュマップをベイクする方法
 
-Substance 3D Painterの専用ベイクモードを使用すると、メッシュマップを簡単にベイク処理して、驚くべきスマートマテリアルやその他のツールを活用できます。 Substance 3D Painterでベイク処理を開始する方法については、以下のビデオをご覧ください。
+Substance 3D Painterの専用ベイク処理モードを使用すると、素晴らしいスマートマテリアルやその他のツールを強化できるメッシュマップを簡単にベイクできます。 Substance 3D Painterでベイク処理を開始する方法については、以下のビデオをご覧ください。
 
-## 1 – ベイクモードに切り替えます。
+## 1 -ベイクモードに切り替えます
 
 初期設定では、Painterは、プロジェクトを作成するときまたはプロジェクトを開いたときにペイントモードで起動します。 メッシュマップをベイクするには、ベイク処理モードに切り替える必要があります。 ベイクモードに切り替えるには、次のいずれかの操作を実行します。
 
-* ビューポートの右上にあるコンテキストツールバーの<b>ベイクモードボタン</b> （<b>クロワッサンアイコン</b>）を使用します
+* ビューポートの右上にあるコンテキストツールバーの<b>ベイク処理モードボタン</b> （<b>Croissantアイコン</b>）を使用
 
   ![](../assets/croissant-icon.png)
 
@@ -57,7 +49,7 @@ Substance 3D Painterの専用ベイクモードを使用すると、メッシュ
 
 共通の設定では、高精細メッシュとして使用するファイルを指定できます。 高精細メッシュを選択すると、メッシュに対してケージを生成する方法を定義できます。
 
-* [距離に基づく]&#x200B;: 頂点をメッシュから離れてモデル全体で均一に膨張させて、ケージを作成します。
+* [距離に基づく]: 頂点をメッシュから離れてモデル全体で均一に膨張させて、ケージを作成します。
 * 自動（試験的）:Painterは、メッシュを分析し、ケージを自動的に生成します。最適な結果を得るために、交点を作成せずにケージをサーフェスに近づけるようにします。
 * カスタムファイル：ケージとして使用するために作成したファイルを読み込みます。 読み込まれたファイルが正しく動作するには、基本メッシュと同じ数の頂点が必要であることに注意してください。
 
@@ -75,7 +67,7 @@ Substance 3D Painterの専用ベイクモードを使用すると、メッシュ
 
 ### 6 - ベイク処理プロセスを開始する
 
-ビューポートの下部で、[ベイク]ボタンをクリックしてベイク処理を開始します。
+ビューポートの下部で、「ベイク」ボタンをクリックしてベイクプロセスを開始します。
 
 ![](../assets/bake-button.png)
 

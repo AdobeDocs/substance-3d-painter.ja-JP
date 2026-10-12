@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/main-menu/mode-menu.html'
 breadcrumb-title: ''
 description: Substance 3D Painterのモードメニューを使用して、様々なアプリケーションモードやワークフローを切り替える方法を説明します。
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Main menu > Mode menu
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: モードメニュー
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 1%
-
 ---
-
 
 # モードメニュー
 

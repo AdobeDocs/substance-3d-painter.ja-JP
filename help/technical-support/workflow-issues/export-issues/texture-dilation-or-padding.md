@@ -1,29 +1,21 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/export-issues/texture-dilation-or-padding.html"
-breadcrumb-title: ''
-description: Substance 3D Painterでテクスチャの膨張とパディングを使用して、書き出されたテクスチャのエッジのアーティファクトを防ぐ方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Export Issues > Texture dilation or Padding
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: テクスチャの拡大またはパディング
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+breadcrumb-title: ""
+description: Substance 3D Painterでテクスチャの拡張とパディングを使用して、書き出されたテクスチャのエッジの斑点を防ぐ方法について説明します。
+title: 拡張またはパディング
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
 
-
-# テクスチャの拡大またはパディング
+# 拡張またはパディング
 
 **パディング** （**拡張**&#x200B;とも呼ばれる）は、テクスチャの生成後に行われるプロセスです。 このエフェクトは、UV アイランドの境界線を広げて、空の領域を同じようなピクセルで塗りつぶすことを目的としています。
 
 ゲームエンジンまたはオフラインレンダラーで[mipmaps](../../../getting-started/glossary.md)を後で適切に作成するには、適切な品質のパディングを生成することが重要です。\
-Substance 3D Painterは無限のパディングを発生させます。つまり、ピクセルは他のUV アイランドまたはテクスチャの境界線に達するまで引き伸ばされます。
+Substance 3D Painterは無限のパディングを発生させます。つまり、ピクセルは他のUV アイランドまたはテクスチャの境界線に達するまで伸縮します。
 
 ## 無限のパディング生成
 
@@ -48,7 +40,7 @@ Substance 3D Painterは無限のパディングを発生させます。つまり
 
 3Dコンピューターグラフィックスでは、**ミップマップ**&#x200B;は事前に計算され、最適化された一連のテクスチャであり、それぞれが同じ画像の段階的に低い解像度の表現です。 これは、レンダリングの速度を上げ、エイリアシングの斑点を減らすことを目的としています。 カメラに近いオブジェクトには高解像度のミップマップ画像が使用されます。 低解像度の画像は、オブジェクトが遠くに見えるときに使用されます。 この方法を使用すると、元のテクスチャからすべてのピクセルを読み取るか、レンダリングの代わりに効率的にレンダリングすることができます。 ミップマップ（各レベル）は、テクスチャ自体の内部に埋め込まれます（ファイルフォーマットでサポートされている場合）。
 
-テクスチャ解像度を下げる際に、メッシュのUVの内側でブリードする不正確なカラーを回避できるため、ミップマップではパディングが非常に重要です。
+低いテクスチャ解像度に変更する場合は、メッシュのUVの内側で裁ち落とされるような不正確なカラーを避けられるため、ミップマップではパディングが非常に重要です。
 
 <table>
 <tr style="border: 0;">
@@ -77,4 +69,4 @@ Substance 3D Painterでは、パディングの生成を場所に関係なく変
 
 * **ベイク時** ：詳細については、[ベイクに関するドキュメント](../../../baking/baking.md)を参照してください。
 * **テクスチャセットのテクスチャを生成する場合** ：詳細については、[テクスチャセットの設定](../../../interface/texture-set/texture-set-settings.md)のドキュメントを参照してください。
-* **テクスチャを書き出す場合** ：詳しくは、[書き出し設定](../../../export/export-window/export-window.md)のドキュメントで「パディングの設定」のセクションを参照してください。
+* **テクスチャを書き出す場合** ：詳しくは、[書き出し設定](../../../export/export-window/export-window.md)に関するドキュメントの「Padding settings」セクションを参照してください。

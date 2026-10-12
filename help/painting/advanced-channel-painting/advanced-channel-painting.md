@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterの高度なチャンネルペイントのテクニックを紹介します。テクスチャチャンネルを直接ペイントして、正確に制御することができます。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: チャンネルペイントの詳細設定
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
-
 ---
-
 
 # チャンネルペイントの詳細設定
 
-シェーダで使用されるデフォルトチャンネルのいくつかをペイントして、高度なエフェクトや複雑なエフェクトを作成することができます。 たとえば、ペイントHeight情報を通常のマップに変換します。
+シェーダで使用されるデフォルトチャンネルのいくつかをペイントして、高度なエフェクトや複雑なエフェクトを作成することができます。 例えば、法線マップに変換されるHeight情報をペイントすることができます。
 
 現在のチャンネル：
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-custom-params-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterの「すべてのカスタムパラメーターシェーダー API」リファレンスにアクセスして、カスタムシェーダーパラメーターを定義および制御します。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Custom Params - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: すべてのカスタムパラメータ – シェーダー API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
-
 
 # すべてのカスタムパラメータ – シェーダー API
 

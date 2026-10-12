@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/levels.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのレベルエフェクトを使って、テクスチャの明るさ、コントラスト、階調範囲を調整する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Levels
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: レベル
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
-
 ---
-
 
 # レベル
 
@@ -38,6 +30,6 @@ ht-degree: 0%
 > レベル補正エフェクトは、*影響を受けるチャンネル*&#x200B;のオプションで選択したチャンネルにのみ適用できます。 複数のチャンネルにレベルを適用するには、複数のレベルエフェクトを作成する必要があります。
 
 * 右上のカラードロップダウンボックスを使用すると、RGB画像全体または赤、緑、青のチャンネルの1つのみに対してレベルを変更できます。
-* 右下の[クランプ]オプションを使用すると、レベルの値を0 ～ 1(0 ～ 255)の範囲でクランプできます。 HDR以外のチャンネル（**ベースカラー**&#x200B;など）を操作する場合は、常にこのオプションをオンにする必要があります。
+* 右下の「クランプ」オプションを使用すると、レベルの値を0 ～ 1(0 ～ 255)に固定できます。 HDR以外のチャンネル（**Base color**&#x200B;など）を操作する場合は、常にこのオプションをオンにする必要があります。
 
 [レベルについてさらに詳しく知るには、このトピックに特化したSubstanceアカデミーのコースをご覧ください。](https://academy.substance3d.com/courses/Mastering-Levels-Histogram)

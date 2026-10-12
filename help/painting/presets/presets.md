@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでブラシプリセットを使用および管理して、テクスチャペイントのワークフローを効率化する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: プリセット
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 74302172ee8f5a7da56adf3378ccf5fe2c88ee83
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 1%
-
 ---
-
 
 # プリセット
 
@@ -30,6 +22,6 @@ ht-degree: 1%
 
 プリセットを管理するには、以下を参照してください。
 
-* [プリセットの作成と保存](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
+* [プリセットの作成と保存](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/creating-and-saving-a-preset-180191514.html)
 * [パーティクルプリセットの作成](../../painting/presets/creating-particles-pre/creating-particles-presets.md)
 * [ブラシプリセット(ABR)](../../painting/presets/photoshop-brush-presets/photoshop-brush-presets-abr.md)

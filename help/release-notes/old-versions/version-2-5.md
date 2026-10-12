@@ -1,26 +1,18 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-2-5.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン2.5のリリースノートを確認してください。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 2.5
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: バージョン2.5
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1699'
 ht-degree: 0%
-
 ---
-
 
 # バージョン2.5
 
-**Substance Painter 2.5**&#x200B;には多くの新機能が導入されています。ブラシ設定（フローに加え）での不透明度のサポートから、8Kでの追加マップのベイク機能など、その他多くの機能があります。
+**Substance Painter 2.5**&#x200B;には、多くの新機能（フローに加えてブラシ設定で不透明度がサポートされることや、8Kでマップをベイクできるようになるなど）が導入されています。
 
 リリース日： *2017年2月21日*
 
@@ -37,7 +29,7 @@ Substance Painterでペイントする場合の&#x200B;**ブラシパラメー�
 
 ![](../../assets/stroke-opacity-parameter.png)
 
-### 8Kおよび非正方形の解像度での新しいベイク処理
+### 8Kおよび非正方形の解像度での新しいベイク
 
 ![](../../assets/baking-250-8k.png)
 
@@ -84,11 +76,11 @@ Substance Painterーで&#x200B;**ビューポート**&#x200B;のレンダリン�
 
 **修正済み：**
 
-* [Baker]特定のメッシュでベイク処理を行うとクラッシュする
+* [ベイカー]特定のメッシュを使用してベイクする場合のクラッシュ
 
 **既知の問題：**
 
-* [Mac]パーティクルがテクスチャの破損を引き起こすこともあります
+* [Mac] パーティクルが原因でテクスチャが破損する場合がある
 
 ### 2.5.2
 

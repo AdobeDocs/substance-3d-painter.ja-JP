@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/interface/project-configuration.html'
 breadcrumb-title: ''
 description: Substance 3D Painterでプロジェクト設定を行い、テクスチャの解像度、チャンネルおよびプロジェクトプロパティを設定する方法について説明します。
-helpx_creative_field: ''
-helpx_description: Painter > Interface > Project configuration
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: プロジェクト設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 3e4ef9bd5897f042b01d6c0819ec06cc21ba208a
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 4%
-
 ---
-
 
 # プロジェクト設定
 
@@ -79,7 +71,7 @@ USD メッシュフォーマットを選択すると、その他のファイル�
   </tr>
   <tr>
     <td><strong>スコープとバリアント</strong></td>
-    <td>USDファイルの一部を選択します。 デフォルトでは「ルート」に設定されているため、USDファイル全体がPainterプロジェクトで使用されます。 <strong>変更…</strong>では、USDの内容を表示する新しいウィンドウが開きます。 バリエーションが検出された場合は、プロジェクトに読み込む特定のバリエーションを選択できます。<br><br>注：<br><ul><li>影響を受けるのは、モデリングバリアントの選択のみです。</li><li>バリアント内にネストされたバリアントは、現在検出されません。</li></ul></td>
+    <td>USDファイルの一部を選択します。 デフォルトでは「ルート」に設定されているため、USDファイル全体がPainterプロジェクトで使用されます。 <strong>変更…</strong>新しいウィンドウを開いて、USDの内容を表示します。 バリエーションが検出された場合は、プロジェクトに読み込む特定のバリエーションを選択できます。<br><br>注：<br><ul><li>影響を受けるのは、モデリングバリアントの選択のみです。</li><li>バリアント内にネストされたバリアントは、現在検出されません。</li></ul></td>
   </tr>
   <tr>
     <td><strong>再分割レベル</strong></td>

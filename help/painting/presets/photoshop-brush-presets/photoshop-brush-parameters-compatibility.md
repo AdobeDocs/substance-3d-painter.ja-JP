@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/photoshop-brush-presets-abr/photoshop-brush-parameters-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: ABR ブラシプリセットを読み込む際の、Substance 3D PainterでのPhotoshopブラシパラメーターの互換性について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Photoshop Brush Presets (ABR) > Photoshop Brush Parameters Compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Photoshopのブラシパラメーターの互換性
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
-
 ---
-
 
 # Photoshopのブラシパラメーターの互換性
 
@@ -40,7 +32,7 @@ ABRファイル内を見ると、Substance 3D Painterは以下の特定のブラ
 
 ## パラメーター
 
-これらのパラメーターでできる操作の詳細については、[Photoshopの公式ドキュメント](https://helpx.adobe.com/jp/photoshop/using/creating-modifying-brushes.html)を参照してください。
+これらのパラメーターでできる操作の詳細については、[Photoshopの公式ドキュメント](https://helpx.adobe.com/photoshop/using/creating-modifying-brushes.html)を参照してください。
 
 一部のPhotoshopブラシパラメーターはサポートされていません。 凡例を参照して、以下に示す各パラメータのステータスを確認してください。
 
@@ -63,11 +55,11 @@ ABRファイル内を見ると、Substance 3D Painterは以下の特定のブラ
 |  |  |  |  |
 | シェイプダイナミクス | **サイズジッター** | ■ | ペイントツールのサイズジッターパラメーターと一致しました。 |
 | **コントロール（サイズ用）** | ■ | サイズパラメーターのペイントツールの筆圧設定と一致します。 |  |
-| **最小直径** | ■ | ペイントツールの最小サイズパラメーターと一致します。 |  |
+| **最小直径** | ■ | ペイントツールの最小サイズパラメータと一致しました。 |  |
 | **ティルトのスケール** | ✖ |  |  |
 | **角度のジッター** | ■ | ペイントツールの角度ジッターパラメータと一致しました。 |  |
 | **制御（角度）** | ✖ |  |  |
-| **丸みのジッター** | ■ | 「ブラシメーカーPhotoshop」Substanceファイルで処理されます。 |  |
+| **丸みジッター** | ■ | 「ブラシメーカーPhotoshop」Substanceファイルで処理されます。 |  |
 | **最小の丸み** | ■ | 「ブラシメーカーPhotoshop」Substanceファイルで処理されます。 |  |
 | **X軸ジッターを反転** | ■ | 「ブラシメーカーPhotoshop」Substanceファイルで処理されます。 |  |
 | **Y軸ジッターを反転** | ■ | 「ブラシメーカーPhotoshop」Substanceファイルで処理されます。 |  |

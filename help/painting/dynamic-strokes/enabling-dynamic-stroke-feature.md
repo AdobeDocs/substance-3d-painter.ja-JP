@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/dynamic-strokes/enabling-dynamic-stroke-feature.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのダイナミックストローク機能を有効にして、様々な効果を持つレスポンシブブラシストロークを作成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Enabling Dynamic Stroke Feature
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ダイナミックストローク機能の有効化
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 2%
-
 ---
-
 
 # ダイナミックストローク機能の有効化
 
@@ -58,10 +50,10 @@ ht-degree: 2%
 | --- | --- |
 | **ペイント** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li><li data-preserve-html="true">マテリアル</li></ul> |
 | **消しゴム** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li><li data-preserve-html="true">マテリアル</li></ul> |
-| **プロジェクション** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
+| **投影** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
 | **指先** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
 | **クローン** | <ul data-preserve-html="true"><li data-preserve-html="true">アルファ</li></ul> |
 
 >[!NOTE]
 >
-> 動的ストロークは&#x200B;**パーティクル**&#x200B;と互換性がありません。そのため、物理モードでツールを使用すると、この機能は無効になります。
+> 動的ストロークは&#x200B;**パーティクル**&#x200B;と互換性がないため、物理モードでツールを使用すると、この機能は無効になります。

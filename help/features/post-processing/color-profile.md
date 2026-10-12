@@ -1,29 +1,21 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/color-profile.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのカラープロファイル後処理を使用して、カラーグレーディングとLUT変換を適用する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Post Processing > Color Profile
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: カラープロファイル
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
-
 ---
-
 
 # カラープロファイル
 
 ![](../../assets/doc-lut-example.jpg){width="700px"}
 
 Substance 3D Painterでは、**LUT**&#x200B;テクスチャを読み込むことによって、**カラープロファイル**&#x200B;を&#x200B;**ビューポート**&#x200B;に割り当てることができます。\
-カラープロファイルを使用すると、特定のカメラなどのターゲットに合わせて画面の最終的なカラーを補正できます。 多くの場合、プロファイルは、明るさ、ガンマ、コントラスト、またはカラーバランスを変更してカラーを操作します。
+カラープロファイルを使用して、特定のカメラなど、目標に合わせて画面の最終的な色を調整できます。 多くの場合、プロファイルは、明るさ、ガンマ、コントラスト、またはカラーバランスを変更してカラーを操作します。
 
 >[!NOTE]
 >
@@ -33,7 +25,7 @@ Substance 3D Painterでは、**LUT**&#x200B;テクスチャを読み込むこと
 ## カラープロファイルの使用
 
 カラープロファイルは、 Display Settingsウィンドウからロードできます。\
-「**カラープロファイルを有効化**」チェックボックスをオンにして、ビューポートに影響を与え、カラープロファイルを有効にします。
+「**カラープロファイルを有効にする**」チェックボックスをオンにしてビューポートに影響を与え、カラープロファイルを有効にします。
 
 ![](../../assets/color-profile-ui.png)
 

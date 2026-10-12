@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/physical-size.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで物理サイズを設定し、実際の寸法を定義してテクスチャを正確に拡大・縮小する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Physical size
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 物理サイズ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 2%
-
 ---
-
 
 # 物理サイズ
 

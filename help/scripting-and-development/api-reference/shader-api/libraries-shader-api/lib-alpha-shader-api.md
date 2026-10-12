@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/libraries-shader-api/lib-alpha-shader-api.html"
-breadcrumb-title: ''
-description: カスタムシェーダのアルファチャンネルと透明度を操作するには、Substance 3D PainterのLibAlphaシェーダー APIリファレンスにアクセスします。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Libraries - Shader API > Lib Alpha - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Substance 3D PainterのLibAlphaシェーダー APIリファレンスにアクセスして、カスタムシェーダのアルファチャンネルと透明度を操作します。
 title: ライブラリAlpha- シェーダー API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
-
 ---
-
 
 # ライブラリAlpha- シェーダー API
 

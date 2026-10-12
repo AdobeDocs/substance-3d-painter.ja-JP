@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/features/effects/generator.html'
 breadcrumb-title: ''
 description: Substance 3D Painterでジェネレータエフェクトを使用して、プロシージャルしたテクスチャとパターンを自動的に作成する方法について説明します。
-helpx_creative_field: ''
-helpx_description: Painter > Features > Effects > Generator
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: ジェネレーター
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b7770a9497f0db047433aec32c31b57f8dc13ae7
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 
 # ジェネレーター
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/compare-mask.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでテクスチャエフェクトを使用し、比較マスク比較操作に基づいてマスクを作成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Compare Mask
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 比較マスク
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 1%
-
 ---
-
 
 # 比較マスク
 

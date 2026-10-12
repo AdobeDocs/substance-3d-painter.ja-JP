@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/subsurface-scattering/subsurface-material-type.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで表面下マテリアルの種類を使用して、リアルな肌、ワックス、オーガニックマテリアルを作成する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Subsurface Scattering > Subsurface Material Type
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 地下マテリアルの種類
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 1%
-
 ---
-
 
 # 地下マテリアルの種類
 
@@ -30,10 +22,10 @@ ht-degree: 1%
 
 ![](../../assets/mat-skin.jpg)
 
-適切なスキンマテリアルを作成するには、次の手順を実行します。
+適切なスキンマテリアルを実現するには、次の手順を実行します。
 
 * 優れたベーステクスチャ ：リアルなキャラクターの場合、ディテールが多く、様々なカラーがあることを意味します。
-* 強いHeight/法線テクスチャ：表面下効果は、表面のディテールを柔らかくし、最初から強いディテールがあると相殺されます。
+* 強いHeight/法線のテクスチャ：表面下の効果は、表面のディテールを柔らかくし、最初から強いディテールを含めることで相殺されます。
 
 | *設定* | *説明* |
 | --- | --- |

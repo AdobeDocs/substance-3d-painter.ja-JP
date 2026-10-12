@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-particles-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでパーティクルブラシプリセットを作成し、ダイナミックなテクスチャペイント効果を加える方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: パーティクルプリセットの作成
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
-
 ---
-
 
 # パーティクルプリセットの作成
 

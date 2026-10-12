@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painter ビューポートでカメラを動かして安定したレンダリングを行うときにメッシュの点滅が白くなる問題を修正する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Rendering Issues > Mesh flash to white when moving camera
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: カメラを移動するとメッシュフラッシュが白くなる
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: カメラを動かすとメッシュが白く点滅する
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
-
 ---
 
-
-# カメラを移動するとメッシュフラッシュが白くなる
+# カメラを動かすとメッシュが白く点滅する
 
 ![](../../../assets/white-flash-svt-optim.gif){width="300px"}
 

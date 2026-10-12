@@ -1,24 +1,16 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/gpu-issues/crash-when-working-with-overclocked-gpu.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: アプリケーションのパフォーマンスを安定させるために、オーバークロックされたGPUを使用している場合のSubstance 3D Painterのクラッシュを修正する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > Crash when working with overclocked GPU
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
-title: オーバークロックされたGPUの操作中にクラッシュする
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+title: オーバークロックされたGPUの操作中にクラッシュが発生する
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%
-
 ---
 
-
-# オーバークロックされたGPUの操作中にクラッシュする
+# オーバークロックされたGPUの操作中にクラッシュが発生する
 
 オーバークロックされたGPUは、多くの場合、GPUコンストラクターによって最初に設計されなかった周波数で実行されるため、不安定になります。 GPUがオーバークロックされていて、安定性の問題がある場合は、しばらく工場出荷時のデフォルトの周波数に戻すことをお勧めします。
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-and-saving-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでブラシプリセットを作成して保存し、カスタムペイントツールの再利用可能なライブラリを作成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating and saving presets
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: プリセットの作成と保存
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 
 # プリセットの作成と保存
 

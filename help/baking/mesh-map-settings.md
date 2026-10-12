@@ -1,22 +1,14 @@
 ---
-helpx_url: 'https://helpx.adobe.com/jp/substance-3d-painter/baking/mesh-map-settings.html'
 breadcrumb-title: ''
 description: Substance 3D Painterでメッシュマップを設定し、ベイク処理パラメーターと出力品質を制御する方法について説明します。
-helpx_creative_field: ''
-helpx_description: Substance 3D Painter
-helpx_experience_level: ''
-helpx_learn_topic: ''
-helpx_tags: ''
 title: メッシュマップ設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7b5f6e6c9623cb51253b6e49c8dbcbb22856418c
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 10%
-
 ---
-
 
 # メッシュマップ設定
 
@@ -62,7 +54,7 @@ ht-degree: 10%
 
 | 設定 | 関数 |
 | --- | --- |
-| カラーソース | ID マップのベイクする色の決定方法を変更します。<ul data-preserve-html="true"> <li data-preserve-html="true">頂点カラー</li> <li data-preserve-html="true">マテリアルカラー</li> <li data-preserve-html="true">ファイル ID</li> <li data-preserve-html="true">メッシュID/ポリグループ</li> </ul> |
+| カラーソース | ID マップのベイクする色の決定方法を変更します。<ul data-preserve-html="true"> <li data-preserve-html="true">頂点カラー</li> <li data-preserve-html="true">マテリアルカラー</li> <li data-preserve-html="true">ファイル ID</li> <li data-preserve-html="true">メッシュID/Polygroup</li> </ul> |
 | カラージェネレーター | カラーソースにファイルIDまたはメッシュ ID/Polygroupを使用する場合は、次のようにカラーの生成方法を指定します。<ul data-preserve-html="true"> <li data-preserve-html="true">ランダム</li> <li data-preserve-html="true">色相シフト</li> <li data-preserve-html="true">グレースケール</li> </ul> |
 
 ## Ambient occlusionマップの設定
@@ -72,7 +64,7 @@ ht-degree: 10%
 | セカンダリレイ | セカンダリレイ数を変更します。 レイ数を増やすと結果は良くなりますが、処理時間が長くなります。 |
 | 最小オクルーダー距離 | 高ポリゴンジオメトリに当たって結果のAOマップに影響を与える光線の最小距離を調整します。 |
 | 最大オクルーダー距離 | ハイポリメッシュに当たらずにこの距離を超えて伸びる光線は、遮蔽されないとみなされ、AOマップに影響しません。 |
-| バウンディングボックスに相対的 | このボックスをオンにすると、距離を参照する他の設定がプロジェクトメッシュのバウンディングボックスに基づきます。 したがって、1の距離はバウンディングボックスのサイズと同じです。 |
+| バウンディングボックスに相対的 | このチェックボックスをオンにすると、プロジェクトメッシュの境界ボックスに基づいて、距離を参照する他の設定が行われます。 したがって、1の距離はバウンディングボックスのサイズと同じです。 |
 | 広がり角度 | 生成されるレイのangular範囲を調整します。 広がり角度を大きくすると、サーフェスから垂直に離れて配置されていないジオメトリによって、サーフェスが簡単に閉塞されます。 |
 | 分布方法 | 光線の分布方法を選択します。 |
 | 背面を無視 | 背面がオブジェクトを隠しているとみなすかどうかを変更します。 |
@@ -110,7 +102,7 @@ ht-degree: 10%
 | セカンダリレイ | セカンダリレイ数を変更します。 レイ数を増やすと結果は良くなりますが、処理時間が長くなります。 |
 | 最小オクルーダー距離 | 高ポリゴンジオメトリに当たって結果の厚みマップに影響を与える光線の最小距離を調整します。 |
 | 最大オクルーダー距離 | ハイポリメッシュに当たらずにこの距離を超えて伸びる光線は遮られないと見なされ、厚みマップに影響を与えません。 |
-| バウンディングボックスに相対的 | このボックスをオンにすると、距離を参照する他の設定がプロジェクトメッシュのバウンディングボックスに基づきます。 したがって、1の距離はバウンディングボックスのサイズと同じです。 |
+| バウンディングボックスに相対的 | このチェックボックスをオンにすると、プロジェクトメッシュの境界ボックスに基づいて、距離を参照する他の設定が行われます。 したがって、1の距離はバウンディングボックスのサイズと同じです。 |
 | 広がり角度 | 生成されるレイのangular範囲を調整します。 広がり角度を大きくすると、サーフェスから垂直に離れて配置されていないジオメトリによって、サーフェスが簡単に閉塞されます。 |
 | 分布方法 | 光線の分布方法を選択します。 |
 | セルフオクルージョン | 現在のメッシュのThicknessに影響するメッシュを選択します。 |

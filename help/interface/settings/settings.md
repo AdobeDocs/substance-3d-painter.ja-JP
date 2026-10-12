@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: アプリケーションの環境設定、ショートカット、ビヘイビアーをカスタマイズするには、Substance 3D Painterの設定にアクセスして構成します。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 設定
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 6%
-
 ---
-
 
 # 設定
 

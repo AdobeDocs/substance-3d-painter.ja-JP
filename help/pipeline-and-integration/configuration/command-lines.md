@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/configuration/command-lines.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでコマンドライン引数を使用して、自動化、スクリプト作成、パイプライン統合を行う方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Command lines
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: コマンドライン
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 3%
-
 ---
-
 
 # コマンドライン
 
@@ -34,8 +26,8 @@ ht-degree: 3%
 | --- | --- |
 | **—help** **-?** **-h** | 使用できるコマンドラインとその使用方法に関する情報を表示します。 |
 | **– バージョン** **-v** | Substance 3D Painterの現在のバージョンを表示します。 |
-| **– メッシュ** | プロジェクトに読み込むメッシュ。例： `// Create a new project with a specific mesh   "Adobe Substance 3D Painter.exe" --mesh "E:/MymeshFolder/MyMesh.obj"       // Update a mesh inside an existing project   "Adobe Substance 3D Painter.exe" --mesh "E:/MymeshFolder/MyMesh.obj" "E:/MyMeshFolder/Project.spp"` |
-| **—メッシュマップ** | メッシュに関連するベイク済みマップ（AO、標準、曲率）。 複数回指定できます。 命名規則： TextureSetName\_AdditionalMapSlot<ul data-preserve-html="true"> <li data-preserve-html="true">環境オクルージョン= <strong> <em> ambient_オクルージョン </em> </strong></li> <li data-preserve-html="true">曲率 = <strong> <em> 曲率 </em> </strong></li> <li data-preserve-html="true">標準= <strong> <em> normal_base </em> </strong></li> <li data-preserve-html="true">ワールド空間法線 = <strong> <em> world_space_normals </em> </strong></li> <li data-preserve-html="true">位置= <strong> <em>位置</em> </strong></li> <li data-preserve-html="true">Thickness = <strong> <em> Thickness </em> </strong></li> <li data-preserve-html="true">ID = <em> <strong> id </strong> </em></li> </ul>例： `"Adobe Substance 3D Painter.exe" --mesh "E:/MyMeshFolder/MyMesh.obj" --mesh-map " E:/MyMeshFolder/DefaultMaterial_ambient_occlusion.png"` |
+| **—メッシュ** | プロジェクトに読み込むメッシュ。例： `// Create a new project with a specific mesh   "Adobe Substance 3D Painter.exe" --mesh "E:/MymeshFolder/MyMesh.obj"       // Update a mesh inside an existing project   "Adobe Substance 3D Painter.exe" --mesh "E:/MymeshFolder/MyMesh.obj" "E:/MyMeshFolder/Project.spp"` |
+| **—メッシュマップ** | メッシュに関連するベイク済みマップ（AO、標準、曲率）。 複数回指定できます。 命名規則： TextureSetName\_AdditionalMapSlot<ul data-preserve-html="true"> <li data-preserve-html="true">Ambient occlusion = <strong> <em> ambient_オクルージョン </em> </strong></li> <li data-preserve-html="true">曲率 = <strong> <em> 曲率 </em> </strong></li> <li data-preserve-html="true">標準= <strong> <em> normal_base </em> </strong></li> <li data-preserve-html="true">ワールド空間法線 = <strong> <em> world_space_normals </em> </strong></li> <li data-preserve-html="true">位置= <strong> <em>位置</em> </strong></li> <li data-preserve-html="true">Thickness = <strong> <em> Thickness </em> </strong></li> <li data-preserve-html="true">ID = <em> <strong> id </strong> </em></li> </ul>例： `"Adobe Substance 3D Painter.exe" --mesh "E:/MyMeshFolder/MyMesh.obj" --mesh-map " E:/MyMeshFolder/DefaultMaterial_ambient_occlusion.png"` |
 | **—udimで分割** | UDIM タイルごとのテクスチャセットを作成します。 |
 | **– 書き出しパス** | プロジェクトの出力が書き出されるデフォルトの書き出しパス。 |
 | **—vram-budget** | Substance 3D Painter エンジンが定義したビデオメモリ(VRAM)の使用量を上書きします。 「量」はメガバイト単位です。    例： `// Set the VRam budget to 2GB   "Adobe Substance 3D Painter.exe" --vram-budget 2048` |

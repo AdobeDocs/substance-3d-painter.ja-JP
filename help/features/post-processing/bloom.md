@@ -1,21 +1,17 @@
 ---
 title: ブルーム
-description: ''
-helpx_description: "Substance 3D Painter"
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/post-processing/bloom.html"
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+description: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 2%
-
 ---
-
 
 # ブルーム
 
 ![](../../assets/v12_post_bloom.jpg)
 
-シーンの明るい領域の周囲にソフトな光彩を作成します。 明るいオーラの中で光の散乱がどのように変化するかをシミュレートします。
+シーンの明るい領域の周りにソフトな光彩を作成します。 明るいオーラの中で光の散乱がどのように変化するかをシミュレートします。
 
 | <b>パラメーター</b> | <b>説明</b> |
 | --- | --- |

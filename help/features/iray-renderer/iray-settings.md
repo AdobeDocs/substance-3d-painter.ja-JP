@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/iray-renderer/iray-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D PainterでIrayレンダラーを設定し、レンダリングの質とパフォーマンスを制御する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer > Iray Settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Iray設定
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
-
 ---
-
 
 # Iray設定
 
@@ -26,20 +18,20 @@ Iray設定は、Irayビューポートのレンダリング、実行時間、お
 
 ## Iray情報
 
-ウィンドウの上部には、画像のステータスと他の情報が表示されます。
+ウィンドウの上部には、Irayのステータスとその他の情報が表示されます。
 
 | *設定* | *説明* |
 | --- | --- |
-| **ステータス** | ステータスは、画像の動作を示します。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>レンダリング</strong> （Irayはイメージを計算中）</li><li data-preserve-html="true"><strong>一時停止</strong> （Irayは計算を停止しましたが、完了していません）</li><li data-preserve-html="true"><strong>完了</strong> （Irayの計算が完了したか、設定値に達しました）</li></ul> |
+| **ステータス** | ステータスは、Irayの動作方法を示します。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>レンダリング</strong> （Irayはイメージを計算中）</li><li data-preserve-html="true"><strong>一時停止</strong> （計算されたIrayは停止しましたが、完了していません）</li><li data-preserve-html="true"><strong>完了</strong> （Irayの計算が完了したか、設定値に達しました）</li></ul> |
 | **解決策** | Irayイメージの解像度（デフォルトはビューポートサイズに依存）。 |
 | **シーンサイズ** | シーン/3D メッシュのバウンディングボックスのサイズ。 単位はないが、センチメートル単位と推定される。 |
-| **反復回数** | 設定で定義された最大値を超えてIrayが計算パスを実行した回数です。 |
+| **反復** | 設定で定義された最大値を超えてIrayが計算パスを実行した回数です。 |
 | **レンダリング時間** | 設定で定義された最大時間を超えてレンダリングを実行した経過時間。 |
 
 >[!NOTE]
 >
-> 反復の数は、レンダーの最終的な品質を定義します。反復の数が多いほど、品質は高くなります。\
-> ただし、反復には時間がかかることがあるので、最大時間を設定することができます。 反復は、サンプルの数によって定義されます。
+> 反復の数は、レンダリングの最終画質を決めます。反復の数が多いほど画質が高くなります。\
+> ただし、反復には時間がかかることがあるので、最大時間を設定することができます。 反復はサンプルの数によって定義されます。
 
 ## 設定
 

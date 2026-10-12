@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/installation-and-preferences/retrieving-the-installation-path.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのインストールパスを取得して、スクリプトを作成したり、パイプラインを統合したりする方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Installation and preferences > Retrieving the installation path
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: インストールパスの取得
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 22871eab2f25d09bd82f1292d8b3e5f8c4f1c2cf
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 6%
-
 ---
-
 
 # インストールパスの取得
 

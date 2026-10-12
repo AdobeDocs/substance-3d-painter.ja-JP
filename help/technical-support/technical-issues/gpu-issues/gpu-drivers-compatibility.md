@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/gpu-issues/gpu-drivers-compatibility.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで安定したレンダリングとパフォーマンスを実現するためのGPUドライバーの互換性要件について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > GPU Issues > GPU drivers compatibility
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: GPUドライバーの互換性
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
-
 ---
-
 
 # GPUドライバーの互換性
 

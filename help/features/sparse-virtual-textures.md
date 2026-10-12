@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/sparse-virtual-textures.html"
-breadcrumb-title: ''
-description: Substance 3D Painterで希薄なバーチャルテクスチャを使用して、超高解像度テクスチャを効率的に操作する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Sparse Virtual Textures
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Substance 3D Painterでスパースなバーチャルテクスチャを使用して、超高解像度テクスチャを効率的に操作する方法について説明します。
 title: スパース仮想テクスチャ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 
 # スパース仮想テクスチャ
 
@@ -28,11 +20,11 @@ Substance 3D Painterのバージョン&#x200B;**2018.3**&#x200B;以降では、�
 
 ![](../assets/sparse-settings.png)
 
-スパーステクスチャは、十分なパフォーマンスを得るために特定のハードウェア構成に依存します。 現在の構成が正しくサポートされていない場合、Substance 3D Painterは代わりに&#x200B;**フォールバック**&#x200B;をソフトウェアの実装に適用します（これは、精度が低く、パフォーマンスが低くなります）。
+スパーステクスチャは、十分な性能を発揮するために特定のハードウェア構成に依存します。 現在の構成が正しくサポートされていない場合、Substance 3D Painterは代わりに&#x200B;**フォールバック**&#x200B;をソフトウェアの実装に適用します（これは、精度が低く、パフォーマンスが低くなります）。
 
 [設定](../interface/settings/settings.md)に移動すると、Substance 3D Painterでハードウェアアクセラレーションの代わりにソフトウェアフォールバックを強制的に使用できます。
 
-ハードウェアアクセラレーション対応のスパース仮想テクスチャをサポートする構成は次のとおりです。
+ハードウェアアクセラレーション対応スパース仮想テクスチャをサポートする構成は次のとおりです。
 
 | Platform | サポート（ハードウェアアクセラレーション） | サポートなし（ソフトウェアフォールバック） |
 | --- | --- | --- |
@@ -64,7 +56,7 @@ SVTキャッシュを保存するのに十分なシステムメモリ(Ram)がな
 
 ## シェーダー適合性
 
-SVTを最大限に活用するには、シェーダがSparseシステムにテクスチャをリクエストして読み取る必要があります。 そのため、**vec2テクスチャ座標**&#x200B;および&#x200B;**サンプラー**&#x200B;に基づく以前の関数は廃止されました。 Sparse テクスチャを使用する代わりに、ヘルパー関数が提供されるようになりました。
+SVTを最大限に活用するには、シェーダがSparseシステムにテクスチャをリクエストして読み取る必要があります。 そのため、**vec2 テクスチャ座標**&#x200B;および&#x200B;**サンプラー**&#x200B;に基づく以前の関数は非推奨になりました。 Sparse テクスチャを使用する代わりに、ヘルパー関数が提供されるようになりました。
 
 シェーダを更新するには：
 
@@ -73,4 +65,4 @@ SVTを最大限に活用するには、シェーダがSparseシステムにテ�
 
 >[!WARNING]
 >
-> 古いプロジェクトのシェーダが最新でない場合は、白いフラッシュが表示されることがあります。 詳しくは、このページを参照してください。[カメラを移動すると、メッシュフラッシュが白くなります](../technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)。
+> 古いプロジェクトのシェーダが最新でない場合は、白いフラッシュが表示されることがあります。 詳しくは、このページを参照してください。[カメラを動かすと、メッシュフラッシュが白くなります](../technical-support/technical-issues/rendering-issues/mesh-flash-to-white-when-moving-camera.md)。

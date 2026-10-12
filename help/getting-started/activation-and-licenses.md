@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/activation-and-licenses.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterを有効にし、ライセンスを管理して、テクスチャペイント用のアプリケーションの使用を開始する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Activation and licenses
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ライセンス認証とライセンス
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 1%
-
 ---
-
 
 # ライセンス認証とライセンス
 
@@ -64,7 +56,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーでパスを手動で入力するか、隠しファイルを表示して表示します。
+> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーにパスを手動で入力するか、隠しファイルを表示して表示します。
 
 ### 環境変数
 

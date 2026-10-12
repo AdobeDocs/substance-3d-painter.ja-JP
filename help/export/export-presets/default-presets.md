@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/export/export-presets/default-presets.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのデフォルト出力テンプレートについて説明し、標準的な書き出し設定と書き出し形式について理解します。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Export > Export presets > Default Output templates
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: デフォルト出力テンプレート
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
-
 ---
-
 
 # デフォルト出力テンプレート
 
@@ -42,10 +34,10 @@ ht-degree: 0%
 | <b>Maxwell (光沢度)</b> | 光沢度ワークフローを使用したMaxwellレンダラーのプリセット。 |
 | <b> メッシュマップ </b> | テクスチャセットのベイクされたメッシュマップスロットを個別にエクスポートします（テクスチャセットと同じ解像度でエクスポート）。 |
 | <b>PBR以外の光沢度</b> | 非PBR 光沢度ワークフローの名前および書き出しテクスチャ。 |
-| <b> PBRメタリックの粗さ</b> | 通常のメタリック/ラフネスPBRワークフローに必要な名前と書き出しテクスチャ。 |
+| <b> PBR メタリックラフネス</b> | 通常のメタリック/ラフネス PBRワークフローに必要な名前と書き出しテクスチャ。 |
 | <b> PBR メタリックラフネス （フォルダまたはPSDグループ） </b> | PBR MetalRoughに似ていますが、追加のフォルダーを作成します。 このプリセットは、PSDファイルフォーマットでの使用に最も適しています。 |
-| <b> PBR Specular 光沢度</b> | 通常のSpecular/光沢PBRワークフローに必要なテクスチャの名前を付けて書き出します。 （テクスチャはBaseColor/Metallicワークフローから変換されます）。 |
-| <b> PBR 光沢度（メタリックラフネスから変換</b>） | ベースカラー、メタリック、ラフネスの各チャンネルを変換して、Specular/光沢ワークフローと互換性を持たせます。 |
+| <b> PBR Specular 光沢度</b> | 通常のSpecular / 光沢度 PBRワークフローに必要な名前と書き出しテクスチャ。 （テクスチャはBaseColor/メタリックワークフローから変換されます）。 |
+| <b> PBR 光沢度（メタリックラフネスから変換</b>） | ベースカラー、メタリックチャンネル、ラフネスチャンネルを変換して、Specular/光沢ワークフローと互換性を持たせます。 |
 | <b> Redshift </b> | Redshiftレンダラーのプリセット。 |
 | <b>Renderman (pxrDisney)</b> | メタリックマップと経度マップを使用したRenderman用のプリセット。 |
 | <b>Renderman (pxrSurface)</b> | DiffuseとSpecularマップを使用するRenderman用のプリセット。 |

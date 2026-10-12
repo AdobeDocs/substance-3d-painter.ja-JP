@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-particles-presets/creating-a-new-particle-script.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで新しいパーティクルスクリプトを作成し、パーティクルブラシのビヘイビアーとエフェクトをカスタマイズする方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Creating A New Particle Script
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 新しいパーティクルスクリプトの作成
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # 新しいパーティクルスクリプトの作成
 
@@ -36,11 +28,11 @@ PopcornFX Editorを起動し、新しいプロジェクトを作成してから�
 * 受信者の基本テンプレートであるパーティクルシステム「\_Receiver」。
 * シーンのデフォルトの背景として使用される球体メッシュ
 
-「\_Emitter」と「\_Receiver」はすでに「Painter対応」になっています。 これらは既に必要な進化形、フィールド、バックドロップ等で構成されています。
+「\_エミッター」と「\_レシーバ」はすでに「Painter対応」になっています。 これらは既に必要な進化形、フィールド、バックドロップ等で構成されています。
 
 ## メッシュを読み込む
 
-PopcornFXは&#x200B;**FBX**&#x200B;のみをサポートしています。メッシュをこの形式で書き出してください。 エクスポートのステップで、メッシュのサイズをチェックして、「実際の世界」で正しい単位に合うようにします。
+PopcornFXは&#x200B;**FBX**&#x200B;のみをサポートしています。メッシュをこの形式で書き出してください。 書き出し手順で、メッシュのサイズをチェックして、「実際の環境」で正しい単位に合うようにします。
 
 プロジェクトの「メッシュ」フォルダーにコピー&amp;ペーストします（PopcornFXでは、「メッシュ」フォルダーを右クリックして「ファイルの場所を開く」を選択できます）。
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections/warp-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのワープ投影を使用して、クリエイティブなテクスチャペイント用にテクスチャをゆがみ効果で投影します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > Warp projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ワープ投影
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5ab9709e1630071fddf0db0f03a292e92b84b31f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1859'
 ht-degree: 2%
-
 ---
-
 
 # ワープ投影
 
@@ -31,7 +23,7 @@ ht-degree: 2%
 互換性のあるリソースタイプは次のとおりです。
 
 * **Alpha**
-* **手続き型**
+* **プロシージャル**
 * **テクスチャ**
 * **マテリアル** （Altキーを押す必要があります）
 
@@ -41,15 +33,15 @@ ht-degree: 2%
 
 | 設定 | 説明 |
 | --- | --- |
-| **フィルター** | テクスチャまたはマテリアルのフィルタリング方法をコントロールします。 この設定は、テクスチャが複数回繰り返されるときの外観に影響する場合があります。 デフォルトとは異なるフィルタリングを使用してスケーリング値を大きくすると、見栄えが良くなる場合があります。 現在の設定：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>バイリニア`\|` HQ</strong> （既定）: タイリング値が高い場合にテクスチャの質を向上させる高度なバイリニアフィルタリングです。</li><li data-preserve-html="true"><strong>バイリニア`\|`シャープ</strong> :テクスチャをわずかに滑らかにしながら、ディテールを保持しようとする単純なバイリニアフィルタリングです。</li><li data-preserve-html="true"><strong>最も近い</strong>:フィルター処理なし。バイリニアフィルターの結果がぼやけて、細かいディテールが見えなくなる場合に便利です。 テクスチャにエイリアスを作成できます。</li></ul> |
-| **UV ラップ** | 投影内でテクスチャがどのように繰り返されるかを制御します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>なし</strong>:テクスチャは繰り返されません。 テクスチャの外側にあるものは黒/透明です。</li><li data-preserve-html="true"><strong>水平方向に繰り返す</strong>:テクスチャは水平方向でのみ繰り返されます。</li><li data-preserve-html="true"><strong>縦方向に繰り返す</strong>: テクスチャは縦方向にのみ繰り返されます。</li><li data-preserve-html="true"><strong>繰り返し</strong> （既定）:テクスチャは両方の軸で繰り返されます。</li></ul> |
+| **フィルタリング** | テクスチャまたはマテリアルをフィルタリングする方法をコントロールします。 この設定は、テクスチャが複数回繰り返されるときの外観に影響する場合があります。 デフォルトとは異なるフィルタリングを使用してスケーリング値を大きくすると、見栄えが良くなる場合があります。 現在の設定：<ul data-preserve-html="true"><li data-preserve-html="true"><strong>バイリニア`\|` HQ</strong> （既定）: タイリング値が高い場合にテクスチャの質を向上させる高度なバイリニアフィルタリングです。</li><li data-preserve-html="true"><strong>バイリニア`\|`シャープ</strong> :テクスチャをわずかに滑らかにしながら、ディテールを保持しようとする単純なバイリニアフィルタリングです。</li><li data-preserve-html="true"><strong>最も近い</strong>: フィルタリングがありません。バイリニアのフィルタリングがぼやけた結果を出し、細かい細部を分割する場合に役立ちます。 テクスチャにエイリアスが発生する可能性があります。</li></ul> |
+| **UV ラップ** | 投影内でのテクスチャの繰り返し方法を制御します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>なし</strong>: テクスチャは繰り返されません。 テクスチャの外側はすべて黒/透明です。</li><li data-preserve-html="true"><strong>横方向に繰り返す</strong>:テクスチャは横方向にのみ繰り返されます。</li><li data-preserve-html="true"><strong>縦方向に繰り返す</strong>: テクスチャは縦方向にのみ繰り返されます。</li><li data-preserve-html="true"><strong>繰り返し</strong> （既定）: テクスチャは両方の軸で繰り返されます。</li></ul> |
 | **図形の切り抜き** | 投影テクスチャを投影領域の外側に表示するかどうかを指定します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>プロジェクトがシェイプに切り抜かれました</strong>: 投影が投影領域内に制限されています。</li><li data-preserve-html="true"><strong>投影がシェイプの外側に広がっています</strong> （既定）: 投影は投影領域を超えて続きます。</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-extend.jpg" width="500px"/></div> |
-| **深度** | 投影がZ軸に沿って進む距離をコントロールします。 この設定は、グリッド点またはメッシュ平面が遠すぎる場合に、投影サーフェスに到達するのに役立ちます。緑色の矢印は、グリッドの各点の投影の方向と距離を示します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-depth.gif"/></div> **警告：**&#x200B;値を大きくすると、パフォーマンスに重大な影響を与える可能性があります。 このパラメータはできる限り低く抑えることをお勧めします。 |
+| **深度** | 投影がZ軸に沿って進む距離をコントロールします。 この設定は、グリッド点またはメッシュ平面が遠すぎる場合に、投影サーフェスに到達するのに役立ちます。緑色の矢印は、グリッドの各点の投影の向きと間隔を示します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-depth.gif"/></div> **警告：**&#x200B;値を大きくすると、パフォーマンスに重大な影響を与える可能性があります。 このパラメータはできる限り低く抑えることをお勧めします。 |
 | **深度カリング** | 距離に基づいて投影をフェードします。 次の1つのパラメーターを使用できます。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>硬さ</strong>:フェードの変化の強さを制御します。</li></ul> <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r5-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/warp-hardness.gif"/></div> |
 
-### UVトランスフォーム
+### UV変換
 
-UVトランスフォーメーション設定は、投影内のテクスチャ/マテリアルを制御します。
+UV変換の設定は、投影内のテクスチャ/マテリアルを制御します。
 
 <table data-preserve-html="true" style="width: 100.0%;"><colgroup> <col style="width: 40.0%;"/> <col style="width: 20.0%;"/> <col style="width: 40.0%;"/> </colgroup><tbody><tr><th>スケールモード</th><th>設定</th><th>説明</th></tr><tr><td><p><strong>タイリング</strong> （既定）<strong> <br/></strong></p><p>現在のテクスチャの繰り返し量を手動で設定できます。</p></td><td><strong>タイリング</strong></td><td>テクスチャの繰り返し回数を制御します。</td></tr><tr><td rowspan="2"><br/><br/></td><td colspan="1"><strong>回転</strong></td><td colspan="1">テクスチャをメッシュに投影する角度をコントロールします。</td></tr><tr><td colspan="1"><strong>オフセット</strong></td><td colspan="1">テクスチャの投影元をコントロールします。 デフォルト値は、テクスチャの中心がメッシュのUVの中心であることを示します。</td></tr><tr><th colspan="1"><br/></th><th colspan="1"><br/></th><th colspan="1"><br/></th></tr><tr><td rowspan="4"><p><strong>物理サイズ</strong></p><p>メッシュサイズと埋め込み物理サイズに応じてテクスチャを自動調整します。 幅と長さ（XおよびYの測定値）を使用して、正しい物理サイズを計算します。 Z値は考慮されません。</p><p>(詳しくは、専用の[ドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/features/physical-size)を参照)</p></td><td><strong>カスタムサイズ</strong></td><td><p>有効にすると、アセットを手動で入力し、物理サイズで提供されているアセットを上書きできます。</p><p>物理サイズが検出されない場合、または異なる物理サイズを持つ複数のアセットが同じレイヤー/エフェクト内で使用されている場合は、自動的に選択されます。</p></td></tr><tr><td colspan="1"><strong>サイズ(cm)</strong></td><td colspan="1">埋め込まれた物理サイズはセンチメートル単位で表されます。 異なる単位のメッシュファイルで作業することができます。正しい縦横比が維持されます。 ただし、アセットサイズは現在、センチメートル単位でのみ表示されています。</td></tr><tr><td colspan="1"><strong>回転</strong></td><td colspan="1">テクスチャをメッシュに投影する角度をコントロールします。</td></tr><tr><td colspan="1"><strong>オフセット</strong></td><td colspan="1"><p>テクスチャの投影元をコントロールします。 デフォルト値は、テクスチャの中心がメッシュのUVの中心であることを示します。</p></td></tr></tbody></table>
 
@@ -126,7 +118,7 @@ UVトランスフォーメーション設定は、投影内のテクスチャ/�
 
 ### 正接の調整
 
-ワープグリッドは[ベジェパッチ](https://en.wikipedia.org/wiki/B%C3%A9zier_surface)です。つまり、各ポイントには独自の正接セットがあり、ポイントを結ぶ線のカーブを制御します。 接線を調整すると、テクスチャの変形方法をより詳細に制御できます。
+ワープグリッドは[ベジェパッチ](https://en.wikipedia.org/wiki/B%C3%A9zier_surface)です。つまり、各ポイントには独自の正接セットがあり、ポイントを結ぶ線のカーブを制御します。 正接を調整することで、テクスチャの変形をより詳細にコントロールできます。
 
 | アクション | 説明 |
 | --- | --- |

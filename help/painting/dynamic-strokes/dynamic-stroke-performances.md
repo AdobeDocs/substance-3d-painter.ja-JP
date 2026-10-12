@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/dynamic-strokes/dynamic-stroke-performances.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでブラシストロークのレンダリングと応答性を最適化する際の動的なストロークのパフォーマンスに関する考慮事項について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Dynamic strokes > Dynamic Stroke Performances
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 動的なストロークのパフォーマンス
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
-
 ---
-
 
 # 動的なストロークのパフォーマンス
 
@@ -46,15 +38,15 @@ Substance自体の中に印象的な効果や高度な効果を簡単に組み�
 * **静的ランダムシード** :Substanceは1回生成され、変更されません。 パフォーマンスには最適ですが、ニーズによっては制限が厳しすぎる可能性があります。
 
 **時間** ($time)はどうですか？\
-時間は、非常に特殊な外観を作成する場合に便利ですが、実際には、Substanceグラフで使用する最も高価な変数の1つです。 これは、ブラシストローク間で同じような値を取得するのが非常に難しいため、ブラシエンジンは常に新しいバリエーションを生成する可能性があるためです。 可能であれば、間隔と印鑑インデックスを使用することは避けてください。これらを組み合わせると、同様の結果が得られます。
+非常に特殊な外観を作成する場合は時間が便利ですが、実際には、Substanceのグラフで使用する最も高価な変数の1つです。 これは、ブラシストローク間で同じような値を取得するのが非常に難しいため、ブラシエンジンは常に新しいバリエーションを生成する可能性があるためです。 可能であれば、間隔と印鑑インデックスを使用することは避けてください。これらを組み合わせると、同様の結果が得られます。
 
 ## StampIndexおよびStampCycleCountの使用
 
-**StampIndex**&#x200B;は、ブラシストローク内の個々のスタンプのIDです。 デフォルトでは、0から始まり、新しいスタンプごとに1ずつ増えます。 **StampCycleCount**&#x200B;は、一意のインデックスの量を制限し、Substance 3D Painterに対して、既に生成されたSubstanceグラフをリサイクルまたは再使用するように指示する手段です。 現在のIDが上限に達すると、Substance 3D Painterが0から再開し、ループが発生します。
+**StampIndex**&#x200B;は、ブラシストローク内の個々のスタンプのIDです。 デフォルトでは、0から始まり、新しいスタンプごとに1ずつ増えます。 **StampCycleCount**&#x200B;は、一意のインデックスの量を制限し、既に生成されたグラフをリサイクルまたは再使用するようにSubstance 3D Painterに指示する手段です。 現在のIDが上限に達すると、Substance 3D Painterが0から再開し、ループが発生します。
 
 したがって、良好なパフォーマンスを維持しながらランダム度を維持する最適なソリューションは、サイクル数を次のように利用することです。
 
-* **StampIndex as RandomSeed** :Substanceグラフを作成するときに、ランダムシードを絶対として設定できます。 これにより、スタンプインデックスとして使用できるカスタム値を指定できます。 これにより、ストローク内のスタンプごとに一意のグラフバージョンが作成されます。
+* **StampIndex as RandomSeed** :グラフを作成するときに、ランダムシードを絶対として設定できます。 これにより、スタンプインデックスとして使用できるカスタム値を指定できます。 これにより、ストローク内のスタンプごとに一意のグラフバージョンが作成されます。
 * **StampCycleCount**&#x200B;と組み合わせる：新しいバリエーションの限定セットを実際に作成し、再利用できます。
 * **ランダム開始** ：循環回数が0ではなくランダム値から開始するように設定されている場合、既に生成されたグラフのプール内のストロークごとに、開始時に異なるSubstanceバージョンを使用することになります。
 

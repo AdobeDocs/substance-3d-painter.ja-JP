@@ -1,29 +1,21 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/project-resources.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのプロジェクトリソースと技術文書にアクセスして、ワークフローとトラブルシューティングを強化します。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: プロジェクトリソース
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 
 # プロジェクトのリソースと設定
 
 プロジェクトリソースを管理することで、Painterでのプロジェクトのパフォーマンスに適した基盤を構築できます。
 
 +++ベイク済みマップを縮小
-すべてのベイク済みマップが2Kまたは4K解像度である必要がない場合もあります。 2Kでバッチをベイクしてから、視覚的に違いがあるかどうかを確認するために、低い解像度で再ベイクしてください。
+すべてのベイク済みマップが2Kまたは4K解像度である必要がない場合もあります。 2Kでバッチをベイクし、低い分解能で再ベイクして視覚的な違いがあるかどうかを確認してください。
 
 +++
 
@@ -35,7 +27,7 @@ ht-degree: 0%
 +++
 
 +++シェーダー設定の調整
-UltraでのSpecular品質により、より正確な結果が得られますが、この設定にはコストがかかります。 シェーダーで一度に有効にしたエフェクトが多いほど、演算は重くなります。 可能な限り、複雑なマテリアルを別のシェーダで別のテクスチャセットに分割してください。 ディスプレイスメントが有効になっている場合は、テセレーションパラメーターに注意してください。
+UltraでのSpecular品質により、より正確な結果が得られますが、この設定にはコストがかかります。 シェーダーで一度に有効にしたエフェクトが多いほど、演算は重くなります。 可能な限り、複雑なマテリアルを別のシェーダーを持つ別のテクスチャセットに分割してください。 ディスプレイスメントが有効になっている場合は、テセレーションパラメーターに注意してください。
 
 +++
 

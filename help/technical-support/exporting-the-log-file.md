@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/exporting-the-log-file.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: トラブルシューティングやテクニカルサポートの目的で、Substance 3D Painterからログファイルを書き出す方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Exporting the log file
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: ログファイルをエクスポートしています
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 1%
-
 ---
-
 
 # ログファイルをエクスポートしています
 
@@ -40,7 +32,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーでパスを手動で入力するか、隠しファイルを表示して表示します。
+> 上記のパスの一部のディレクトリは、デフォルトで非表示になっている場合があります。 ファイルエクスプローラーにパスを手動で入力するか、隠しファイルを表示して表示します。
 
 ## サポートのためにログファイルをコミュニティメッセージに添付する
 

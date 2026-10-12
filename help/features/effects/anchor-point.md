@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/effects/anchor-point.html"
-breadcrumb-title: ''
-description: Substance 3D Painterのアンカーポイントエフェクトを使用して、他のレイヤーのテクスチャを参照し、高度な合成を行う方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Effects > Anchor Point
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Substance 3D Painterのアンカーポイントエフェクトを使用して他のレイヤーのテクスチャを参照し、高度な合成を行う方法について説明します。
 title: アンカーポイント
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 
 # アンカーポイント
 
@@ -40,7 +32,7 @@ ht-degree: 0%
 
 * 塗りつぶしレイヤー
 * 塗りつぶし効果
-* サブスタンスフィルターの入力（エフェクト、手続き型、ジェネレーター）
+* サブスタンスフィルターの入力（エフェクト、プロシージャル、Generator）
 
 ![](../../assets/anchor-point-resource.png)
 

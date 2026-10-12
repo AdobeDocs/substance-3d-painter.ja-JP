@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/pipeline-and-integration/configuration/environment-variables.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで環境変数を使用して、アプリケーションのビヘイビアーとパイプラインの統合を設定する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Pipeline and integration > Configuration > Environment variables
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 環境変数
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 3%
-
 ---
-
 
 # 環境変数
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/fill-projections/uv-projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D PainterのUV 投影を使用して、UV座標に基づいてテクスチャを投影し、テクスチャを正確に配置します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Fill projections > UV projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: UV 投影
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 2903c7fdf6a9fe0da149b61fa9064033bb88926a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 4%
-
 ---
-
 
 # UV 投影
 
@@ -61,6 +53,6 @@ UV変換の設定は、投影内のテクスチャ/マテリアルを制御し�
 | **回転** | マウスクリック | 変形の外側からクリックしてドラッグすると、変形を回転できます。 ピボットを移動すると、回転の原点も変更できます。   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-rotation.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r3-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-rotation-pivot.gif"/></div>  </td> </tr> </table> |
 | **回転が制限されています** | SHIFT+マウスクリック | ショートカットを押したまま、変形の外側からクリックしてドラッグすると、45度ごとに回転させることができます。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r4-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-rotation-constrained.gif"/></div> |
 | **スケール** | マウスクリック | 変形のハンドルをクリックしてドラッグすると、マニピュレーターを変形できます。   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-free.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r5-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-middle.gif"/></div>  </td> </tr> </table> |
-| **スケールの制約** | SHIFT+マウスクリック | ショートカットを押しながらハンドルをドラッグすると、縦横比を維持したまま変形することができます。   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-ratio.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-middle-ratio.gif"/></div>  </td> </tr> </table> |
-| **ミラー化されたスケール** | CTRL+マウスクリック | ショートカットを押しながらハンドルを動かすと、他のハンドルも同様の動きをします。 これにより、ピボットポイントの周囲で対称に変換を変形できます。   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-mirror.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-mirror-pivot.gif"/></div>  </td> </tr> </table> |
+| **スケールの制約** | SHIFT+マウスクリック | ハンドルのドラッグ中にショートカットを押し続けると、トランスフォームは強制的に縦横比を維持します。   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-ratio.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r6-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-middle-ratio.gif"/></div>  </td> </tr> </table> |
+| **ミラー化されたスケール** | CTRL+マウスクリック | ショートカットを押しながらハンドルを動かすと、他のハンドルも同様の動きをします。 これにより、ピボットポイントを中心に対称に変換を変形できます。   <table> <tr style="border: 0;"> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-mirror.gif"/></div>  </td> <td style="border: 0;" valign="top">  <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r7-column-c2_dynamic_grid_items_grid-cell1_position-par_image" src="../../assets/uv-scale-mirror-pivot.gif"/></div>  </td> </tr> </table> |
 | **ミラー化および制約付きで拡大・縮小** | SHIFT+CTRL+マウスクリック | 両方のショートカットキーを組み合わせて使用すると、縦横比を維持しながら対称に合わせて変形できます。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table2_row-r8-column-c2_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/uv-scale-mirror-ratio.gif"/></div> |

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/presets/creating-particles-presets/overview-of-the-particle-editor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのパーティクルエディターについて学習し、テクスチャペイントのカスタムパーティクルブラシプリセットを作成します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Presets > Creating particles presets > Overview of the particle editor
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: パーティクルエディタの概要
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 0%
-
 ---
-
 
 # パーティクルエディタの概要
 
@@ -174,13 +166,13 @@ Substance 3D Painterは自動的に要件（パーティクルフィールド、
 
 進化者の序列は非常に重要な場合がある。
 
-たとえば、最後の2つのエボルバを必ず投影エボルバにし、次に投影エボルバで生成されたpCoordsを使用してUVと法線をサンプリングするスクリプトエボルバを設定することができます。
+たとえば、最後の2つのエボルバを投影エボルバにし、次に投影エボルバで生成されたpCoordsを使用してUVと法線をサンプリングするスクリプトエボルバにしたいとします。
 
 フレームの順番は文字通りフレームの中で実行される順番であり、Substance 3D Painterはパーティクルフィールドの値と各展開の終わりを収集することに留意してください。
 
 #### メッシュの法線マップをサンプリングする方法
 
-Substance 3D Painterは、「NormalMap」と呼ばれるすべてのテクスチャサンプラーをメッシュの法線マップ（インポートした場合）に置き換えます。
+Substance 3D Painterは、「NormalMap」と呼ばれるすべてのテクスチャサンプラーを（読み込まれた場合は）メッシュの法線マップに置き換えます。
 
 現在のところ、他のすべてのテクスチャにはSubstance 3D Painterからアクセスできません。これが唯一のテクスチャです。
 
@@ -231,7 +223,7 @@ float3 normal = normalize(tsNormal.x * tangent + tsNormal.y * binormal + tsNorma
 
 アトリビュートを使用して乱気流を調整するには、Evolverスクリプトで乱気流Samplerによって生成されたベロシティフィールドをサンプリングします。
 
-2つのパーティクルアトリビュートを作成する：
+2つのパーティクル属性を作成します。
 
 * float &quot;TurbulencePower&quot; minmax: [0;5]
 * float &quot;TurbulenceScale&quot; minmax: [0.001; 5] （0以上である必要があります）
@@ -285,13 +277,13 @@ PopcornFXは一種の大きな離散化システムなので、dtが大きいほ
 
 デルタ時間の最後のヒント：適切なdtを得るための良い方法は、大きなdt(0.1s)から始めて、ステップごとに減らして、必要な結果を得ることです。
 
-#### パーティクルシステムのパラメータを表示する方法
+#### パーティクルシステムのパラメーターを表示する方法
 
 Substance 3D Painterはパーティクルシステムのパーティクルアトリビュートを収集し、物理ブラシのパラメータに表示します。
 
 <http://www.popcornfx.com/wiki/index.php/Particle_effect_attributes>
 
-PopcornFXには、「Attributes in Evolve」という機能があります。この機能を使用すると、Evolveスクリプトの属性にアクセスできます。この機能を使用しないでください。 代わりに、パーティクルフィールドを作成し、その中にアトリビュートを格納します。次に、これらのパーティクルフィールドをエボラスクリプトで使用します。 （これは将来修正される可能性があります）
+PopcornFXには、「Attributes in Evolve」という機能があります。この機能を使用すると、Evolveスクリプトの属性にアクセスできます。この機能を使用しないでください。 代わりに、パーティクルフィールドを作成し、属性をSpawnerスクリプトに格納してから、それらのパーティクルフィールドをEvovlerスクリプトで使用します。 （これは将来修正される可能性があります）
 
 #### 問題のあるパーティクルを見つける方法
 

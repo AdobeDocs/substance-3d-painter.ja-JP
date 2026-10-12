@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/projection.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterの投影ツールを使用して、テクスチャペイントのワークフローで2D画像を3D表面に投影します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Projection
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 投影
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%
-
 ---
-
 
 # 投影
 
@@ -29,7 +21,7 @@ ht-degree: 1%
 * **Sキーを押しながら左クリック**&#x200B;して、ステンシルを回転させます。
 * **S +左クリック+ Shift**&#x200B;を使用して、ステンシルのスナップ/回転を制限します。
 * **S +右クリック**&#x200B;して、ステンシルをズーム/ズーム解除します。
-* **S +中マウス**&#x200B;を使用して、ステンシルを変換します。
+* **S +中マウス**&#x200B;を使用して、ステンシルを移動します。
 
 <table>
 <tr style="border: 0;">

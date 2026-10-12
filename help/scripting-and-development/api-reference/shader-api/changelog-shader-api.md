@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/changelog-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painter シェーダー APIの更新ログを確認して、更新、新機能、変更を経時的に追跡します。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Changelog - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Changelog - シェーダー API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 3%
-
 ---
-
 
 # Changelog - シェーダー API
 
@@ -35,7 +27,7 @@ ht-degree: 3%
 * **廃止**: vec2 テクスチャ座標とテクスチャサンプラーに基づく以前の関数は廃止されました（新しい署名を使用してください）
 * [lib-pom.glsl](libraries-shader-api/lib-pom-shader-api.md): *applyParallaxOffset*&#x200B;関数を追加して、パララックスオクルージョンエフェクトの使用を簡略化します
 * [lib-random.glsl](libraries-shader-api/lib-random-shader-api.md):ブルーノイズのランダム値ジェネレーターと時間的な代替文字を追加します
-* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md)：値の解釈とサンプリングヘルパーの両方を持つすべてのチャンネルサンプリングヘルパーを分割します
+* [lib-sampler.glsl](libraries-shader-api/lib-sampler-shader-api.md)：値の解釈とサンプリングの両方のヘルパーを持つようにすべてのチャンネルサンプリングヘルパーを分割します
 
 ## 2018.2.0
 
@@ -43,7 +35,7 @@ ht-degree: 3%
 * *shadeShadow*&#x200B;関数はもう使用されておらず、カスタムサーフェスシェーダから安全に削除できます
 * 表面化散乱のサポートを追加します。詳細については、[surface-シェーダー.glsl](shaders-shader-api/surface-shader-shader-api.md)および[lib-sss.glsl](libraries-shader-api/lib-sss-shader-api.md)を参照してください
 * [lib-pbr.glsl](libraries-shader-api/lib-pbr-shader-api.md): *pbrComputeBRDF*&#x200B;関数が削除されました。 ライブラリの使用方法については、[pbr-metal-rough.glsl](shaders-shader-api/pbr-metal-rough-shader-api.md)の例を参照してください
-* 新しいエンジンパラメーターが追加されました： *texture\_blue\_noise*、*aspect\_ratio*、*camera\_vp\_matrix\_inverse*、*environment\_exposure*、*environment\_rotation*、*fovy*、*main\_light*&#x200B;および&#x200B;*screen\_size*。 詳細については、[all-エンジン-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)を参照してください
+* 次の新しいエンジンパラメーターが追加されました： *テクスチャ\_blue\_ノイズ*、*縦横比*、*camera\_vp\_matrix\_inverse*、*環境\_exposure*、*環境\_回転*、*フォビー*、*main\_light*&#x200B;および&#x200B;*画面\_サイズ*。 詳細については、[all-エンジン-params.glsl](parameters-shader-api/all-engine-params-shader-api.md)を参照してください
 * *説明*&#x200B;メタデータを追加して、カスタムシェーダーパラメーターのツールヒントを提供します
 
 ## 2017.4.2
@@ -98,8 +90,8 @@ ht-degree: 3%
 
 ## 2.2.0
 
-* 非ドキュメントテクスチャ用の汎用マテリアルで、バインドレステクスチャのサポートが追加されました。
-* カスタムシェーダースライダーのドキュメントの更新
+* 非ドキュメントテクスチャ用の汎用マテリアルで、バインドレステクスチャがサポートされるようになりました
+* カスタムシェーダースライダードキュメントの更新
 * スライダーのステップの精度を定義できます
 * 動的マテリアルレイヤリング用ドキュメント
 
@@ -116,7 +108,7 @@ ht-degree: 3%
 
 * アルファ値が低いと、通常のアンパック機能が正しく機能しない
 * ユーザー設定シェーダーのメッシュ頂点の色を読み取れるようにする
-* [ビューポート]一部のコンピュータで拡張された環境マップ
+* [ビューポート]一部のコンピューターで環境マップを伸縮
 
 ## 2.0.0
 
@@ -141,7 +133,7 @@ ht-degree: 3%
 
 ## 1.5.0
 
-* シェーダエラーレポートに行番号とファイル名を追加する
+* シェーダーエラーレポートに行番号とファイル名を追加する
 
 ## 1.4.1
 

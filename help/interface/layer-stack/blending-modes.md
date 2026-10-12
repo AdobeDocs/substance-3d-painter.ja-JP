@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/layer-stack/blending-modes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterの描画モードを使ってレイヤーを結合し、様々なテクスチャ効果を作成する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Layer stack > Blending modes
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 描画モード
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 2%
-
 ---
-
 
 # 描画モード
 

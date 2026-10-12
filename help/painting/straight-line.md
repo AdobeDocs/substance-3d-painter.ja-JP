@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/straight-line.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterの直線ツールを使用して、テクスチャペイント用の正確な直線ペイントストロークを作成します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Straight line
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 直線
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
-
 ---
-
 
 # 直線
 
@@ -26,7 +18,7 @@ ht-degree: 0%
 
 これは、キーボードショートカットを使用して一時的に適用される変更です。
 
-直線の位置はビューポートから計算されます。つまり、ブラシストロークの間でカメラが移動すると、次の直線が正しく配置されないことがあります。
+直線の位置はビューポート値から計算されます。つまり、ブラシストロークの間でカメラが動くと、次の直線が誤って配置される可能性があります。
 
 ## 直線を有効にする
 

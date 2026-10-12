@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/license-issues/maintenance-is-expired-dialog-on-startup.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: ライセンス管理用に、Substance 3D Painterの起動時に表示されるメンテナンスの期限切れダイアログを解決する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > License Issues > Maintenance is expired dialog on startup
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 起動時の「メンテナンスの期限が切れました」ダイアログ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 1%
-
 ---
-
 
 # 起動時の「メンテナンスの期限が切れました」ダイアログ
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/getting-started/project-creation.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで新規プロジェクトを作成し、3Dモデルにテクスチャをペイントする方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Getting Started > Project Creation
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: プロジェクトの作成
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
-
 ---
-
 
 # プロジェクトの作成
 
@@ -88,10 +80,10 @@ USDを選択すると、その他のファイル形式固有の設定が使用�
 
 | *メッシュマップ* | *ファイル名変換* |
 | --- | --- |
-| **環境オクルージョン** | ambient\_オクルージョン |
-| **曲線** | 曲率 |
+| **Ambient occlusion** | ambient\_オクルージョン |
+| **曲率** | 曲率 |
 | **標準** | normal\_base |
-| **ワールド空間標準** | world\_space\_normals |
+| **ワールド空間法線** | world\_space\_normals |
 | **ID** | id |
 | **位置** | 位置 |
 | **Thickness** | 厚み |

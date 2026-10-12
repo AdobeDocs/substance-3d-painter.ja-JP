@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/technical-issues/miscellaneous-issues/corrupted-texture-error-message.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで破損したテクスチャエラーメッセージを修正して、テクスチャ機能を復元する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Technical Issues > Miscellaneous Issues > Corrupted texture error message
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 破損したテクスチャのエラーメッセージ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
-
 ---
-
 
 # 破損したテクスチャのエラーメッセージ
 
@@ -39,7 +31,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > これは、リソースが単に欠落していることを意味する場合もあります。\
-> 確実に確認するには、スロットをクリアして、ベイク処理に手動で再度影響を与えます。 赤十字のサムネールがまだ表示されている場合は、リソースが破損していることを示しています。
+> 確認のために、スロットをクリアして、手動で烘焙に影響を与え直してみてください。 赤十字のサムネールがまだ表示されている場合は、リソースが破損していることを示しています。
 
 ### 2 – リソースの置き換え
 
@@ -49,12 +41,12 @@ ht-degree: 0%
 >[!NOTE]
 >
 > * ベイクされたテクスチャのケースでは、[テクスチャセット設定](../../../interface/texture-set/texture-set-settings.md)ウィンドウのメッシュマップスロットも必ずクリアしてください。
-> * 法線マップのようなテクスチャセット設定でのみ使用されるベイクも破損する可能性があります。 エラーが解決しない場合は、同様に削除してください。
+> * 法線マップなどのテクスチャセット設定でのみ使用されているベイクも破損している可能性があります。 エラーが解決しない場合は、同様に削除してください。
 
 ### 3 – クリーンアップ
 
 破損したリソースへのすべての参照が削除されたら、メインメニュー（**ファイル** > **クリーンアップ**）からプロジェクトのクリーンアップを実行します。\
-これにより、現在未使用のすべての破損したリソースがプロジェクトから削除されます。 シェルフ内の[プロジェクト]タブを参照して確認し、問題のあるリソースがすべて削除されたことを確認できます。
+これにより、現在未使用のすべての破損したリソースがプロジェクトから削除されます。 シェルフの「プロジェクト」タブを参照して検証し、問題のあるリソースがすべて削除されたことを確認できます。
 
 ### 4 – 保存
 

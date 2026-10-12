@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/old-versions/version-7-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン7.3のリリースノートを確認してください。
-helpx_creative_field: ""
-helpx_description: Painter > Release notes > Old versions > Version 7.3
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: バージョン7.3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1822'
 ht-degree: 0%
-
 ---
-
 
 # バージョン7.3
 

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/text-resource.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでテキストリソースを使用して、テクスチャペイントのワークフローにテキストとテキスト編集を追加する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: テキストリソース
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 
 # テキストリソース
 
@@ -70,7 +62,7 @@ Painterは、<b>.ttf</b>と<b>.otf</b>の両方のフォントフォーマット
 | --- | --- |
 | <b>テキスト</b> | レンダリングするテキスト。  **注意：**&#x200B;インターフェイスのテキストフィールドでは、さまざまな種類の文字を含む一般的なフォントが使用されています。これにより、フィールドに入力された内容と、選択したフォントがテクスチャで表示できる内容が一致しない場合があります。 |
 | <b>フォントサイズ</b> | フォントサイズの計算に使用するモードを指定します。 使用可能なモードは次のとおりです。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>自動</b>:サイズはテキストの内容から自動的に計算され、テクスチャに合わせて調整されます。</li> <li data-preserve-html="true"><b>カスタム</b>:サイズは、専用の設定を使用して手動で制御できます。</li> </ul> |
-| <b>整列</b> | 垂直方向と水平方向の整列を制御します。 ボタンを使用して、使用するモードを選択します。 |
+| <b>アラインメント</b> | 垂直方向と水平方向のアラインメントを制御します。 ボタンを使用して、使用するモードを選択します。 |
 | <b>色</b> | レンダリングされたテキストの色。 テキストリソースがマスクチャンネルまたはグレースケールチャンネルで使用されている場合、この設定はグレースケールになります。 |
 
 さらに高度なパラメーターも使用できます。

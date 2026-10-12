@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/iray-renderer.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D PainterのIrayレンダラーを使用して、フォトリアルなマテリアルのプレビューとレンダリングを作成する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > Iray Renderer
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Irayレンダラー
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
-
 ---
-
 
 # Irayレンダラー
 
@@ -27,7 +19,7 @@ Irayにより、シーンや高精細（高解像度）の照明を高精度に�
 
 ## Irayモード
 
-Irayを起動するには、Substance 3D Painterのモードを変更する必要があります。\
+Irayを開始するには、Substance 3D Painterのモードを変更する必要があります。\
 これを行うには、さまざまな方法でキーを押します。
 
 * **F10キー**&#x200B;を押して（または&#x200B;**F9**&#x200B;を押してペイントモードに戻る）

@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/spacemouse-by-3dconnexion.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: SpaceMouse by 3DconnectionをSubstance 3D Painterと組み合わせて使用し、3Dナビゲーションとビューポートコントロールを強化する方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > SpaceMouse by 3Dconnexion
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: SpaceMouse by 3Dconnection
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 2%
-
 ---
-
 
 # SpaceMouse® by 3Dconnection
 
@@ -98,7 +90,7 @@ SpaceMouse®の設定パネルでは、最新バージョンのドライバー�
 
 | 設定 | 説明 |
 | --- | --- |
-| 自動 | 基点またはカメラターゲットを自動的に移動します。オフにすると、常にメッシュ原点の基点に固定されます。 |
+| 自動 | ピボットまたはカメラターゲットを自動的に動かします。オフにすると、常にメッシュの原点ピボットに固定されます。 |
 | 常に表示 | ピボットポイントは、デバイスと相互作用しない場合でも、常に3D ビューポートで表示されます。 |
 | モーションで表示 | ピボットポイントは、デバイスと相互作用する場合にのみ3D ビューポートに表示されます。 これはデフォルトのオプションです。 |
 | 非表示 | 3D ビューポートのピボットポイントを完全に削除します。 |

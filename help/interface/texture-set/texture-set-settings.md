@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/interface/texture-set/texture-set-settings.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでテクスチャセットを設定し、テクスチャの解像度とチャンネルプロパティを制御する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Interface > Texture Set > Texture Set settings
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: テクスチャセット設定
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 
 # テクスチャセット設定
 
@@ -62,10 +54,10 @@ ht-degree: 0%
 | **通常のミキシング** | 「法線マップ」を「通常」チャンネルと組み合わせる方法を制御します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong> </strong>を置き換える： 「法線マップ」を無視し、このテクスチャセットに「通常」チャンネルのみを使用します。 ベイクした法線マップ上でペイントするために使用できます。 詳細については、[チャンネルペイントの詳細設定](../../painting/advanced-channel-painting/normal-map-painting.md)のドキュメントを参照してください。 通常チャンネルが存在しない場合、または通常チャンネルの出力が空の場合でも、ベイクされた法線マップが使用されます。</li><li data-preserve-html="true"><strong> </strong>を結合する（デフォルト） :「通常」チャンネルと「法線マップ」を結合するには、詳細を重視した関数を使用します。</li></ul>  **注意：**&#x200B;この設定は、チャネルの一覧にチャネルが存在しない場合は無効になる可能性があります。 チャンネルが見つからない場合は、デフォルトのミキシング値が使用されます。 |
 | **通常のメソッドへのHeight** | Heightチャンネルを法線マップに変換するために使用する方式を制御します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>シャープ</strong>：より明確な法線マップを作成しますが、ノイズやエイリアスが発生する可能性があります。 布地などの繰り返しパターンに適しています。</li><li data-preserve-html="true"><strong>滑らか(Sobel)</strong> （既定）: Sobelフィルターを使用して滑らかな法線マップを作成します。ディテールが失われる可能性があります。 ほとんどの場合に適しています。</li></ul> |
 | **Ambient occlusionミキシング** | 「ambient occlusion」を「Ambient occlusion」チャンネルと組み合わせる方法を制御します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong> </strong>を置き換える： 「ambient occlusion」を無視し、このテクスチャセットの「Ambient occlusion」チャンネルのみを使用します。 ベイクしたambient occlusion上でペイントするために使用できます。 詳細については、[高度なチャンネルペイント](../../painting/advanced-channel-painting/ambient-occlusion-painting.md)のドキュメントを参照してください。  </li><li data-preserve-html="true"><strong> Multiply </strong> （デフォルト） :multiply演算を使用して、「Ambient occlusion」チャンネルと「ベイクambient occlusion」を組み合わせます。  </li></ul>  **注意：**&#x200B;この設定は、チャネルの一覧にチャネルが存在しない場合は無効になる可能性があります。 チャンネルが見つからない場合は、デフォルトのミキシング値が使用されます。 |
-| **UVパディング** | UV アイランドの外側にパディングを生成する方法を制御します。 指定可能な値は次のとおりです。  <ul class="steps" data-preserve-html="true"> <li class="step" data-preserve-html="true">    <strong>3D空間の隣接</strong> （既定値）: UVシームの反対側を見て隣接するピクセルカラーを見つけ、それをUV境界で使用します。 この設定は、連続パターンを使用してUVシームを越えてペイントする場合に推奨されます。 左に通常のパディング、右に3D近隣を指定した例：<br/>       <img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_procedure_proc_par_proc_step_step_par_image_1671759737" src="../../assets/seam-3.png" width="450px"/>   </li> <li class="step" data-preserve-html="true">    <strong>2Dスペース近隣</strong>:パディングを生成する前に、UV アイランド内のピクセルをUV アイランド外の境界線にコピーします。 この設定は、UV アイランドが情報に大きな対立を持ち、情報が重ならない場合にお勧めします。 例えば、左側にバンドがUV アイランドごとに一意のカラーを持つ球体、左側に2D隣接ページ設定、右側に3D隣接ページが設定されている場合（にじみが見られます）:<br/>       <img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_procedure_proc_par_proc_step1_step_par_image" src="../../assets/2d-neigbor-padding.png" width="450px"/>   </li> </ul>  **注意：**&#x200B;このパディング設定はテクスチャセットごとに保存され、テクスチャのビューポートへの書き出しと視覚化の際に考慮されます。3D空間ネイバーの機能により、通常のチャンネルでは使用できず、代わりに2Dバージョンが使用されます。 |
+| **UVパディング** | UV アイランドの外側にパディングを生成する方法を制御します。 指定可能な値は次のとおりです。  <ul class="steps" data-preserve-html="true"> <li class="step" data-preserve-html="true">    <strong>3D空間の近隣ノード</strong> （既定）: UV シームの反対側を調べて近隣ノードのピクセルカラーを見つけ、それをUV境界で使用します。 この設定は、連続パターンを使用して複数のシームをペイントする場合に推奨されます。 左に通常のパディング、右に3D近隣を指定した例：<br/>       <img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_procedure_proc_par_proc_step_step_par_image_1671759737" src="../../assets/seam-3.png" width="450px"/>   </li> <li class="step" data-preserve-html="true">    <strong>2Dスペース近隣</strong>:パディングを生成する前に、UV アイランド内のピクセルをUV アイランド外の境界線にコピーします。 この設定は、UV アイランドが情報に大きな対立を持ち、情報が重ならない場合にお勧めします。 例えば、左側にバンドがUV アイランドごとに一意のカラーを持つ球体、左側に2D隣接ページ設定、右側に3D隣接ページが設定されている場合（にじみが見られます）:<br/>       <img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r4-column-c1_procedure_proc_par_proc_step1_step_par_image" src="../../assets/2d-neigbor-padding.png" width="450px"/>   </li> </ul>  **注意：**&#x200B;このパディング設定はテクスチャセットごとに保存され、テクスチャのビューポートへの書き出しと視覚化の際に考慮されます。3D空間ネイバーの機能により、通常のチャンネルでは使用できず、代わりに2Dバージョンが使用されます。 |
 
 ## メッシュマップ
 
 ![](../../assets/mesh-maps.png)
 
-メッシュマップは、フィルター、スマートマテリアル、スマートマスクを使用してテクスチャリングの品質を向上させるために使用される、メッシュとテクスチャセットに固有のベイク処理されたテクスチャです。 詳細については、[ベイク処理](../../baking/baking.md)のドキュメントを参照してください。
+メッシュマップは、フィルター、スマートマテリアル、スマートマスクを使用してテクスチャリングの質を向上させるために使用される、メッシュとテクスチャセットに固有のベイクされたテクスチャです。 詳細については、[ベイク処理](../../baking/baking.md)のドキュメントを参照してください。

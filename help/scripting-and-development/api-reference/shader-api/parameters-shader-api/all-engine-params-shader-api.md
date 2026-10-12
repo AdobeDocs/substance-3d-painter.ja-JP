@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api/parameters-shader-api/all-engine-params-shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのすべてのエンジンパラメーターシェーダー API参照にアクセスし、エンジンレベルのシェーダーパラメーターを制御します。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API > Parameters - Shader API > All Engine Params - Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: すべてのエンジンパラメータ – シェーダー API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
-
 ---
-
 
 # すべてのエンジンパラメータ – シェーダー API
 
@@ -24,11 +16,11 @@ ht-degree: 0%
 
 ## テクスチャパラメーター
 
-Substance Painterでは、Sparse Virtual Texture(SVT)システムを使用して、ビューポートにテクスチャを表示します。
+Substance Painterでは、スパース仮想テクスチャ(SVT)システムを使用してビューポートのテクスチャを表示します。
 
 このシステムの詳細については、[オンラインドキュメント](../../../../features/sparse-virtual-textures.md)を参照してください。
 
-このシステムは、シェーダコードの書き方に影響を与えます。 *SamplerSparse*&#x200B;構造とテクスチャ参照関数（[lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)を参照）を使用して、この関数の使用を簡略化するためのヘルパーを提供しています。
+このシステムはシェーダーコードの書き方に影響を与える。 *SamplerSparse*&#x200B;構造とテクスチャ参照関数（[lib-sparse.glsl](../libraries-shader-api/lib-sparse-shader-api.md)を参照）を使用して、この関数の使用を簡単にするヘルパーを提供しています。
 
 基本的な使用方法：
 
@@ -70,7 +62,7 @@ uniform SamplerSparse uniform_tex; // if TEXTURE_TAG_1 exists then TEXTURE_TAG_1
 
 ### メッシュマップ
 
-*texture\_ambientocclusion* ：環境オクルージョンマップ\
+*テクスチャ\_ambientocclusion* : Ambient occlusionマップ\
 *テクスチャ\_曲率* : 曲率マップ\
 *テクスチャ\_id* : ID マップ\
 *テクスチャ\_normal* : 接線空間法線マップ\
@@ -144,7 +136,7 @@ uniform mat4 uniform_camera_view_matrix_it;
 ```
 
 
-*camera\_vp\_matrix\_inverse* : *投影\*&#x200B;のカメラ\_view\_matrix*行列の逆
+*camera\_vp\_matrix\_inverse* : *投影\* カメラ\_view\_matrix*マトリックスの逆
 
 ```
 //: param auto camera_vp_matrix_inverse 
@@ -171,7 +163,7 @@ uniform float uniform_max_lod;
 ```
 
 
-*environment\_rotation* : envmapの上軸を中心とした回転を表す&#x200B;*float*\
+*environment\_rotation* : envmapの上軸への回転を表す&#x200B;*float*\
 値は[0,1]の範囲にあり、[0, 2\*pi]の範囲にマップする必要があります。
 
 ```
@@ -209,7 +201,7 @@ uniform bool uniform_2d_view;
 ```
 
 
-*is\_perspective\_projection* : *bool*&#x200B;は、投影がパースか直交投影かを示します
+*is\_遠近法\_投影* : *bool*&#x200B;は、投影が遠近法か正投影かを示します
 
 ```
 //: param auto is_perspective_projection 

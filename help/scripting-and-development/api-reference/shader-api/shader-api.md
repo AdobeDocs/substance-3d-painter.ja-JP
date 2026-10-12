@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/scripting-and-development/api-reference/shader-api.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterのシェーダー APIリファレンスにアクセスして、カスタムシェーダを作成し、レンダリング機能を拡張します。
-helpx_creative_field: ""
-helpx_description: Painter > Scripting and development > API Reference > Shader API
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: シェーダー API
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 0%
-
 ---
-
 
 # シェーダー API
 
@@ -111,11 +103,11 @@ Substance Painterでは、レンダリングエンジンパラメーター（ド
 サポートされているキー：
 
 * **カスタムui**：標準のシェーダーパラメーターのユーザーインターフェイスを、QMLモジュールとして記述されたカスタムビューに置き換えます（スクリプトドキュメントを参照）。 パスは、シェルフー&#x200B;*custom-ui*&#x200B;フォルダーの1つに対する絶対パスまたは相対パスで指定できます。
-* **mdl**: シェーダーで使用するIray mdl マテリアルを定義します。 パスの構文は次のとおりです。 *mdl::folder1::folder2::mdl\_filename::material\_name*&#x200B;ここで、*folder1::folder2::mdl\_filename*&#x200B;はシェルフ&#x200B;*mdl*&#x200B;フォルダーの1つのmdlファイルへのパスで、*::material\_name*&#x200B;はこのmdlファイル内で宣言されたマテリアルの名前です。 （例： &quot;mdl&quot; : &quot;mdl::alg::materials::physically\_metallic\_roughness::physically\_metallic\_roughness&quot;）
+* **mdl**: シェーダーで使用するIray mdl マテリアルを定義します。 パスの構文は次のとおりです。*mdl::folder1::folder2::mdl\_filename::folder\_name*&#x200B;ここで、*マテリアル1::folder2::mdl\_filename*&#x200B;は、シェルフー&#x200B;*mdl*&#x200B;フォルダー内のmdlファイルへのパスで、*::マテリアル\_name*&#x200B;はこのmdlファイル内で宣言されたマテリアルーの名前です。 （例： &quot;mdl&quot; : &quot;mdl::alg::materials::physically\_メタリック\_ラフネス::physically\_メタリック\_ラフネス&quot;）
 
 ## シェーダの例(yes, finally!)
 
-実際のシェーダの外観を確認するために、複雑さを増して順序付けられたサンプルシェーダをいくつか紹介します。
+実際のシェーダーの外観を確認するために、複雑さを増して順序付けられたサンプルシェーダーをいくつか紹介します。
 
 * [ピクセル化された.glsl](shaders-shader-api/pixelated-shader-api.md) :ピクセル化するシェーダー
 * [toon.glsl](shaders-shader-api/toon-shader-api.md) :トゥーンシェーダー
@@ -123,7 +115,7 @@ Substance Painterでは、レンダリングエンジンパラメーター（ド
 
 ## 動的マテリアルレイヤリング
 
-この動的マテリアルレイヤリングは、シェーダ内でマテリアルを混ぜ合わせる特殊なワークフローであり、Substance Painterして描画マスクを動的に編集できます。 このワークフローを有効にするには、次の2つの新しい機能があります。
+動的マテリアルレイヤリングは、シェーダー内でマテリアルが混在し、Substance Painter内のblending maskを動的に編集できる特殊なワークフローです。 このワークフローを有効にするには、次の2つの新しい機能があります。
 
 * シェーダー定義から編集可能なスタックを宣言します： [layering\_declare\_スタック.glsl](parameters-shader-api/layering-declare-stacks-shader-api.md)
 * マテリアルをシェーダーパラメーターとしてバインド： [layering\_bind\_マテリアル.glsl](parameters-shader-api/layering-bind-materials-shader-api.md)

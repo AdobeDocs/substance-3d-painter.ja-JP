@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/version-10-1.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 新機能、改善点、バグ修正について詳しくは、 Substance 3D Painterバージョン10.1のリリースノートを確認してください。
-helpx_creative_field: ""
-helpx_description: Substance 3D Painter
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: バージョン10.1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
-
 ---
-
 
 # バージョン10.1
 
@@ -88,12 +80,12 @@ ht-degree: 0%
 
 このバージョンのPainterでは、多くのサードパーティコンポーネントが改善および更新されています。
 
-* <b>Adobe Standard Materialのテクスチャを米ドルで書き出す\
+* <b>USDでのAdobe Standard Materialを使用したテクスチャの書き出し\
   </b>PainterからUSDファイルにテクスチャを書き出すときに、Adobe Standard Materialのプロパティを取得できるようになりました。 これにより、これらのプロパティをサポートするアプリケーションでもこれらのUSDファイルを使用できるようになります。
 * <b>USDファイルからテクスチャを読み込む</b>\
-  USDファイルを読み込むと、作成するプロジェクトにそのテクスチャも読み込まれるようになり、アプリケーション間の行き来が容易になりました。 USDファイルでAdobe Standard Materialが使用されている場合は、シェーダー設定も変更され、アプリケーションの結果が他のソースビューポートと一致するようになります。
+  USDファイルを読み込むと、そのファイルが作成するプロジェクトにそのテクスチャも読み込まれるようになりました。これにより、アプリケーション間を簡単に行き来できるようになります。 USDファイルでAdobe Standard Materialが使用されている場合は、シェーダー設定も変更され、アプリケーションの結果が他のソースビューポートと一致するようになります。
 * <b>Gltfの変更\
-  </b>USDの更新に伴い、パリティを確保するためにGLTF形式の動作を変更する必要がありました。 gltfファイルを読み込む際に、Painterは標準マップがOpenGLフォーマットであることを前提とします。\
+  </b>USDの更新に伴い、パリティを確保するためにGLTF形式の動作を変更する必要がありました。 gltfファイルを読み込むときに、Painterは、法線マップがOpenGLフォーマットになることを前提とします。\
   一部のgltfファイルでは、代わりにDirectXフォーマットが使用される場合があります。 そのため、新しいプロジェクトウィンドウに、それを考慮した新しい設定が追加されました（標準の書式はレイヤースタックから上書きすることもできます）。
 
   ![](../assets/v101_import_gltf.png)
@@ -156,7 +148,7 @@ ht-degree: 0%
 * [VFX Platform 2024] Python 3.11へのアップデート
 * [VFX Platform 2024] OpenEXR 3.2へのアップデート
 * [VFX Platform 2024] [USD] OpenSubdiv 3.6.0をアップデートします。
-* [VFX Platform 2024]&#x200B;[カラーマネジメント] OCIO 2.3.2に対するアップデート
+* [VFX Platform 2024]&#x200B;[Color Management] OCIO 2.3.2に対するアップデート
 * [Linux] Linux RedHatへの移行
 * [Linux] Nvidiaドライバーの最小バージョンを535.171.04にアップデートします。
 * [読み込み] GLTF メッシュを読み込むときに、法線マップを反転するオプションを追加します
@@ -164,28 +156,28 @@ ht-degree: 0%
 * [Substance engine]実行可能ファイルからシンボルを削除する呼び出しストリップ関数を追加します
 * [スプラッシュ画面]新しいスプラッシュ画面形式への更新
 * Substance engineをバージョン9.1.3にアップデートする
-* [Python]レイヤスタックドキュメントメニューにサンプルへのリンクを表示
+* [Python] レイヤースタックドキュメントメニューにサンプルへのリンクを表示
 * [JavaScript] Javascriptプラグインをjavascript/pluginsサブフォルダーに移動します
 
 <b>固定</b>:
 
-* [Illustrator] .aiグラフィックを含むUVタイルを書き出すと、クラッシュする場合がある
+* [Illustrator] .aiグラフィックを含むUV タイルの書き出しでクラッシュが発生する場合がある
 * [動的ストローク]&#x200B;[パス] 1ストロークあたりのランダム度がパス上で機能しない
-* [UI]&#x200B;[プロパティ]タイルが不均等な場合、ロックが有効になる
+* [UI]&#x200B;[プロパティ]タイリングが不均等な場合、ロックが有効になる
 * Painterプロジェクトをダブルクリックすると、Debug TXTファイルが作成される
 * [USD]&#x200B;[書き出し]一部のテクスチャが見つからない可能性があります
-* [ASM]散布カラーチャンネルがメタリックを無視する
+* [ASM]拡散カラーチャンネルがメタリックを無視する
 * [コンテンツ]ぼかしフィルターが「作業中」のカラースペースで機能しない
 * [コンテンツ]Height調整フィルターでもレイヤーのアルファが変更される
 
 <b>既知の問題</b>:
 
-* [カラーマネジメント] Linux上のACEを使用したHDRカラースペース変換では、カラーがクランプされます
+* [Color Management] HDRカラースペース変換とACE Linux版を併用すると、カラーが固定されます
 * [Win]&#x200B;[クラッシュ] [ACE]表示変形にsRGB ICEカラースペースを使用しない
 * [Regression]&#x200B;[UI] HD画面で右クリックメニューが小さすぎる
 * [クラッシュ]&#x200B;[Python] TextureStateEventによってトリガーされたUSDの書き出し
-* [MacOS Intel]一部のプリセットを読み込むとクラッシュする
-* [クラッシュ]リソースの再配置とプロジェクトの保存
-* [エンジン]通常チャンネルのコピーツールでペイントすると、カラーが正しくシフトされない
-* [Python]スクリプトがまだ機能しているため、ゴーストウィジェットが削除されているように見える
+* [MacOS Intel]一部のプリセットを読み込むときにクラッシュが発生する
+* [クラッシュ]リソースを再配置し、プロジェクトを保存する
+* [エンジン]標準チャンネルでクローンツールを使用してペイントすると、カラーが正しくシフトされない
+* [Python]スクリプトがまだ機能しているため、ゴーストウィジェットが削除されているようです
 * [RedHat]カラーピッカーの問題

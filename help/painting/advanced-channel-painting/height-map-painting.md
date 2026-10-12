@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting/height-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで高さマップに直接ペイントを付けて、ディスプレイスメントやサーフェスの標高効果を生み出す方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Height Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 高さマップペイント
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
-
 ---
-
 
 # 高さマップペイント
 
@@ -38,7 +30,7 @@ Heightチャンネルは、**HDR**&#x200B;のカラーフォーマットを使�
 
 * Height上のビットマップまたはサブスタンスでペイントすると、そのソースは元の[0,255]範囲から[-1,1]範囲に再マップされます。
 
-グレーの中間は0に再マップされます。 したがって、127より小さい値はheightmapから&#x200B;**減算**&#x200B;し、127より大きい値はHeightマップ&#x200B;**線形覆い焼き（加算）**&#x200B;のデフォルトの描画モードを使用する場合にheightmapに&#x200B;**加算**&#x200B;します。
+グレーの中間は0に再マップされます。 したがって、127より小さい値はheightmapから&#x200B;**減算**&#x200B;され、127より大きい値は高さマップのデフォルトの描画モードである&#x200B;**覆い焼きリニア（加算）**&#x200B;を使用する場合にheightmapに&#x200B;**加算**&#x200B;されます。
 
 * 単色でペイントする場合は、-1 ～ 1の値を直接選択できます。
 

@@ -1,28 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/tool-list/paint-brush.html"
-breadcrumb-title: ''
-description: Substance 3D Painterのペイントブラシツールを使用すると、カスタマイズ可能なブラシ設定で3Dモデルに直接テクスチャをペイントできます。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Tool list > Paint brush
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: Substance 3D Painterのペイントブラシツールを使用すると、カスタマイズ可能なブラシ設定により、テクスチャを3Dモデルに直接ペイントできます。
 title: ペイントブラシ
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c20714f4cef21ccca0cdcd45dcdfd5ca6f4b96f2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
-
 ---
-
 
 # ペイントブラシ
 
 ペイントツールは、3D メッシュにカラーとマテリアルプロパティを適用するためのSubstance 3D Painterのデフォルトツールです。 [プロパティ](../../interface/properties.md)で編集できる特定のパラメーターがあります。
 
-ペイントツールは、様々な動作と設定を使用してブラシストロークをシミュレートし、3Dメッシュ上にペイントしたような印象を与えます。
+ペイントツール：様々なビヘイビアーや設定を使用してブラシストロークをシミュレートし、3D メッシュ上にペイントしたような感覚を与えます。
 
 ## ツールバー
 
@@ -78,7 +70,7 @@ ht-degree: 1%
 | **位置のジッター** | ブラシストローク内のスタンプごとにランダムな位置オフセットを適用します。 値0はランダム度がないことを意味し、値1は完全なランダム度を意味します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table1_row-r10-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/brush-position.png"/></div> |
 | **アラインメント** | ブラシストローク内のスタンプを3D メッシュのサーフェスに投影する/方向を指定します。 次の値を使用できます。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>カメラ</strong> ：スタンプをビューポートの視点に向けます</li><li data-preserve-html="true"><strong> 正接 `\|`ラップ（既定） </strong> :スタンプの向きを3D メッシュサーフェスに合わせます。 スタンプもサーフェスに合わせて変形されます。</li><li data-preserve-html="true"><strong>正接`\|`平面</strong> :スタンプの向きを3D メッシュ面に合わせます。 スタンプの境界がフェードサーフェスから離れすぎているため、スタンプが3D メッシュされます。 </li><li data-preserve-html="true"><strong> UV </strong> : 3D メッシュ UVに基づいてスタンプの方向を設定します。</li></ul> |
 | **バックフェースカリング** | スタンプと位置合わせされていない3D メッシュ上のサーフェスを無視します。 3D メッシュのどの部分を無視するかを判断するために、ペイントエンジンは3D メッシュのサーフェスの法線を見て、定義された値と角度を比較します。 |
-| **サイズ空間** | ブラシサイズの計算に使用する相対間隔を指定します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>オブジェクト（既定） </strong> :ブラシサイズは3D メッシュサイズと同期されます。 ビューポート内でカメラを動かすと、3D メッシュとの相対的な大きさを保つのに影響します。</li><li data-preserve-html="true"><strong>ビューポート</strong> ：ブラシサイズはビューポートにリンクされています。 インターフェイスのサイズを変更すると、ブラシサイズが変わります。 カメラを移動しても何も起こりません。</li><li data-preserve-html="true"><strong>テクスチャ</strong> ：ブラシサイズは、2Dビューポートレベルのズームにリンクされています。</li></ul> |
+| **サイズ空間** | ブラシサイズの計算に使用する相対間隔を指定します。 指定可能な値は次のとおりです。<ul data-preserve-html="true"><li data-preserve-html="true"><strong>オブジェクト（既定） </strong> :ブラシサイズは3D メッシュサイズと同期されます。 ビューポート内でカメラを動かすと、3D メッシュとの相対的な大きさを保つのに影響します。</li><li data-preserve-html="true"><strong>ビューポート</strong> ：ブラシサイズはビューポートにリンクされています。 インターフェイスのサイズを変更すると、ブラシサイズが変わります。 カメラを移動しても何も起こりません。</li><li data-preserve-html="true"><strong>テクスチャ</strong> ：ブラシサイズは、2D ビューポートレベルのズームにリンクされています。</li></ul> |
 
 ## アルファ
 
@@ -88,7 +80,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
-> Substanceグラフにパラメーター「hardness」(ID)が表示されている場合は、「Hardness」[Shortcuts](../../interface/settings/shortcuts.md)で制御できます。
+> グラフにパラメーター「硬さ」 (識別子)が表示されている場合は、硬さ [Shortcuts](../../interface/settings/shortcuts.md)で制御できます。
 
 ## 物理的性質
 
@@ -99,7 +91,7 @@ ht-degree: 1%
 デフォルトではPhysicsプロパティは使用できませんが、次の2つの方法で有効にすることができます。
 
 * [Toolbars](../../interface/toolbars.md)でツールを[物理]に切り替える（またはキーボードショートカットを使用する）。
-* [アセット](../../interface/assets/assets.md)ウィンドウでパーティクルブラシプリセットをクリックします。
+* [Assets](../../interface/assets/assets.md)ウィンドウでブラシプリセットをクリックします。
 
 ## ステンシル
 
@@ -122,12 +114,12 @@ ht-degree: 1%
 
 タイリングモードの設定は、ステンシルマスクをビューポート上で繰り返す方法を制御します（この設定はテクスチャリングにも影響します）。
 
-| *タイルモード* | *説明* |
+| *タイリングモード* | *説明* |
 | --- | --- |
 | **タイリングなし（既定）** | ステンシルマスクは繰り返されません。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r1-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-notiling.png" width="350px"/></div> |
-| **横タイル** | ステンシルマスクは水平軸でのみ繰り返します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-horizontal.png" width="350px"/></div> |
-| **垂直方向のタイリング** | ステンシルマスクを垂直軸でのみ繰り返します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-vertical.png" width="350px"/></div> |
-| **HとVのタイリング** | 水平軸と垂直軸の両方でステンシルマスクを繰り返します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-both.png" width="350px"/></div> |
+| **水平方向のタイリング** | ステンシルマスクは水平軸でのみ繰り返します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r2-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-horizontal.png" width="350px"/></div> |
+| **垂直方向のタイリング** | 垂直方向の軸に対してのみ、ステンシルマスクを繰り返します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r3-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-vertical.png" width="350px"/></div> |
+| **HとVのタイリング** | 水平方向と垂直方向の両方の軸でステンシルマスクを繰り返します。 <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table3_row-r4-column-c1_dynamic_grid_items_grid-cell_position-par_image" src="../../assets/stencil-viewport-both.png" width="350px"/></div> |
 
 ## マテリアル
 
@@ -135,7 +127,7 @@ ht-degree: 1%
 
 マテリアルは複数のチャンネルで構成され、各チャンネルで特定のプロパティが保持されます。 チャンネルの一覧は、[テクスチャセットの設定](../../interface/texture-set/texture-set-settings.md)で定義されているチャンネルに依存しています。
 
-「**マテリアルモード**」ボタンを使用すると、Substanceのファイルやプリセットを簡単に読み込んで、複数のチャンネルを一度にすばやく割り当てて編集できます。
+「**マテリアルモード**」ボタンを使用すると、Substanceのファイルやプリセットを読み込んで、複数のチャンネルを一度にすばやく割り当てて編集できます。
 
 チャンネルボタンをクリックすると、選択または選択解除できます。 選択を解除すると、チャンネルプロパティは変更できず、ペイントプロセス中には使用されません。
 

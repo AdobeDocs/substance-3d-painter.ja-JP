@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting/normal-map-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterで法線マップに直接ペイントを付けて、テクスチャに表面のディテールと深度を加える方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Normal Map Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: 法線マップペイント
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
-
 ---
-
 
 # 法線マップペイント
 
@@ -59,7 +51,7 @@ Substance 3D Painterでは、プロジェクトの初期設定でノーマルチ
 
 ### 1 - テクスチャセット描画モードの変更
 
-デフォルトでは、 **通常のミキシング**&#x200B;設定が&#x200B;**結合**&#x200B;に設定されたテクスチャセットが作成されます。
+デフォルトでは、**通常のミキシング**&#x200B;設定が&#x200B;**結合**&#x200B;に設定されたテクスチャセットが作成されます。
 
 法線マップを上書きまたはペイントするには、代わりにこの設定を&#x200B;**replace**&#x200B;に設定することが重要です。 法線マップはビューポートから消えますが、それは予期されています。 このモードを&#x200B;**replace**&#x200B;に変更すると、最終的な法線マップを生成する際に、通常のチャンネルとHeightチャンネルのみを考慮してSubstance 3D Painterに反映されます。
 
@@ -67,13 +59,13 @@ Substance 3D Painterでは、プロジェクトの初期設定でノーマルチ
 
 ### 2 -ベイクされた法線マップを使用した塗りつぶしレイヤーの設定
 
-新しい塗りつぶしレイヤーを作成し、プロパティパネルを使用して、ベイク処理した法線を「法線」スロット内に配置します。 1に設定されていない場合は、塗りつぶしレイヤーのデフォルトのティリングを忘れずに変更してください。
+新しい塗りつぶしレイヤーを作成し、プロパティパネルを使用して、ベイクした法線を「通常」スロット内に入れます。 1に設定されていない場合は、塗りつぶしレイヤーのデフォルトのティリングを忘れずに変更してください。
 
 ![](../../assets/fill-layer_1.gif)
 
 ### 3 - 塗りつぶしレイヤー描画モードの変更
 
-初期設定では、新しいレイヤーの通常チャンネルの描画モードは「法線マップの詳細」に設定されています。 ビットマップにはアルファがないため、ベースとして塗りレイヤを使用することをお勧めするので、ここでは「通常」のブレンドモードを選択しました。これは、ビットマップにはアルファが存在せず、シェーダのデフォルトカラーを含めて、その下のすべてが置き換えられるためです。
+初期設定では、新しいレイヤーの通常チャンネルの描画モードは「法線マップの詳細」に設定されています。 塗りつぶしレイヤーをベースとして使用することが望ましいことから、ビットマップにはアルファがないので、ここでは「通常」の描画モードを選択しました。ビットマップにはアルファがないので、以下のもの（シェーダーのデフォルトカラーを含む）がすべて置き換えられます。
 
 ![](../../assets/blending-mode.gif)
 

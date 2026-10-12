@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/painting/advanced-channel-painting/ambient-occlusion-painting.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D Painterでambient occlusionマップに直接ペイントを付けて、リアルなシャドウと深度をテクスチャに加える方法を説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Painting > Advanced channel painting > Ambient Occlusion Painting
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Ambient occlusionペイント
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
-
 ---
-
 
 # Ambient occlusionペイント
 
@@ -60,7 +52,7 @@ Substance 3D Painterのプロジェクトのデフォルト設定では、Ambien
 
 ### 3 - 塗りつぶしレイヤー描画モードの変更
 
-デフォルトでは、新しいレイヤー上のAOチャンネルの描画モードは「 **乗算** 」に設定されています。 ビットマップにはアルファがないため、ベースとして塗りレイヤを使用することをお勧めするので、ここでは「通常」のブレンドモードを選択しました。これは、ビットマップにはアルファが存在せず、シェーダのデフォルトカラーを含めて、その下のすべてが置き換えられるためです。\
+デフォルトでは、新しいレイヤー上のAOチャンネルの描画モードは「 **乗算** 」に設定されています。 塗りつぶしレイヤーをベースとして使用することが望ましいことから、ビットマップにはアルファがないので、ここでは「通常」の描画モードを選択しました。ビットマップにはアルファがないので、以下のもの（シェーダーのデフォルトカラーを含む）がすべて置き換えられます。\
 ![](../../assets/ao-blend-mode.gif)
 
 ### 4 -ベイクしたambient occlusionマップ上にペイントするレイヤーを作成する

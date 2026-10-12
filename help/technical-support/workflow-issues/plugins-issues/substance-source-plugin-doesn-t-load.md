@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/technical-support/workflow-issues/plugins-issues/substance-source-plugin-doesn-t-load.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Substance 3D PainterでSubstance Sourceプラグインの読み込みに関する問題を修正し、リソースライブラリにアクセスする方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Technical support > Workflow Issues > Plugins Issues > Substance Source plugin doesnt load
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
 title: Substance Sourceプラグインがロードされません
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9f20406f682e0e6a2e9a423e81c5ecfc7430ecfd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
-
 ---
-
 
 # Substance Sourceプラグインが読み込まれない
 

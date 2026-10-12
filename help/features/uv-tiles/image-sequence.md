@@ -1,22 +1,14 @@
 ---
-helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/features/uv-tiles/image-sequence.html"
-breadcrumb-title: ''
-description: Substance 3D PainterでUVタイルを使用した画像シーケンスを使用して、テクスチャアニメーションワークフローを実行する方法について説明します。
-helpx_creative_field: ""
-helpx_description: Painter > Features > UV Tiles > Image Sequence
-helpx_experience_level: ""
-helpx_learn_topic: ""
-helpx_tags: ""
+breadcrumb-title: ""
+description: アニメーションテクスチャワークフローで、Substance 3D PainterのUVタイルで画像シーケンスを使用する方法について説明します。
 title: 画像シーケンス
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b892d2d6c9d0f1a3b5d9d3ab9b180a7c2770a83
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 
 # 画像シーケンス
 
@@ -53,4 +45,4 @@ ht-degree: 0%
 
 イメージシーケンスは、他のリソースと同様に、インターフェイスの任意のリソーススロットにロードできます。 ただし、場合によっては、正しく使用するために追加の設定が必要になることがあります。
 
-[塗りつぶしレイヤー](../../painting/fill-projections/fill-projections.md) （および塗りつぶし効果）で、投影モードが&#x200B;**塗りつぶし（UVタイルごとに一致）**&#x200B;に設定されていることを確認し、シーケンスの各イメージがテクスチャセットの右[UVタイル](uv-tiles.md)に割り当てられていることを確認します。
+[塗りつぶしレイヤー](../../painting/fill-projections/fill-projections.md) （および塗りつぶし効果）で、投影モードが&#x200B;**塗りつぶし（UV タイルごとに一致）**&#x200B;に設定されていることを確認し、シーケンスの各画像がテクスチャセットの適切な[UV タイル](uv-tiles.md)に割り当てられていることを確認します。

@@ -107,7 +107,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 **DXR**&#x200B;には、次の最小構成も必要です：
 
-* **Windows 10**&#x200B;バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
+* **Windows 10**&#x200B;バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
 * **Pascalアーキテクチャ搭載GPU** (Nvidia GeForce 10XX)
 
 >[!TIP]

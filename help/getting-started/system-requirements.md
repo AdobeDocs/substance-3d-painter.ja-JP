@@ -4,9 +4,9 @@ description: Substance 3D Painterの必要システム構成を確認して、�
 title: 必要システム構成
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '814'
 ht-degree: 1%
 ---
 
@@ -18,28 +18,32 @@ ht-degree: 1%
 
 |  | 最小 | おすすめ | 最適 |
 | --- | --- | --- | --- |
-| <b>OS</b> | Windows 11 64ビット版23H2 | Windows 11 64ビット版24H1 | Windows 11 64ビット版24H2 |
-| <b>CPU</b> | Intel Core i5 AMD Ryzen 5 | Intel Core i7 AMD Ryzen 7 | Intel Core i9 AMD Ryzen 9 |
-| <b>GPU</b> | NVIDIA GeForce RTX 2060 Super NVIDIA Quadro RTX 4000 AMD Radeon RX 5700 XT AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080 NVIDIA Quadro RTX A4000 AMD Radeon RX 6800 XT AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090 NVIDIA Quadro RTX 5000 Ada Generation AMD Radeon RX 7900 XTX AMD Radeon Pro W7800 |
-| <b>VRAM</b> | 8 GB | 16 GB | 24 GB |
-| <b>RAM</b> | 16 GB | 32 GB | 64 GB |
-| <b>ストレージ</b> | 30 GBの空き容量のあるSSD | 50 GBの空き容量のあるSSD | 70 GBの空き容量のあるSSD |
+| **OS** | Windows 11 64ビット版23H2 | Windows 11 64ビット版24H1 | Windows 11 64ビット版24H2 |
+| **CPU** | Intel Core i5 AMD Ryzen 5 | Intel Core i7 AMD Ryzen 7 | Intel Core i9 AMD Ryzen 9 |
+| **GPU** | NVIDIA GeForce RTX 2060 Super NVIDIA Quadro RTX 4000 AMD Radeon RX 5700 XT AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080 NVIDIA Quadro RTX A4000 AMD Radeon RX 6800 XT AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090 NVIDIA Quadro RTX 5000 Ada Generation AMD Radeon RX 7900 XTX AMD Radeon Pro W7800 |
+| **VRAM** | 8 GB | 16 GB | 24 GB |
+| **RAM** | 16 GB | 32 GB | 64 GB |
+| **ストレージ** | 30 GBの空き容量のあるSSD | 50 GBの空き容量のあるSSD | 70 GBの空き容量のあるSSD |
 
-### macos
+### macOS
 
 |  | 最小 | おすすめ | 最適 |
 | --- | --- | --- | --- |
-| <b>OS</b> | macOS 12 Monterey | macOS 13 Ventura | macOS14ソノマ |
-| <b>CPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
-| <b>GPU</b> | Apple M1 | Apple M2 Pro | Apple M4 Pro |
-| <b>RAM</b> | 16 GB | 32 GB | 64 GB |
-| <b>ストレージ</b> | 30 GBの空き容量のあるSSD | 50 GBの空き容量のあるSSD | 70 GBの空き容量のあるSSD |
+| **OS** | macOS 15セコイア | macOS 27ゴールデンゲート | macOS 27ゴールデンゲート |
+| **CPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **GPU** | Apple M1 | Apple M2 Pro | Apple M4 Pro |
+| **RAM** | 16 GB | 32 GB | 64 GB |
+| **ストレージ** | 30 GBの空き容量のあるSSD | 50 GBの空き容量のあるSSD | 70 GBの空き容量のあるSSD |
+
+>[!WARNING]
+>
+> [VFX Reference Platform](https://vfxplatform.com/)を念頭に置いて構築されたパイプラインでは、macOS 14 SonomaにSubstance 3D Painterをインストールできます。 ただし、Painterは、最小必要システム構成を下回るOSバージョンではテストされていないため、安定性は保証されていません。
 
 ### Linux
 
 | Enterprise | スチーム |
 | --- | --- |
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## 一般的な推奨事項
 
@@ -53,28 +57,28 @@ UV タイルワークフローを使用する際に適切なパフォーマン�
 
 * 多くのSubstanceアプリは、RHEL8/9との互換性をOpenSSL 1.1.1に依存しています。 新しいバージョンのOpenSSLを使用するシステムの場合は、お客様が手動で提供する必要があります
 * 快適な状態で作業するには、1000ピクセルを超え、1280ピクセルを超える縦長の解像度のモニターをお勧めします。
-* <b>8K</b> （8192\*8192ピクセル）で書き出すには、<b>2 GBを超えるVRamを搭載したGPUが必要です。</b>
+* **8K** （8192\*8192ピクセル）で書き出すには、**2 GBを超えるVRamを搭載したGPUが必要です。**
 * macOS 10.15(Catalina)で実行するために公証されたのは、バージョン2019.x以降のみです。
 * RDP （リモートデスクトップ）経由でソフトウェアを使用するには、専用の[ドキュメントページ](../pipeline-and-integration/configuration/remote-desktop.md)を参照してください。
 * ベイク時のRyzen CPUのクラッシュは、BIOSをアップデートすることで修正できます。
 
 ## サポートされていない設定
 
-<b>ウィンドウ</b>
+**ウィンドウ**
 
 * 仮想マシンはサポートされていません。
 * Windows Serverはサポートされていません。
 
-<b>Mac</b>
+**Mac**
 
 * 公式のApple設定のみがサポートされています。
 * eGPUは現在サポートされておらず、安定性の問題がある可能性があります。
 
-<b>Linux</b>
+**Linux**
 
 * Linux上のMesaドライバはサポートされていません。
 
-<b>任意のプラットフォーム</b>
+**任意のプラットフォーム**
 
 * 内蔵GPUは、x86-64(Intel、AMD)CPUではサポートされていません。
 
@@ -86,8 +90,8 @@ UV タイルワークフローを使用する際に適切なパフォーマン�
 
 | OS | NVIDIA | AMD | Intel |
 | --- | --- | --- | --- |
-| <b>ウィンドウ</b> | GeForce 442.50 Quadro 442.50 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
-| <b>Linux</b> | 535.171.04以降 | Radeon 22.40.6 | 非対応 |
+| **ウィンドウ** | GeForce 442.50 Quadro 442.50 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
+| **Linux** | 535.171.04以降 | Radeon 22.40.6 | 非対応 |
 
 >[!NOTE]
 >
@@ -101,10 +105,10 @@ UV タイルワークフローを使用する際に適切なパフォーマン�
 
 OptixまたはDXR経由でGPU レイトレーシングを有効にするには、上記の最小推奨ドライバーをインストールする必要があります。
 
-<b>DXR</b>には、次の最小構成も必要です：
+**DXR**&#x200B;には、次の最小構成も必要です：
 
-* <b>Windows 10</b>バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
-* <b> GPU、Pascalアーキテクチャ</b> (Nvidia GeForce 10XX)
+* **Windows 10**&#x200B;バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
+* **Pascalアーキテクチャ搭載GPU** (Nvidia GeForce 10XX)
 
 >[!TIP]
 >
@@ -112,63 +116,59 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 ## サポートされているグラフィックタブレット
 
-以下は、Substance 3D Painterバージョン<b>7.4.2</b>でテストされた、互換性のあるグラフィックタブレットのリストです。
+以下は、Substance 3D Painterバージョン&#x200B;**7.4.2**&#x200B;でテストされた、互換性のあるグラフィックタブレットのリストです。
 
 +++Wacom
-<b>モデル:</b>Intuos Pro （Mサイズ）、Intuos （Sサイズ）
 
+**モデル:** Intuos Pro （Mサイズ）、Intuos （Sサイズ）
 
 | OS | ドライバーバージョン |
 | --- | --- |
 | Windows | 6.3.45-1 |
 | macOS | 6.3.45-3 |
 
-
 +++
 
 +++XPen
-<b>モデル：</b>デコ01
 
+**モデル：**&#x200B;デコ01
 
 | OS | ドライバーバージョン |
 | --- | --- |
-| Windows | XP-PENWin\_3.2.2.211027 |
-| macOS | XP-PENMac\_3.2.3\_211203 |
+| Windows | XP-PENWin_3.2.2.211027 |
+| macOS | XP-PENMac_3.2.3_211203 |
 | Linux | XP-ペン – ペンタブレット–3.2.1.211019-1 |
-
 
 +++
 
 +++フイオン
-<b>モデル：</b> Q11K
 
+**モデル：** Q11K
 
 | OS | ドライバーバージョン |
 | --- | --- |
-| Windows | XP-PENWin\_3.2.2.211027 |
-| macOS | XP-PENMac\_3.2.3\_211203 |
-
+| Windows | XP-PENWin_3.2.2.211027 |
+| macOS | XP-PENMac_3.2.3_211203 |
 
 +++
 
 +++Xencelabs
-<b>モデル：</b> ペンタブレット（中）
 
+**モデル：** ペンタブレット（中）
 
 | OS | ドライバーバージョン |
 | --- | --- |
-| Windows | XencelabsWin\_1.2.1-14 |
-| macOS | XencelabsMac\_1.2.1-18 |
-| Linux | XencelabsLinux\_1.1.0-2 |
-
+| Windows | XencelabsWin_1.2.1-14 |
+| macOS | XencelabsMac_1.2.1-18 |
+| Linux | XencelabsLinux_1.1.0-2 |
 
 +++
 
 ## サポートされている3Dconnexion SpaceMouseモデル
 
-Substance 3D Painterバージョン<b>8.1.</b>でテストされた[3Dconnection Space Mouse](https://3dconnexion.com/us/spacemouse/)用の互換性のあるドライバーバージョンの一覧を次に示します
+Substance 3D Painterバージョン&#x200B;**8.1.**&#x200B;でテストされた[3Dconnection Space Mouse](https://3dconnexion.com/us/spacemouse/)用の互換性のあるドライバーバージョンの一覧を次に示します
 
-ドライバーのバージョンは、<b>コンパクト</b>、<b>Pro</b>および<b>エンタープライズ</b>モデルに適用されます。
+ドライバーのバージョンは、**コンパクト**、**Pro**&#x200B;および&#x200B;**エンタープライズ**&#x200B;モデルに適用されます。
 
 | OS | ドライバーバージョン |
 | --- | --- |

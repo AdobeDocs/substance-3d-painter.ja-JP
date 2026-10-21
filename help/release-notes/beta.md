@@ -21,4 +21,4 @@ Substance 3D Painterのこのベータ版は、ARM(ARM64)システム上のWindo
 
 修正：
 
-* ケージペイントを使用したMacで、ベイク処理モードビューポートのパフォーマンスの問題(&amp;lbrack;ベイク処理&amp;rbrack;)。
+* ケージペイントを使用したMacで、ベイク処理モードビューポートのパフォーマンスの問題(&lbrack;ベイク処理&rbrack;)。

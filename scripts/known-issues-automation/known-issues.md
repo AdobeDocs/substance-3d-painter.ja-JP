@@ -1,25 +1,29 @@
 ---
+helpx_url: "https://helpx.adobe.com/jp/substance-3d-painter/release-notes/know-issues.html"
 breadcrumb-title: ""
 description: Substance 3D Painterの既知の問題を確認して、最新バージョンの現在の制限事項と回避策に関する情報を得てください。
+helpx_creative_field: ""
+helpx_description: Substance 3D Painter
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
 title: 既知の問題
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '932'
 ht-degree: 0%
 ---
 
 # 既知の問題
 
-このページでは、Substance 3D Painter v12.1.5に存在する既知のアクティブな問題をすべて一覧で示します。
+このページでは、Substance 3D Painter v12.2.0で発生するアクティブな既知の問題をすべて一覧で示します。
 
 * `[Baking]`単純なキューブのAOが正しくありません
 * `[Baking]`名前サフィックスによる一致の解釈が正しくありません
 * mes再読み込み後、`[Baking]`個のUv シームが表示されません
 * `[Baking]`個のグリッドのようなアーティファクトで、いくつかの設定があります
-* `[Baking]` Ambient occlusion メッシュ名の裏面を無視が機能しません
-* `[Baking]` `[AMD]`重い高ポリゴンメッシュでベイクすると、デバイスが失われました
 
 * `[Substance]`リソースに複数のスペルミスがあります
 * `[Substance]`表示対象の空白スペース区切りの条件
@@ -33,10 +37,6 @@ ht-degree: 0%
 * `[Color Management]`マスクで使用されていないジェネレーターとの互換性のないバインド
 * `[Color Management]`フィルターの出力が適切に考慮されていません
 * Linux上のHDRを使用した`[Color Management]`個のACEカラースペース変換により、カラーが固定されます
-
-* `[USD]`件の間違ったusda割り当てがあります
-* `[USD]`書き出されたUSDジオメトリがUV境界に沿ってスリップしています
-* 正しくない形式のUSDzを読み込むときに`[USD]`がフリーズします
 
 * 特定の名前のフォルダーに配置すると、`[Shelf]`リソースが正しく使用されません
 * `[Shelf]` `[Substance]`ユーザーデータはシェルフの縮小版の生成では考慮されません
@@ -52,6 +52,12 @@ ht-degree: 0%
 
 * Painterのバージョンを更新すると、base colorビューに保存されている`[Single Channel View]`個のプロジェクトが暗く表示される
 * Painterのバージョンを更新すると、base colorビューに保存されている`[Single Channel View]`個のプロジェクトが暗く表示される
+
+* `[Viewport]`カーソルがベイクモードビューポートの下部で遅れている
+* `[Viewport]`多角形の塗りつぶしの選択範囲をウィンドウ間でドラッグすると、ビューポートの遅延が発生する場合があります
+
+* 1つのUV アイランドにペイントするときに`[Cage Painting]`個のケージジオメトリの穴
+* Macのベイク処理モードビューポートでの`[Cage Painting]`のパフォーマンスの問題
 
 * `[gltf]` Babylon エクスポーターでエクスポートされたファイルを開けません
 * `[Displacement]`描画時のエラー
@@ -89,12 +95,17 @@ ht-degree: 0%
 * `[User Channels]`カラーミキサースペースのプレビューが正しくありません
 * 烘焙モードに切り替えた後も、`[Mask]`ジオメトリ選択はアクティブのままです
 * `[Sonoma]`アイコンがメニューに表示されません
+* `[USD]`件の間違ったusda割り当てがあります
 * `[Polygon Fill]` base colorのカラースペースを変更しても、カラーピッカーが更新されません
 * 書き出し時にテクスチャを4Kから8Kにアップスケールすると、`[UV Padding]`のアーティファクトが発生する
-* `[Performances]` PainterはVRAMの使用を保留します
 * `[FBX]`のスケールの問題
 * テクスチャセットと同時に`[Texture set list]`個のUV タイルを選択できます
-* `[Viewport]`カーソルがベイクモードビューポートの下部で遅れている
+* `[Paint Properties]` ペイントのプロパティウィンドウで右クリックしても、プリセットのポップアップメニューが開きません
+* `[MACOS]` `[Subsurface Scattering]`いくつかのSS Radiusスケール値を含むメモリノイズ
+* ディスプレイ設定のミップマップからの`[Mac]` フィルタリングバイアスは影響しません
+* プロジェクトが変更されていない場合でも、`[Project]`保存ポップアップが終了時に表示される
+* `[Library]`Painterで、環境マップのサムネールの生成が停止する場合がある
+* `[Windows]` `[Nvidia]`世代のブラシとマテリアルのプレビューにより、TDRが発生する可能性があります
 * 非正方形リソースは、ブラシチャンネルのスロットで使用すると伸縮されます
 * サブスタンスのデコードに失敗しました
 * 完全に重なり合っていないUVはアーティファクトを作成する可能性があります
@@ -113,6 +124,7 @@ ht-degree: 0%
 * コンテキストツールバーで変更したブラシパラメーターがヒストリーに表示されない
 * このセッションで既に削除して再作成した場合、書き出しプリセットの名前の変更や削除はできません
 * チャンネルマッピングが、投影ツールのプレビューで機能しない場合がある
+* [名前で一致]と[選択したテクスチャセットのみ]がオンの場合、[メッシュ照合エラー]で他の上位ポリゴンが無視されない
 
 ## 安定度
 

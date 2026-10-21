@@ -2,10 +2,10 @@
 user-guide-title: Substance 3D Painter
 breadcrumb-title: Substance 3D Painter
 user-guide-description: Substance 3D Painter
-source-git-commit: eb0b1c111b0c96a87283785cf702def7305f0aa9
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 14%
+source-wordcount: '1350'
+ht-degree: 15%
 ---
 
 # Substance 3D Painter {#using}
@@ -244,7 +244,7 @@ ht-degree: 14%
   + [ベイク界面](/help/baking/baking-interface.md)
   + [メッシュマップをベイクする方法](/help/baking/how-to-bake-mesh-maps.md)
   + [ゆがみ補正](/help/baking/skew-correction.md)
-  + {hide-from-toc}[ケージペイント](/help/baking/cage-painting.md)
+  + [ケージペイント](/help/baking/cage-painting.md)
   + [メッシュマップ設定](/help/baking/mesh-map-settings.md)
   + [ビジュアライゼーション設定のベイク](/help/baking/baking-visualization-settings.md)
 + コンテンツ{#content}
@@ -450,6 +450,7 @@ ht-degree: 14%
 + リリースノート{#release-notes}
   + [リリースノートの概要](/help/release-notes/release-notes.md)
   + [すべての変更](/help/release-notes/all-changes.md)
+  + [バージョン 12.2](/help/release-notes/version-12-2.md)
   + [バージョン 12.1](/help/release-notes/version-12-1.md)
   + [バージョン12.0](/help/release-notes/version-12-0.md)
   + [バージョン11.1](/help/release-notes/version-11-1.md)

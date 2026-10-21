@@ -1,10 +1,9 @@
 ---
 title: ケージペイント
 description: Substance 3D Painterのケージペイントを使用して、ベイク処理プロセス中に斑点を除去し、ケージをカスタマイズする方法を説明します。
-hold: true
-source-git-commit: 8e09732a300f321ad8fc04883db7a338b8c6a5a7
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1040'
 ht-degree: 0%
 ---
 

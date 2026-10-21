@@ -2,9 +2,9 @@
 title: バージョン 12.2
 description: バージョン12.2のリリースノート
 helpx_description: "Substance 3D Painter"
-source-git-commit: 4b341d73e5dcd79cdcf601f7f12f1ffb49337b5d
+source-git-commit: 4fa8be7a1541a441d2476bc10ddddbed39c82366
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> **多角形の塗りつぶし**&#x200B;ツールについて詳しくは、[専用のドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill)を参照してください。
+> **多角形の塗りつぶし**&#x200B;ツールについて詳しくは、[専用のドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill)を参照してください。
 
 ### ベイクモードでの新しいケージペイント
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> ベイクの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/baking/baking)を参照してください。
+> ベイクの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking)を参照してください。
 
 ### ビューポートでハイライト表示される新しいテクスチャセット
 
@@ -228,10 +228,58 @@ ht-degree: 0%
 
   新しい`mesh_uv_neighbor`エンジンマップ入力をSubstanceマテリアルとフィルターで使用できます。 これは、シームの反対側を見つけるためのUV移流テクスチャとして機能します。 赤チャンネルと緑チャンネルは、シームを通して隣のピクセルに到達するために使用されるUV移流を格納します。
 
-  これらのテクスチャの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input)を参照してください。
+  これらのテクスチャの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input)を参照してください。
 
 ## リリースノート
 
 ### 12.2.0
 
-近日公開。
+リリース日： **2026/10/21**
+
+概要： **この更新プログラムはメジャーリリースであり、ベイク用の新しいケージペイント機能が追加され、ポリゴンの塗りつぶし機能が強化されています。 詳細については、完全なリリースノートを参照してください。**
+
+**追加：**
+
+* ベイク、ケージペイント
+* &amp;lbrack;ケージペイント&amp;rbrack；基本ケージペイント UIを作成
+* &amp;lbrack;ケージペイント&amp;rbrack；新しいケージ表示オプション
+* &amp;lbrack;ケージペイント&amp;rbrack；編集可能な選択/塗りつぶしツール
+* &amp;lbrack;ケージペイント&amp;rbrack;ツールバーにブレンドモードを表示
+* &amp;lbrack;ケージペイント&amp;rbrack; HDRスライダUIの変更
+* &amp;lbrack;ケージペイント&amp;rbrack;ビジュアライゼーションシェーダー
+* &amp;lbrack;ケージペイント&amp;rbrack; スタックのリセットオプション
+* 多角形フィルツールの改善
+* &amp;lbrack；ポリゴンフィル&amp;rbrack;ポリゴンパッチを追加
+* &amp;lbrack；ポリゴンフィル&amp;rbrack;ポリゴンループを追加
+* &amp;lbrack；ポリゴンフィル&amp;rbrack; 対称サポート（ループ/パッチ）
+* &amp;lbrack；ポリゴンフィル&amp;rbrack;対称エッジプレビュー
+* &amp;lbrack；ポリゴンフィル&amp;rbrack;ループと部分ループのある三角形を削除
+* &amp;lbrack；ポリゴンフィル&amp;rbrack;アクティブなテクスチャセットのみに表示されるワイヤーフレーム
+* &amp;lbrack；ポリゴンフィル&amp;rbrack；クリックできない三角形の赤いエッジハイライト
+* &amp;lbrack；ポリゴン塗りつぶし&amp;rbrack；塗りつぶしモードのオプションを無効にしない
+* &amp;lbrack；ポリゴンフィル&amp;rbrack；すべてのチャンネルプロパティをポリゴンフィルで設定できるようにします
+* &amp;lbrack；ポリゴン塗りつぶし&amp;rbrack；前のストロークを再開は、ポリゴン塗りつぶしで機能します
+* &amp;lbrack；ポリゴンフィル&amp;rbrack;アクティブでないテクスチャセット上に禁止カーソルを表示
+* &amp;lbrack；ポリゴンフィル&amp;rbrack; ALTインスタントプレビュー
+* &amp;lbrack；ポリゴンフィル&amp;rbrack;ポリループへの一時的な切り替え用ショートカット(SHIFT+A)
+* &amp;lbrack;ビューポート&amp;rbrack; テクスチャセット/UV タイル選択ハイライトを表示
+* &amp;lbrack;ビューポート&amp;rbrack;リアルタイムビューポートでOrder Independent Transparencyのサポートを追加
+* &amp;lbrack；ディスプレイ設定&amp;rbrack；ディスプレイ設定を新しいグループに再編成する
+* &amp;lbrack；ツール&amp;rbrack;ブラシストロークに加算描画のサポートを追加
+* &amp;lbrack；ツール&amp;rbrack；多角形の塗りつぶしで加算ブレンドのサポートを追加
+* &amp;lbrack;USD&amp;rbrack；書き出したUSDを不透明度マップと一緒に使用すると、Arnoldですべての透明度がレンダリングされる
+* &amp;lbrack;Nvidia&amp;rbrack；最新のNvidiaドライバー(616.56 ～ 617.14)に関する警告の追加
+* 新しい「メッシュ_uv_neighbor」エンジンマップ入力を追加
+* ベイカーをバージョン3.23.0に更新する
+* エンジンをバージョン9.6.1にアップデートする
+
+**修正済み：**
+
+* &amp;lbrack;ベイク処理&amp;rbrack; Ambient occlusion名で背面を無視が機能しない
+* &amp;lbrack;ベイク処理&amp;rbrack; &amp;lbrack;AMD&amp;rbrack;デバイスがヘビーハイポリメッシュでベイク処理すると失われる
+* &amp;lbrack；パフォーマンス&amp;rbrack; Painter hogs VRAM usage
+* &amp;lbrack;ビューポート&amp;rbrack; HDPI画面でプロジェクトを開く際にテクスチャが見つからない
+* &amp;lbrack;Tool&amp;rbrack;マスクでペイントすると描画モードがグレー表示になる
+* ネットワークへの書き出し後、一時フォルダーが削除されない
+* &amp;lbrack;USD&amp;rbrack；書き出されたUSDジオメトリは、UV境界に沿って分割されます。
+* &amp;lbrack;USD&amp;rbrack；不正な形式のUSDzをロードするとフリーズする

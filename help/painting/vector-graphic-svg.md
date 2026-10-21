@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ベクターグラフィックファイル（<b>.svg</b>とIllustrator <b>.ai</b>）は、Painter内の通常の画像のように読み込むことができます。 いくつかの設定を使用して、グラフィックの外観を調整し、テクスチャリングの残りの部分に合わせることができます。
 
-* SVGファイルの詳細については、[このページを参照](https://www.adobe.com/creativecloud/file-types/image/vector/svg-file.html)してください。
+* SVGファイルの詳細については、[このページを参照](https://www.adobe.com/jp/creativecloud/file-types/image/vector/svg-file.html)してください。
 * AIファイルの詳細については、[このページを参照](https://www.adobe.com/ie/creativecloud/file-types/image/vector/ai-file.html)してください。
 
 [レイヤースタック](../interface/layer-stack/layer-stack.md)内で使用すると、SVGおよびAIファイルが自動的にピクセルイメージに変換されます（選択した設定によって異なります）。 これは非破壊的なプロセスであり、解像度を変更したり、ソースファイルを更新したりすると、それに応じて最終結果が更新されます。

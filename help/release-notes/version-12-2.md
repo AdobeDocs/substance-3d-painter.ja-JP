@@ -94,7 +94,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> **多角形の塗りつぶし**&#x200B;ツールについて詳しくは、[専用のドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill)を参照してください。
+> **多角形の塗りつぶし**&#x200B;ツールについて詳しくは、[専用のドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/painting/paint-tools/polygon-fill)を参照してください。
 
 ### ベイクモードでの新しいケージペイント
 
@@ -158,7 +158,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> ベイクの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/baking/baking)を参照してください。
+> ベイクの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/baking/baking)を参照してください。
 
 ### ビューポートでハイライト表示される新しいテクスチャセット
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 
   新しい`mesh_uv_neighbor`エンジンマップ入力をSubstanceマテリアルとフィルターで使用できます。 これは、シームの反対側を見つけるためのUV移流テクスチャとして機能します。 赤チャンネルと緑チャンネルは、シームを通して隣のピクセルに到達するために使用されるUV移流を格納します。
 
-  これらのテクスチャの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input)を参照してください。
+  これらのテクスチャの詳細については、[専用ドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/content/creating-custom-effects/mesh-based-input)を参照してください。
 
 ## リリースノート
 

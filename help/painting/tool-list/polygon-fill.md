@@ -76,7 +76,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> このツールでは、レイヤースタックと同じ描画モードがサポートされています。 詳しくは、[描画モードのドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/layer-stack/blending-modes)を参照してください。
+> このツールでは、レイヤースタックと同じ描画モードがサポートされています。 詳しくは、[描画モードのドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/interface/layer-stack/blending-modes)を参照してください。
 
 ### マテリアル
 
@@ -100,5 +100,5 @@ ht-degree: 2%
 ツールには次のような制限事項があります。
 
 * **多角形ループの塗りつぶし**&#x200B;と&#x200B;**多角形ループの部分的な塗りつぶし**&#x200B;は四角形でのみ機能するため、三角形とn角形をこれらのモードで塗りつぶすことはできません。
-* **円形対称**&#x200B;のサポートも限られており、信頼性が低い可能性があります。 対称を使用する場合は、代わりにミラーモードを使用します。 詳細については、[対称のドキュメントページ](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/symmetry/symmetry)を参照してください。
+* **円形対称**&#x200B;のサポートも限られており、信頼性が低い可能性があります。 対称を使用する場合は、代わりにミラーモードを使用します。 詳細については、[対称のドキュメントページ](https://experienceleague.adobe.com/ja/docs/substance-3d-painter/using/painting/symmetry/symmetry)を参照してください。
 * **アクティブなテクスチャセット**&#x200B;のジオメトリのみが塗りつぶされます。 そのテクスチャセットのワイヤーフレームが表示され、アクティブなテクスチャセットが変更されるとデータが更新されます。

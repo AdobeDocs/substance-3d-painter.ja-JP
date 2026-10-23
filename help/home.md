@@ -20,7 +20,7 @@ Substance 3D Painterは、3D メッシュのテクスチャとレンダリング
 
 このドキュメントは、このソフトウェアの基本的な使用方法から高度なテクニックまで学習できるように設計されています。
 
-このマニュアルで回答されていない質問がある場合は、[フォーラム](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)をダウンロードすることもできます。
+このマニュアルで回答されていない質問がある場合は、[フォーラム](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://helpx.adobe.com/jp/substance-3d/unlisted/tutorials.html)をダウンロードすることもできます。
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Substance 3D Painterは、3D メッシュのテクスチャとレンダリング
 ### コンテンツ
 
 * [カスタムエフェクトの作成](content/creating-custom-effects/creating-custom-effects.md)
-* [アセットの読み込み](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [アセットの読み込み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### 機能
 
@@ -104,7 +104,7 @@ Substance 3D Painterは、3D メッシュのテクスチャとレンダリング
 
 ### スクリプト作成と開発
 
-* [スクリプトとプラグイン](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [スクリプトとプラグイン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### テクニカルサポート
 

@@ -4,10 +4,10 @@ description: Substance 3D Painterを使い始めて、テクスチャを3Dモデ
 title: Substance 3D Painter
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 99552782763c4f8313c5f8e7aeeb3a860ecf943d
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 9%
+ht-degree: 10%
 ---
 
 # Substance 3D Painter
@@ -20,7 +20,7 @@ Substance 3D Painterは、3D メッシュのテクスチャとレンダリング
 
 このドキュメントは、このソフトウェアの基本的な使用方法から高度なテクニックまで学習できるように設計されています。
 
-このマニュアルで回答されていない質問がある場合は、[フォーラム](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://helpx.adobe.com/jp/substance-3d/unlisted/tutorials.html)をダウンロードすることもできます。
+このマニュアルで回答されていない質問がある場合は、[フォーラム](https://community.adobe.com/t5/substance-3d-painter/bd-p/substance-3d-painter)で自由に質問してください。 PBR の詳細については、[物理ベースレンダリングガイド](https://helpx.adobe.com/substance-3d/unlisted/tutorials.html)をダウンロードすることもできます。
 
 </td>
 <td width="58.30%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ Substance 3D Painterは、3D メッシュのテクスチャとレンダリング
 ### コンテンツ
 
 * [カスタムエフェクトの作成](content/creating-custom-effects/creating-custom-effects.md)
-* [アセットの読み込み](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
+* [アセットの読み込み](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/adding-content-to-the-shelf-142213317.html)
 
 ### 機能
 
@@ -104,7 +104,7 @@ Substance 3D Painterは、3D メッシュのテクスチャとレンダリング
 
 ### スクリプト作成と開発
 
-* [スクリプトとプラグイン](https://helpx.adobe.com/jp/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
+* [スクリプトとプラグイン](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/script-and-plugins-197427392.html)
 
 ### テクニカルサポート
 
@@ -116,7 +116,6 @@ Substance 3D Painterは、3D メッシュのテクスチャとレンダリング
 ### リリースノート
 
 * [すべての変更](release-notes/all-changes.md)
-* [バージョン11.1](release-notes/version-11-1.md)
-* [バージョン11.0](release-notes/version-11-0.md)
-* [バージョン10.1](release-notes/version-10-1.md)
-
+* [バージョン 12.2](release-notes/version-12-2.md)
+* [バージョン 12.1](release-notes/version-12-1.md)
+* [バージョン12.0](release-notes/version-12-0.md)

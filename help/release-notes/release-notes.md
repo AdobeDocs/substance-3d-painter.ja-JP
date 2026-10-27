@@ -4,9 +4,9 @@ description: Substance 3D Painterのリリースノートにアクセスする�
 title: リリースノート
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 956741845e5808dd59eda31b0c0915ce463cb87a
+source-git-commit: 8b8828624dd415b766eb6d663b6ec175cd3847b1
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 11%
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 11%
 * [バージョン 12.2](version-12-2.md)
 * [バージョン 12.1](version-12-1.md)
 * [バージョン12.0](version-12-0.md)
-* [バージョン11.1](version-11-1.md)
 * [最新ベータ版](beta.md)
 * [既知の問題](known-issues.md)
 

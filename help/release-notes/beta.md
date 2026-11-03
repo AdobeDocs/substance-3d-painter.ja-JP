@@ -1,7 +1,7 @@
 ---
 description: 新機能と完全なチェンジログを含む、現在のSubstance 3D Painterベータ版について説明します。
 title: ベータリリース
-source-git-commit: 1df909bd0658eac40b726b493e73758e64c01d16
+source-git-commit: d84430d131a0857e981006698faf536d59aa707b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -15,17 +15,17 @@ Substance 3D Painterのこのベータ版は、ARM(ARM64)システム上のWindo
 
 ### **ビルド2**
 
-リリース日： **2026年10月29日**
+リリース日： **2026年11月2日**
 
 **追加済み**:
 
-* &lbrack;ベイク処理&rbrack; Highpoly Matching Error Visualization uses Match-by-Name
+* &amp;lbrack;ベイク処理&amp;rbrack; Highpoly Matching Error Visualization uses Match-by-Name
 
 **固定**:
 
-* &lbrack;Python&amp;rbrack；一部の非推奨の関数は警告を表示しますが、その関数が誰であるかは表示しません
-* &lbrack;ベイク&rbrack;ケージジオメトリは、1つのUV アイランドにペイントするときに穴を開けることができます
-* &lbrack;Mac&rbrack;&lbrack;ベイク処理&rbrack;ベイク処理モードでのケージペイントのビューポートのパフォーマンスの問題
+* &amp;lbrack;Python&amp;rbrack；一部の非推奨の関数は警告を表示しますが、その関数が誰であるかは表示しません
+* &amp;lbrack;ベイク&amp;rbrack;ケージジオメトリは、1つのUV アイランドにペイントするときに穴を開けることができます
+* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;ベイク処理&amp;rbrack;ベイク処理モードでのケージペイントのビューポートのパフォーマンスの問題
 
 ### **ビルド1**
 
@@ -37,4 +37,4 @@ Substance 3D Painterのこのベータ版は、ARM(ARM64)システム上のWindo
 
 **固定**:
 
-* ケージペイントを使用したMacで、ベイク処理モードビューポートのパフォーマンスの問題(&lbrack;ベイク処理&rbrack;)。
+* ケージペイントを使用したMacで、ベイク処理モードビューポートのパフォーマンスの問題(&amp;lbrack;ベイク処理&amp;rbrack;)。

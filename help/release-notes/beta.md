@@ -17,9 +17,9 @@ Substance 3D Painterのこのベータ版は、ARM(ARM64)システム上のWindo
 
 **固定**:
 
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;OpenPBR&amp;rbrack；特定のサブサーフェス半径スケール値を持つビューポートのテクスチャアーティファクト
-* &amp;lbrack;Mac&amp;rbrack;ディスプレイ設定のテクスチャミップマップからのフィルタリングバイアスは何の影響も与えません
-* &amp;lbrack;Windows&amp;rbrack;&amp;lbrack;Nvidia&amp;rbrack;ブラシおよびマテリアルプレビューの生成により、TDRが発生する可能性がある
+* &lbrack;Mac&rbrack;&lbrack;OpenPBR&amp;rbrack；特定のサブサーフェス半径スケール値を持つビューポートのテクスチャアーティファクト
+* &lbrack;Mac&rbrack;ディスプレイ設定のテクスチャミップマップからのフィルタリングバイアスは何の影響も与えません
+* &lbrack;Windows&rbrack;&lbrack;Nvidia&rbrack;ブラシおよびマテリアルプレビューの生成により、TDRが発生する可能性がある
 
 ### ビルド2
 
@@ -27,13 +27,13 @@ Substance 3D Painterのこのベータ版は、ARM(ARM64)システム上のWindo
 
 **追加済み**:
 
-* &amp;lbrack;ベイク処理&amp;rbrack; Highpoly Matching Error Visualization uses Match-by-Name
+* &lbrack;ベイク処理&rbrack; Highpoly Matching Error Visualization uses Match-by-Name
 
 **固定**:
 
-* &amp;lbrack;Python&amp;rbrack；一部の非推奨の関数は警告を表示しますが、その関数が誰であるかは表示しません
-* &amp;lbrack;ベイク&amp;rbrack;ケージジオメトリは、1つのUV アイランドにペイントするときに穴を開けることができます
-* &amp;lbrack;Mac&amp;rbrack;&amp;lbrack;ベイク処理&amp;rbrack;ベイク処理モードでのケージペイントのビューポートのパフォーマンスの問題
+* &lbrack;Python&amp;rbrack；一部の非推奨の関数は警告を表示しますが、その関数が誰であるかは表示しません
+* &lbrack;ベイク&rbrack;ケージジオメトリは、1つのUV アイランドにペイントするときに穴を開けることができます
+* &lbrack;Mac&rbrack;&lbrack;ベイク処理&rbrack;ベイク処理モードでのケージペイントのビューポートのパフォーマンスの問題
 
 ### ビルド1
 
@@ -45,4 +45,4 @@ Substance 3D Painterのこのベータ版は、ARM(ARM64)システム上のWindo
 
 **固定**:
 
-* ケージペイントを使用したMacで、ベイク処理モードビューポートのパフォーマンスの問題(&amp;lbrack;ベイク処理&amp;rbrack;)。
+* ケージペイントを使用したMacで、ベイク処理モードビューポートのパフォーマンスの問題(&lbrack;ベイク処理&rbrack;)。

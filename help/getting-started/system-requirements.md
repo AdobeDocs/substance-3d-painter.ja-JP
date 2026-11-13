@@ -4,9 +4,9 @@ description: Substance 3D Painterの必要システム構成を確認して、�
 title: 必要システム構成
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: fbfe7e52b226b5a92f5b46ebbf82728f0ff9e3c5
+source-git-commit: 0937bc291815e86b7a33d804729dbef599748d13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '798'
 ht-degree: 1%
 ---
 
@@ -56,9 +56,8 @@ UV タイルワークフローを使用する際に適切なパフォーマン�
 その他 :
 
 * 多くのSubstanceアプリは、RHEL8/9との互換性をOpenSSL 1.1.1に依存しています。 新しいバージョンのOpenSSLを使用するシステムの場合は、お客様が手動で提供する必要があります
-* 快適な状態で作業するには、1000ピクセルを超え、1280ピクセルを超える縦長の解像度のモニターをお勧めします。
-* **8K** （8192\*8192ピクセル）で書き出すには、**2 GBを超えるVRamを搭載したGPUが必要です。**
-* macOS 10.15(Catalina)で実行するために公証されたのは、バージョン2019.x以降のみです。
+* 快適な作業環境を得るには、1000ピクセルより大きく、1280ピクセルより広い垂直解像度のモニターをお勧めします。
+* **8K** （8192\*8192ピクセル）での書き出しは、VRAMの&#x200B;**2 GB未満**&#x200B;のGPUでは使用できません。
 * RDP （リモートデスクトップ）経由でソフトウェアを使用するには、専用の[ドキュメントページ](../pipeline-and-integration/configuration/remote-desktop.md)を参照してください。
 * ベイク時のRyzen CPUのクラッシュは、BIOSをアップデートすることで修正できます。
 
@@ -107,7 +106,7 @@ OptixまたはDXR経由でGPU レイトレーシングを有効にするには�
 
 **DXR**&#x200B;には、次の最小構成も必要です：
 
-* **Windows 10**&#x200B;バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/ja/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
+* **Windows 10**&#x200B;バージョン1809。詳細については、[このページ](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)を参照してください
 * **Pascalアーキテクチャ搭載GPU** (Nvidia GeForce 10XX)
 
 >[!TIP]

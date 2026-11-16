@@ -4,9 +4,9 @@ description: Substance 3D Painterの既知の問題を確認して、最新バ�
 title: 既知の問題
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 08fc43babcb6f7a9be61508748c4068b6bd0c8b6
+source-git-commit: a03b6eb503f036d0ea991ebffe4996fde2f0ffb9
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '925'
 ht-degree: 0%
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 0%
 このページでは、Substance 3D Painter v12.2.0で発生するアクティブな既知の問題をすべて一覧で示します。
 
 * `[Baking]`単純なキューブのAOが正しくありません
-* `[Baking]`名前サフィックスによる一致の解釈が正しくありません
 * mes再読み込み後、`[Baking]`個のUv シームが表示されません
 * `[Baking]`個のグリッドのようなアーティファクトで、いくつかの設定があります
 

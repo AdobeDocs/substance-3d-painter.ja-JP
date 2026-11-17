@@ -4,9 +4,9 @@ description: Substance 3D Painterのカスタムエフェクトでメッシュ�
 title: メッシュベースの入力
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 6b6d52207ca1d043aaa1b2b14145b6b49d4c1942
+source-git-commit: 4432887b652896f77fc3c99010436ef44aeb8a3e
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '279'
 ht-degree: 1%
 ---
 
@@ -28,3 +28,4 @@ ht-degree: 1%
 | *ワールド空間のBitangent (RGB)* | **mesh\_world\_space\_bitangent** | **meshBitangentWS** | ワールド空間内の頂点のバイ正接(bi-normal)を含むテクスチャを取得します。 |
 | *テキストサイズ（グレースケール）* | **メッシュ\_texel\_size** | **meshTexelSize** | テクセルサイズ（ピクセル密度とUVの差）を含むテクスチャを取得します。 |
 | *UV マスク （グレースケール）* | **メッシュ\_uv\_mask** | **meshUVMask** | テクスチャをメッシュUV アイランドの黒（外側）マスクおよび白（内側）マスクとして取得します。 |
+| *UV近隣ノード(RGB)* | **メッシュ\_uv\_neighbor** | **meshUVNeighbor** | 2つの情報を含むテクスチャを取得します。 UV アイランドの内側には、通常のUV座標が格納されます。 UV アイランドの外側には、UVシームの反対側の画素のUV座標が記憶されている。 このテクスチャを使用すると、シームレスな効果を作成できます。 |
